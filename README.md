@@ -7,4 +7,4 @@ Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versu
 # Professorales
 
 # Privates
-[Feier für Calvin](Privat/Calvin/Feier18)
+[Feier für Calvin](Privat/Calvin/Feier18.md)
