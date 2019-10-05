@@ -51,17 +51,13 @@ But then, I guess we know there's blame to share
 And none of it seems to matter anymore
 
 ### Father and Son  
-It's not time to make a change  
-Just relax, take it easy  
-You're still young, that's your fault  
-There's so much you have to know  
-Find a girl, settle down  
-If you want you can marry  
+It's not time to make a change, just relax, take it easy  
+You're still young, that's your fault, there's so much you have to know  
+Find a girl, settle down, if you want you can marry  
 Look at me, I am old, but I'm happy  
 I was once like you are now, and I know that it's not easy  
 To be calm when you've found something going on  
-But take your time, think a lot  
-Why, think of everything you've got  
+But take your time, think a lot, think of everything you've got  
 For you will still be here tomorrow, but your dreams may not  
 
 How can I try to explain, when I do he turns away again  
@@ -70,12 +66,9 @@ From the moment I could talk I was ordered to listen
 Now there's a way and I know that I have to go - away  
 I know, I have to go  
 
-It's not time to make a change  
-Just sit down, take it slowly  
-You're still young, that's your fault  
-There's so much you have to go through  
-Find a girl, settle down  
-If you want you can marry  
+It's not time to make a change, just sit down, take it slowly  
+You're still young, that's your fault, there's so much you have to go through  
+Find a girl, settle down, if you want you can marry  
 Look at me, I am old, but I'm happy  
  
 (Away, away, away, I know  
