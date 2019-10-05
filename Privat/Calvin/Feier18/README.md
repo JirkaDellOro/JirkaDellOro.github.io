@@ -1,5 +1,5 @@
 # Feier für Calvin
-Hier noch einige Infos zum Ablauf unserer Feier. Calvin ist nur wenig eingeweiht, freuen wir uns darauf ihn zu überraschen!
+Hier noch einige Infos zum Ablauf unserer Feier. Calvin ist nur wenig eingeweiht, freuen wir uns darauf ihn zu überraschen und diesen Tag zu einem besonderen in seinem Leben zu machen.
 
 ## Ort und Zeit
 Wir speisen im [Gasthaus Heiligenbrunnen](http://www.heiligenbrunnen.de/), um 12.00 Uhr geht es los. Das Heiligenbrunnen hat nur eine recht kleine Küche und sie wünschen sich, dass wir möglichst zahlreich zu einer Zeit erscheinen. Ab 17.00 Uhr ziehen wir uns in die Apart-Bar des Parkhotel Waldeck in Titisee zurück und feiern dort in Calvins Geburtstag hinein.  
