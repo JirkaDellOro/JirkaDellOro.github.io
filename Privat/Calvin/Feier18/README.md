@@ -13,13 +13,13 @@ Wenn das Wetter schön ist, empfehlen wir vom Heiligenbrunnen zu Fuß hinabzuste
 Heiligbrunnenstr. 36, 79822 Titisee-Neustadt, Tel. 07652 381  
 - Parkhotel Waldeck  
 Parkstr. 4-6, 79822 Titisee-Neustadt, Tel: 07651 809-0  
-- Haltestelle Zäpfle-Bähnle  
-Gaststätte Pferdestall, Seestraße 11, 79822 TITISEE-Neustadt, Tel: 0175 7238971
+- Haltestelle Zäpfle-Bähnle Gaststätte Pferdestall  
+Seestraße 11, 79822 Titisee-Neustadt, Tel: 0175 7238971
 - Taxiunternehmen  
 07651 9899602,  07651 5553, 07651 7538
 
 ## Musik  
-- For Good (Wicked)
+### For Good (Wicked)
 I've heard it said, that people come into our lives  
 for a reason, bringing something we must learn.  
 And we are led to those who help us most to grow,  
@@ -50,7 +50,7 @@ For the things I've done you blame me for.
 But then, I guess we know there's blame to share
 And none of it seems to matter anymore
 
-- Father and Son  
+### Father and Son  
 It's not time to make a change  
 Just relax, take it easy  
 You're still young, that's your fault  
