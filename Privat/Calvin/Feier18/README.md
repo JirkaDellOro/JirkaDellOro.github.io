@@ -9,17 +9,17 @@ Wir speisen im [Gasthaus Heiligenbrunnen](http://www.heiligenbrunnen.de/), um 12
 Wenn das Wetter schön ist, empfehlen wir vom Heiligenbrunnen zu Fuß hinabzusteigen zum Titisee. In dem Fall sollte, wer mit dem Auto kommt, dieses am Parkhotel abstellen und dann mit dem [Zäpfle Bähnle](https://www.zaepfle-baehnle.de/) zum Heiligenbrunnen fahren. Die Bahn sollte etwa um 11.30 Uhr losfahren, am besten sicherheitshalber vorher anrufen.
 
 ## Kontakte
-#### Gasthaus Heiligenbrunnen
+- Gasthaus Heiligenbrunnen  
 Heiligbrunnenstr. 36, 79822 Titisee-Neustadt, Tel. 07652 381  
-#### Parkhotel Waldeck
+- Parkhotel Waldeck  
 Parkstr. 4-6, 79822 Titisee-Neustadt, Tel: 07651 809-0  
-#### Haltestelle Zäpfle-Bähnle
+- Haltestelle Zäpfle-Bähnle  
 Gaststätte Pferdestall, Seestraße 11, 79822 TITISEE-Neustadt, Tel: 0175 7238971
-#### Taxiunternehmen
+- Taxiunternehmen  
 07651 9899602,  07651 5553, 07651 7538
 
-## Musik
-#### For Good (Wicked)
+## Musik  
+- For Good (Wicked)
 I've heard it said, that people come into our lives  
 for a reason, bringing something we must learn.  
 And we are led to those who help us most to grow,  
@@ -50,7 +50,7 @@ For the things I've done you blame me for.
 But then, I guess we know there's blame to share
 And none of it seems to matter anymore
 
-#### Father and Son
+- Father and Son  
 It's not time to make a change
 Just relax, take it easy
 You're still young, that's your fault
@@ -64,14 +64,12 @@ But take your time, think a lot
 Why, think of everything you've got
 For you will still be here tomorrow, but your dreams may not
 
-Son
 How can I try to explain, when I do he turns away again
 It's always been the same, same old story
 From the moment I could talk I was ordered to listen
 Now there's a way and I know that I have to go - away
 I know, I have to go
 
-Father
 It's not time to make a change
 Just sit down, take it slowly
 You're still young, that's your fault
@@ -79,21 +77,15 @@ There's so much you have to go through
 Find a girl, settle down
 If you want you can marry
 Look at me, I am old, but I'm happy
-ADVERTISING
-
-
-Son
+ 
 (Away, away, away, I know
 I have to make this decision alone - no)
 
-Son
-All the times that I've cried, keeping all the things I knew
-Inside
+All the times that I've cried, keeping all the things I knew inside
 It's hard, but it's harder to ignore it
 If they were right, I'd agree, but it's them you know not me
 Now there's a way and I know that I have to go - away
 I know, I have to go
 
-Father
 (Stay, stay, stay, why must you go and
 Make this decision alone? No)
