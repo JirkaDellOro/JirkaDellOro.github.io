@@ -24,7 +24,7 @@ I've heard it said, that people come into our lives
 for a reason, bringing something we must learn.  
 And we are led to those who help us most to grow,  
 if we let them, and we help them in return.  
-Well I don't know if I beleive that's true,  
+Well I don't know if I believe that's true,  
 But I know I'm who I am today because I knew you...  
 
 Like a comet pulled from orbit as it passes a sun,  
