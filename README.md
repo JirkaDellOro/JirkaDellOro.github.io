@@ -1,10 +1,10 @@
 # Jirka Dell'Oro-Friedl
-Professor | Gamedesigner | Aikidolehrer | Gitarrist | Vater
+_Professor | Gamedesigner | Aikidolehrer | Gitarrist | Vater_
 
 ## [Personal Github-Page](https://JirkaDellOro.github.io)
 Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versuche ich einmal, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
 
 # Professorales
-[HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof
+[HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)
 # Privates
 [Feier für Calvin](Privat/Calvin/Feier18)
