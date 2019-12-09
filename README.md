@@ -20,6 +20,8 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 ## Vorträge
 - [Zu Games and -Design](Prof/Vorträge/HochschuleKunstKarlsruhe/VortragKunstKarlsruhe2019.pdf)  
 - [Sound of Magic](Prof/Vorträge/SoundOfMagic/Vortrag.pdf)
+- [GamePlay](Prof/Vorträge/GamePlay_Final.swf)
+- [Casual, Social & Serious Games](Prof/Vorträge/Casual_Social_Serious.swf)
 - [Zur Einführung von TypeScript an der Fakultät](Prof/Vorträge/TypeScriptHFU.pdf)
 
 

@@ -1,0 +1,192 @@
+<map version="0.9.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1352449514959" ID="ID_1398185645" MODIFIED="1352567124503">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: center">
+      Projektstudium
+    </p>
+    <p style="text-align: center">
+      Aus-, Um-, Neugestaltung?
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1352449848684" FOLDED="true" HGAP="12" ID="ID_1772626024" MODIFIED="1352567221650" POSITION="right" TEXT="genannte Probleme" VSHIFT="-95">
+<node CREATED="1352449962207" ID="ID_622931772" MODIFIED="1352449977764" TEXT="Vernachl&#xe4;ssigung wird wahrgenommen"/>
+<node CREATED="1352449980279" ID="ID_1126310251" MODIFIED="1352567190995" TEXT="Leistungsbeurteilung">
+<node CREATED="1352450003933" ID="ID_196342560" MODIFIED="1352450007087" TEXT="schwierig"/>
+<node CREATED="1352450007488" ID="ID_781584251" MODIFIED="1352450010904" TEXT="konfliktbeladen"/>
+<node CREATED="1352450011432" ID="ID_1360548380" MODIFIED="1352450023695" TEXT="unspezifisch"/>
+<node CREATED="1352450024290" FOLDED="true" ID="ID_1308225486" MODIFIED="1352567124499" TEXT="&quot;zu gut&quot;">
+<node CREATED="1352455575406" ID="ID_298872513" MODIFIED="1352455622006" TEXT="Schn&#xe4;ppchen: 24 ECTS f&#xfc;r 1.7 zu verschenken!!"/>
+</node>
+<node CREATED="1352450319687" ID="ID_481864436" MODIFIED="1352450329278" TEXT="Durchfallen problematisch"/>
+<node CREATED="1352450337937" ID="ID_110104830" MODIFIED="1352450343881" TEXT="kein Risiko"/>
+</node>
+<node CREATED="1352450055746" ID="ID_891517573" MODIFIED="1352450068399" TEXT="Terminfindung schwierig"/>
+<node CREATED="1352450069000" ID="ID_315873196" MODIFIED="1352450104564" TEXT="Projekt- und Teamfindung unsicher"/>
+<node CREATED="1352450221528" FOLDED="true" ID="ID_1939179913" MODIFIED="1352567199951" TEXT="Leistungs- und Kenntnisstand der Studierenden">
+<node CREATED="1352450242762" ID="ID_639365693" MODIFIED="1352450258424" TEXT="h&#xe4;ufig zu gering f&#xfc;r komplexe Projekte"/>
+<node CREATED="1352450259353" ID="ID_1540366918" MODIFIED="1352450266232" TEXT="sehr unterschiedlich"/>
+<node CREATED="1352450268418" ID="ID_750231277" MODIFIED="1352450287913" TEXT="noch keine Spezialisierung nach Studieng&#xe4;ngen"/>
+</node>
+<node CREATED="1352450297198" FOLDED="true" ID="ID_757667733" MODIFIED="1352567209288" TEXT="Organisation">
+<node CREATED="1352450361007" ID="ID_76109361" MODIFIED="1352450374879" TEXT="Selbstorganisation der Studierenden h&#xe4;ufig unzureichend"/>
+<node CREATED="1352450375968" ID="ID_811007794" MODIFIED="1352450428756" TEXT="Telearbeit oft ineffizient"/>
+<node CREATED="1352450390011" ID="ID_1390714010" MODIFIED="1352450419968" TEXT="Keine gemeinsame Arbeit au&#xdf;erhalb der Betreuermeetings"/>
+</node>
+<node CREATED="1352450306773" FOLDED="true" ID="ID_1108399750" MODIFIED="1352567211009" TEXT="Lerneffekt">
+<node CREATED="1352450467043" ID="ID_401510107" MODIFIED="1352450475684" TEXT="heterogen bei heterogenen Teams"/>
+</node>
+<node CREATED="1352450652640" FOLDED="true" ID="ID_551083317" MODIFIED="1352567212276" TEXT="Raumfindung">
+<node CREATED="1352450736641" ID="ID_1385129218" MODIFIED="1352450744550" TEXT="&quot;Engagiert euch, aber nicht hier!&quot;"/>
+</node>
+<node CREATED="1352454460905" ID="ID_925902986" MODIFIED="1352454494632" TEXT="&#xdc;berbuchung mit WPM"/>
+<node CREATED="1352454421190" ID="ID_1098103497" MODIFIED="1352454445449" TEXT="Zu lange Einarbeitungs- / Ideenfindungsphase"/>
+<node CREATED="1352454498385" ID="ID_646743463" MODIFIED="1352454521853" TEXT="Anwesenheit der Studierenen &lt;= 3 Tage/Woche"/>
+<node CREATED="1352454636241" ID="ID_850345484" MODIFIED="1352454651847" TEXT="Viel zu geringe Intensit&#xe4;t der Projektarbeit"/>
+<node CREATED="1352454665950" ID="ID_975637154" MODIFIED="1352454677802" TEXT="Zuteilung von Studierenden gegen deren Interessen"/>
+<node CREATED="1352455472740" ID="ID_1997594082" MODIFIED="1352455507554" TEXT="&quot;Trittbrettfahrer&quot; ohne Engagement im Projekt aber vielen WPM"/>
+<node CREATED="1352457043632" ID="ID_1871682793" MODIFIED="1352457070756" TEXT="Projekte werfen nicht genug Arbeitslast ab"/>
+</node>
+<node CREATED="1352449618469" FOLDED="true" HGAP="11" ID="ID_872096183" MODIFIED="1352567124499" POSITION="right" TEXT="ToDo" VSHIFT="45">
+<node CREATED="1352449626086" FOLDED="true" ID="ID_1783236307" MODIFIED="1352555462187" TEXT="Weitere Ans&#xe4;tze entwickeln">
+<node CREATED="1352546477977" ID="ID_550134613" MODIFIED="1352546491844" TEXT="Projekt l&#xe4;uft bis Semesterende?"/>
+<node CREATED="1352546860577" ID="ID_1010229933" MODIFIED="1352546878429" TEXT="&quot;kleine&quot; Projektphase im 1. Semester"/>
+<node CREATED="1352546879651" ID="ID_454313251" MODIFIED="1352546887243" TEXT="&quot;gro&#xdf;e&quot; Projektphase im 2. Semester"/>
+<node CREATED="1352546888559" ID="ID_1306708780" MODIFIED="1352546940493" TEXT="Wunsch: Permanente R&#xe4;ume f&#xfc;r Projekte"/>
+<node CREATED="1352547843416" ID="ID_1744930947" MODIFIED="1352548735614" TEXT="Projektmanagement umgestalten"/>
+</node>
+<node CREATED="1352458525256" ID="ID_1152051511" MODIFIED="1352458557692" TEXT="Konsequenzen/Erwartungen bestimmen"/>
+<node CREATED="1352458467015" ID="ID_286807175" MODIFIED="1352458480045" TEXT="Ma&#xdf;nahmenkatalog erstellen"/>
+<node CREATED="1352458491700" ID="ID_1226958020" MODIFIED="1352458591696" TEXT="Realisierbarkeit ermitteln"/>
+<node CREATED="1352449638037" FOLDED="true" ID="ID_436251792" MODIFIED="1352549664360" TEXT="Kurz-, mittel-, langfristige Ma&#xdf;nahmen">
+<node CREATED="1352449733431" ID="ID_1985012722" MODIFIED="1352449736222" TEXT="definieren"/>
+<node CREATED="1352449736800" ID="ID_228001061" MODIFIED="1352449743588" TEXT="aufeinander abstimmen"/>
+</node>
+<node CREATED="1352458504494" ID="ID_1008006548" MODIFIED="1352458510577" TEXT="Zeitr&#xe4;ume bestimmen"/>
+</node>
+<node CREATED="1352449835695" FOLDED="true" ID="ID_933363924" MODIFIED="1352567186800" POSITION="left" TEXT="genannte Verbesserungsvorschl&#xe4;ge">
+<node CREATED="1352450577573" FOLDED="true" ID="ID_857967605" MODIFIED="1352556244589" TEXT="Kompression auf 5. Semester mit 24 ECTS">
+<node CREATED="1352451560428" FOLDED="true" ID="ID_656454874" MODIFIED="1352556239412" TEXT="Pro">
+<node CREATED="1352451748722" ID="ID_198683813" MODIFIED="1352555940468" TEXT="Kontinuierliche Besch&#xe4;ftigung mit Projekt">
+<arrowlink DESTINATION="ID_1887428376" ENDARROW="Default" ENDINCLINATION="74;-2;" ID="Arrow_ID_1464305726" STARTARROW="None" STARTINCLINATION="76;-5;"/>
+</node>
+<node CREATED="1352453373162" ID="ID_1171435330" MODIFIED="1352453389277" TEXT="&quot;Eintauchen&quot; m&#xf6;glich"/>
+<node CREATED="1352451930819" ID="ID_1887428376" MODIFIED="1352452429246" TEXT="t&#xe4;glicher Progress und Leistungskontrolle m&#xf6;glich"/>
+<node CREATED="1352455109277" ID="ID_1165759095" MODIFIED="1352455123451" TEXT="Auch f&#xfc;r Studierende &#xfc;berschaubarer Zeitraum"/>
+<node CREATED="1352452094407" FOLDED="true" ID="ID_380736349" MODIFIED="1352556233222" TEXT="Schneller Progress">
+<node CREATED="1352452119914" ID="ID_1704174509" MODIFIED="1352453494334" TEXT="realistischer(er) Projektverlauf"/>
+<node CREATED="1352453458514" ID="ID_240424191" MODIFIED="1352453476082" TEXT="Attraktiver f&#xfc;r Projektpartner"/>
+<node CREATED="1352452101038" ID="ID_298731310" MODIFIED="1352452117977" TEXT="Projektpartner wartet nicht ein Jahr auf unsicheres Ergebnis"/>
+<node CREATED="1352452127375" ID="ID_684088825" MODIFIED="1352452218387" TEXT="Ein Jahr f&#xfc;r Innovation h&#xe4;ufig zu lang"/>
+</node>
+<node CREATED="1352451589566" FOLDED="true" ID="ID_1453754090" MODIFIED="1352556235102" TEXT="Kompetenzgewinn im 4. Semester">
+<node CREATED="1352452009096" ID="ID_1623110200" MODIFIED="1352452025303" TEXT="Grundstudium mit h&#xf6;herer Wahrscheinlichkeit abgeschlossen"/>
+</node>
+<node CREATED="1352450943535" FOLDED="true" ID="ID_1243382265" MODIFIED="1352556237799" TEXT="Vorbereitung und Ver&#xf6;ffentlichung der Projektaufgaben im 4. Semester">
+<node CREATED="1352453081834" ID="ID_1071513771" MODIFIED="1352453106600" TEXT="Deadlines Ende Mai bzw. Dezember"/>
+<node CREATED="1352451618652" ID="ID_1489743900" MODIFIED="1352454285072" TEXT="Teamfindungsphase (insb. f&#xfc;r studentische Projekte)"/>
+<node CREATED="1352450927288" FOLDED="true" ID="ID_1224658533" MODIFIED="1352567124499" TEXT="Projektbewerbungsphase">
+<node CREATED="1352452054381" ID="ID_436664564" MODIFIED="1352452062859" TEXT="Verbindlichkeit"/>
+<node CREATED="1352452063709" ID="ID_278332099" MODIFIED="1352452065599" TEXT="Motivation"/>
+</node>
+<node CREATED="1352452854349" ID="ID_1126985976" MODIFIED="1352452953272" TEXT="Projektseminar am Ende des 4. Semesters"/>
+</node>
+</node>
+<node CREATED="1352451666319" FOLDED="true" ID="ID_619508803" MODIFIED="1352556243083" TEXT="Contra">
+<node CREATED="1352451682006" ID="ID_254944795" MODIFIED="1352453320957" TEXT="Teamfindung nach Bewerbungslage ggf. schwierig/aufw&#xe4;ndig"/>
+<node CREATED="1352451702651" ID="ID_1980917743" MODIFIED="1352451737742" TEXT="Verz&#xf6;gerungen schwierig abzufangen"/>
+<node CREATED="1352453001271" ID="ID_838212667" MODIFIED="1352453016514" TEXT="Hohe Arbeitslast bei Studierenden bef&#xfc;rchtet"/>
+<node CREATED="1352453156900" ID="ID_4819177" MODIFIED="1352455294811" TEXT="Studierende brauchen lange Einfindungsphase"/>
+<node CREATED="1352454133939" FOLDED="true" ID="ID_741111487" MODIFIED="1352556241542" TEXT="H&#xf6;herer Betreuungsaufwand (z.B. 4SWS)">
+<node CREATED="1352454159108" ID="ID_477634601" MODIFIED="1352454181522" TEXT="Deputatsneutral bei 1. Projekt pro Prof und Semester"/>
+<node CREATED="1352454767650" ID="ID_1997393731" MODIFIED="1352454795364" TEXT="D&#xe4;mpfung durch h&#xf6;here Eigenmotivation der Studierenden"/>
+</node>
+<node CREATED="1352456686404" ID="ID_1336485202" MODIFIED="1352456707325" TEXT="Verschulung"/>
+<node CREATED="1352455690111" ID="ID_839324173" MODIFIED="1352455696942" TEXT="SPO-&#xc4;nderung"/>
+<node CREATED="1352455749222" ID="ID_876202848" MODIFIED="1352455762037" TEXT="Neuorganisation Pflichtstudium"/>
+</node>
+</node>
+<node CREATED="1352452544578" FOLDED="true" ID="ID_1990723560" MODIFIED="1352567124500" TEXT="Zuteilung von Arbeitsr&#xe4;umen (Projektb&#xfc;ros)">
+<arrowlink DESTINATION="ID_198683813" ENDARROW="Default" ENDINCLINATION="16;-241;" ID="Arrow_ID_1138206975" STARTARROW="None" STARTINCLINATION="-99;-599;"/>
+<node CREATED="1352450595253" FOLDED="true" ID="ID_668570358" MODIFIED="1352567124500" TEXT="Pro">
+<node CREATED="1352452238288" ID="ID_757814347" MODIFIED="1352452252031" TEXT="Enge Zusammenarbeit"/>
+<node CREATED="1352452327288" ID="ID_1082623462" MODIFIED="1352452498369" TEXT="Delegation auf Zuruf"/>
+<node CREATED="1352452333599" ID="ID_104141713" MODIFIED="1352452498374" TEXT="Schwache Studierende k&#xf6;nnen mitwirken"/>
+<node CREATED="1352452252824" ID="ID_1102297509" MODIFIED="1352452262564" TEXT="Flexible Terminfindung mit Betreuer"/>
+<node CREATED="1352452352408" ID="ID_826924681" MODIFIED="1352452494008" TEXT="&quot;Management by Walkingaround&quot;"/>
+</node>
+<node CREATED="1352452694823" FOLDED="true" ID="ID_75091010" MODIFIED="1352567124500" TEXT="Contra">
+<node CREATED="1352452772563" ID="ID_408727406" MODIFIED="1352452775969" TEXT="Raummangel"/>
+</node>
+</node>
+<node CREATED="1352450778340" FOLDED="true" ID="ID_1990921941" MODIFIED="1352567124500" TEXT="Anwesenheitspflicht zur Projektarbeit">
+<node CREATED="1352454014872" ID="ID_1703605335" MODIFIED="1352454048885" TEXT="Pro">
+<arrowlink DESTINATION="ID_1990723560" ENDARROW="Default" ENDINCLINATION="-32;49;" ID="Arrow_ID_397291159" STARTARROW="None" STARTINCLINATION="-61;-14;"/>
+</node>
+<node CREATED="1352453947745" FOLDED="true" ID="ID_26826430" MODIFIED="1352567124500" TEXT="Contra">
+<node CREATED="1352453968794" ID="ID_1719633105" MODIFIED="1352453991976" TEXT="Widerspruch zu Akkreditierung?"/>
+<node CREATED="1352453998340" ID="ID_1913743194" MODIFIED="1352454010673" TEXT="Widerspruch zu Praxis in Kreativwirtschaft?"/>
+</node>
+</node>
+<node CREATED="1352450817032" ID="ID_954560469" MODIFIED="1352450832031" TEXT="Beschr&#xe4;nkung weiterer Modulbelegung"/>
+<node CREATED="1352450844894" ID="ID_368658130" MODIFIED="1352450890126" TEXT="Weitere Modulbelegung passend zu Projekt"/>
+<node CREATED="1352451112104" FOLDED="true" ID="ID_1491861898" MODIFIED="1352549268518" TEXT="Einbindung von Zweitbetreuern">
+<node CREATED="1352451264880" ID="ID_1376473052" MODIFIED="1352451267516" TEXT="Mitarbeiter"/>
+<node CREATED="1352451268269" ID="ID_588357786" MODIFIED="1352451274782" TEXT="Professoren"/>
+<node CREATED="1352457889239" ID="ID_687285870" MODIFIED="1352457897413" TEXT="Losverfahren"/>
+<node CREATED="1352457905609" ID="ID_531504169" MODIFIED="1352457916425" TEXT="Vergibt Projektnote analog Thesisverfahren"/>
+</node>
+<node CREATED="1352453575713" FOLDED="true" ID="ID_706693813" MODIFIED="1352549290468" TEXT="Einhaltung der bekannten Spielregeln">
+<node CREATED="1352453664023" ID="ID_153989875" MODIFIED="1352453694779" TEXT="Pflicht vor Wahlpflicht (Termin pro Projekt)"/>
+<node CREATED="1352453841029" ID="ID_1037259851" MODIFIED="1352453866140" TEXT="wenigstens w&#xf6;chentliches Coaching von 90 Minuten"/>
+<node CREATED="1352453807154" ID="ID_693071052" MODIFIED="1352457599372" TEXT="Freitag = Projektzeit"/>
+<node CREATED="1352454356985" ID="ID_847461891" MODIFIED="1352457603897" TEXT="Dienstag- und Donnerstagnachmittag = Projektzeit"/>
+<node CREATED="1352457702647" ID="ID_735357213" MODIFIED="1352535370780" TEXT="Verankerung im Stundenplan (z.B. 1. Sem Dienstag, 2. Sem Donnerstag)">
+<arrowlink DESTINATION="ID_1990723560" ENDARROW="Default" ENDINCLINATION="446;0;" ID="Arrow_ID_972806703" STARTARROW="None" STARTINCLINATION="446;0;"/>
+</node>
+</node>
+<node CREATED="1352455857427" FOLDED="true" ID="ID_1102741434" MODIFIED="1352567124501" TEXT="Klare Trennung von 1. und 2. Semester">
+<node CREATED="1352455870539" ID="ID_1207793064" MODIFIED="1352455898372" TEXT="in &quot;Vorbereitung&quot; und &quot;Umsetzung&quot;"/>
+<node CREATED="1352455935151" ID="ID_20836992" MODIFIED="1352456001267" TEXT="ggf. Schwerpunktverlagerung 6 ECTS vs. 18 ECTS"/>
+<node CREATED="1352456015555" ID="ID_644707314" MODIFIED="1352456026901" TEXT="Differenzierte Bewertung"/>
+<node CREATED="1352456038557" ID="ID_1049277223" MODIFIED="1352456050774" TEXT="Wechsel/Wiederholung nach 1. Semester m&#xf6;glich"/>
+<node CREATED="1352456120183" ID="ID_259835043" MODIFIED="1352535231997" TEXT="Arbeitsraum und Anwesenheitspflicht f&#xfc;r 2. Semester">
+<arrowlink DESTINATION="ID_1990921941" ENDARROW="Default" ENDINCLINATION="391;0;" ID="Arrow_ID_76216611" STARTARROW="None" STARTINCLINATION="391;0;"/>
+<arrowlink DESTINATION="ID_1990723560" ENDARROW="Default" ENDINCLINATION="373;0;" ID="Arrow_ID_1089331195" STARTARROW="None" STARTINCLINATION="373;0;"/>
+</node>
+</node>
+<node CREATED="1352456208788" FOLDED="true" ID="ID_1690425814" MODIFIED="1352567124501" TEXT="Bewertung/Protokollierung">
+<node CREATED="1352456379156" ID="ID_412030240" MODIFIED="1352456394587" TEXT="Verpflichtend, Differenziert, Individuell "/>
+<node CREATED="1352456277001" ID="ID_575325468" MODIFIED="1352456288841" TEXT="Anwesenheit und Mitarbeit"/>
+<node CREATED="1352456293193" ID="ID_1798515990" MODIFIED="1352456313764" TEXT="Aufgabenverteilung, Erf&#xfc;llung, Meilensteine, Termine"/>
+<node CREATED="1352456315668" ID="ID_480774829" MODIFIED="1352456330169" TEXT="Pr&#xe4;sentation der eigenen Arbeit"/>
+<node CREATED="1352456459665" ID="ID_1123691657" MODIFIED="1352456484312" TEXT="Au&#xdf;ergew&#xf6;hnliches Engagement (z.B. Projektleitung)"/>
+<node CREATED="1352456487827" ID="ID_1356999327" MODIFIED="1352456498057" TEXT="Gegenseitige Bewertung der Teammitglieder"/>
+<node CREATED="1352456506157" ID="ID_490735433" MODIFIED="1352456514483" TEXT="Ausnutzung des Notenspektrums"/>
+<node CREATED="1352456518926" ID="ID_1310664771" MODIFIED="1352456547979" TEXT="Gemeinsame Bewertung und Quervergleich im FPA nach Vorstellung durch Betreuer"/>
+</node>
+<node CREATED="1352456814599" FOLDED="true" ID="ID_482829790" MODIFIED="1352567124502" TEXT="Verpflichtende Leistungen im 1. Semester">
+<node CREATED="1352456979405" FOLDED="true" ID="ID_1667462842" MODIFIED="1352567124502" TEXT="Wissenschaftliche Seminararbeit">
+<node CREATED="1352456833532" ID="ID_658145378" MODIFIED="1352456862820" TEXT="Zu einem Thema im Kontext des Projektes"/>
+<node CREATED="1352456912112" ID="ID_1988998650" MODIFIED="1352456993595" TEXT="Erm&#xf6;glicht Benotung"/>
+</node>
+<node CREATED="1352457006905" FOLDED="true" ID="ID_958235587" MODIFIED="1352567124502" TEXT="Erster Prototyp">
+<node CREATED="1352457017167" ID="ID_1100286257" MODIFIED="1352457024647" TEXT="Nicht nur in Informatik-Projekten"/>
+</node>
+</node>
+<node CREATED="1352458131911" FOLDED="true" ID="ID_1728693691" MODIFIED="1352567124502" TEXT="Flexibilisierung/Modularisierung">
+<node CREATED="1352458146451" ID="ID_1639662183" MODIFIED="1352458172726" TEXT="Um unterschiedlichen Projektanforderungen gerecht zu werden"/>
+<node CREATED="1352458173599" ID="ID_823899099" MODIFIED="1352458201915" TEXT="variable Anzahl von Modulen &#xe0; 6 ECTS"/>
+<node CREATED="1352458218044" ID="ID_1868288127" MODIFIED="1352458248300" TEXT="bedarfsgerechte Verteilung &#xfc;ber bis zu 2 Semester"/>
+<node CREATED="1352458294564" ID="ID_1499689080" MODIFIED="1352458338745" TEXT="Integration &quot;kleinerer&quot; Projekte m&#xf6;glich"/>
+<node CREATED="1352458364621" ID="ID_56445978" MODIFIED="1352458403416" TEXT="Pr&#xfc;fungsrelevant: z.B. &quot;18 ECTS aus Projektmodulen&quot;"/>
+<node CREATED="1352458428717" ID="ID_1900664971" MODIFIED="1352458438727" TEXT="Aktueller Modus weiter abbildbar"/>
+</node>
+</node>
+</node>
+</map>
