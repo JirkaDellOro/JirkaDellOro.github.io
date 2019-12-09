@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#191919" COLOR="#cccccc" CREATED="1330078468053" ID="ID_580200731" MODIFIED="1392325147913" TEXT="Organisation">
+<node BACKGROUND_COLOR="#33cc00" COLOR="#ffffff" CREATED="1330078468053" ID="ID_580200731" MODIFIED="1575242191129" TEXT="HFU - DM">
 <node CREATED="1345795713376" FOLDED="true" HGAP="30" ID="ID_1610828312" MODIFIED="1425312330564" POSITION="left" TEXT="zu dieser MindMap" VSHIFT="-59">
 <node CREATED="1345795727159" ID="ID_1561780362" MODIFIED="1345795749906" TEXT="soll Orientierung erleichtern"/>
 <node CREATED="1345795751701" ID="ID_1226087754" LINK="#ID_1654927523" MODIFIED="1380744656008" TEXT="meist Verweise auf Dokumente im Netz (siehe Quellen)"/>
@@ -144,11 +144,11 @@
 <node CREATED="1368311460139" ID="ID_423695509" MODIFIED="1368311469995" TEXT="werden &#xfc;ber Ergebnis unterrichtet"/>
 </node>
 </node>
-<node CREATED="1404552257681" HGAP="45" ID="ID_550826224" MODIFIED="1529565731278" POSITION="left" TEXT="Gesetze/Ordnungen/Satzungen" VSHIFT="47">
+<node CREATED="1404552257681" FOLDED="true" HGAP="45" ID="ID_550826224" MODIFIED="1575242061644" POSITION="left" TEXT="Gesetze/Ordnungen/Satzungen" VSHIFT="47">
 <node CREATED="1368306405988" ID="ID_1852734063" LINK="http://www.landesrecht-bw.de/jportal/portal/t/3q7b/page/bsbawueprod.psml?pid=Dokumentanzeige&amp;showdoccase=1&amp;js_peid=Trefferliste&amp;documentnumber=4&amp;numberofresults=110&amp;fromdoctodoc=yes&amp;doc.id=jlr-HSchulGBWV19P1&amp;doc.part=X&amp;doc.price=0.0&amp;doc.hl=1#focuspoint" MODIFIED="1465142379675" TEXT="Landeshochschulgesetz"/>
 <node CREATED="1392763603432" ID="ID_641800314" LINK="http://www.hs-furtwangen.de/fileadmin/user_upload/Marketing_PR/Dokumente/Webredaktion/Grundordnung_HFU_2013.pdf" MODIFIED="1404552292332" TEXT="Grundordnung der HFU"/>
 <node CREATED="1404552450192" ID="ID_1576291014" LINK="https://www.dm.hs-furtwangen.de/dm.php?handler=files&amp;action=download&amp;fileid=6355" MODIFIED="1473065019267" TEXT="Gesch&#xe4;ftsordnung Fakult&#xe4;tsrat"/>
-<node CREATED="1330078940424" ID="ID_1912142221" MODIFIED="1529565733199" TEXT="Studien/Pr&#xfc;fungsordnung">
+<node CREATED="1330078940424" FOLDED="true" ID="ID_1912142221" MODIFIED="1575242059783" TEXT="Studien/Pr&#xfc;fungsordnung">
 <node CREATED="1330078950489" ID="ID_63567501" LINK="https://www.hs-furtwangen.de/fileadmin/Redaktion/Share/SPOs/AllgemeinerTeilBachelor_aktuell.pdf" MODIFIED="1529565740733" TEXT="Allgemein Bachelor 27.1.2016"/>
 <node CREATED="1330079110554" ID="ID_1978259440" LINK="https://www.dm.hs-furtwangen.de/dm.php?handler=files&amp;action=download&amp;fileid=38507" MODIFIED="1473065954898" TEXT="SPO MIB V13"/>
 </node>
