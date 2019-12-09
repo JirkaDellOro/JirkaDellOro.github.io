@@ -5,7 +5,8 @@ Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versu
 
 # Professorales
 ## Fakultät Digitale Medien
-Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt: [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
+Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
+- [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
 
 ## Skripte
 - [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Prof/Skripte/Kurzskript_160621.pdf)
@@ -15,6 +16,12 @@ Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, ha
 Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werden dementsprechend Zertifikate für das Kompetenzfeld "Digital Games" ausgegeben.
 - [Präsentation](Prof/Konpetenzfelder/ÜberlegungenKompetenzfelder_170126.pdf)  
 - [Konzept](Prof/Konpetenzfelder/Kompetenzfelder_170410.pdf)  
+
+## Vorträge
+- [Zu Games and -Design](Prof/Vorträge/HochschuleKunstKarlsruhe/VortragKunstKarlsruhe2019.pdf)  
+- [Sound of Magic](Prof/Vorträge/SoundOfMagic/Vortrag.pdf)
+- [Zur Einführung von TypeScript an der Fakultät](Prof/Vorträge/TypeScriptHFU.pdf)
+
 
 # Privates
 [Feier für Calvin](Privat/Calvin/Feier18)

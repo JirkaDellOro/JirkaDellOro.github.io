@@ -1,0 +1,49 @@
+%!Adobe-FontList 1.20
+%Locale:0x407
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BenguiatITCbyBT-Bold
+FamilyName:Benguiat Bk BT
+StyleName:Bold
+FullName:Benguiat Bold BT
+MenuName:Benguiat Bk BT
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Dropbox (Sandra)\DL_1\SoundofMusic\soundofmusic_Präsi Ordner\Document fonts\BENGUIAB.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:49004
+FileModTime:973695490
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Benguiat Bold BT
+NameArray:0,Win,1,Benguiat Bk BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Univers-CondensedLight
+FamilyName:Univers 47 CondensedLight
+StyleName:Regular
+FullName:Univers 47 Condensed Light
+MenuName:Univers 47 CondensedLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Dropbox (Sandra)\DL_1\SoundofMusic\soundofmusic_Präsi Ordner\Document fonts\Univers_Condensed_Light_true_type_1.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:66688
+FileModTime:1305269370
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Univers 47 Condensed Light
+NameArray:0,Win,1,Univers 47 CondensedLight
+%EndFont
+
