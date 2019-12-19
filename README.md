@@ -3,11 +3,6 @@
 
 <img src="JirkaSmall.jpg" width="100" style="float:left; display=inline"/> Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versuche ich einmal, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
 
-# Professionelles
-1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
-- [Website](https://www.entertrain.com)
-- [Liste von Auszeichnungen mit und vor EnterTrain](EnterTrain/Awards)
-
 # Professorales
 ## Fakultät Digitale Medien
 Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
@@ -29,6 +24,10 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 - [Präsentation](Prof/Konpetenzfelder/ÜberlegungenKompetenzfelder_170126.pdf)  
 - [Konzept](Prof/Konpetenzfelder/Kompetenzfelder_170410.pdf)  
 
+# Professionelles
+1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
+- [Website](https://www.entertrain.com)
+- [Liste von Auszeichnungen mit und vor EnterTrain](EnterTrain/Awards)
 
 # Privates
 [Feier für Calvin](Privat/Calvin/Feier18)
