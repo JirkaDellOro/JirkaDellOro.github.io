@@ -1,5 +1,5 @@
 # [Jirka Dell'Oro-Friedl](https://JirkaDellOro.github.io)
-<p align="center">Professor | Gamedesigner | Aikidolehrer | Gitarrist | Vater</p>
+<p align="center">Professor | Gamedesigner | Unternehmer | Aikidolehrer | Gitarrist | Vater</p>
 
 <img src="JirkaSmall.jpg" width="100" style="float:left; display=inline"/> Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versuche ich einmal, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
 
