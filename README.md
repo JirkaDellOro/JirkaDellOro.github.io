@@ -33,5 +33,7 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 # Paidiales & Ludisches
 - [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow/start.html)
 
+# Plektrales
+
 # Privates
 [Feier für Calvin](Privat/Calvin/Feier18)
