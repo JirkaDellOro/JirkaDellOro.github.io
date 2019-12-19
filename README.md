@@ -6,8 +6,7 @@ Da ich meine virtuelle Existenz mehr und mehr in die Github-Cloud umziehe, versu
 # Professionelles
 1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
 - [Website](https://www.entertrain.com)
-- [Liste von Auszeichnungen](EnterTrain/Awards)
-
+- [Liste von Auszeichnungen mit und vor EnterTrain](EnterTrain/Awards)
 
 # Professorales
 ## Fakultät Digitale Medien
