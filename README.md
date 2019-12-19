@@ -5,17 +5,19 @@
 
 # Professorales
 **Vorträge**  
-- [Zu Games and -Design](Prof/Vorträge/HochschuleKunstKarlsruhe/VortragKunstKarlsruhe2019.pdf)  
+Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind die Präsentationen dazu
 - [Sound of Magic](Prof/Vorträge/SoundOfMagic/Vortrag.pdf)
+- [Zu Games and -Design](Prof/Vorträge/HochschuleKunstKarlsruhe/VortragKunstKarlsruhe2019.pdf)  
 - [GamePlay](Prof/Vorträge/GamePlay_Final.swf)
 - [Casual, Social & Serious Games](Prof/Vorträge/Casual_Social_Serious.swf)
 - [Zur Einführung von TypeScript an der Fakultät](Prof/Vorträge/TypeScriptHFU.pdf)
 
-**Fakultät Digitale Medien**
+**Fakultät Digitale Medien**  
 Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
 - [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
 
 **Skripte**  
+Heute habe ich eigentlich alle Unterrichtsmaterialien online, viele davon interaktive. Hier aber noch etwas Schriftwerk:
 - [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Prof/Skripte/Kurzskript_160621.pdf)
 - [Spieleentwicklung, V2.1, 2017"](Prof/Skripte/Kurzskript_160621.pdf)  
 
