@@ -29,7 +29,7 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 # Professionelles
 1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
 - [Website](https://www.entertrain.com)
-- [Liste von Auszeichnungen mit und vor EnterTrain](EnterTrain/Awards)
+- [Liste von Auszeichnungen mit und ohne EnterTrain](EnterTrain/Awards)
 
 # Paidiales & Ludisches
 - [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow/start.html)
