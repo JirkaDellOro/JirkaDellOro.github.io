@@ -30,5 +30,8 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 - [Website](https://www.entertrain.com)
 - [Liste von Auszeichnungen mit und vor EnterTrain](EnterTrain/Awards)
 
+# Gamedesign
+- [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow)
+
 # Privates
 [Feier für Calvin](Privat/Calvin/Feier18)
