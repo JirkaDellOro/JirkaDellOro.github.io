@@ -1,7 +1,8 @@
 # Auszeichnungen
 
-- 2010 Deutscher Computerspielpreis für ExperiMINTe
-- 2009 Deutscher Computerspielpreis für Techforce
+- 2019 Digital Publishing Award für "Sound of Magic"
+- 2010 Deutscher Computerspielpreis für "ExperiMINTe"
+- 2009 Deutscher Computerspielpreis für "Techforce"
 - 2009 Deutscher Bildungsmedien-Preis „Digita“.
 - 2008 Auszeichnung mit dem Comenius Siegel der Gesellschaft für Pädagogik und Information (GPI) für Lernsoftware für Game Based Learning.
 - 2007 Zweifache Auszeichnung mit dem Comenius Siegel der Gesellschaft für Pädagogik und Information (GPI) für Lernsoftware.
