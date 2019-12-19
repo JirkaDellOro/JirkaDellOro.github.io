@@ -17,7 +17,7 @@ Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, ha
 - [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
 
 **Skripte**  
-Heute habe ich eigentlich alle Unterrichtsmaterialien online, viele davon interaktive. Hier aber noch etwas Schriftwerk:
+Heute habe ich eigentlich alle Unterrichtsmaterialien online, viele davon interaktiv. Hier aber noch etwas hilfreiches Schriftwerk:
 - [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Prof/Skripte/Kurzskript_160621.pdf)
 - [Spieleentwicklung, V2.1, 2017"](Prof/Skripte/Kurzskript_160621.pdf)  
 
