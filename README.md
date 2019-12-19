@@ -11,16 +11,16 @@
 - [Casual, Social & Serious Games](Prof/Vorträge/Casual_Social_Serious.swf)
 - [Zur Einführung von TypeScript an der Fakultät](Prof/Vorträge/TypeScriptHFU.pdf)
 
-### Fakultät Digitale Medien
+#### Fakultät Digitale Medien
 Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
 - [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
 
-### Skripte
+##### Skripte
 - [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Prof/Skripte/Kurzskript_160621.pdf)
 - [Spieleentwicklung, V2.1, 2017"](Prof/Skripte/Kurzskript_160621.pdf)  
 
 
-### Kompetenzfelder
+**Kompetenzfelder**
 Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werden dementsprechend Zertifikate für das Kompetenzfeld "Digital Games" ausgegeben.
 - [Präsentation](Prof/Konpetenzfelder/ÜberlegungenKompetenzfelder_170126.pdf)  
 - [Konzept](Prof/Konpetenzfelder/Kompetenzfelder_170410.pdf)  
