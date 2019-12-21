@@ -6,24 +6,32 @@
     Music from myFreeMp3Club
 -->
 <html>
-	<head>
-		<title>Hfu</title>
-	</head>
-	<body>
-		<script src="Setup.js"></script>
-		<script src="Vector/Vector.js"></script>
-		<script src="Colors.js"></script>
-		<script src="Snowflake.js"></script>
-		<script src="PathObject.js"></script>
-		<script src="PaintSubs.js"></script>
-		<script src="Main.js"></script>
-		<audio autoplay loop>
-			<source src="letitsnow.mp3" type="audio/mpeg"></source>
-			Your browser does not support the audio element.
-		</audio>
+
+<head>
+	<title>Hfu</title>
+</head>
+
+<body>
+	<script src="Setup.js"></script>
+	<script src="Vector/Vector.js"></script>
+	<script src="Colors.js"></script>
+	<script src="Snowflake.js"></script>
+	<script src="PathObject.js"></script>
+	<script src="PaintSubs.js"></script>
+	<script src="Main.js"></script>
+	<audio loop>
+		<source src="letitsnow.mp3" type="audio/mpeg">
+		</source>
+		Your browser does not support the audio element.
+	</audio>
 	<script>
 		let music = document.querySelector("audio");
-		music.play();
+		document.addEventListener("click", play);
+		function play() {
+			document.removeEventListener("click", play);
+			music.play();
+		}
 	</script>
-	</body>
+</body>
+
 </html>
