@@ -32,9 +32,13 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 - [Liste von Auszeichnungen mit und ohne EnterTrain](EnterTrain/Awards)
 
 # Paidiales & Ludisches
+Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die nur wenig zweckgebunden sind, sammle ich derlei hier.
 - [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow/start.html)
 
 # Plektrales
+Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
+- [Ukulele-Chords](Musik/Ukulele.md)
 
 # Privates
-[Feier für Calvin](Privat/Calvin/Feier18)
+Für meine Freunde sind hier Infos, die ich Ihnen nicht per Mail schicken mochte.
+- [Feier für Calvin](Privat/Calvin/Feier18)
