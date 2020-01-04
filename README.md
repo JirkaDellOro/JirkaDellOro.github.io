@@ -26,6 +26,9 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 - [Präsentation](Prof/Konpetenzfelder/ÜberlegungenKompetenzfelder_170126.pdf)  
 - [Konzept](Prof/Konpetenzfelder/Kompetenzfelder_170410.pdf)  
 
+**Verschiedenes**
+- [Scratchpad](Prof/Jirkas_draw.io_UML-Scratchpad.xml) für Diagrammarbeiten mit draw.io
+
 # Professionelles
 1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
 - [Website](https://www.entertrain.com)
