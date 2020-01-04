@@ -1,7 +1,7 @@
 # [Jirka Dell'Oro-Friedl](https://JirkaDellOro.github.io)
 <p align="center">Professor | Gamedesigner | Unternehmer | Aikidolehrer | Gitarrist | Vater</p>
 
-<img src="JirkaSmall.jpg" width="100" style="float:left; display=inline"/> Ich ziehe meine virtuelle Existenz mehr und mehr in die Github-Cloud um, und versuche nun, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
+<a href="JirkaSmall.jpg" target="_blank"><img src="JirkaSmall.jpg" width="100" style="float:left; display=inline; margin-right: 5px"/></a> Ich ziehe meine virtuelle Existenz mehr und mehr in die Github-Cloud um, und versuche nun, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
 
 # Professorales
 **Vorträge**  
