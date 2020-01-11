@@ -42,7 +42,7 @@ Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die
 Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
 - [Ukulele-Chords](Musik/Ukulele.md)
 
-# Kampfkünstlerisches
+# Ritterliches
 Hier zunächst nur ein Link zu der von mir geleiteten gemeinnützigen Gesellschaft
 - [Aiki-Akademie](http://www.aiki-akademie.org)
 
