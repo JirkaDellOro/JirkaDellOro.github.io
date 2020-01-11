@@ -34,13 +34,17 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 - [Website](https://www.entertrain.com)
 - [Liste von Auszeichnungen mit und ohne EnterTrain](EnterTrain/Awards)
 
-# Paidiales & Ludisches
+# Verspieltes
 Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die nur wenig zweckgebunden sind, sammle ich derlei hier.
 - [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow/start.html)
 
-# Plektrales
+# Musikalisches
 Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
 - [Ukulele-Chords](Musik/Ukulele.md)
+
+# Kampfkünstlerisches
+Hier zunächst nur ein Link zu der von mir geleiteten gemeinnützigen Gesellschaft
+- [Aiki-Akademie](https://www.aiki-akademie.org)
 
 # Privates
 Für meine Freunde sind hier Infos, die ich Ihnen nicht per Mail schicken mochte.
