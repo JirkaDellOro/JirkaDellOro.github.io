@@ -44,7 +44,7 @@ Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlu
 
 # Kampfkünstlerisches
 Hier zunächst nur ein Link zu der von mir geleiteten gemeinnützigen Gesellschaft
-- [Aiki-Akademie](https://www.aiki-akademie.org)
+- [Aiki-Akademie](http://www.aiki-akademie.org)
 
 # Privates
 Für meine Freunde sind hier Infos, die ich Ihnen nicht per Mail schicken mochte.
