@@ -7,4 +7,3 @@
 | Liebermann | Anna     | MA        | Erotik in VR-Games        |
 | Plotzky    | Jonas    | BSc       | Partikelsysteme in FUDGE  |
 | Herold     | Joachim  | BSc       | Arousal & Valence         |
-| Keller     | Johannes | BSc       | Chrome Extension          |
