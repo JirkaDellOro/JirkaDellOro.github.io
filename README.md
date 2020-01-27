@@ -5,7 +5,8 @@
 
 # Professorales
 Seit 2010 habe ich die Ehre, die Professur für "Anwendungskonzeption und Gamedesign" an der renommierten Hochschule Furtwangen im Schwarzwald bekleiden zu dürfen. Auf der folgenden Unterseite sammle ich etwas Material, das dort gut aufgehoben ist und der Öffentlichkeit zugänglich gemacht werden darf.
-- [Vorträge, Skripte, Infos](Prof)
+- [Vorträge, Skripte, Infos](Prof)  
+
 # Professionelles
 1997 gründete die ich die Firma EnterTrain Software GmbH zur Entwicklung von Spiel- und Lernsoftware, die vielfach ausgezeichnet wurde.
 - [Website](https://www.entertrain.com)
