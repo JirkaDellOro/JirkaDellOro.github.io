@@ -18,7 +18,7 @@ Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die
 
 # Musikalisches
 Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
-- [Ukulele-Chords](Musik/Ukulele.md)
+- [Musik](Musik)
 
 # Ritterliches
 Hier zunächst nur ein Link zu der von mir geleiteten gemeinnützigen Gesellschaft
