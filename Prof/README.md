@@ -9,6 +9,11 @@ Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind einig
 - [Casual, Social & Serious Games](Vorträge/Casual_Social_Serious.swf)
 - [Zur Einführung von TypeScript an der Fakultät](Vorträge/TypeScriptHFU.pdf)
 
+## Projekte
+### Inverted Classroom
+2019 begann ich mit der Einführung der Unterrichtsform "Umgekehrter Unterricht" (Inverted Classroom) an der Fakultät. Hier findet man das Material für das Modul
+- [EIA2-Inverted](https://jirkadelloro.github.io/EIA2-Inverted)
+
 ## Fakultät Digitale Medien
 Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
 - [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
