@@ -10,6 +10,10 @@ Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind einig
 - [Zur Einführung von TypeScript an der Fakultät](Vorträge/TypeScriptHFU.pdf)
 
 ## Projekte
+### FUDGE
+Die Entwicklung des Furtwangen University Didactic Game Editors begann 2018. Seither arbeiten Studenten der Hochschule und ich im Rahmen meines Forschungsauftrages und deren Abschlussarbeiten an unserem Open-Source-Projekt.  
+- [FUDGE](https://jirkadelloro.github.io/FUDGE)
+
 ### Inverted Classroom
 2019 begann ich mit der Einführung der Unterrichtsform "Umgekehrter Unterricht" (Inverted Classroom) an der Fakultät. Hier findet man das Material für das Modul
 - [EIA2-Inverted](https://jirkadelloro.github.io/EIA2-Inverted)
