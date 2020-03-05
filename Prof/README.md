@@ -24,8 +24,9 @@ Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, ha
 
 ## Skripte  
 Heute habe ich eigentlich alle Unterrichtsmaterialien online, viele davon interaktiv. Hier aber noch etwas hilfreiches Schriftwerk:
-- [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Skripte/Kurzskript_160621.pdf)
-- [Spieleentwicklung, V2.1, 2017"](Skripte/Kurzskript_160621.pdf)  
+- [Kurzskript Programmieren mit TypeScript, V2.2, 2016](Skripte/Kurzskript_160621.pdf)  
+- [Spieleentwicklung, V2.1, 2017](Skripte/Kurzskript_160621.pdf)  
+- [UML-TypeScript-Booklet, V1.0, 2020](https://jirkadelloro.github.io/EIA2-Inverted/X01_Appendix/EIA2-Inverted_Booklet.pdf)  
 
 ## Kompetenzfelder
 Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werden dementsprechend Zertifikate für das Kompetenzfeld "Digital Games" ausgegeben.
