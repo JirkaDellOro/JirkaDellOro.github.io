@@ -15,6 +15,7 @@ Seit 2010 habe ich die Ehre, die Professur für "Anwendungskonzeption und Gamede
 # Verspieltes
 Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die nur wenig zweckgebunden sind, sammle ich derlei hier.
 - [Interaktive Weihnachtskarte (kleine Spielerei)](Gamedesign/LetItSnow/start.html)
+- [EpiSoma: ein erstes FUDGE-Game, entstanden beim GlobalGameJam 2020](https://jirkadelloro.github.io/Episoma/)
 
 # Musikalisches
 Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
