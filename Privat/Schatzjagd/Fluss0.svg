@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="189.39012mm"
+   height="9.0899458mm"
+   viewBox="0 0 189.39012 9.0899458"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Fluss0.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Roughen"
+       id="filter1827">
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="5"
+         seed="1"
+         baseFrequency="0.013 0.013"
+         result="turbulence"
+         id="feTurbulence1823" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="turbulence"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         id="feDisplacementMap1825" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="261.99085"
+     inkscape:cy="-14.410747"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1821"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.746881,-105.63502)">
+    <g
+       id="g1821"
+       style="filter:url(#filter1827)">
+      <rect
+         style="fill:#00afbb;fill-opacity:0.56074769;stroke:#68a543;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8, 3.2, 3.6, 4, 4.4, 4.8, 5.2, 5.6;stroke-dashoffset:0.31999999;stroke-opacity:1"
+         y="107.37227"
+         x="5.4790239"
+         height="5.7462921"
+         width="190.42955"
+         id="rect10" />
+      <rect
+         y="105.63502"
+         x="7.746881"
+         height="9.0899458"
+         width="189.39012"
+         id="rect1802"
+         style="fill:#e9feff;fill-opacity:0.00938966;stroke:none;stroke-width:0.43478653;stroke-miterlimit:4;stroke-dasharray:0, 0.4347865, 0.86957301, 1.30435949, 1.73914601, 2.17393253, 2.60871902, 3.04350552, 3.47829202, 3.91307851, 4.34786503, 4.78265152, 5.21743804, 5.65222453, 6.08701104;stroke-dashoffset:1.2094487;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
