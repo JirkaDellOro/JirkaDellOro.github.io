@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="CardBacText.svg">
+   sodipodi:docname="CardBackText.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,9 +26,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="54.888606"
-     inkscape:cy="110.33119"
+     inkscape:zoom="2"
+     inkscape:cx="338.68083"
+     inkscape:cy="7.3326784"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,7 +115,7 @@
        style="fill:#e4c4a5;fill-opacity:0.67605633;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:0.9677419"
        id="path840"
        ry="10"
-       rx="20"
+       rx="18"
        cy="264.5"
        cx="22.5" />
     <text
