@@ -18,8 +18,11 @@ var SchatzjagdCards;
         card.appendChild(headline);
         if (_data["image"])
             card.appendChild(createImage(_data["image"]));
-        // if (_data["text"])
-        //   card.appendChild(createText(_data["text"]));
+        if (_data["text"])
+            card.appendChild(createText(_data["text"]));
+        if (_data["markers"])
+            for (let marker of _data["markers"])
+                card.appendChild(createMarker(marker));
         document.body.appendChild(card);
         return card;
     }
@@ -32,10 +35,15 @@ var SchatzjagdCards;
         return image;
     }
     function createText(_data) {
+        let span = document.createElement("p");
+        span.innerHTML = _data["content"];
+        console.log(_data["content"]);
+        return span;
+    }
+    function createMarker(_marker) {
         let span = document.createElement("span");
-        span.textContent = _data["content"];
-        // span.style.top = _data["top"] + "mm";
-        // span.style.left = _data["left"] + "mm";
+        span.innerHTML = _marker["content"];
+        console.log(_marker["content"]);
         return span;
     }
 })(SchatzjagdCards || (SchatzjagdCards = {}));

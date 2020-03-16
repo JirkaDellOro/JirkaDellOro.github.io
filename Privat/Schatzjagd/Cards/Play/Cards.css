@@ -1,3 +1,8 @@
+:root {
+  --debug-border: 0.01px;
+  /* --debug-border: 0px; */
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -19,27 +24,53 @@ div {
   border: 0px solid rgb(184, 184, 184);
   margin: 1mm;
   background-image: url("CardFront.svg");
-  font-size: 10px;;
+  font-size: 10px;
+  ;
 }
 
-
 h1 {
-  display: inline-block;
   position: relative;
   font-size: 4mm;
-  top: 10.5mm;
+  top: 10mm;
   font-family: "Kingthings Calligraphica 2";
+  border: var(--debug-border) dotted black;
   /* font-family: "Calligraphica"; */
 }
 
 img {
-  position: relative;  
+  position: relative;
   float: left;
   transform-origin: left top;
 }
 
+p {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 10.5mm;
+  border: var(--debug-border) dotted black;
+  font-family: Arial;
+}
 
-@font-face{
-  font-family:"Calligraphica";
-  src:url("../../Font/Kingthings Calligraphica 2.ttf");
- }
+span {
+  display: inline-block;
+  position: absolute;
+  width: 7.8mm;
+  height: 7.8mm;
+  top: 39mm;
+  right: 2mm;
+  border: var(--debug-border) dotted black;
+  font-family: "Kingthings Calligraphica 2";
+  font-size: 8mm;
+  line-height: 6mm;
+  border: var(--debug-border) dotted black;
+  border: 1px solid black;
+  border-radius: 10mm;
+  background-color: red;
+  vertical-align: baseline;
+}
+
+@font-face {
+  font-family: "Calligraphica";
+  src: url("../../Font/Kingthings Calligraphica 2.ttf");
+}
