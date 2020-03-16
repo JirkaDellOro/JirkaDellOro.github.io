@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 0px;
+  align-content: center;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  position: relative;
+  width: 45mm;
+  height: 65mm;
+  border: 0px solid rgb(184, 184, 184);
+  margin: 1mm;
+  background-image: url("CardFront.svg");
+  font-size: 10px;;
+}
+
+
+h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 4mm;
+  top: 10.5mm;
+  font-family: "Kingthings Calligraphica 2";
+  /* font-family: "Calligraphica"; */
+}
+
+img {
+  position: relative;  
+  float: left;
+  transform-origin: left top;
+}
+
+
+@font-face{
+  font-family:"Calligraphica";
+  src:url("../../Font/Kingthings Calligraphica 2.ttf");
+ }
