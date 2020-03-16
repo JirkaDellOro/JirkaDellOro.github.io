@@ -7,7 +7,7 @@ var SchatzjagdCards;
     let horzMargin = 10;
     let vertBase = 40;
     let vertOffset = 12;
-    // ÷ ½ × ˗ ˖ ₊ 
+    // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
     SchatzjagdCards.data = {
         test: { background: "CardFrontExample.svg" },
         card0: {
