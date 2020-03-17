@@ -5,207 +5,286 @@ var SchatzjagdCards;
     let blue = "#04a3ff";
     let yellow = "#ffd22a";
     let transparent = "#00000000";
-    let horzMargin = 2;
-    let vertBase = 39;
-    let vertPower = 15;
+    let xMargin = 2;
+    let yBase = 48;
+    let yType = 15;
     let offset = 7;
-    let horzCenterLeft = 18.5;
+    // let horzCenterLeft: number = 18.5;
     let poison = "Wirst Du verletzt,<br/>bist Du vergiftet!";
     let theft = "Fliehst Du,<br/>verlierst Du alles Gold!";
-    // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳
-    SchatzjagdCards.enemy = {
-        // test: { background: "CardFrontExample.svg" },
+    // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂
+    SchatzjagdCards.places = {
+        Casino: {
+            head: "Casino",
+            image: { url: "../Images/Casino.png", scale: 0.35, top: 15, left: 11 },
+            text: { content: "Spiele einfaches Roulette.<br/>Setze maximal<br/>3x pro Runde auf<br/>Pair oder Impair<br/>und würfle,<br/>um deinen<br/>Einsatz zu<br/>verdoppeln oder<br/>zu verlieren." },
+            markers: [
+                { right: xMargin, top: yBase, color: yellow, content: "+" },
+                { left: xMargin, top: yBase, color: yellow, content: "-" },
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        DragonsLair: {
+            head: "Drachenhöhle",
+            image: { url: "../Images/DragonsLair.png", scale: 0.35, top: 15, left: 9.5 },
+            text: { content: "Gehst<br/>Du hinein,<br/>würfle dein Schicksal!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { right: xMargin, top: yBase - 2 * offset, color: red, content: "+1" },
+                { right: xMargin, top: yBase - 1 * offset, color: yellow, content: "+3" },
+                { right: xMargin, top: yBase + 0 * offset, color: green, content: "+5" },
+                { left: xMargin, top: yBase - 2 * offset, color: green, content: "-5" },
+                { left: xMargin, top: yBase - 1 * offset, color: red, content: "-1" },
+                { left: xMargin, top: yBase + 0 * offset, color: green, content: "0" },
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: 0.2, top: 34, url: "../Images/DragonDice.svg" },
+            ]
+        },
+        Teleportal: {
+            count: 2,
+            head: "Teleportal",
+            image: { url: "../Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
+            text: { content: "Schickt dich an einen<br/>beliebigen freien Ort<br/>außerhalb von Mauern<br/>im zufälligen Zielland!" },
+            markers: [
+                { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "0" },
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: 11, top: 36, url: "../Images/Teleportal.svg" },
+            ]
+        },
+        Rumpelstilz: {
+            head: "Rumpelstilz",
+            image: { url: "../Images/Rumpelstilz.png", scale: 0.35, top: 15, left: 9.5 },
+            text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Goldstücke!" },
+            markers: [
+                { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "₊6" },
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Elf: {
+            head: "Elf, der Wegweiser",
+            image: { url: "../Images/Elf.png", scale: 0.35, top: 15, left: 9.5 },
+            text: { content: "Würfelst Du eine<br/>5 oder eine 6,<br/>so zeigt dir der Elf<br/>eine beliebige Karte<br/>im Reich!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Dealer: {
+            head: "Händler",
+            image: { url: "../Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
+            text: { content: "Tauscht seine Karte<br/>gegen eine von deinen.<br/>Die erste Karte<br/>erhält er vom Stapel." },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Tornado: {
+            head: "Wirbelsturm",
+            image: { url: "../Images/Tornado.png", scale: 0.4, top: 17, left: 7.5 },
+            text: { content: "Jeder Spieler zieht von<br/>seinem rechten Nachbarn<br/>gleichzeitig eine Karte,<br/>...auch Schätze!<br/>Dann legt sich der Sturm<br/>auf den Ablagestapel." },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Arena: {
+            head: "Gladiatorenarena",
+            image: { url: "../Images/Arena.png", scale: 0.4, top: 17, left: 7.5 },
+            text: { content: "Forderst Du<br/>einen Ritter heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+    };
+    SchatzjagdCards.enemies = {
         Hun0: {
             head: "Hunne",
-            image: { url: "../Images/Hun0.png", scale: 0.35, top: 17.2, left: 11 },
+            image: { url: "../Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Hun1: {
             head: "Hunne",
-            image: { url: "../Images/Hun1.png", scale: 0.35, top: 17.2, left: 13.2 },
+            image: { url: "../Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Hun2: {
             head: "Hunne",
-            image: { url: "../Images/Hun2.png", scale: 0.38, top: 17.2, left: 10 },
+            image: { url: "../Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Hun3: {
             head: "Hunne",
-            image: { url: "../Images/Hun3v.png", scale: 0.35, top: 17.2, left: 11 },
+            image: { url: "../Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Hun4: {
             head: "Hunne",
-            image: { url: "../Images/Hun4v.png", scale: 0.36, top: 14.2, left: 2 },
+            image: { url: "../Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Hun5: {
             head: "Hunne",
-            image: { url: "../Images/Hun5v.png", scale: 0.38, top: 15, left: 9 },
+            image: { url: "../Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊2" },
-                { left: horzMargin, top: vertPower, color: red, content: "3" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+                { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
         Robber0: {
             head: "Räuber",
-            image: { url: "../Images/Robber0.png", scale: 0.4, top: 19, left: 9 },
+            image: { url: "../Images/Robber0.png", scale: 0.4, top: 23, left: 9 },
             text: { content: theft },
             markers: [
-                { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊3" },
-                { left: horzMargin, top: vertPower, color: red, content: "6" },
+                { left: xMargin, top: yBase, color: yellow, content: "0" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+                { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
         Robber1: {
             head: "Räuber",
-            image: { url: "../Images/Robber1.png", scale: 0.4, top: 16, left: 2 },
+            image: { url: "../Images/Robber1.png", scale: 0.4, top: 20, left: 2 },
             text: { content: theft },
             markers: [
-                { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊3" },
-                { left: horzMargin, top: vertPower, color: red, content: "6" },
+                { left: xMargin, top: yBase, color: yellow, content: "0" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+                { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
         Robber2: {
             head: "Räuber",
-            image: { url: "../Images/Robber2.png", scale: 0.4, top: 18, left: 2 },
+            image: { url: "../Images/Robber2.png", scale: 0.4, top: 22, left: 2 },
             text: { content: theft },
             markers: [
-                { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊3" },
-                { left: horzMargin, top: vertPower, color: red, content: "6" },
+                { left: xMargin, top: yBase, color: yellow, content: "0" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+                { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
         Robber3: {
             head: "Räuber",
-            image: { url: "../Images/Robber3.png", scale: 0.4, top: 15, left: 6 },
+            image: { url: "../Images/Robber3.png", scale: 0.4, top: 19, left: 7 },
             text: { content: theft },
             markers: [
-                { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊3" },
-                { left: horzMargin, top: vertPower, color: red, content: "6" },
+                { left: xMargin, top: yBase, color: yellow, content: "0" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+                { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
         German0: {
             head: "Germane",
-            image: { url: "../Images/German0.png", scale: 0.34, top: 20, left: 9 },
+            image: { url: "../Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊4" },
-                { left: horzMargin, top: vertPower, color: red, content: "9" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+                { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
         German1: {
             head: "Germane",
-            image: { url: "../Images/German1.png", scale: 0.36, top: 12, left: 7 },
+            image: { url: "../Images/German1.png", scale: 0.36, top: 16, left: 7 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊4" },
-                { left: horzMargin, top: vertPower, color: red, content: "9" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+                { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
         German2: {
             head: "Germane",
-            image: { url: "../Images/German2.png", scale: 0.4, top: 15, left: 2.5 },
+            image: { url: "../Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊4" },
-                { left: horzMargin, top: vertPower, color: red, content: "9" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+                { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
         Boss0: {
             head: "Hunnenhauptmann",
-            image: { url: "../Images/Boss0.png", scale: 0.37, top: 15, left: 6 },
+            image: { url: "../Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊5" },
-                { left: horzMargin, top: vertPower, color: red, content: "12" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+                { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
         Boss1: {
             head: "Räuberhauptmann",
-            image: { url: "../Images/Boss1.png", scale: 0.38, top: 18, left: 6 },
+            image: { url: "../Images/Boss1.png", scale: 0.38, top: 22, left: 6 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin, top: vertBase, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊5" },
-                { left: horzMargin, top: vertPower, color: red, content: "12" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+                { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
         Boss2: {
             head: "Germanenhauptmann",
-            image: { url: "../Images/Boss2.png", scale: 0.37, top: 13.3, left: 6.4 },
+            image: { url: "../Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊5" },
-                { left: horzMargin, top: vertPower, color: red, content: "12" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+                { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
         Giant0: {
             head: "Rufus der Riese",
-            image: { url: "../Images/Giant0.png", scale: 0.37, top: 14.5, left: 6.4 },
+            image: { url: "../Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊6" },
-                { left: horzMargin, top: vertPower, color: red, content: "15" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊6" },
+                { left: xMargin, top: yType, color: red, content: "15" },
             ]
         },
         Giant1: {
             head: "Igor der Riese",
-            image: { url: "../Images/Giant1.png", scale: 0.38, top: 14, left: 9 },
+            image: { url: "../Images/Giant1.png", scale: 0.38, top: 17, left: 9 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin - 0.2, top: vertBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊6" },
-                { left: horzMargin, top: vertPower, color: red, content: "15" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin - 0.2, top: yBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊6" },
+                { left: xMargin, top: yType, color: red, content: "15" },
             ]
         },
         ShoWung: {
             head: "Sho-Wung",
-            image: { url: "../Images/ShoWung.png", scale: 0.4, top: 12.3, left: 3.7 },
+            image: { url: "../Images/ShoWung.png", scale: 0.4, top: 18.3, left: 3.7 },
             markers: [
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊8" },
-                { left: horzMargin, top: vertPower, color: red, content: "20" },
+                { right: xMargin, top: yBase, color: yellow, content: "₊8" },
+                { left: xMargin, top: yType, color: red, content: "20" },
             ]
         },
         Warpig: {
             head: "Warpig",
-            image: { url: "../Images/Warpig.png", scale: 0.4, top: 14.3, left: 6.1 },
+            image: { url: "../Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
             text: { content: poison },
             markers: [
-                { left: horzMargin, top: vertBase, color: green, content: "˗1" },
-                { left: horzMargin - 0.2, top: vertBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
-                { right: horzMargin, top: vertBase, color: yellow, content: "₊10" },
-                { left: horzMargin, top: vertPower, color: red, content: "25" },
+                { left: xMargin, top: yBase, color: green, content: "˗1" },
+                { left: xMargin - 0.2, top: yBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
+                { right: xMargin, top: yBase, color: yellow, content: "₊10" },
+                { left: xMargin, top: yType, color: red, content: "25" },
             ]
         },
     };

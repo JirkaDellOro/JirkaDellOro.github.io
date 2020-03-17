@@ -1,16 +1,28 @@
 namespace SchatzjagdCards {
-  let card: HTMLDivElement;
+  // let card: HTMLDivElement;
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    createCards(enemy);
+    // createCards(enemies);
+    createCards(places);
+    // createBacksides(9);
+  }
+
+  function createBacksides(_count: number): void {
+    for (let i: number = 0; i < _count; i++) {
+      let card: HTMLDivElement = document.createElement("div");
+      card.className = "back";
+      document.body.appendChild(card)
+    }
   }
 
   function createCards(_list: Object): void {
     for (let key in _list) {
       let cardData = _list[key];
-      card = createCard(cardData);
-      document.body.appendChild(card)
+      for (let copy: number = 0; copy < (cardData["count"] || 1); copy++) {
+        let card: HTMLDivElement = createCard(cardData);
+        document.body.appendChild(card)
+      }
     }
   }
 

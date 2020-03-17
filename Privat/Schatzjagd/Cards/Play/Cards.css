@@ -21,11 +21,17 @@ div {
   position: relative;
   width: 45mm;
   height: 65mm;
-  border: 0px solid rgb(184, 184, 184);
   margin: 1mm;
   background-image: url("CardFront.svg");
   font-size: 10px;
-  ;
+}
+
+div.back {
+  width: 47mm;
+  height: 67mm;
+  margin: 0mm;
+  background-image: url("CardBackText.svg");
+  background-size: cover;
 }
 
 h1 {
@@ -47,7 +53,7 @@ p {
   display: block;
   position: absolute;
   width: 100%;
-  bottom: 10.5mm;
+  bottom: 4mm;
   border: var(--debug-border) dotted black;
   font-family: Arial;
 }

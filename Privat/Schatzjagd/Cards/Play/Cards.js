@@ -1,15 +1,26 @@
 var SchatzjagdCards;
 (function (SchatzjagdCards) {
-    let card;
+    // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        createCards(SchatzjagdCards.enemy);
+        // createCards(enemies);
+        createCards(SchatzjagdCards.places);
+        // createBacksides(9);
+    }
+    function createBacksides(_count) {
+        for (let i = 0; i < _count; i++) {
+            let card = document.createElement("div");
+            card.className = "back";
+            document.body.appendChild(card);
+        }
     }
     function createCards(_list) {
         for (let key in _list) {
             let cardData = _list[key];
-            card = createCard(cardData);
-            document.body.appendChild(card);
+            for (let copy = 0; copy < (cardData["count"] || 1); copy++) {
+                let card = createCard(cardData);
+                document.body.appendChild(card);
+            }
         }
     }
     function createCard(_data) {
