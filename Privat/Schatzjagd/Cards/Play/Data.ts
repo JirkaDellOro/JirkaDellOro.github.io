@@ -13,8 +13,82 @@ namespace SchatzjagdCards {
   let poison: string = "Wirst Du verletzt,<br/>bist Du vergiftet!";
   let theft: string = "Fliehst Du,<br/>verlierst Du alles Gold!";
   // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
-  // ⛤⛧ ⚐ 
+  // ⛤⛧ ⚐ 🗲 ❌
 
+  export let map = {
+    count: 1,
+    head: "Schatzkarte",
+    image: { url: "../Images/Map.png", scale: 0.45, top: 23, left: 7 },
+    text: { content: "Stehst Du auf dem Feld,<br/>spiele die Karte aus<br/>um einen Schatz<br/>zu heben." },
+    markers: [
+      { left: xMargin, top: yType, color: "white", content: "" },
+    ]
+  }
+  export let traps = {
+    Skip: {
+      count: 2,
+      head: "Versklavt",
+      image: { url: "../Images/Skip.png", scale: 0.45, top: 20, left: 9 },
+      text: { content: "Die nächste Runde<br/>setzt Du aus!" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: "grey", content: "" },
+        { left: xMargin - 0.4, top: yBase + 1.5, color: transparent, content: "❌" },
+        { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+      ]
+    },
+    Poison: {
+      count: 2,
+      head: "Vergiftet",
+      image: { url: "../Images/Poison.png", scale: 0.4, top: 18, left: 11 },
+      text: { content: "Jeden Tag<br/>verlierst Du<br/>Lebenskraft!" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
+        { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+      ]
+    },
+    Switch: {
+      count: 1,
+      head: "Verwechselt",
+      image: { url: "../Images/Switch.png", scale: 0.4, top: 18, left: 11 },
+      text: { content: "Der Mob lyncht<br/>dich eine Weile...<br/>Du verlierst<br/>die Hälfte<br/>deiner Lebenskraft!<br/>(abrunden)" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: green, content: "÷2" },
+      ]
+    },
+    Pikes: {
+      count: 1,
+      head: "Verstolpert",
+      image: { url: "../Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
+      text: { content: "Die Stachelfalle<br/>kostet fünf Punkte<br/>deiner Lebenskraft!" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: green, content: "-5" },
+      ]
+    },
+    Theft: {
+      count: 1,
+      head: "Verschlafen",
+      image: { url: "../Images/Theft.png", scale: 0.4, top: 19, left: 7 },
+      text: { content: "Dir wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: blue, content: "÷2" },
+      ]
+    },
+    Snakes: {
+      count: 1,
+      head: "Verschlungen",
+      image: { url: "../Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
+      text: { content: "Die<br/>Schlangengrube<br/>nimmt dir die<br/>Hälfte deiner Stärke!<br/>(abrunden)" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "🗲" },
+        { left: xMargin, top: yBase, color: red, content: "÷2" },
+      ]
+    },
+  }
   export let spells = {
     Stun: {
       count: 4,

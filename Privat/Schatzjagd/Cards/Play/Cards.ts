@@ -7,9 +7,21 @@ namespace SchatzjagdCards {
     // createCards(places);
     // createCards(potions);
     // createCards(weapons);
-    createCards(spells);
+    // createCards(spells);
+    // createCards(traps);
+    createMaps();
 
     // createBacksides(10);
+  }
+
+  function createMaps(): void {
+    let locations: string[] = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
+    for (let location of locations) {
+      map["markers"][0]["content"] = location;
+      let card: HTMLDivElement = createCard(map);
+      document.body.appendChild(card)
+    }
+ 
   }
 
   function createBacksides(_count: number): void {

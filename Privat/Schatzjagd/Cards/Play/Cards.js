@@ -7,8 +7,18 @@ var SchatzjagdCards;
         // createCards(places);
         // createCards(potions);
         // createCards(weapons);
-        createCards(SchatzjagdCards.spells);
+        // createCards(spells);
+        // createCards(traps);
+        createMaps();
         // createBacksides(10);
+    }
+    function createMaps() {
+        let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
+        for (let location of locations) {
+            SchatzjagdCards.map["markers"][0]["content"] = location;
+            let card = createCard(SchatzjagdCards.map);
+            document.body.appendChild(card);
+        }
     }
     function createBacksides(_count) {
         for (let i = 0; i < _count; i++) {
