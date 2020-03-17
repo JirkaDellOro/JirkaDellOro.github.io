@@ -45,7 +45,8 @@ h1 {
 
 img {
   position: absolute;
-  float: left;
+  /* float: left; */
+  /* right: 3mm; */
   transform-origin: left top;
 }
 
@@ -64,10 +65,11 @@ span {
   width: 7.8mm;
   height: 7.8mm;
   /* top: 39mm; */
-  right: 1mm;
+  /* right: 3.5mm; */
   font-family: "Kingthings Calligraphica 2";
-  font-size: 8mm;
+  font-size: 7mm;
   line-height: 6mm;
+  /* letter-spacing: -0.6mm; */
   border: 1px solid black;
   border-radius: 10mm;
   /* background-color: red; */

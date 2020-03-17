@@ -3,7 +3,7 @@ namespace SchatzjagdCards {
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
   let yellow: string = "#ffd22a";
-  let transparent: string = "#00000000";
+  export let transparent: string = "#00000000";
   let xMargin: number = 2;
   let yBase: number = 48;
   let yType: number = 15;
@@ -12,7 +12,48 @@ namespace SchatzjagdCards {
 
   let poison: string = "Wirst Du verletzt,<br/>bist Du vergiftet!";
   let theft: string = "Fliehst Du,<br/>verlierst Du alles Gold!";
-  // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂
+  // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕
+  export let potions = {
+    Detox: {
+      count: 2,
+      head: "Entgiftung",
+      image: { url: "../Images/Detox.png", scale: 0.35, top: 15, left: 11 },
+      text: { content: "Achtung: Entgiftung<br/>ist keine Heilung..." },
+      markers: [
+        { right: xMargin, top: yBase, color: green, content: "-0" },
+        { right: xMargin - 1, top: yBase, url: "../Images/Turn.svg", scale: 1 },
+        { left: xMargin, top: yType, color: "white", content: "⚕" },
+        // { right: xMargin + 1.0, top: yBase + 1.4, color: transparent, content: "❌" },
+      ]
+    },
+    Heal: {
+      count: 2,
+      head: "Heilung",
+      image: { url: "../Images/Heal.png", scale: 0.45, top: 22, left: 4 },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⚕" },
+        { right: xMargin, top: yBase, color: green, content: "15" },
+      ]
+    },
+    Power0: {
+      count: 2,
+      head: "Stärkeelixier",
+      image: { url: "../Images/Power0.png", scale: 0.4, top: 18, left: 9 },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⚕" },
+        { right: xMargin, top: yBase, color: red, content: "+1" },
+      ]
+    },
+    Power1: {
+      count: 1,
+      head: "Superkraft",
+      image: { url: "../Images/Power1.png", scale: 0.4, top: 18, left: 8 },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⚕" },
+        { right: xMargin, top: yBase, color: red, content: "+2" },
+      ]
+    }
+  }
 
   export let places = {
     Casino: {
@@ -39,18 +80,18 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yBase + 0 * offset, color: green, content: "0" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
 
-        { left: 0.2, top: 34, url:"../Images/DragonDice.svg"},
+        { left: 0.3, top: 34, url: "../Images/DragonDice.svg" },
       ]
     },
     Teleportal: {
-      count: 2, 
+      count: 2,
       head: "Teleportal",
       image: { url: "../Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
       text: { content: "Schickt dich an einen<br/>beliebigen freien Ort<br/>außerhalb von Mauern<br/>im zufälligen Zielland!" },
       markers: [
         { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "0" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
-        { left: 11, top: 36, url:"../Images/Teleportal.svg"},
+        { left: 11, top: 36, url: "../Images/Teleportal.svg" },
       ]
     },
     Rumpelstilz: {
@@ -58,7 +99,7 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Rumpelstilz.png", scale: 0.35, top: 15, left: 9.5 },
       text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Goldstücke!" },
       markers: [
-        { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "₊6" },
+        { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
       ]
     },
@@ -100,7 +141,7 @@ namespace SchatzjagdCards {
       head: "Hunne",
       image: { url: "../Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -109,7 +150,7 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
       markers: [
         // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -117,7 +158,7 @@ namespace SchatzjagdCards {
       head: "Hunne",
       image: { url: "../Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -126,9 +167,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -137,9 +178,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -148,9 +189,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+2" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -160,7 +201,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -170,7 +211,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -180,7 +221,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -190,7 +231,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "₊3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -198,7 +239,7 @@ namespace SchatzjagdCards {
       head: "Germane",
       image: { url: "../Images/German0.png", scale: 0.34, top: 24, left: 9 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -207,9 +248,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/German1.png", scale: 0.36, top: 16, left: 7 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -218,9 +259,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -228,7 +269,7 @@ namespace SchatzjagdCards {
       head: "Hunnenhauptmann",
       image: { url: "../Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -237,9 +278,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Boss1.png", scale: 0.38, top: 22, left: 6 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -247,7 +288,7 @@ namespace SchatzjagdCards {
       head: "Germanenhauptmann",
       image: { url: "../Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -255,7 +296,7 @@ namespace SchatzjagdCards {
       head: "Rufus der Riese",
       image: { url: "../Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊6" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: red, content: "15" },
       ]
     },
@@ -264,9 +305,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Giant1.png", scale: 0.38, top: 17, left: 9 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 0.2, top: yBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊6" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: red, content: "15" },
       ]
     },
@@ -274,7 +315,7 @@ namespace SchatzjagdCards {
       head: "Sho-Wung",
       image: { url: "../Images/ShoWung.png", scale: 0.4, top: 18.3, left: 3.7 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "₊8" },
+        { right: xMargin, top: yBase, color: yellow, content: "+8" },
         { left: xMargin, top: yType, color: red, content: "20" },
       ]
     },
@@ -283,9 +324,9 @@ namespace SchatzjagdCards {
       image: { url: "../Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
       text: { content: poison },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "˗1" },
+        { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 0.2, top: yBase - 0.2, url: "../Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "₊10" },
+        { right: xMargin, top: yBase, color: yellow, content: "+10" },
         { left: xMargin, top: yType, color: red, content: "25" },
       ]
     },

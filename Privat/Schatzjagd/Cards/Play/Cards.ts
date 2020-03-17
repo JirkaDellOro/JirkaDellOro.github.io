@@ -4,8 +4,10 @@ namespace SchatzjagdCards {
 
   function hndLoad(_event: Event): void {
     // createCards(enemies);
-    createCards(places);
-    // createBacksides(9);
+    // createCards(places);
+    // createCards(potions);
+
+    createBacksides(10);
   }
 
   function createBacksides(_count: number): void {
@@ -56,6 +58,8 @@ namespace SchatzjagdCards {
     image.style.transform = `scale(${_data["scale"]})`;
     image.style.top = _data["top"] + "mm";
     image.style.left = _data["left"] + "mm";
+    image.style.right = _data["right"] + "mm";
+    image.style.bottom = _data["bottom"] + "mm";
     return image;
   }
 
@@ -73,6 +77,8 @@ namespace SchatzjagdCards {
     let span: HTMLSpanElement = document.createElement("span");
     span.innerHTML = _marker["content"];
     span.style.backgroundColor = _marker["color"];
+    if (_marker["color"] == transparent)
+      span.style.borderWidth = "0mm";
     span.style.top = _marker["top"] + "mm";
     span.style.right = _marker["right"] + "mm";
     span.style.left = _marker["left"] + "mm";
