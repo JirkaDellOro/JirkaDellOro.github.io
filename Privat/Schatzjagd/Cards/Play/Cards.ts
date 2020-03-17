@@ -3,9 +3,14 @@ namespace SchatzjagdCards {
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    for (let key in data) {
-      let cardData = data[key];
+    createCards(enemy);
+  }
+
+  function createCards(_list: Object): void {
+    for (let key in _list) {
+      let cardData = _list[key];
       card = createCard(cardData);
+      document.body.appendChild(card)
     }
   }
 
@@ -30,7 +35,6 @@ namespace SchatzjagdCards {
       for (let marker of _data["markers"])
         card.appendChild(createMarker(marker));
 
-    document.body.appendChild(card)
     return card;
   }
 
@@ -50,10 +54,16 @@ namespace SchatzjagdCards {
     return span;
   }
 
-  function createMarker(_marker: Object): HTMLSpanElement {
+  function createMarker(_marker: Object): HTMLSpanElement | HTMLImageElement {
+    if (_marker["url"]) {
+      return (createImage(_marker));
+    }
     let span: HTMLSpanElement = document.createElement("span");
     span.innerHTML = _marker["content"];
-    console.log(_marker["content"]);
+    span.style.backgroundColor = _marker["color"];
+    span.style.top = _marker["top"] + "mm";
+    span.style.right = _marker["right"] + "mm";
+    span.style.left = _marker["left"] + "mm";
     return span;
   }
 }

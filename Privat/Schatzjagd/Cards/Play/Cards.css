@@ -1,6 +1,6 @@
 :root {
   --debug-border: 0.01px;
-  /* --debug-border: 0px; */
+  --debug-border: 0px;
 }
 
 * {
@@ -38,7 +38,7 @@ h1 {
 }
 
 img {
-  position: relative;
+  position: absolute;
   float: left;
   transform-origin: left top;
 }
@@ -57,17 +57,15 @@ span {
   position: absolute;
   width: 7.8mm;
   height: 7.8mm;
-  top: 39mm;
-  right: 2mm;
-  border: var(--debug-border) dotted black;
+  /* top: 39mm; */
+  right: 1mm;
   font-family: "Kingthings Calligraphica 2";
   font-size: 8mm;
   line-height: 6mm;
-  border: var(--debug-border) dotted black;
   border: 1px solid black;
   border-radius: 10mm;
-  background-color: red;
-  vertical-align: baseline;
+  /* background-color: red; */
+  /* vertical-align: baseline; */
 }
 
 @font-face {

@@ -3,9 +3,13 @@ var SchatzjagdCards;
     let card;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        for (let key in SchatzjagdCards.data) {
-            let cardData = SchatzjagdCards.data[key];
+        createCards(SchatzjagdCards.enemy);
+    }
+    function createCards(_list) {
+        for (let key in _list) {
+            let cardData = _list[key];
             card = createCard(cardData);
+            document.body.appendChild(card);
         }
     }
     function createCard(_data) {
@@ -23,7 +27,6 @@ var SchatzjagdCards;
         if (_data["markers"])
             for (let marker of _data["markers"])
                 card.appendChild(createMarker(marker));
-        document.body.appendChild(card);
         return card;
     }
     function createImage(_data) {
@@ -41,9 +44,15 @@ var SchatzjagdCards;
         return span;
     }
     function createMarker(_marker) {
+        if (_marker["url"]) {
+            return (createImage(_marker));
+        }
         let span = document.createElement("span");
         span.innerHTML = _marker["content"];
-        console.log(_marker["content"]);
+        span.style.backgroundColor = _marker["color"];
+        span.style.top = _marker["top"] + "mm";
+        span.style.right = _marker["right"] + "mm";
+        span.style.left = _marker["left"] + "mm";
         return span;
     }
 })(SchatzjagdCards || (SchatzjagdCards = {}));
