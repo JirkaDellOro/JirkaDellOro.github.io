@@ -6,7 +6,9 @@ var SchatzjagdCards;
         // createCards(enemies);
         // createCards(places);
         // createCards(potions);
-        createBacksides(10);
+        // createCards(weapons);
+        createCards(SchatzjagdCards.spells);
+        // createBacksides(10);
     }
     function createBacksides(_count) {
         for (let i = 0; i < _count; i++) {

@@ -37,7 +37,7 @@ div.back {
 h1 {
   position: relative;
   font-size: 4mm;
-  top: 10mm;
+  top: 10.5mm;
   font-family: "Kingthings Calligraphica 2";
   border: var(--debug-border) dotted black;
   /* font-family: "Calligraphica"; */

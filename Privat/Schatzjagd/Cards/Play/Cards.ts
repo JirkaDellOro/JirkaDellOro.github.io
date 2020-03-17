@@ -6,8 +6,10 @@ namespace SchatzjagdCards {
     // createCards(enemies);
     // createCards(places);
     // createCards(potions);
+    // createCards(weapons);
+    createCards(spells);
 
-    createBacksides(10);
+    // createBacksides(10);
   }
 
   function createBacksides(_count: number): void {

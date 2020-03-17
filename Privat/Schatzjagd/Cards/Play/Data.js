@@ -12,7 +12,111 @@ var SchatzjagdCards;
     // let horzCenterLeft: number = 18.5;
     let poison = "Wirst Du verletzt,<br/>bist Du vergiftet!";
     let theft = "Fliehst Du,<br/>verlierst Du alles Gold!";
-    // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕
+    // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
+    // ⛤⛧ ⚐ 
+    SchatzjagdCards.spells = {
+        Stun: {
+            count: 4,
+            head: "Lähmung",
+            image: { url: "../Images/Stun.png", scale: 0.40, top: 16, left: 9 },
+            text: { content: "Setzt den Gegner<br/>im Kampf für<br/>einen Schlagabtausch<br/>außer Gefecht!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⛤" },
+            ]
+        },
+        Earthquake: {
+            count: 4,
+            head: "Erdbeben",
+            image: { url: "../Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
+            text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Ritter stehen!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⛤" },
+            ]
+        },
+        ThirdEye: {
+            count: 4,
+            head: "Das Dritte Auge",
+            image: { url: "../Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
+            text: { content: "Zeigt dir die Karten<br/>in der allernächsten<br/>Umgebung.<br/>Es kann nicht<br/>Diagonal schauen." },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⛤" },
+            ]
+        },
+        Crystal: {
+            count: 1,
+            head: "Kristallkugel",
+            image: { url: "../Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
+            text: { content: "Ein sehr mächtiger Zauber!<br/>Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus.<br/>Du darfst auch Schätze<br/>stehlen. Der Betrogene<br/>zieht vom Stapel nach." },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⛤" },
+            ]
+        },
+        Teleport: {
+            count: 1,
+            head: "Teleportation",
+            image: { url: "../Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
+            text: { content: "Bringt sofort einen<br/>beliebigen Ritter auf<br/>ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seiner Runde aufdecken." },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⛤" },
+            ]
+        },
+    };
+    SchatzjagdCards.weapons = {
+        Knife: {
+            count: 4,
+            head: "Messer",
+            image: { url: "../Images/Knife.png", scale: 0.55, top: 27, left: 10 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+1" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+        Dagger: {
+            count: 3,
+            head: "Dolch",
+            image: { url: "../Images/Dagger.png", scale: 0.55, top: 21, left: 10 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+2" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+        Spear: {
+            count: 3,
+            head: "Speer",
+            image: { url: "../Images/Spear.png", scale: 0.55, top: 21, left: 8 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+3" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+        Sword: {
+            count: 3,
+            head: "Schwert",
+            image: { url: "../Images/Sword.png", scale: 0.5, top: 23, left: 7 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+4" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+        Mace: {
+            count: 2,
+            head: "Morgenstern",
+            image: { url: "../Images/Mace.png", scale: 0.55, top: 19, left: 7 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+5" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+        Axe: {
+            count: 1,
+            head: "Streitaxt",
+            image: { url: "../Images/Axe.png", scale: 0.55, top: 17, left: 7 },
+            markers: [
+                { right: xMargin, top: yBase, color: blue, content: "+6" },
+                { left: xMargin, top: yType, color: "white", content: "⚔" },
+            ]
+        },
+    };
     SchatzjagdCards.potions = {
         Detox: {
             count: 2,
@@ -76,7 +180,6 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - 2 * offset, color: green, content: "-5" },
                 { left: xMargin, top: yBase - 1 * offset, color: red, content: "-1" },
                 { left: xMargin, top: yBase + 0 * offset, color: green, content: "0" },
-                { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: 0.3, top: 34, url: "../Images/DragonDice.svg" },
             ]
         },
@@ -126,7 +229,7 @@ var SchatzjagdCards;
         },
         Arena: {
             head: "Gladiatorenarena",
-            image: { url: "../Images/Arena.png", scale: 0.4, top: 17, left: 7.5 },
+            image: { url: "../Images/Arena.png", scale: 0.45, top: 15.5, left: 8 },
             text: { content: "Forderst Du<br/>einen Ritter heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
