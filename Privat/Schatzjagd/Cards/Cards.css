@@ -22,7 +22,7 @@ div {
   width: 45mm;
   height: 65mm;
   margin: 1mm;
-  background-image: url("CardFront.svg");
+  background-image: url("Play/CardFront.svg");
   font-size: 10px;
 }
 
@@ -30,7 +30,7 @@ div.back {
   width: 47mm;
   height: 67mm;
   margin: 0mm;
-  background-image: url("CardBackText.svg");
+  background-image: url("Play/CardBackText.svg");
   background-size: cover;
 }
 
@@ -78,5 +78,5 @@ span {
 
 @font-face {
   font-family: "Calligraphica";
-  src: url("../../Font/Kingthings Calligraphica 2.ttf");
+  src: url("../Font/Kingthings Calligraphica 2.ttf");
 }

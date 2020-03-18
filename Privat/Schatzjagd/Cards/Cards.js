@@ -9,7 +9,8 @@ var SchatzjagdCards;
         // createCards(weapons);
         // createCards(spells);
         // createCards(traps);
-        createMaps();
+        // createMaps();
+        createCards(SchatzjagdCards.city);
         // createBacksides(10);
     }
     function createMaps() {

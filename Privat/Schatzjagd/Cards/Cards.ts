@@ -9,7 +9,8 @@ namespace SchatzjagdCards {
     // createCards(weapons);
     // createCards(spells);
     // createCards(traps);
-    createMaps();
+    // createMaps();
+    createCards(city);
 
     // createBacksides(10);
   }
