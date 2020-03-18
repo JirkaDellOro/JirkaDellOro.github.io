@@ -39,6 +39,15 @@ div.back {
 div.chest {
   width: 40mm;
   height: 70mm;
+  margin: 1mm;
+}
+
+div.backchest {
+  width: 41mm;
+  height: 71mm;
+  margin: 0.5mm;
+  background-image: url("Chest/ChestBack.svg");
+  background-size: cover;
 }
 
 h1 {

@@ -13,7 +13,7 @@ namespace SchatzjagdCards {
     // createCards(city);
     createCards(chests, "chest");
 
-    // createBacksides(10, "back");
+    // createBacksides(12, "backchest");
   }
 
   function createMaps(): void {
