@@ -14,18 +14,84 @@ var SchatzjagdCards;
     let theft = "Fliehst Du,<br/>verlierst Du alles Gold!";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌
+    SchatzjagdCards.chests = {
+        Crown: {
+            count: 4,
+            head: " ",
+            background: "Chest/ChestFront.svg",
+            image: { url: "Images/Treasure_Crown.png", scale: 0.4, top: 23, left: 8 },
+        },
+        Orb: {
+            count: 4,
+            head: " ",
+            background: "Chest/ChestFront.svg",
+            image: { url: "Images/Treasure_Orb.png", scale: 0.4, top: 22, left: 10 },
+        },
+        Chalice: {
+            count: 4,
+            head: " ",
+            background: "Chest/ChestFront.svg",
+            image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 25, left: 8 },
+        },
+    };
     SchatzjagdCards.city = {
         Tavern: {
+            count: 4,
             head: "Gasthaus",
             background: "City/CityBack.svg",
-            image: { url: "Images/City_Tavern.png", scale: 0.4, top: 15, left: 7 },
-            text: { content: "2 Goldstücke pro Runde<br/>für's Tellerwaschen<br/><br/>" }
+            image: { url: "Images/City_Tavern.png", scale: 0.4, top: 17, left: 7 },
+            text: { content: "2 Goldstücke pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
+            markers: [
+                { right: xMargin, top: yBase - offset, color: yellow, content: "+2" },
+                { left: xMargin, top: yBase - offset, color: "white", content: "1" },
+                { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
+                { left: 15, top: 1, color: yellow, content: "", small: true },
+            ]
         },
         Healer: {
+            count: 4,
             head: "Heiler",
             background: "City/CityBack.svg",
             image: { url: "Images/City_Healer.png", scale: 0.35, top: 18, left: 7 },
-            text: { content: "Heilt oder entgiftet.<br/><br/>" },
+            text: { content: "Heilt oder entgiftet!<br/><br/>" },
+            markers: [
+                { right: xMargin, top: yBase - 1.5 * offset, color: green, content: "+3" },
+                { right: xMargin, top: yBase - 0.5 * offset, color: green, content: "-0" },
+                { right: xMargin - 1, top: yBase - 0.5 * offset, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin, top: yBase - 1.5 * offset, color: yellow, content: "-1" },
+                { left: xMargin, top: yBase - 0.5 * offset, color: yellow, content: "-5" },
+                { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 1 * offset, url: "Images/Arrow.svg", scale: 1 },
+                { left: xMargin + 1 + 1.5 * offset, top: yBase - 1, url: "Images/Arrow.svg", scale: 1 },
+                { left: 15, top: 1, color: green, content: "", small: true },
+            ]
+        },
+        Gym: {
+            count: 4,
+            head: "Schule",
+            background: "City/CityBack.svg",
+            image: { url: "Images/City_Gym.png", scale: 0.35, top: 20, left: 8 },
+            text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Goldstücke!<br/><br/>" },
+            markers: [
+                { right: xMargin, top: yBase - offset, color: red, content: "+1" },
+                { left: xMargin, top: yBase - offset, color: yellow, content: "-3" },
+                { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
+                { left: 15, top: 1, color: red, content: "", small: true },
+            ]
+        },
+        Forge: {
+            count: 4,
+            head: "Schmied",
+            background: "City/CityBack.svg",
+            image: { url: "Images/City_Forge.png", scale: 0.35, top: 20, left: 8 },
+            text: { content: "Fertigt feinste Waffen!<br/><br/>" },
+            markers: [
+                { right: xMargin, top: yBase - offset, color: blue, content: "+1" },
+                { left: xMargin, top: yBase - offset, color: yellow, content: "-1" },
+                { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
+                { left: 15, top: 1, color: blue, content: "", small: true },
+            ]
         },
     };
     SchatzjagdCards.map = {

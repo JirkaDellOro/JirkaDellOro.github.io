@@ -14,15 +14,17 @@ html, body {
   font-size: 0px;
   align-content: center;
   text-align: center;
+  background-color: black;
 }
 
 div {
   display: inline-block;
   position: relative;
-  width: 45mm;
-  height: 65mm;
-  margin: 1mm;
+  width: 46mm;
+  height: 66mm;
+  margin: 0.5mm;
   background-image: url("Play/CardFront.svg");
+  background-size: cover;
   font-size: 10px;
 }
 
@@ -32,6 +34,11 @@ div.back {
   margin: 0mm;
   background-image: url("Play/CardBackText.svg");
   background-size: cover;
+}
+
+div.chest {
+  width: 40mm;
+  height: 70mm;
 }
 
 h1 {
@@ -64,16 +71,16 @@ span {
   position: absolute;
   width: 7.8mm;
   height: 7.8mm;
-  /* top: 39mm; */
-  /* right: 3.5mm; */
   font-family: "Kingthings Calligraphica 2";
   font-size: 7mm;
   line-height: 6mm;
-  /* letter-spacing: -0.6mm; */
   border: 1px solid black;
   border-radius: 10mm;
-  /* background-color: red; */
-  /* vertical-align: baseline; */
+}
+
+span.small {
+  width: 4mm;
+  height: 4mm;
 }
 
 @font-face {

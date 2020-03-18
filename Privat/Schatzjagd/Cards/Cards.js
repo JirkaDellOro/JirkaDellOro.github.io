@@ -10,8 +10,9 @@ var SchatzjagdCards;
         // createCards(spells);
         // createCards(traps);
         // createMaps();
-        createCards(SchatzjagdCards.city);
-        // createBacksides(10);
+        // createCards(city);
+        createCards(SchatzjagdCards.chests, "chest");
+        // createBacksides(10, "back");
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
@@ -21,30 +22,34 @@ var SchatzjagdCards;
             document.body.appendChild(card);
         }
     }
-    function createBacksides(_count) {
+    function createBacksides(_count, _class = undefined) {
         for (let i = 0; i < _count; i++) {
             let card = document.createElement("div");
-            card.className = "back";
+            card.className = _class;
             document.body.appendChild(card);
         }
     }
-    function createCards(_list) {
+    function createCards(_list, _class = undefined) {
         for (let key in _list) {
             let cardData = _list[key];
             for (let copy = 0; copy < (cardData["count"] || 1); copy++) {
-                let card = createCard(cardData);
+                let card = createCard(cardData, _class);
                 document.body.appendChild(card);
             }
         }
     }
-    function createCard(_data) {
+    function createCard(_data, _class = undefined) {
         let card = document.createElement("div");
         let style = card.style;
+        if (_class)
+            card.className = _class;
         if (_data["background"])
             style.backgroundImage = `url("${_data["background"]}"`;
         let headline = document.createElement("h1");
-        headline.textContent = _data["head"] || "................";
+        headline.innerHTML = _data["head"];
         card.appendChild(headline);
+        if (_data["background"] == "City/CityBack.svg")
+            headline.style.paddingTop = "2mm";
         if (_data["image"])
             card.appendChild(createImage(_data["image"]));
         if (_data["text"])
@@ -82,6 +87,8 @@ var SchatzjagdCards;
         span.style.top = _marker["top"] + "mm";
         span.style.right = _marker["right"] + "mm";
         span.style.left = _marker["left"] + "mm";
+        if (_marker["small"])
+            span.className = "small";
         return span;
     }
 })(SchatzjagdCards || (SchatzjagdCards = {}));

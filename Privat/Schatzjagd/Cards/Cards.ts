@@ -10,9 +10,10 @@ namespace SchatzjagdCards {
     // createCards(spells);
     // createCards(traps);
     // createMaps();
-    createCards(city);
+    // createCards(city);
+    createCards(chests, "chest");
 
-    // createBacksides(10);
+    // createBacksides(10, "back");
   }
 
   function createMaps(): void {
@@ -22,37 +23,42 @@ namespace SchatzjagdCards {
       let card: HTMLDivElement = createCard(map);
       document.body.appendChild(card)
     }
- 
+
   }
 
-  function createBacksides(_count: number): void {
+  function createBacksides(_count: number, _class: string = undefined): void {
     for (let i: number = 0; i < _count; i++) {
       let card: HTMLDivElement = document.createElement("div");
-      card.className = "back";
+      card.className = _class;
       document.body.appendChild(card)
     }
   }
 
-  function createCards(_list: Object): void {
+  function createCards(_list: Object, _class: string = undefined): void {
     for (let key in _list) {
       let cardData = _list[key];
       for (let copy: number = 0; copy < (cardData["count"] || 1); copy++) {
-        let card: HTMLDivElement = createCard(cardData);
+        let card: HTMLDivElement = createCard(cardData, _class);
         document.body.appendChild(card)
       }
     }
   }
 
-  function createCard(_data: Object): HTMLDivElement {
+  function createCard(_data: Object, _class: string = undefined): HTMLDivElement {
     let card: HTMLDivElement = document.createElement("div");
     let style: CSSStyleDeclaration = card.style;
+
+    if (_class)
+      card.className = _class;
 
     if (_data["background"])
       style.backgroundImage = `url("${_data["background"]}"`;
 
     let headline: HTMLHeadElement = document.createElement("h1");
-    headline.textContent = _data["head"] || "................";
+    headline.innerHTML = _data["head"];
     card.appendChild(headline);
+    if (_data["background"] == "City/CityBack.svg")
+      headline.style.paddingTop = "2mm";
 
     if (_data["image"])
       card.appendChild(createImage(_data["image"]));
@@ -97,6 +103,10 @@ namespace SchatzjagdCards {
     span.style.top = _marker["top"] + "mm";
     span.style.right = _marker["right"] + "mm";
     span.style.left = _marker["left"] + "mm";
+
+    if (_marker["small"])
+      span.className = "small";
+
     return span;
   }
 }
