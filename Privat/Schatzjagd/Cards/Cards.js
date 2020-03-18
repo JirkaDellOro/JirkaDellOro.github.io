@@ -3,15 +3,15 @@ var SchatzjagdCards;
     // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        // createCards(enemies);
-        // createCards(places);
-        // createCards(potions);
-        // createCards(weapons);
-        // createCards(spells);
-        // createCards(traps);
-        // createMaps();
+        createCards(SchatzjagdCards.enemies);
+        createCards(SchatzjagdCards.places);
+        createCards(SchatzjagdCards.potions);
+        createCards(SchatzjagdCards.weapons);
+        createCards(SchatzjagdCards.spells);
+        createCards(SchatzjagdCards.traps);
+        createMaps();
         // createCards(city);
-        createCards(SchatzjagdCards.chests, "chest");
+        // createCards(chests, "chest");
         // createBacksides(12, "backchest");
     }
     function createMaps() {

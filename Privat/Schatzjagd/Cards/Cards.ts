@@ -3,15 +3,15 @@ namespace SchatzjagdCards {
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    // createCards(enemies);
-    // createCards(places);
-    // createCards(potions);
-    // createCards(weapons);
-    // createCards(spells);
-    // createCards(traps);
-    // createMaps();
+    createCards(enemies);
+    createCards(places);
+    createCards(potions);
+    createCards(weapons);
+    createCards(spells);
+    createCards(traps);
+    createMaps();
     // createCards(city);
-    createCards(chests, "chest");
+    // createCards(chests, "chest");
 
     // createBacksides(12, "backchest");
   }

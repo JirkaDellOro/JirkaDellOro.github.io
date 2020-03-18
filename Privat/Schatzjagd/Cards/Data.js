@@ -295,7 +295,7 @@ var SchatzjagdCards;
         Power0: {
             count: 2,
             head: "Stärkeelixier",
-            image: { url: "Images/Power0.png", scale: 0.4, top: 18, left: 9 },
+            image: { url: "Images/Power0.png", scale: 0.4, top: 22, left: 9 },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
                 { right: xMargin, top: yBase, color: red, content: "+1" },
@@ -304,7 +304,7 @@ var SchatzjagdCards;
         Power1: {
             count: 1,
             head: "Superkraft",
-            image: { url: "Images/Power1.png", scale: 0.4, top: 18, left: 8 },
+            image: { url: "Images/Power1.png", scale: 0.4, top: 22, left: 8 },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
                 { right: xMargin, top: yBase, color: red, content: "+2" },
@@ -334,7 +334,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - 2 * offset, color: green, content: "-5" },
                 { left: xMargin, top: yBase - 1 * offset, color: red, content: "-1" },
                 { left: xMargin, top: yBase + 0 * offset, color: green, content: "0" },
-                { left: 0.3, top: 34, url: "Images/DragonDice.svg" },
+                { left: 0.8, top: 34, url: "Images/DragonDice.svg" },
             ]
         },
         Teleportal: {
@@ -350,7 +350,7 @@ var SchatzjagdCards;
         },
         Rumpelstilz: {
             head: "Rumpelstilz",
-            image: { url: "Images/Rumpelstilz.png", scale: 0.35, top: 15, left: 9.5 },
+            image: { url: "Images/Rumpelstilz.png", scale: 0.35, top: 20, left: 9.5 },
             text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Goldstücke!" },
             markers: [
                 { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "+6" },
@@ -359,7 +359,7 @@ var SchatzjagdCards;
         },
         Elf: {
             head: "Elf, der Wegweiser",
-            image: { url: "Images/Elf.png", scale: 0.35, top: 15, left: 9.5 },
+            image: { url: "Images/Elf.png", scale: 0.35, top: 20, left: 8.5 },
             text: { content: "Würfelst Du eine<br/>5 oder eine 6,<br/>so zeigt dir der Elf<br/>eine beliebige Karte<br/>im Reich!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
