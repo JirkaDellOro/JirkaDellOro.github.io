@@ -390,9 +390,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="1398.0777"
-     inkscape:cy="758.80767"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="1466.629"
+     inkscape:cy="866.18638"
      inkscape:document-units="mm"
      inkscape:current-layer="layer11"
      showgrid="false"
@@ -5898,7 +5898,8 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="City"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#845340;fill-opacity:1;stroke:none;stroke-width:1.29999995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99109132;filter:url(#filter17082)"
        id="rect16750"
