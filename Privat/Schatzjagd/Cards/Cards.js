@@ -3,16 +3,17 @@ var SchatzjagdCards;
     // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        createCards(SchatzjagdCards.enemies);
-        createCards(SchatzjagdCards.places);
-        createCards(SchatzjagdCards.potions);
-        createCards(SchatzjagdCards.weapons);
-        createCards(SchatzjagdCards.spells);
-        createCards(SchatzjagdCards.traps);
-        createMaps();
+        // createCards(enemies);
+        // createCards(places);
+        // createCards(potions);
+        // createCards(weapons);
+        // createCards(spells);
+        // createCards(traps);
+        // createMaps();
         // createCards(city);
         // createCards(chests, "chest");
-        // createBacksides(12, "backchest");
+        // createSimple(12, "backchest");
+        createSimple(4, "cover");
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
@@ -22,7 +23,7 @@ var SchatzjagdCards;
             document.body.appendChild(card);
         }
     }
-    function createBacksides(_count, _class = undefined) {
+    function createSimple(_count, _class = undefined) {
         for (let i = 0; i < _count; i++) {
             let card = document.createElement("div");
             card.className = _class;

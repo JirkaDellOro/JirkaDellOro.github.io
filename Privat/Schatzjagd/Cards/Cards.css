@@ -14,7 +14,8 @@ html, body {
   font-size: 0px;
   align-content: center;
   text-align: center;
-  background-color: black;
+  background-color: white;
+  /* background-color: black; */
 }
 
 div {
@@ -47,6 +48,14 @@ div.backchest {
   height: 71mm;
   margin: 0.5mm;
   background-image: url("Chest/ChestBack.svg");
+  background-size: cover;
+}
+
+div.cover {
+  width: 45mm;
+  height: 70mm;
+  margin: 1mm;
+  background-image: url("Cover/Cover.svg");
   background-size: cover;
 }
 

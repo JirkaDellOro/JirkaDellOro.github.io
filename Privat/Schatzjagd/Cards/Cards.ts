@@ -3,17 +3,19 @@ namespace SchatzjagdCards {
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    createCards(enemies);
-    createCards(places);
-    createCards(potions);
-    createCards(weapons);
-    createCards(spells);
-    createCards(traps);
-    createMaps();
+    // createCards(enemies);
+    // createCards(places);
+    // createCards(potions);
+    // createCards(weapons);
+    // createCards(spells);
+    // createCards(traps);
+    // createMaps();
     // createCards(city);
     // createCards(chests, "chest");
 
-    // createBacksides(12, "backchest");
+    // createSimple(12, "backchest");
+
+    createSimple(4, "cover");
   }
 
   function createMaps(): void {
@@ -26,7 +28,7 @@ namespace SchatzjagdCards {
 
   }
 
-  function createBacksides(_count: number, _class: string = undefined): void {
+  function createSimple(_count: number, _class: string = undefined): void {
     for (let i: number = 0; i < _count; i++) {
       let card: HTMLDivElement = document.createElement("div");
       card.className = _class;
