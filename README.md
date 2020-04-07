@@ -30,4 +30,4 @@ Für meine Freunde sind hier Infos, die ich Ihnen nicht per Mail schicken mochte
 - [Feier für Calvin](Privat/Calvin/Feier18)
 
 
-[![](http://img.youtube.com/vi/pL2NtjKbza4/0.jpg)](http://www.youtube.com/watch?v=pL2NtjKbza4 "")
+<a href="http://www.youtube.com/watch?v=pL2NtjKbza4"><img src="http://img.youtube.com/vi/pL2NtjKbza4/0.jpg" width="25%"/></a>
