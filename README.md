@@ -29,3 +29,7 @@ Hier zunächst nur ein Link zu der von mir geleiteten gemeinnützigen Gesellscha
 Für meine Freunde sind hier Infos, die ich Ihnen nicht per Mail schicken mochte.
 - [Feier für Calvin](Privat/Calvin/Feier18)
 
+<video controls width="100%"> 
+  <source src="http://games.hs-furtwangen.de/EIA2_Video/L00_Intro.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
