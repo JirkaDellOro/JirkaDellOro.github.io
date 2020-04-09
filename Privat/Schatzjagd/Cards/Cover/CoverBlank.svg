@@ -30,7 +30,7 @@
      inkscape:cx="120.56289"
      inkscape:cy="130.972"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -93,7 +93,6 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Background"
-     style="display:inline"
      sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -109,8 +108,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-227)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:none">
     <image
        y="277.24374"
        x="0"
@@ -153,6 +151,23 @@
        width="48.242371"
        transform="rotate(-7.954007)" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Back">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot872"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;"><flowRegion
+         id="flowRegion874"
+         style="font-size:16px;"><rect
+           id="rect876"
+           width="150.9673"
+           height="245.7196"
+           x="8.8388348"
+           y="10.008486"
+           style="font-size:16px;" /></flowRegion><flowPara
+         id="flowPara878"></flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"

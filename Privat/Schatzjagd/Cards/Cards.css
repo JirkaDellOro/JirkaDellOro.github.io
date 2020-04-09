@@ -14,8 +14,8 @@ html, body {
   font-size: 0px;
   align-content: center;
   text-align: center;
-  background-color: white;
-  /* background-color: black; */
+  /* background-color: white; */
+  background-color: black;
 }
 
 div {
@@ -57,6 +57,26 @@ div.cover {
   margin: 1mm;
   background-image: url("Cover/Cover.svg");
   background-size: cover;
+  text-align: left;
+}
+
+div.cover h1 {
+  top: 4mm;
+  text-align: center;
+}
+
+div.cover p {
+  bottom: 3mm;
+}
+
+ol {
+  padding-left: 2em;
+  list-style: upper-roman;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  font-weight: normal;
 }
 
 h1 {

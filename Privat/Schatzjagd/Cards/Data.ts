@@ -15,6 +15,40 @@ namespace SchatzjagdCards {
   // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
   // ⛤⛧ ⚐ 🗲 ❌
 
+  export let rules = {
+    Rules: {
+      count: 12,
+      head: "",
+      background: "Cover/CoverBlank.svg",
+      text: { content: "<ol>\
+      <li>Der Zug des Ritters</li><ul>\
+        <li>Würfeln und Ritter bewegen.</li>\
+        <li>Nur über freie Felder.</li>\
+        <li>Stopp bei Karte oder Ritter.</li>\
+        <li>Karte erreicht? Aufdecken!</li>\
+        <li>Karte entfaltet Wirkung.</li></ul>\
+      <li>Der Zug des Fürsten</li><ul>\
+        <li>Karte aus der Hand spielen.</li>\
+        <li>In ein freies Feld einstecken</li>\
+        <li>oder zeigen (Zauber, Lageplan)</li>\
+        <li>Kartenhand < 4 ? Nachziehen!</li></ul>\
+      <li>Die Stadt </li><ul>\
+        <li>Gasthaus +2 Gold pro Zug.</li>\
+        <li>Schule -3 Gold +1 Kraft pro Zug.</li>\
+        <li>Schmied -X Gold +X Waffen.</li>\
+        <li>Heiler -X Gold  +3×X Leben. </li>\
+        </ul>\
+      <li>Merke</li><ul>\
+        <li>Karten nur im eigenen Zug und</li>\
+        <li>nur eine Karte pro Zug spielen.</li>\
+        <li>Zauber im Ritterzug spielbar.</li>\
+        <li>Vor den Stadttoren warten.</li>\
+        </ul>\
+        </ol>\
+      " },
+    }
+  }
+
   export let chests = {
     Crown: {
       count: 4,
@@ -99,7 +133,7 @@ namespace SchatzjagdCards {
 
   export let map = {
     count: 1,
-    head: "Schatzkarte",
+    head: "Lageplan",
     image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
     text: { content: "Stehst Du auf dem Feld,<br/>spiele die Karte aus<br/>um einen Schatz<br/>zu heben." },
     markers: [

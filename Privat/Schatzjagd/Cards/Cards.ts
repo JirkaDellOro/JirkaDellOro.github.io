@@ -12,10 +12,11 @@ namespace SchatzjagdCards {
     // createMaps();
     // createCards(city);
     // createCards(chests, "chest");
-
+    
     // createSimple(12, "backchest");
-
-    createSimple(4, "cover");
+    
+    createSimple(12, "cover");
+    // createCards(rules, "cover");
   }
 
   function createMaps(): void {
