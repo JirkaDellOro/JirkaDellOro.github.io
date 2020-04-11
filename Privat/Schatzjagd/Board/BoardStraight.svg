@@ -390,11 +390,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="940.2095"
-     inkscape:cy="918.38007"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="717.36236"
+     inkscape:cy="614.26817"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer6"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -558,9 +558,10 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Background"
-     style="display:inline;opacity:1">
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#cec79a;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter9546)"
+       style="opacity:1;fill:#f3d5b7;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter9546)"
        id="rect8044"
        width="510"
        height="410"
@@ -4114,13 +4115,242 @@
          x="-238.98129"
          y="-22.944366"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0.03175px;stroke-width:0.26458332">15            10             5             0</tspan></text>
+    <g
+       id="g2734">
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-345.72"
+         x="-470"
+         height="48.720005"
+         width="15"
+         id="rect2309-0-6-5-2"
+         style="display:inline;opacity:1;fill:#949494;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-292.99994"
+         x="-470.00003"
+         height="48.720001"
+         width="15"
+         id="rect2309-0-6-5"
+         style="display:inline;opacity:1;fill:#949494;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         inkscape:tile-y0="443.99999"
+         inkscape:tile-x0="26.000001"
+         inkscape:tile-h="5.8000005"
+         inkscape:tile-w="6.0000003"
+         inkscape:tile-cy="446.89999"
+         inkscape:tile-cx="29.000002"
+         y="-250.08"
+         x="-461.07675"
+         height="5.8000002"
+         width="6.0767422"
+         id="rect2309-5-5-5-5"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <use
+         id="use6203-6-1-4"
+         transform="translate(12.18)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6207-6-5-68"
+         transform="translate(24.36)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6211-6-5-4"
+         transform="translate(36.54)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6215-1-8-3"
+         transform="translate(52.72)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6219-1-4-0"
+         transform="translate(64.9)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6223-0-9-4"
+         transform="translate(77.08001)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6227-2-6-87"
+         transform="translate(89.26001)"
+         xlink:href="#rect2309-5-5-5-5"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <text
+         id="text6475-4-68"
+         y="467.05566"
+         x="246.69098"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+           y="467.05566"
+           x="246.69098"
+           id="tspan6473-3-2"
+           sodipodi:role="line">0              5             10            15</tspan></text>
+    </g>
+    <g
+       transform="rotate(-180,295,245.00002)"
+       style="display:inline"
+       id="g2734-4">
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-345.72"
+         x="-470"
+         height="48.720005"
+         width="15"
+         id="rect2309-0-6-5-2-0"
+         style="display:inline;opacity:1;fill:#949494;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-292.99994"
+         x="-470.00003"
+         height="48.720001"
+         width="15"
+         id="rect2309-0-6-5-3"
+         style="display:inline;opacity:1;fill:#949494;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         inkscape:tile-y0="443.99999"
+         inkscape:tile-x0="26.000001"
+         inkscape:tile-h="5.8000005"
+         inkscape:tile-w="6.0000003"
+         inkscape:tile-cy="446.89999"
+         inkscape:tile-cx="29.000002"
+         y="-250.08"
+         x="-461.07675"
+         height="5.8000002"
+         width="6.0767422"
+         id="rect2309-5-5-5-5-7"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <use
+         id="use6203-6-1-4-2"
+         transform="translate(12.18)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6207-6-5-68-3"
+         transform="translate(24.36)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6211-6-5-4-7"
+         transform="translate(36.54)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6215-1-8-3-2"
+         transform="translate(52.72)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6219-1-4-0-9"
+         transform="translate(64.9)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6223-0-9-4-3"
+         transform="translate(77.08001)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <use
+         id="use6227-2-6-87-0"
+         transform="translate(89.26001)"
+         xlink:href="#rect2309-5-5-5-5-7"
+         inkscape:tiled-clone-of="#rect2309-5-5-5-5-7"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%"
+         style="stroke-width:0.99366552" />
+      <text
+         id="text6475-4-68-5"
+         y="467.05566"
+         x="246.69098"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+           y="467.05566"
+           x="246.69098"
+           id="tspan6473-3-2-7"
+           sodipodi:role="line">0              5             10            15</tspan></text>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Street"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:1;fill:#b35d05;fill-opacity:0.85300664;stroke:#672201;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99109132;filter:url(#filter11771)"
        id="rect11459"
@@ -4128,7 +4358,7 @@
        height="410"
        x="290"
        y="37.261093"
-       transform="matrix(1.3342399,0,0,1.1830532,-97.637425,-40.599039)" />
+       transform="matrix(1.3342399,0,0,0.99539801,-98.695759,2.7802378)" />
   </g>
   <g
      inkscape:groupmode="layer"
