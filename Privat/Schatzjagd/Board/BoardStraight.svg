@@ -391,8 +391,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.45254834"
-     inkscape:cx="1346.2941"
-     inkscape:cy="950.42203"
+     inkscape:cx="1121.9162"
+     inkscape:cy="904.36321"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -503,6 +503,30 @@
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="35.000001,35.000001"
+       orientation="0,1"
+       id="guide2522"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="35.000002,35"
+       orientation="1,0"
+       id="guide2524"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="555.00001,455.00001"
+       orientation="0,1"
+       id="guide2526"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="555.00002,455"
+       orientation="1,0"
+       id="guide2528"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata834">
@@ -1533,14 +1557,14 @@
     <rect
        style="display:inline;opacity:1;fill:#ff0404;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309"
-       width="20"
+       width="15.000001"
        height="97.25"
        x="20"
        y="352.54996" />
     <g
        id="g6309"
-       transform="matrix(1.8282567,0,0,1,-18.611414,0)"
-       style="stroke-width:0.7395736">
+       transform="matrix(1.0127902,0,0,1,2.5907148,0)"
+       style="stroke-width:0.99366558">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -1553,7 +1577,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3697868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683279;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203"
          transform="translate(0,-12.180001)"
@@ -1563,7 +1587,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6207"
          transform="translate(0,-24.360002)"
@@ -1573,7 +1597,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6211"
          transform="translate(0,-36.540003)"
@@ -1583,7 +1607,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6215"
          transform="translate(0,-48.720004)"
@@ -1593,7 +1617,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6219"
          transform="translate(0,-60.900005)"
@@ -1603,7 +1627,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6223"
          transform="translate(0,-73.080006)"
@@ -1613,7 +1637,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6227"
          transform="translate(0,-85.260007)"
@@ -1623,7 +1647,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
     </g>
     <text
        xml:space="preserve"
@@ -1654,14 +1678,14 @@
     <rect
        style="display:inline;opacity:1;fill:#04a3ff;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-9"
-       width="20"
+       width="15.000001"
        height="97.25"
        x="20"
        y="250" />
     <g
        id="g6309-3"
-       transform="matrix(1.8282567,0,0,1,-18.611414,-102.54996)"
-       style="stroke-width:0.7395736">
+       transform="matrix(1.0127902,0,0,1,2.5907148,-102.54996)"
+       style="stroke-width:0.99366558">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -1674,7 +1698,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-6"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3697868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683279;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-2"
          transform="translate(0,-12.180001)"
@@ -1684,7 +1708,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6207-9"
          transform="translate(0,-24.360002)"
@@ -1694,7 +1718,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6211-7"
          transform="translate(0,-36.540003)"
@@ -1704,7 +1728,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6215-4"
          transform="translate(0,-48.720004)"
@@ -1714,7 +1738,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6219-6"
          transform="translate(0,-60.900005)"
@@ -1724,7 +1748,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6223-5"
          transform="translate(0,-73.080006)"
@@ -1734,7 +1758,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6227-9"
          transform="translate(0,-85.260007)"
@@ -1744,7 +1768,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
     </g>
     <text
        xml:space="preserve"
@@ -1775,15 +1799,15 @@
     <rect
        style="display:inline;opacity:1;fill:#01ff1f;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0"
-       width="20"
+       width="15"
        height="97.25"
        x="-470"
        y="-137.25"
        transform="matrix(0,-1,-1,0,0,0)" />
     <g
        id="g6309-1"
-       transform="matrix(0,-1.8461235,-1,0,489.79996,509.07595)"
-       style="stroke-width:0.73598611">
+       transform="matrix(0,-1.0127904,-1,0,489.79996,487.40929)"
+       style="stroke-width:0.99366552">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -1796,7 +1820,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799306;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683276;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6"
          transform="translate(0,-12.180001)"
@@ -1806,7 +1830,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6207-6"
          transform="translate(0,-24.360002)"
@@ -1816,7 +1840,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6211-6"
          transform="translate(0,-36.540003)"
@@ -1826,7 +1850,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6215-1"
          transform="translate(0,-48.720004)"
@@ -1836,7 +1860,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6219-1"
          transform="translate(0,-60.900005)"
@@ -1846,7 +1870,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6223-0"
          transform="translate(0,-73.080006)"
@@ -1856,7 +1880,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6227-2"
          transform="translate(0,-85.260007)"
@@ -1866,7 +1890,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
     </g>
     <text
        xml:space="preserve"
@@ -1882,15 +1906,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ffd22a;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-6"
-       width="20"
+       width="15"
        height="97.25"
        x="-470"
        y="-239.75"
        transform="matrix(0,-1,-1,0,0,0)" />
     <g
        id="g6309-1-2"
-       transform="matrix(0,-1.8461235,-1,0,592.29996,509.07595)"
-       style="stroke-width:0.73598611">
+       transform="matrix(0,-1.0127904,-1,0,592.29996,487.40929)"
+       style="stroke-width:0.99366552">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -1903,7 +1927,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-5"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799306;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683276;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-1"
          transform="translate(0,-12.180001)"
@@ -1913,7 +1937,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6207-6-5"
          transform="translate(0,-24.360002)"
@@ -1923,7 +1947,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6211-6-5"
          transform="translate(0,-36.540003)"
@@ -1933,7 +1957,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6215-1-8"
          transform="translate(0,-48.720004)"
@@ -1943,7 +1967,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6219-1-4"
          transform="translate(0,-60.900005)"
@@ -1953,7 +1977,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6223-0-9"
          transform="translate(0,-73.080006)"
@@ -1963,7 +1987,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6227-2-6"
          transform="translate(0,-85.260007)"
@@ -1973,7 +1997,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
     </g>
     <text
        xml:space="preserve"
@@ -1989,15 +2013,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ff0404;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-8"
-       width="20.000004"
+       width="14.999994"
        height="97.25"
        x="-570"
        y="352.54996"
        transform="scale(-1,1)" />
     <g
        id="g6309-6"
-       transform="matrix(-1.8461244,0,0,1,609.07598,5.1548398e-7)"
-       style="stroke-width:0.73598593">
+       transform="matrix(-1.0127894,0,0,1,587.40927,5.1548398e-7)"
+       style="stroke-width:0.99366599">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2010,7 +2034,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-9"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799297;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.496833;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-4"
          transform="translate(0,-12.180001)"
@@ -2020,7 +2044,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6207-0"
          transform="translate(0,-24.360002)"
@@ -2030,7 +2054,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6211-0"
          transform="translate(0,-36.540003)"
@@ -2040,7 +2064,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6215-8"
          transform="translate(0,-48.720004)"
@@ -2050,7 +2074,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6219-60"
          transform="translate(0,-60.900005)"
@@ -2060,7 +2084,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6223-1"
          transform="translate(0,-73.080006)"
@@ -2070,7 +2094,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6227-99"
          transform="translate(0,-85.260007)"
@@ -2080,7 +2104,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
     </g>
     <text
        xml:space="preserve"
@@ -2111,15 +2135,15 @@
     <rect
        style="display:inline;opacity:1;fill:#04a3ff;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-9-1"
-       width="20.000004"
+       width="14.999994"
        height="97.25"
        x="-570"
        y="250"
        transform="scale(-1,1)" />
     <g
        id="g6309-3-2"
-       transform="matrix(-1.8461244,0,0,1,609.07598,-102.54996)"
-       style="stroke-width:0.73598593">
+       transform="matrix(-1.0127894,0,0,1,587.40927,-102.54996)"
+       style="stroke-width:0.99366599">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2132,7 +2156,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-6-4"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799297;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.496833;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-2-4"
          transform="translate(0,-12.180001)"
@@ -2142,7 +2166,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6207-9-4"
          transform="translate(0,-24.360002)"
@@ -2152,7 +2176,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6211-7-7"
          transform="translate(0,-36.540003)"
@@ -2162,7 +2186,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6215-4-8"
          transform="translate(0,-48.720004)"
@@ -2172,7 +2196,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6219-6-6"
          transform="translate(0,-60.900005)"
@@ -2182,7 +2206,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6223-5-4"
          transform="translate(0,-73.080006)"
@@ -2192,7 +2216,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6227-9-8"
          transform="translate(0,-85.260007)"
@@ -2202,7 +2226,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
     </g>
     <text
        xml:space="preserve"
@@ -2233,15 +2257,15 @@
     <rect
        style="display:inline;opacity:1;fill:#01ff1f;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-4"
-       width="20"
+       width="15"
        height="97.25"
        x="-470"
        y="452.75"
        transform="rotate(-90)" />
     <g
        id="g6309-1-6"
-       transform="matrix(0,-1.8461235,1,0,100.20004,509.07595)"
-       style="stroke-width:0.73598611">
+       transform="matrix(0,-1.0127904,1,0,100.20004,487.40929)"
+       style="stroke-width:0.99366552">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2254,7 +2278,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-9"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799306;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683276;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-5"
          transform="translate(0,-12.180001)"
@@ -2264,7 +2288,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6207-6-7"
          transform="translate(0,-24.360002)"
@@ -2274,7 +2298,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6211-6-52"
          transform="translate(0,-36.540003)"
@@ -2284,7 +2308,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6215-1-7"
          transform="translate(0,-48.720004)"
@@ -2294,7 +2318,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6219-1-3"
          transform="translate(0,-60.900005)"
@@ -2304,7 +2328,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6223-0-1"
          transform="translate(0,-73.080006)"
@@ -2314,7 +2338,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6227-2-9"
          transform="translate(0,-85.260007)"
@@ -2324,7 +2348,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
     </g>
     <text
        xml:space="preserve"
@@ -2340,15 +2364,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ffd22a;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-6-3"
-       width="20"
+       width="15"
        height="97.25"
        x="-470"
        y="350.25"
        transform="rotate(-90)" />
     <g
        id="g6309-1-2-8"
-       transform="matrix(0,-1.8461235,1,0,-2.29996,509.07595)"
-       style="stroke-width:0.73598611">
+       transform="matrix(0,-1.0127904,1,0,-2.29996,487.40929)"
+       style="stroke-width:0.99366552">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2361,7 +2385,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-5-1"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799306;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683276;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-1-9"
          transform="translate(0,-12.180001)"
@@ -2371,7 +2395,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6207-6-5-6"
          transform="translate(0,-24.360002)"
@@ -2381,7 +2405,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6211-6-5-2"
          transform="translate(0,-36.540003)"
@@ -2391,7 +2415,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6215-1-8-2"
          transform="translate(0,-48.720004)"
@@ -2401,7 +2425,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6219-1-4-7"
          transform="translate(0,-60.900005)"
@@ -2411,7 +2435,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6223-0-9-6"
          transform="translate(0,-73.080006)"
@@ -2421,7 +2445,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
       <use
          id="use6227-2-6-0"
          transform="translate(0,-85.260007)"
@@ -2431,7 +2455,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598611" />
+         style="stroke-width:0.99366552" />
     </g>
     <text
        xml:space="preserve"
@@ -2447,15 +2471,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ff0404;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-57"
-       width="20.000004"
+       width="14.999994"
        height="97.25"
        x="-570"
        y="-137.45003"
        transform="scale(-1)" />
     <g
        id="g6309-31"
-       transform="matrix(-1.8461244,0,0,-1,609.07598,489.99998)"
-       style="stroke-width:0.73598593">
+       transform="matrix(-1.0127894,0,0,-1,587.40927,489.99998)"
+       style="stroke-width:0.99366599">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2468,7 +2492,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-2"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799297;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.496833;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-64"
          transform="translate(0,-12.180001)"
@@ -2478,7 +2502,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6207-8"
          transform="translate(0,-24.360002)"
@@ -2488,7 +2512,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6211-3"
          transform="translate(0,-36.540003)"
@@ -2498,7 +2522,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6215-17"
          transform="translate(0,-48.720004)"
@@ -2508,7 +2532,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6219-7"
          transform="translate(0,-60.900005)"
@@ -2518,7 +2542,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6223-4"
          transform="translate(0,-73.080006)"
@@ -2528,7 +2552,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6227-4"
          transform="translate(0,-85.260007)"
@@ -2538,7 +2562,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
     </g>
     <text
        xml:space="preserve"
@@ -2570,15 +2594,15 @@
     <rect
        style="display:inline;opacity:1;fill:#04a3ff;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-9-15"
-       width="20.000004"
+       width="14.999994"
        height="97.25"
        x="-570"
        y="-239.99998"
        transform="scale(-1)" />
     <g
        id="g6309-3-7"
-       transform="matrix(-1.8461244,0,0,-1,609.07598,592.54994)"
-       style="stroke-width:0.73598593">
+       transform="matrix(-1.0127894,0,0,-1,587.40927,592.54994)"
+       style="stroke-width:0.99366599">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2591,7 +2615,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-6-0"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799297;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.496833;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-2-7"
          transform="translate(0,-12.180001)"
@@ -2601,7 +2625,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6207-9-8"
          transform="translate(0,-24.360002)"
@@ -2611,7 +2635,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6211-7-4"
          transform="translate(0,-36.540003)"
@@ -2621,7 +2645,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6215-4-4"
          transform="translate(0,-48.720004)"
@@ -2631,7 +2655,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6219-6-5"
          transform="translate(0,-60.900005)"
@@ -2641,7 +2665,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6223-5-5"
          transform="translate(0,-73.080006)"
@@ -2651,7 +2675,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
       <use
          id="use6227-9-9"
          transform="translate(0,-85.260007)"
@@ -2661,7 +2685,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598593" />
+         style="stroke-width:0.99366599" />
     </g>
     <text
        xml:space="preserve"
@@ -2693,15 +2717,15 @@
     <rect
        style="display:inline;opacity:1;fill:#01ff1f;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-9"
-       width="20.000031"
+       width="14.999996"
        height="97.25"
-       x="19.999981"
+       x="19.999979"
        y="452.75"
        transform="matrix(0,1,1,0,0,0)" />
     <g
        id="g6309-1-5"
-       transform="matrix(0,1.8461289,1,0,100.20004,-19.076115)"
-       style="stroke-width:0.73598504">
+       transform="matrix(0,1.0127874,1,0,100.20004,2.5907659)"
+       style="stroke-width:0.99366701">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2714,7 +2738,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-92"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799252;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4968335;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-7"
          transform="translate(0,-12.180001)"
@@ -2724,7 +2748,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6207-6-8"
          transform="translate(0,-24.360002)"
@@ -2734,7 +2758,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6211-6-2"
          transform="translate(0,-36.540003)"
@@ -2744,7 +2768,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6215-1-9"
          transform="translate(0,-48.720004)"
@@ -2754,7 +2778,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6219-1-6"
          transform="translate(0,-60.900005)"
@@ -2764,7 +2788,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6223-0-12"
          transform="translate(0,-73.080006)"
@@ -2774,7 +2798,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6227-2-90"
          transform="translate(0,-85.260007)"
@@ -2784,7 +2808,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
     </g>
     <text
        xml:space="preserve"
@@ -2801,15 +2825,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ffd22a;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-6-8"
-       width="20.000031"
+       width="14.999996"
        height="97.25"
-       x="19.999981"
+       x="19.999979"
        y="350.25"
        transform="matrix(0,1,1,0,0,0)" />
     <g
        id="g6309-1-2-2"
-       transform="matrix(0,1.8461289,1,0,-2.29996,-19.076115)"
-       style="stroke-width:0.73598504">
+       transform="matrix(0,1.0127874,1,0,-2.29996,2.5907659)"
+       style="stroke-width:0.99366701">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2822,7 +2846,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-5-7"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799252;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4968335;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-1-0"
          transform="translate(0,-12.180001)"
@@ -2832,7 +2856,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6207-6-5-4"
          transform="translate(0,-24.360002)"
@@ -2842,7 +2866,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6211-6-5-0"
          transform="translate(0,-36.540003)"
@@ -2852,7 +2876,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6215-1-8-27"
          transform="translate(0,-48.720004)"
@@ -2862,7 +2886,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6219-1-4-1"
          transform="translate(0,-60.900005)"
@@ -2872,7 +2896,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6223-0-9-8"
          transform="translate(0,-73.080006)"
@@ -2882,7 +2906,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6227-2-6-8"
          transform="translate(0,-85.260007)"
@@ -2892,7 +2916,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.73598504" />
+         style="stroke-width:0.99366701" />
     </g>
     <text
        xml:space="preserve"
@@ -2909,15 +2933,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ff0404;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-8-9"
-       width="20"
+       width="15.000001"
        height="97.25"
        x="20"
        y="-137.45004"
        transform="scale(1,-1)" />
     <g
        id="g6309-6-9"
-       transform="matrix(1.8282567,0,0,-1,-18.611414,490)"
-       style="stroke-width:0.7395736">
+       transform="matrix(1.0127902,0,0,-1,2.5907148,490)"
+       style="stroke-width:0.99366558">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -2930,7 +2954,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-9-7"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3697868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683279;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-4-9"
          transform="translate(0,-12.180001)"
@@ -2940,7 +2964,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6207-0-1"
          transform="translate(0,-24.360002)"
@@ -2950,7 +2974,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6211-0-6"
          transform="translate(0,-36.540003)"
@@ -2960,7 +2984,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6215-8-9"
          transform="translate(0,-48.720004)"
@@ -2970,7 +2994,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6219-60-0"
          transform="translate(0,-60.900005)"
@@ -2980,7 +3004,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6223-1-5"
          transform="translate(0,-73.080006)"
@@ -2990,7 +3014,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6227-99-1"
          transform="translate(0,-85.260007)"
@@ -3000,7 +3024,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
     </g>
     <text
        xml:space="preserve"
@@ -3032,15 +3056,15 @@
     <rect
        style="display:inline;opacity:1;fill:#04a3ff;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-9-1-0"
-       width="20"
+       width="15.000001"
        height="97.25"
-       x="20.000004"
+       x="20.000002"
        y="-240"
        transform="scale(1,-1)" />
     <g
        id="g6309-3-2-6"
-       transform="matrix(1.8282567,0,0,-1,-18.611411,592.54996)"
-       style="stroke-width:0.7395736">
+       transform="matrix(1.0127902,0,0,-1,2.5907168,592.54996)"
+       style="stroke-width:0.99366558">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -3053,7 +3077,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-6-4-0"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3697868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49683279;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-2-4-3"
          transform="translate(0,-12.180001)"
@@ -3063,7 +3087,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6207-9-4-2"
          transform="translate(0,-24.360002)"
@@ -3073,7 +3097,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6211-7-7-9"
          transform="translate(0,-36.540003)"
@@ -3083,7 +3107,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6215-4-8-8"
          transform="translate(0,-48.720004)"
@@ -3093,7 +3117,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6219-6-6-7"
          transform="translate(0,-60.900005)"
@@ -3103,7 +3127,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6223-5-4-0"
          transform="translate(0,-73.080006)"
@@ -3113,7 +3137,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
       <use
          id="use6227-9-8-1"
          transform="translate(0,-85.260007)"
@@ -3123,7 +3147,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7395736" />
+         style="stroke-width:0.99366558" />
     </g>
     <text
        xml:space="preserve"
@@ -3153,17 +3177,17 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:2.86999989;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';text-align:end;text-anchor:end;stroke-width:0.26458332"
          id="tspan6299-6-7-3">0</tspan></text>
     <rect
-       style="display:inline;opacity:1;fill:#01ff1f;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#01ff1f;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-4-8"
-       width="20.000011"
+       width="14.999996"
        height="97.25"
-       x="19.999998"
+       x="20.000004"
        y="-137.25"
        transform="rotate(90)" />
     <g
        id="g6309-1-6-2"
-       transform="matrix(0,1.8461256,-1,0,489.79996,-19.076008)"
-       style="stroke-width:0.7359857">
+       transform="matrix(0,1.0127874,-1,0,489.79996,2.5908054)"
+       style="stroke-width:0.99366701">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -3176,7 +3200,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-9-1"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799285;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4968335;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-5-2"
          transform="translate(0,-12.180001)"
@@ -3186,7 +3210,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6207-6-7-5"
          transform="translate(0,-24.360002)"
@@ -3196,7 +3220,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6211-6-52-0"
          transform="translate(0,-36.540003)"
@@ -3206,7 +3230,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6215-1-7-8"
          transform="translate(0,-48.720004)"
@@ -3216,7 +3240,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6219-1-3-7"
          transform="translate(0,-60.900005)"
@@ -3226,7 +3250,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6223-0-1-8"
          transform="translate(0,-73.080006)"
@@ -3236,7 +3260,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6227-2-9-3"
          transform="translate(0,-85.260007)"
@@ -3246,7 +3270,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
     </g>
     <text
        xml:space="preserve"
@@ -3263,15 +3287,15 @@
     <rect
        style="display:inline;opacity:1;fill:#ffd22a;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309-0-6-3-2"
-       width="20.000013"
+       width="14.999996"
        height="97.25"
-       x="19.999998"
+       x="20.000004"
        y="-239.75"
        transform="rotate(90)" />
     <g
        id="g6309-1-2-8-4"
-       transform="matrix(0,1.8461256,-1,0,592.29996,-19.076008)"
-       style="stroke-width:0.7359857">
+       transform="matrix(0,1.0127874,-1,0,592.29996,2.5908054)"
+       style="stroke-width:0.99366701">
       <rect
          inkscape:tile-y0="443.99999"
          inkscape:tile-x0="26.000001"
@@ -3284,7 +3308,7 @@
          height="5.8000002"
          width="6"
          id="rect2309-5-5-5-1-8"
-         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36799285;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4968335;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <use
          id="use6203-6-1-9-0"
          transform="translate(0,-12.180001)"
@@ -3294,7 +3318,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6207-6-5-6-3"
          transform="translate(0,-24.360002)"
@@ -3304,7 +3328,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6211-6-5-2-2"
          transform="translate(0,-36.540003)"
@@ -3314,7 +3338,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6215-1-8-2-6"
          transform="translate(0,-48.720004)"
@@ -3324,7 +3348,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6219-1-4-7-1"
          transform="translate(0,-60.900005)"
@@ -3334,7 +3358,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6223-0-9-6-8"
          transform="translate(0,-73.080006)"
@@ -3344,7 +3368,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
       <use
          id="use6227-2-6-0-8"
          transform="translate(0,-85.260007)"
@@ -3354,7 +3378,7 @@
          x="0"
          width="100%"
          height="100%"
-         style="stroke-width:0.7359857" />
+         style="stroke-width:0.99366701" />
     </g>
     <text
        xml:space="preserve"
