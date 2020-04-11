@@ -390,11 +390,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="1121.9162"
-     inkscape:cy="904.36321"
+     inkscape:zoom="0.5"
+     inkscape:cx="1468.0343"
+     inkscape:cy="945.58277"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer8"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -527,6 +527,20 @@
        orientation="1,0"
        id="guide2528"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="65.000002,244.99999"
+       orientation="1,0"
+       id="guide2537"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="265.00001,244.99999"
+       orientation="1,0"
+       id="guide2828"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
   <metadata
      id="metadata834">
@@ -1553,7 +1567,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Counter"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="display:inline;opacity:1;fill:#ff0404;fill-opacity:1;stroke:#1a0000;stroke-width:0.49999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2309"
@@ -10709,5 +10724,380 @@
        id="path17359"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Coordinates">
+    <circle
+       cx="245"
+       cy="-65"
+       r="4"
+       id="circle2830"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(90)" />
+    <text
+       id="text2834"
+       y="-62.211761"
+       x="242.55914"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-62.211761"
+         x="242.55914"
+         id="tspan2832"
+         sodipodi:role="line">A</tspan></text>
+    <circle
+       cx="245"
+       cy="-114.5"
+       r="4"
+       id="circle2838"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(90)" />
+    <text
+       id="text2842"
+       y="-111.75854"
+       x="242.948"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-111.75854"
+         x="242.948"
+         id="tspan2840"
+         sodipodi:role="line">B</tspan></text>
+    <circle
+       cx="245"
+       cy="-164"
+       r="4"
+       id="circle2846"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(90)" />
+    <text
+       id="text2850"
+       y="-161.21178"
+       x="242.55914"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-161.21178"
+         x="242.55914"
+         id="tspan2848"
+         sodipodi:role="line">C</tspan></text>
+    <circle
+       cx="245"
+       cy="-213.50002"
+       r="4"
+       id="circle2862"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(90)" />
+    <text
+       id="text2866"
+       y="-210.80533"
+       x="242.90123"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-210.80533"
+         x="242.90123"
+         id="tspan2864"
+         sodipodi:role="line">D</tspan></text>
+    <circle
+       cx="245"
+       cy="-254.41763"
+       r="4"
+       id="circle2854"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(90)" />
+    <text
+       id="text2858"
+       y="-251.62941"
+       x="242.98006"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-251.62941"
+         x="242.98006"
+         id="tspan2856"
+         sodipodi:role="line">E</tspan></text>
+    <circle
+       cx="-244.6783"
+       cy="524.685"
+       r="4"
+       id="circle2830-3"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(-90)" />
+    <text
+       id="text2834-0"
+       y="527.80054"
+       x="-246.97887"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="527.80054"
+         x="-246.97887"
+         id="tspan2832-2"
+         sodipodi:role="line">J</tspan></text>
+    <circle
+       cx="-244.6783"
+       cy="475.185"
+       r="4"
+       id="circle2838-9"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(-90)" />
+    <text
+       id="text2842-2"
+       y="477.97324"
+       x="-245.92055"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="477.97324"
+         x="-245.92055"
+         id="tspan2840-7"
+         sodipodi:role="line">I</tspan></text>
+    <circle
+       cx="-244.6783"
+       cy="425.685"
+       r="4"
+       id="circle2846-5"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(-90)" />
+    <text
+       id="text2850-8"
+       y="428.37967"
+       x="-247.25948"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="428.37967"
+         x="-247.25948"
+         id="tspan2848-7"
+         sodipodi:role="line">H</tspan></text>
+    <circle
+       cx="-244.6783"
+       cy="376.18497"
+       r="4"
+       id="circle2862-2"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(-90)" />
+    <text
+       id="text2866-5"
+       y="378.83289"
+       x="-247.50803"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="378.83289"
+         x="-247.50803"
+         id="tspan2864-0"
+         sodipodi:role="line">G</tspan></text>
+    <circle
+       cx="-244.6783"
+       cy="335.26736"
+       r="4"
+       id="circle2854-3"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="rotate(-90)" />
+    <text
+       id="text2858-9"
+       y="338.0556"
+       x="-246.82384"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="338.0556"
+         x="-246.82384"
+         id="tspan2856-7"
+         sodipodi:role="line">F</tspan></text>
+    <circle
+       cx="294.9982"
+       cy="430.00287"
+       r="4"
+       id="circle2830-1"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802" />
+    <text
+       id="text2834-02"
+       y="431.94324"
+       x="293.18292"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="431.94324"
+         x="293.18292"
+         id="tspan2832-7"
+         sodipodi:role="line">0</tspan></text>
+    <circle
+       cx="294.98651"
+       cy="390.00412"
+       r="4"
+       id="circle2838-0"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802" />
+    <text
+       id="text2842-3"
+       y="391.96796"
+       x="294.13315"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="391.96796"
+         x="294.13315"
+         id="tspan2840-77"
+         sodipodi:role="line">1</tspan></text>
+    <circle
+       cx="294.98651"
+       cy="350.00543"
+       r="4"
+       id="circle2846-3"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802" />
+    <text
+       id="text2850-5"
+       y="351.73532"
+       x="293.60397"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332;"
+         y="351.73532"
+         x="293.60397"
+         id="tspan2848-2"
+         sodipodi:role="line">2</tspan></text>
+    <circle
+       cx="294.98651"
+       cy="310.00668"
+       r="4"
+       id="circle2862-9"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802" />
+    <text
+       id="text2866-9"
+       y="311.30099"
+       x="293.74432"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="311.30099"
+         x="293.74432"
+         id="tspan2864-5"
+         sodipodi:role="line">3</tspan></text>
+    <circle
+       cx="294.98651"
+       cy="270.00797"
+       r="4"
+       id="circle2854-8"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802" />
+    <text
+       id="text2858-0"
+       y="271.17645"
+       x="293.04257"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="271.17645"
+         x="293.04257"
+         id="tspan2856-4"
+         sodipodi:role="line">4</tspan></text>
+    <circle
+       cx="-295.00302"
+       cy="-60.011471"
+       r="4"
+       id="circle2830-1-8"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="scale(-1)" />
+    <text
+       id="text2834-02-8"
+       y="-58.740604"
+       x="-296.78607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="scale(-1)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-58.740604"
+         x="-296.78607"
+         id="tspan2832-7-0"
+         sodipodi:role="line">9</tspan></text>
+    <circle
+       cx="-295.01471"
+       cy="-100.0102"
+       r="4"
+       id="circle2838-0-5"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="scale(-1)" />
+    <text
+       id="text2842-3-6"
+       y="-98.093193"
+       x="-296.63116"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="scale(-1)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-98.093193"
+         x="-296.63116"
+         id="tspan2840-77-4"
+         sodipodi:role="line">8</tspan></text>
+    <circle
+       cx="-295.01471"
+       cy="-140.00893"
+       r="4"
+       id="circle2846-3-5"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="scale(-1)" />
+    <text
+       id="text2850-5-5"
+       y="-138.80818"
+       x="-296.44403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="scale(-1)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-138.80818"
+         x="-296.44403"
+         id="tspan2848-2-2"
+         sodipodi:role="line">7</tspan></text>
+    <circle
+       cx="-295.01474"
+       cy="-180.00764"
+       r="4"
+       id="circle2862-9-8"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="scale(-1)" />
+    <text
+       id="text2866-9-1"
+       y="-177.21942"
+       x="-296.97324"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="scale(-1)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-177.21942"
+         x="-296.97324"
+         id="tspan2864-5-0"
+         sodipodi:role="line">6</tspan></text>
+    <circle
+       cx="-295.01474"
+       cy="-220.00638"
+       r="4"
+       id="circle2854-8-2"
+       style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97406802"
+       transform="scale(-1)" />
+    <text
+       id="text2858-0-3"
+       y="-218.80563"
+       x="-296.39728"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="scale(-1)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+         y="-218.80563"
+         x="-296.39728"
+         id="tspan2856-4-8"
+         sodipodi:role="line">5</tspan></text>
   </g>
 </svg>
