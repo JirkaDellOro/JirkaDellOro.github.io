@@ -14,12 +14,34 @@ var SchatzjagdCards;
     let theft = "Fliehst Du,<br/>verlierst Du alles Gold!";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌
+    SchatzjagdCards.addition = {
+        Horse: {
+            count: 4,
+            head: "Schlachtross",
+            // image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
+            text: { content: "Würfle gleich nochmal<br/>um den Ritter</br>weiter voran zu bringen" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Shadow: {
+            count: 1,
+            head: "Meisterdieb",
+            // image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
+            text: { content: "Zahle 5 Goldstücke</br>und wähle einen Ritter mit</br>einem Schatz in der Hand.</br>Würfelt der weniger als fünf</br>erhältst Du den Schatz!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: xMargin, top: yBase - 2.0 * offset, color: yellow, content: "-5" },
+            ]
+        },
+    };
     SchatzjagdCards.rules = {
         Rules: {
             count: 12,
             head: "",
             background: "Cover/CoverBlank.svg",
-            text: { content: "<ol>\
+            text: {
+                content: "<ol>\
       <li>Der Zug des Ritters</li><ul>\
         <li>Würfeln und Ritter bewegen.</li>\
         <li>Nur über freie Felder.</li>\
@@ -44,7 +66,8 @@ var SchatzjagdCards;
         <li>Vor den Stadttoren warten.</li>\
         </ul>\
         </ol>\
-      " },
+      "
+            },
         }
     };
     SchatzjagdCards.chests = {

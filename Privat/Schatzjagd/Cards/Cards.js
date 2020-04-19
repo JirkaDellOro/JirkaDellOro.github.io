@@ -13,8 +13,9 @@ var SchatzjagdCards;
         // createCards(city);
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
-        createSimple(12, "cover");
+        // createSimple(12, "cover");
         // createCards(rules, "cover");
+        createCards(SchatzjagdCards.addition);
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];

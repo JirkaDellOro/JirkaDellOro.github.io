@@ -15,8 +15,9 @@ namespace SchatzjagdCards {
     
     // createSimple(12, "backchest");
     
-    createSimple(12, "cover");
+    // createSimple(12, "cover");
     // createCards(rules, "cover");
+    createCards(addition);
   }
 
   function createMaps(): void {
