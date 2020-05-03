@@ -17,22 +17,43 @@ namespace SchatzjagdCards {
 
   export let addition = {
     Horse: {
-      count: 4,
-      head: "Schlachtross",
-      // image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
-      text: { content: "Würfle gleich nochmal<br/>um den Ritter</br>weiter voran zu bringen" },
+      count: 3,
+      head: "Pferdestall",
+      image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
+      text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Ritter</br>weiter voran zu bringen" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
       ]
     },
     Shadow: {
       count: 1,
       head: "Meisterdieb",
-      // image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
-      text: { content: "Zahle 5 Goldstücke</br>und wähle einen Ritter mit</br>einem Schatz in der Hand.</br>Würfelt der weniger als fünf</br>erhältst Du den Schatz!" },
+      image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
+      text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
-        { left: xMargin, top: yBase - 2.0 * offset, color: yellow, content: "-5" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
+      ]
+    },
+    Smeltery: {
+      count: 1,
+      head: "Schmelzerei",
+      image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
+      text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⌂" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
+        { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
+      ]
+    },
+    Blank: {
+      count: 7,
+      head: "&nbsp;",
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: "white", content: ""  },
+        { right: xMargin, top: yBase - 1.0 * offset, color: "white", content: ""  },
       ]
     },
   }
@@ -49,7 +70,7 @@ namespace SchatzjagdCards {
         <li>Nur über freie Felder.</li>\
         <li>Stopp bei Karte oder Ritter.</li>\
         <li>Karte erreicht? Aufdecken!</li>\
-        <li>Karte entfaltet Wirkung.</li></ul>\
+        <li>Karte wirkt gegebenenfalls.</li></ul>\
       <li>Der Zug des Fürsten</li><ul>\
         <li>Karte aus der Hand spielen.</li>\
         <li>In ein freies Feld einstecken</li>\
@@ -166,7 +187,7 @@ namespace SchatzjagdCards {
 
   export let traps = {
     Skip: {
-      count: 2,
+      count: 4,
       head: "Versklavt",
       image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
       text: { content: "Die nächste Runde<br/>setzt Du aus!" },
@@ -178,7 +199,7 @@ namespace SchatzjagdCards {
       ]
     },
     Poison: {
-      count: 2,
+      count: 4,
       head: "Vergiftet",
       image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
       text: { content: "Jeden Tag<br/>verlierst Du<br/>Lebenskraft!" },
@@ -189,17 +210,17 @@ namespace SchatzjagdCards {
       ]
     },
     Switch: {
-      count: 1,
+      count: 2,
       head: "Verwechselt",
       image: { url: "Images/Switch.png", scale: 0.4, top: 18, left: 11 },
-      text: { content: "Der Mob lyncht<br/>dich eine Weile...<br/>Du verlierst<br/>die Hälfte<br/>deiner Lebenskraft!<br/>(abrunden)" },
+      text: { content: "Der Mob lyncht<br/>dich... eine Weile.<br/>Du verlierst<br/>die Hälfte<br/>deiner Lebenskraft!<br/>(abrunden)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: green, content: "÷2" },
       ]
     },
     Pikes: {
-      count: 1,
+      count: 2,
       head: "Verstolpert",
       image: { url: "Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
       text: { content: "Die Stachelfalle<br/>kostet fünf Punkte<br/>deiner Lebenskraft!" },
@@ -209,7 +230,7 @@ namespace SchatzjagdCards {
       ]
     },
     Theft: {
-      count: 1,
+      count: 2,
       head: "Verschlafen",
       image: { url: "Images/Theft.png", scale: 0.4, top: 19, left: 7 },
       text: { content: "Dir wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
@@ -219,7 +240,7 @@ namespace SchatzjagdCards {
       ]
     },
     Snakes: {
-      count: 1,
+      count: 2,
       head: "Verschlungen",
       image: { url: "Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
       text: { content: "Die<br/>Schlangengrube<br/>nimmt dir die<br/>Hälfte deiner Stärke!<br/>(abrunden)" },
@@ -280,7 +301,7 @@ namespace SchatzjagdCards {
 
   export let weapons = {
     Knife: {
-      count: 4,
+      count: 6,
       head: "Messer",
       image: { url: "Images/Knife.png", scale: 0.55, top: 27, left: 10 },
       markers: [
@@ -289,7 +310,7 @@ namespace SchatzjagdCards {
       ]
     },
     Dagger: {
-      count: 3,
+      count: 5,
       head: "Dolch",
       image: { url: "Images/Dagger.png", scale: 0.55, top: 21, left: 10 },
       markers: [
@@ -298,7 +319,7 @@ namespace SchatzjagdCards {
       ]
     },
     Spear: {
-      count: 3,
+      count: 4,
       head: "Speer",
       image: { url: "Images/Spear.png", scale: 0.55, top: 21, left: 8 },
       markers: [
@@ -347,7 +368,7 @@ namespace SchatzjagdCards {
       ]
     },
     Heal: {
-      count: 2,
+      count: 4,
       head: "Heilung",
       image: { url: "Images/Heal.png", scale: 0.45, top: 22, left: 4 },
       markers: [
@@ -356,7 +377,7 @@ namespace SchatzjagdCards {
       ]
     },
     Power0: {
-      count: 2,
+      count: 3,
       head: "Stärkeelixier",
       image: { url: "Images/Power0.png", scale: 0.4, top: 22, left: 9 },
       markers: [
@@ -365,7 +386,7 @@ namespace SchatzjagdCards {
       ]
     },
     Power1: {
-      count: 1,
+      count: 2,
       head: "Superkraft",
       image: { url: "Images/Power1.png", scale: 0.4, top: 22, left: 8 },
       markers: [
@@ -458,6 +479,7 @@ namespace SchatzjagdCards {
 
   export let enemies = {
     Hun0: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
       markers: [
@@ -466,6 +488,7 @@ namespace SchatzjagdCards {
       ]
     },
     Hun1: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
       markers: [
@@ -475,6 +498,7 @@ namespace SchatzjagdCards {
       ]
     },
     Hun2: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
       markers: [
@@ -483,6 +507,7 @@ namespace SchatzjagdCards {
       ]
     },
     Hun3: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
       text: { content: poison },
@@ -494,6 +519,7 @@ namespace SchatzjagdCards {
       ]
     },
     Hun4: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
       text: { content: poison },
@@ -505,6 +531,7 @@ namespace SchatzjagdCards {
       ]
     },
     Hun5: {
+      count: 2,
       head: "Hunne",
       image: { url: "Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
       text: { content: poison },
@@ -516,6 +543,7 @@ namespace SchatzjagdCards {
       ]
     },
     Robber0: {
+      count: 2,
       head: "Räuber",
       image: { url: "Images/Robber0.png", scale: 0.4, top: 23, left: 9 },
       text: { content: theft },
@@ -526,6 +554,7 @@ namespace SchatzjagdCards {
       ]
     },
     Robber1: {
+      count: 2,
       head: "Räuber",
       image: { url: "Images/Robber1.png", scale: 0.4, top: 20, left: 2 },
       text: { content: theft },
@@ -536,6 +565,7 @@ namespace SchatzjagdCards {
       ]
     },
     Robber2: {
+      count: 2,
       head: "Räuber",
       image: { url: "Images/Robber2.png", scale: 0.4, top: 22, left: 2 },
       text: { content: theft },
@@ -546,6 +576,7 @@ namespace SchatzjagdCards {
       ]
     },
     Robber3: {
+      count: 2,
       head: "Räuber",
       image: { url: "Images/Robber3.png", scale: 0.4, top: 19, left: 7 },
       text: { content: theft },
@@ -556,6 +587,7 @@ namespace SchatzjagdCards {
       ]
     },
     German0: {
+      count: 2,
       head: "Germane",
       image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
       markers: [
@@ -564,6 +596,7 @@ namespace SchatzjagdCards {
       ]
     },
     German1: {
+      count: 2,
       head: "Germane",
       image: { url: "Images/German1.png", scale: 0.36, top: 16, left: 7 },
       text: { content: poison },
@@ -575,6 +608,7 @@ namespace SchatzjagdCards {
       ]
     },
     German2: {
+      count: 2,
       head: "Germane",
       image: { url: "Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
       text: { content: poison },
