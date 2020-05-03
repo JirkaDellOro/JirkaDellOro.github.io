@@ -268,7 +268,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Das Dritte Auge",
             image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
-            text: { content: "Zeigt dir die Karten<br/>in der allernächsten<br/>Umgebung.<br/>Es kann nicht<br/>Diagonal schauen." },
+            text: { content: "Zeigt dir die Karten<br/>in der allernächsten<br/>Umgebung.<br/>Es kann nicht<br/>diagonal schauen." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⛤" },
             ]
@@ -277,7 +277,7 @@ var SchatzjagdCards;
             count: 1,
             head: "Kristallkugel",
             image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-            text: { content: "Ein sehr mächtiger Zauber!<br/>Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus.<br/>Du darfst auch Schätze<br/>stehlen. Der Betrogene<br/>zieht vom Stapel nach." },
+            text: { content: "Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⛤" },
             ]
