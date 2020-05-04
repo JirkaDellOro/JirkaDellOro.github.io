@@ -48,7 +48,7 @@ namespace SchatzjagdCards {
       ]
     },
     Blank: {
-      count: 7,
+      count: 3,
       head: "&nbsp;",
       markers: [
         { left: xMargin, top: yType, color: "white", content: "" },
