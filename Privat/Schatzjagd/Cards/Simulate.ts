@@ -9,17 +9,40 @@ namespace Simulate {
 
   let iterations: number = 100000;
   //let playerWeapon: number = 4;
-  let playerStrength: number = 15;
+  // let playerStrength: number = 3;
   let enemyPower: number = 25;
-  let abrasion: boolean = true;
 
-  let mapWeaponToResult: Object[] = [];
+  let mapStrengthToRatio: number[][] = [];
+  let mapStrengthToAbrasion: number[][] = [];
 
-  for (let weapon: number = 0; weapon < 16; weapon++)
-    mapWeaponToResult.push(simulate(iterations, weapon, playerStrength, enemyPower, abrasion));
+  for (let strength: number = 0; strength < 16; strength++) {
+    let mapWeaponToResult: Object[] = [];
 
-  console.group(`Statistic enemy:${enemyPower}, strength:${playerStrength}`);
-  console.table(mapWeaponToResult);
+    for (let weapon: number = 0; weapon < 16; weapon++)
+      mapWeaponToResult.push(simulate(iterations, weapon, strength, enemyPower, true));
+    console.group(`Statistic enemy:${enemyPower}, strength:${strength}`);
+    console.table(mapWeaponToResult);
+    console.groupEnd();
+
+    let ratio: number[] = [];
+    let abrasion: number[] = [];
+    for (let result of mapWeaponToResult) {
+      ratio.push(result["ratio"]);
+      abrasion.push(result["abrasion"]);
+    }
+    mapStrengthToRatio.push(ratio);
+    mapStrengthToAbrasion.push(abrasion);
+  }
+
+  console.log(mapStrengthToRatio);
+  console.log(mapStrengthToAbrasion);
+
+
+  let csv: string;
+  csv = createCSVString("Ratio", mapStrengthToRatio);
+  console.log(csv);
+  csv = createCSVString("Abrastion", mapStrengthToAbrasion);
+  console.log(csv);
 
 
   // conditions
@@ -73,5 +96,22 @@ namespace Simulate {
     // console.groupEnd();
 
     return stats;
+  }
+
+  function createCSVString(_head: string, _data: number[][]): string {
+    let result: string = _head + ", ";
+    for (let index in _data[0]) {
+      result += index + ",";
+    }
+    result += "\n";
+    for (let row in _data) {
+      result += row + ",";
+      
+      for (let value of _data[row]) {
+        result += value + ",";
+      }
+      result += "\n";
+    }
+    return result;
   }
 }

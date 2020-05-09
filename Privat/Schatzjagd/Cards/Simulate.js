@@ -2,14 +2,33 @@ var Simulate;
 (function (Simulate) {
     let iterations = 100000;
     //let playerWeapon: number = 4;
-    let playerStrength = 15;
+    // let playerStrength: number = 3;
     let enemyPower = 25;
-    let abrasion = true;
-    let mapWeaponToResult = [];
-    for (let weapon = 0; weapon < 16; weapon++)
-        mapWeaponToResult.push(simulate(iterations, weapon, playerStrength, enemyPower, abrasion));
-    console.group(`Statistic enemy:${enemyPower}, strength:${playerStrength}`);
-    console.table(mapWeaponToResult);
+    let mapStrengthToRatio = [];
+    let mapStrengthToAbrasion = [];
+    for (let strength = 0; strength < 16; strength++) {
+        let mapWeaponToResult = [];
+        for (let weapon = 0; weapon < 16; weapon++)
+            mapWeaponToResult.push(simulate(iterations, weapon, strength, enemyPower, true));
+        console.group(`Statistic enemy:${enemyPower}, strength:${strength}`);
+        console.table(mapWeaponToResult);
+        console.groupEnd();
+        let ratio = [];
+        let abrasion = [];
+        for (let result of mapWeaponToResult) {
+            ratio.push(result["ratio"]);
+            abrasion.push(result["abrasion"]);
+        }
+        mapStrengthToRatio.push(ratio);
+        mapStrengthToAbrasion.push(abrasion);
+    }
+    console.log(mapStrengthToRatio);
+    console.log(mapStrengthToAbrasion);
+    let csv;
+    csv = createCSVString("Ratio", mapStrengthToRatio);
+    console.log(csv);
+    csv = createCSVString("Abrastion", mapStrengthToAbrasion);
+    console.log(csv);
     // conditions
     function simulate(_iterations, _playerWeapon, _playerStrength, _enemyPower, _abrasion) {
         // statistic
@@ -56,5 +75,20 @@ var Simulate;
         // console.table(results);
         // console.groupEnd();
         return stats;
+    }
+    function createCSVString(_head, _data) {
+        let result = _head + ", ";
+        for (let index in _data[0]) {
+            result += index + ",";
+        }
+        result += "\n";
+        for (let row in _data) {
+            result += row + ",";
+            for (let value of _data[row]) {
+                result += value + ",";
+            }
+            result += "\n";
+        }
+        return result;
     }
 })(Simulate || (Simulate = {}));
