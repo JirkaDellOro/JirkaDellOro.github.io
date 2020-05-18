@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="804.92254"
+     inkscape:cx="319.20825"
      inkscape:cy="906.30694"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,50 +57,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(36.372617,55.457143)">
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2059"
-       width="256.89999"
-       height="416.89999"
-       x="41.577377"
-       y="22.492857"
-       rx="1.0074509"
-       ry="1.0168298" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2059-0"
-       width="57.900002"
-       height="416.89999"
-       x="298.47736"
-       y="22.492857"
-       rx="0.22705881"
-       ry="1.0168298" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2059-0-2"
-       width="57.900002"
-       height="416.89999"
-       x="-16.322617"
-       y="22.492857"
-       rx="0.22705881"
-       ry="1.0168298" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2059-8"
-       width="256.89999"
-       height="57.900002"
-       x="41.577393"
-       y="-35.407143"
-       rx="1.0074509"
-       ry="0.1412196" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2059-8-9"
-       width="256.89999"
-       height="57.900002"
-       x="41.577377"
-       y="439.39285"
-       rx="1.0074509"
-       ry="0.1412196" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.37795275;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 298.42188 75.779297 C 296.31242 75.779297 294.61328 76.016806 294.61328 76.3125 L 294.61328 294.08008 C 294.61328 294.37577 296.31242 294.61328 298.42188 294.61328 C 296.31242 294.61328 294.61328 296.32793 294.61328 298.45703 C 294.61328 296.32793 294.23129 294.61328 293.75586 294.61328 L 76.638672 294.61328 C 76.163243 294.61328 75.779297 296.32793 75.779297 298.45703 L 75.779297 1866.4551 C 75.779297 1868.5842 76.163243 1870.2988 76.638672 1870.2988 L 293.75586 1870.2988 C 294.23129 1870.2988 294.61328 1868.5842 294.61328 1866.4551 C 294.61328 1868.5842 296.31242 1870.2988 298.42188 1870.2988 C 296.31242 1870.2988 294.61328 1870.5363 294.61328 1870.832 L 294.61328 2088.5996 C 294.61328 2088.8953 296.31242 2089.1348 298.42188 2089.1348 L 1261.7676 2089.1348 C 1263.877 2089.1348 1265.5742 2088.8953 1265.5742 2088.5996 L 1265.5742 1870.832 C 1265.5742 1870.5363 1263.877 1870.2988 1261.7676 1870.2988 C 1263.877 1870.2988 1265.5742 1868.5842 1265.5742 1866.4551 C 1265.5742 1868.5842 1265.9582 1870.2988 1266.4336 1870.2988 L 1483.5508 1870.2988 C 1484.0262 1870.2988 1484.4102 1868.5842 1484.4102 1866.4551 L 1484.4102 298.45703 C 1484.4102 296.32793 1484.0262 294.61328 1483.5508 294.61328 L 1266.4336 294.61328 C 1265.9582 294.61328 1265.5742 296.32793 1265.5742 298.45703 C 1265.5742 296.32793 1263.877 294.61328 1261.7676 294.61328 C 1263.877 294.61328 1265.5742 294.37577 1265.5742 294.08008 L 1265.5742 76.3125 C 1265.5742 76.016806 1263.877 75.779297 1261.7676 75.779297 L 298.42188 75.779297 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-36.372617,-55.457143)"
+       id="rect2059" />
   </g>
 </svg>
