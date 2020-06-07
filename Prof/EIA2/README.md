@@ -1,12 +1,14 @@
 # Diskussionspapiere
 
-https://github.com/JirkaDellOro/JirkaDellOro.github.io/blob/master/Prof/EIA2/AsuwertungInvertedClassroomW19.pdf
-[AsuwertungInvertedClassroomW19.pdf](AsuwertungInvertedClassroomW19.pdf)
+## Allgemein
+[Statistik der Studenten in den Bachelorstudiengängen S20](StudentenStatistik.pdf)
+[Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)
+[Positive Beurteilungen für EIA2 vor Einführung des Inverted Classroom](EIA2_Gut.pdf)
 
-StudemtenStatistik.pdf
-AsuwertungInvertedClassroomW19.pdf
-EIA2_Gut.pdf
-EIA2_Zeiten.pdf
-InhalteFriessRuf.pdf
-MKB-SPO-Proposals.pdf
-StudyCheck.pdf
+## Inverted Classroom
+[Schwerpunkte und Belastung](AsuwertungInvertedClassroomW19.pdf)
+[Gemessene Bearbeitungszeiten](EIA2_Zeiten.pdf)
+
+## Handlungsoptionen und Vorschläge
+[Betrachtung der Vakanzen](InhalteFriessRuf.pdf)
+[Vorschläge für die Studienordnung](MKB-SPO-Proposals.pdf)
