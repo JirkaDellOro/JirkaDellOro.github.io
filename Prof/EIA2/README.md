@@ -4,6 +4,7 @@
 [Statistik der Studenten in den Bachelorstudiengängen S20](StudentenStatistik.pdf)  
 [Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)  
 [Positive Beurteilungen für EIA2 vor Einführung des Inverted Classroom](EIA2_Gut.pdf)  
+[Qualifikationsziele](Qualifikationsziele.png)  
 
 ## Inverted Classroom
 [Schwerpunkte und Belastung](AsuwertungInvertedClassroomW19.pdf)  
