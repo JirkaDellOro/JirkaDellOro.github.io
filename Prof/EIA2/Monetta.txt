@@ -1,0 +1,66 @@
+## Monetta Marchiano, MKB5, 9.6.2020
+
+Ob ich EIA für sinnvoll halte? Absolut ja! Und das kann ich Ihnen an folgenden Argumenten verdeutlichen:
+Unabhängig davon, dass ich nach meinem Studium nicht im Frontend-Bereich arbeiten möchte, habe ich das Wissen von EIA 1 & 2  in mehreren Modulen meines Studiums benötigt, unter anderem in UX-Design und Interface Design. Auch wenn ich nicht diejenige war, die den Code programmiert hat, benötigte ich das Wissen dennoch, um überhaupt mitreden zu können. 
+Und wissen Sie wo ich es überraschenderweise ebenfalls benötige? In meinem Projektstudium. Klar, jetzt kann man natürlich davon ausgehen, dass alle Projekte einen IT-Aspekt besitzen, aber das trifft auf mein Projekt eigentlich nicht zu.
+Wir mussten von realen Veranstaltungen - die Graduierungsfeier und die Feierlichkeiten zum 30-jährigen Jubiläum der Fakultät - zu einer Online-Veranstaltung, in Form einer Website mit integrierter Timeline, wegen COVID-19 wechseln. 
+Dieser Schritt muss wohl überlegt sein, aber es ist durch unsere Kenntnisse und Erfahrungen durchaus machbar dies zu stemmen. Und wissen Sie wieso? Weil wir MKBler EIA hatten. 
+
+
+EIA, also Entwicklung Interaktiver Anwendungen, ist nicht nur Frontend-Coding mithilfe von HTML, CSS und TypeScript. EIA ist soviel mehr als das! 
+EIA ist die Kombination aus Frontend-Coding, etwas Backend-Coding, Datenstrukturen entwickeln, Wireframes, Mock-Ups sowie Prototypen entwickeln, kreativ in Form von Gestaltung sein, Konzepte erstellen und was so manche überraschen dürfte, sogar Projektmanagement. 
+Also wie Sie sehen bedient sich EIA mehr als nur einer Disziplin.
+
+
+Wissen Sie eigentlich was man im Internet zum Begriff Medienkonzeption findet? 
+Laut Wikipedia-Definition ist Medienkonzeption “die Praxis und Wissenschaft des zielgerichteten Entwerfens von Medienangeboten. Eine alternative Bezeichnung ist Mediendesign.
+Ganz allgemein ist von Konzeption oder Design (engl. design) die Rede, wenn ein künstliches Objekt (Artefakt) zielgerichtet geplant und entworfen wird. Das Ziel besteht immer darin, menschliches Verhalten und Erleben in bestimmter Weise zu beeinflussen.”
+ 
+Wenn man sich dann den Begriff Mediendesign anschaut, wird folgendes definiert:
+“Mediendesign wird als untergeordneter Begriff zu Mediengestaltung verstanden. Weitere Bereiche sind Medienberatung, -operating und -technik. Mediendesigner müssen als Designer medialer Kommunikation, sowohl über künstlerische als auch technische Kompetenzen verfügen und die Gestaltungs- und Produktionsprozesse in beiden Bereichen managen können.
+Neben Film, Fernsehen, Video, Games und World Wide Web werden auch alle Printmedien (Zeitungen, Zeitschriften, Plakate, Verpackungen usw.) im Mediendesign einbezogen.
+
+
+Da ich immer wieder über den Begriff Informationsarchitektur im Zusammenhang mit Medienkonzeption stolpere, sollte man sich auch diese Definition anschauen. Diese besagt, dass es “der Prozess der Gestaltung der Struktur eines Informationsangebots ist. […] Bei der Gestaltung der Informationsarchitektur wird festgelegt, wie ein Nutzer mit einem Informationssystem interagieren kann. […] Der Begriff Informationsarchitektur wird vor allem im Zusammenhang mit der Planung und Gestaltung von Internetseiten, Intranets, Apps, Kiosk- und Datenbanksystemen verwendet.”
+
+
+Was die Definitionen mit EIA zu tun haben? Jede Menge. Laut diesen Definitionen und laut des Modulhandbuchs, ist EIA mehr als essentiell für diesen Studiengang. Nicht nur, dass man die Schnittstelle zwischen bspw. dem Designer und dem Programmier darstellt, nein, am Ende sind wir diejenigen, die Projekte leiten können, weil wir wissen wie wir unter Druck und Stress arbeiten können und mit komplexen Inhalten zurecht kommen, indem wir sie in viele kleine Pakete unterteilen. “Divide et impera” wird gerne dazu gesagt - etwas dass ich seit dem ersten Semester nicht vergessen kann. 
+Schauen Sie sich doch mal an, wer in den verschiedenen Gruppen des Projektstudiums die Leitung übernimmt, es werden vor allem MKBler sein. 
+Zudem zeigt es aber auch, dass wir sowohl gestalterisches als auch technisches Know-How besitzen müssen. 
+Ich finde es schade, wenn man denkt, dass Menschen mit technischer Begabung nicht kreativ sein können, dabei ist es einfach nur eine andere Form von Kreativität. Und man sagt ja immer wieder, dass jeder kreativ sein kann. Warum also nicht einfach die verschiedenen Formen akzeptieren?
+
+
+Wissen Sie, diese Diskussion, dass EIA im 2. Semester angeblich so schwer ist, gibt es ja nicht erst seit gestern. Diese wird Semester für Semester fortgeführt. Und das wird auch so lange nicht aufhören, bis man nach außen kommuniziert, was es mit diesem Modul auf sich hat und wie relevant es für einige Fächer und auch für das Studium selbst noch ist. 
+Wenn wir als Fakultät den Bewerbern vermitteln, dass sie am Ende nur in Agenturen arbeiten oder eben nichts mit Programmieren zu tun haben werden, wird man sich immer darüber beschweren, dass das Modul unnötig ist und Zeit frisst. 
+Es wird  immer Studierende geben, auch in anderen Modulen, die sagen werden, dass es zu schwer ist, die nicht noch zusätzlich am Wochenende etwas fürs Studium tun möchten und sich darüber beschweren, dass sie so viel lernen müssen, weil sie versuchen kurz vor Prüfungsbeginn Inhalte von 15 Wochen in 3 Wochen zu lernen.  
+Da muss ich leider sagen, dass wir diese Art von Studierende nicht an unserer Fakultät haben sollten. Allerdings kann man diese Einstellung zum Studium nicht vorhersehen.
+
+
+Aber davon mal abgesehen, es hat nie jemand behauptet, dass das Studium leicht wäre. Im Studium geht es um autonomes Lernen und wenn ich daran denke, wie es zum Teil an Universitäten zugeht, wo keine einzige Hilfestellung gegeben wird, weil es den Professor einfach nicht interessiert, haben wir an unser Fakultät sehr viel Glück, dass es ProfessorInnen gibt, die jedem Studierenden mindestens eine Chance geben das jeweilige Modul zu bestehen. 
+
+
+Wenn wir EIA in 3 Teile splitten würden, würden wir damit auch den Anspruch senken. Und zur Folge dessen, würden sich die Studierenden über andere Fächer beschweren, die dann mehr Zeit in Anspruch nehmen usw. Und am Ende hätte man nur noch leichte Module und dies würde indirekt vermitteln, dass man ganz einfach seinen Bachelor in Medienkonzeption bekommt. 
+Dass wir es mit einem Bachelor of Arts eh schon schwieriger bei der Jobsuche haben, sowohl eine gute, evtl. auch etwas höhere Position zu erreichen, als auch gehaltstechnisch, würden wir diesem Studiengang den Todesstoß geben. Es stellt sich einfach die Frage, wollen wir die billigsten oder die Besten sein? Ich würde zu zweiteren tendieren. 
+
+
+
+
+Und das gibt es ja noch die Problematik mit dem B-Semester: 
+Ja, es machen einige ein B-Semester nach dem Praxissemester, aber haben Sie sich mal die genauen Gründe dafür angeschaut? Es ist nicht immer nur EIA, es ist genauso, Medienwirtschaft, Mathe, UX-Design, Medientechnik und andere Fächer, die genauso Probleme bereiten können. Zusätzlich können noch private Probleme dazu kommen. 
+
+
+Ich habe ebenfalls ein B-Semester machen müssen. 
+Herr Dell’Oro hat mich damals durch EIA durchfliegen lassen, aber wissen Sie was? Es war zurecht. Er wusste, dass ich fachlich nicht so weit war, wie ich es hätte eigentlich sein müssen. Ich fands auch mehr als ärgerlich, aber ich habe begriffen wieso er diesen Schritt gemacht hat und dann habe ich mich nach meinem Praxissemester jede Woche bis zu 10 Stunden mit EIA befasst, an der Vorlesung und am Praktikum teilgenommen und die Wochenaufgaben gemacht. Ich saß oft noch Stunden, nach dem das Praktikum vorbei war,  im Spiellabor um die Aufgaben fertig zu bekommen.  Und am Ende hat es sich gelohnt. Ich habe es geschafft Sachen zu programmieren, die ich mir davor nicht erträumen konnte. Und darauf bin ich bis heute Stolz. 
+
+
+Außerdem kenne ich genügend aus meinem ursprünglichen Semester, die sich nach dem Projektstudium dafür entschieden haben ein B-Semester zu machen. Wo ist also das Problem? Ob man am Ende 3,5 oder 4 Jahre studiert, das ändert nichts an der Tatsache, dass man das Studium beendet und das eventuell sogar mit einer sehr guten Note.
+
+
+Ich für meinen Teil habe sogar noch ein C-Semester machen müssen, nicht wegen EIA, sondern tatsächlich wegen Medienwirtschaft und Medientechnik, einfach nur weil diese beiden Modulprüfungen auf den gleichen Tag gefallen sind und das Semester für Semester. Und wer jetzt meint, man müsste nur früher anfangen zu lernen, der irrt sich. Ich kann einfach nicht 4 komplexe Fächer an einem Tag schreiben, da ist es egal, wie früh ich anfange zu lernen. Schlussendlich habe ich nun beides bestanden, befinde mich aktuell im 5. Fachsemester, aber ich habe Module so vorgezogen und mache mehr ECTS als angedacht, sodass ich kommendes Wintersemester meine Thesis schreiben kann. Ergo bin ich 8 Semester in MKB eingeschrieben. 
+
+
+
+
+Verstehen Sie mich nicht falsch, ich finde es richtig über Module immer wieder zu reden und die Inhalte und die didaktische Form in Frage zu stellen, aber es sollte sich nicht seit Jahren immer nur um EIA handeln. Wenn man eins anmerken kann, dann dass EIA das Fach ist, welches sich in 3,5 Jahren, also seit der großen SPO-Änderung zum WS 16/17 am meisten verändert hat. 
+Und mit dem Schritt der einmaligen SPO-Änderung ist man noch mal mehr auf die Studierenden zugegangen. 
+Schauen Sie sich auch andere Fächer an, welche sind noch sinnvoll und welche sollten überarbeitet werden, weil sie nicht mehr zeitgemäß sind? Reden sie mit Studierenden darüber und schauen sie sich diese objektiv an.
