@@ -3,7 +3,7 @@
 ## Allgemein
 [Statistik der Studenten in den Bachelorstudiengängen S20](StudentenStatistik.pdf)  
 [Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)  
-[Reflektion zu EIA aus dem 5. Semester](Monetta.txt)  
+[Reflektion zu EIA aus dem 5. Semester](Monetta.pdf)  
 [Qualifikationsziele](Qualifikationsziele.png)  
 
 ## Inverted Classroom
