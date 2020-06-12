@@ -5,6 +5,7 @@
 [Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)  
 [Reflektion zu EIA aus dem 5. Semester](Monetta.pdf)  
 [Reflektion zu EIA aus dem 5. Semester](Laura.pdf)  
+[Aussagen zur Relevanz von EIA aus Fries-Umfrage](FriesUmfrage.pdf)  
 [Qualifikationsziele](Qualifikationsziele.png)  
 
 ## Inverted Classroom
