@@ -5,7 +5,7 @@
 [Qualifikationsziele](Qualifikationsziele.png)  
 
 ## Allgemein
-[Spezifische Aussagen aus der Digitalindustrie](IndustrieMeinungen.pdf)
+[Spezifische Aussagen aus der Digitalindustrie](IndustrieMeinungen.pdf)  
 [Aussagen zur Relevanz von EIA aus Fries-Umfrage](FriesUmfrage.pdf)  
 [1. Reflektion einer MKB5-Studentin](Monetta.pdf)  
 [2. Reflektion einer MKB5-Studentin](Laura.pdf)  
