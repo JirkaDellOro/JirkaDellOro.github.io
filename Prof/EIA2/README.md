@@ -1,13 +1,17 @@
 # Diskussionspapiere
 
 ## Allgemein
-[Statistik der Studenten in den Bachelorstudiengängen S20](StudentenStatistik.pdf)  
-[Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)  
-[Reflektion zu EIA aus dem 5. Semester](Monetta.pdf)  
-[Reflektion zu EIA aus dem 5. Semester](Laura.pdf)  
-[Aussagen zur Relevanz von EIA aus Fries-Umfrage](FriesUmfrage.pdf)  
+[Strategie](Strategie.md)  
 [Qualifikationsziele](Qualifikationsziele.png)  
 
+## Allgemein
+[Spezifische Aussagen aus der Digitalindustrie](IndustrieMeinungen.pdf)
+[Aussagen zur Relevanz von EIA aus Fries-Umfrage](FriesUmfrage.pdf)  
+[1. Reflektion einer MKB5-Studentin](Monetta.pdf)  
+[2. Reflektion einer MKB5-Studentin](Laura.pdf)  
+[Beurteilungen für Medienkonzeption auf StudyCheck](StudyCheck.pdf)  
+[Statistik der Studenten in den Bachelorstudiengängen S20](StudentenStatistik.pdf)  
+ 
 ## Inverted Classroom
 [Schwerpunkte und Belastung](AsuwertungInvertedClassroomW19.pdf)  
 [Gemessene Bearbeitungszeiten](EIA2_Zeiten.pdf)  
