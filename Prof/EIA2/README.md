@@ -15,6 +15,7 @@
 ## Inverted Classroom
 [Schwerpunkte und Belastung](AsuwertungInvertedClassroomW19.pdf)  
 [Gemessene Bearbeitungszeiten](EIA2_Zeiten.pdf)  
+[Auswertung Evaluation S20](AuswertungEvaluationEIA2_S20.pdf)  
 
 ## Digital Design
 [Rollenideal](https://www.bitkom.org/sites/default/files/file/import/20171013-Rollenideal-Digital-Design.pdf)  
