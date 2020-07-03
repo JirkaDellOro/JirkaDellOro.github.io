@@ -4,25 +4,25 @@ Analog zum Architekten im Bauwesen und zum Industriedesigner ergibt sich aus der
 <img src="DigitalDesigner.jpg" width="100%"/>
 
 ## Schwerpunkt 1 – Gestaltung
-Arbeit mit Anforderungen (Requirements Engineering)  
-Konstruktion von Benutzungsschnittstellen (Usability Engineering/Interaction Design)  
-Grundlegende Vorgehensweisen zur Gestaltung  
-Entwerfen neuer Konzepte  
-Explorationsfähigkeit, Fähigkeit zur Durchführung ethnografischer Feldforschung  
-Menschenzentriertheit  
+- Arbeit mit Anforderungen (Requirements Engineering)  
+- Konstruktion von Benutzungsschnittstellen (Usability Engineering/Interaction Design)  
+- Grundlegende Vorgehensweisen zur Gestaltung  
+- Entwerfen neuer Konzepte  
+- Explorationsfähigkeit, Fähigkeit zur Durchführung ethnografischer Feldforschung  
+- Menschenzentriertheit  
 
 ## Schwerpunkt 2 – Materialkunde
-Wissen um die Möglichkeiten und Grenzen von Software und Hardware  
-Wissen um Algorithmen und Grenzen von Algorithmen  
-Arten von Systemen: Informationssysteme, Eingebettete Systeme  
-Arten von Endgeräten: Desktop, Notebook, Tablet, Smartphone, etc.  
-Interaktionsformen: Tastatur, Maus, Touch, Sprache, Geste, etc.  
-Wissen über den grundsätzlichen Aufbau von Software (Software-Architekturen)  
-Wissen um Form- und Farbgebung  
+- Wissen um die Möglichkeiten und Grenzen von Software und Hardware  
+- Wissen um Algorithmen und Grenzen von Algorithmen  
+- Arten von Systemen: Informationssysteme, Eingebettete Systeme  
+- Arten von Endgeräten: Desktop, Notebook, Tablet, Smartphone, etc.  
+- Interaktionsformen: Tastatur, Maus, Touch, Sprache, Geste, etc.  
+- Wissen über den grundsätzlichen Aufbau von Software (Software-Architekturen)  
+- Wissen um Form- und Farbgebung  
 
 ## Querschnittskompetenz  
-Wissen um Methoden und Vorgehensweisen zum Management von Entwicklungsvorhaben  
-Wissen um Methoden und Vorgehensweisen zur Entwicklung von Software  
-Wirtschaftliche Aspekte zur Gestaltung/Entwicklung von Software  
-Fähigkeit zum Arbeiten in interdisziplinären Projekten  
-Psychologische Grundlagen zur Realisierung von Software auf Nutzer- und Herstellerseite  
+- Wissen um Methoden und Vorgehensweisen zum Management von Entwicklungsvorhaben  
+- Wissen um Methoden und Vorgehensweisen zur Entwicklung von Software  
+- Wirtschaftliche Aspekte zur Gestaltung/Entwicklung von Software  
+- Fähigkeit zum Arbeiten in interdisziplinären Projekten  
+- Psychologische Grundlagen zur Realisierung von Software auf Nutzer- und Herstellerseite  
