@@ -3,21 +3,21 @@ namespace SchatzjagdCards {
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    createCards(enemies);
-    createCards(places);
-    createCards(potions);
-    createCards(weapons);
-    createCards(spells);
-    createCards(traps);
-    createMaps();
-    // createCards(city);
+    // createCards(enemies);
+    // createCards(places);
+    // createCards(potions);
+    // createCards(weapons);
+    // createCards(spells);
+    // createCards(traps);
+    // createMaps();
+    createCards(city);
     // createCards(chests, "chest");
     
     // createSimple(12, "backchest");
     
     // createSimple(12, "cover");
     // createCards(rules, "cover");
-    createCards(addition);
+    // createCards(addition);
   }
 
   function createMaps(): void {
@@ -55,8 +55,10 @@ namespace SchatzjagdCards {
     if (_class)
       card.className = _class;
 
-    if (_data["background"])
+      if (_data["background"])
       style.backgroundImage = `url("${_data["background"]}"`;
+      if (_data["backgroundColor"])
+        style.backgroundColor = `${_data["backgroundColor"]}`;
 
     let headline: HTMLHeadElement = document.createElement("h1");
     headline.innerHTML = _data["head"];

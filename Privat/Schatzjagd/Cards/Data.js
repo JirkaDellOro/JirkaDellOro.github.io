@@ -116,6 +116,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Gasthaus",
             background: "City/CityBack.svg",
+            backgroundColor: yellow,
             image: { url: "Images/City_Tavern.png", scale: 0.4, top: 17, left: 7 },
             text: { content: "2 Goldstücke pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
             markers: [
@@ -123,13 +124,13 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - offset, color: "white", content: "1" },
                 { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
                 { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-                { left: 15, top: 1, color: yellow, content: "", small: true },
             ]
         },
         Healer: {
             count: 4,
             head: "Heiler",
             background: "City/CityBack.svg",
+            backgroundColor: green,
             image: { url: "Images/City_Healer.png", scale: 0.35, top: 18, left: 7 },
             text: { content: "Heilt oder entgiftet!<br/><br/>" },
             markers: [
@@ -140,13 +141,13 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - 0.5 * offset, color: yellow, content: "-5" },
                 { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 1 * offset, url: "Images/Arrow.svg", scale: 1 },
                 { left: xMargin + 1 + 1.5 * offset, top: yBase - 1, url: "Images/Arrow.svg", scale: 1 },
-                { left: 15, top: 1, color: green, content: "", small: true },
             ]
         },
         Gym: {
             count: 4,
             head: "Schule",
             background: "City/CityBack.svg",
+            backgroundColor: red,
             image: { url: "Images/City_Gym.png", scale: 0.35, top: 20, left: 8 },
             text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Goldstücke!<br/><br/>" },
             markers: [
@@ -154,20 +155,19 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - offset, color: yellow, content: "-3" },
                 { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
                 { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-                { left: 15, top: 1, color: red, content: "", small: true },
             ]
         },
         Forge: {
             count: 4,
             head: "Schmied",
             background: "City/CityBack.svg",
+            backgroundColor: blue,
             image: { url: "Images/City_Forge.png", scale: 0.35, top: 20, left: 8 },
             text: { content: "Fertigt feinste Waffen!<br/><br/>" },
             markers: [
                 { right: xMargin, top: yBase - offset, color: blue, content: "+1" },
                 { left: xMargin, top: yBase - offset, color: yellow, content: "-1" },
                 { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-                { left: 15, top: 1, color: blue, content: "", small: true },
             ]
         },
     };
@@ -473,7 +473,7 @@ var SchatzjagdCards;
             head: "Hunne",
             image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -483,7 +483,7 @@ var SchatzjagdCards;
             image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -492,7 +492,7 @@ var SchatzjagdCards;
             head: "Hunne",
             image: { url: "Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -504,7 +504,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -516,7 +516,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -528,7 +528,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+2" },
+                { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
         },
@@ -539,7 +539,7 @@ var SchatzjagdCards;
             text: { content: theft },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
-                { right: xMargin, top: yBase, color: yellow, content: "+3" },
+                { right: xMargin, top: yBase, color: yellow, content: "+4" },
                 { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
@@ -550,7 +550,7 @@ var SchatzjagdCards;
             text: { content: theft },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
-                { right: xMargin, top: yBase, color: yellow, content: "+3" },
+                { right: xMargin, top: yBase, color: yellow, content: "+4" },
                 { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
@@ -561,7 +561,7 @@ var SchatzjagdCards;
             text: { content: theft },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
-                { right: xMargin, top: yBase, color: yellow, content: "+3" },
+                { right: xMargin, top: yBase, color: yellow, content: "+4" },
                 { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
@@ -572,7 +572,7 @@ var SchatzjagdCards;
             text: { content: theft },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
-                { right: xMargin, top: yBase, color: yellow, content: "+3" },
+                { right: xMargin, top: yBase, color: yellow, content: "+4" },
                 { left: xMargin, top: yType, color: red, content: "6" },
             ]
         },
@@ -581,7 +581,7 @@ var SchatzjagdCards;
             head: "Germane",
             image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+4" },
+                { right: xMargin, top: yBase, color: yellow, content: "+5" },
                 { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
@@ -593,7 +593,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+4" },
+                { right: xMargin, top: yBase, color: yellow, content: "+5" },
                 { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
@@ -605,7 +605,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+4" },
+                { right: xMargin, top: yBase, color: yellow, content: "+5" },
                 { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
@@ -613,7 +613,7 @@ var SchatzjagdCards;
             head: "Hunnenhauptmann",
             image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+5" },
+                { right: xMargin, top: yBase, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
@@ -624,7 +624,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+5" },
+                { right: xMargin, top: yBase, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
@@ -632,7 +632,7 @@ var SchatzjagdCards;
             head: "Germanenhauptmann",
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+5" },
+                { right: xMargin, top: yBase, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
@@ -640,7 +640,7 @@ var SchatzjagdCards;
             head: "Rufus der Riese",
             image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+6" },
+                { right: xMargin, top: yBase, color: yellow, content: "+8" },
                 { left: xMargin, top: yType, color: red, content: "15" },
             ]
         },
@@ -651,7 +651,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+6" },
+                { right: xMargin, top: yBase, color: yellow, content: "+8" },
                 { left: xMargin, top: yType, color: red, content: "15" },
             ]
         },
@@ -659,7 +659,7 @@ var SchatzjagdCards;
             head: "Sho-Wung",
             image: { url: "Images/ShoWung.png", scale: 0.4, top: 18.3, left: 3.7 },
             markers: [
-                { right: xMargin, top: yBase, color: yellow, content: "+8" },
+                { right: xMargin, top: yBase, color: yellow, content: "+10" },
                 { left: xMargin, top: yType, color: red, content: "20" },
             ]
         },
@@ -670,7 +670,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
-                { right: xMargin, top: yBase, color: yellow, content: "+10" },
+                { right: xMargin, top: yBase, color: yellow, content: "+15" },
                 { left: xMargin, top: yType, color: red, content: "25" },
             ]
         },
