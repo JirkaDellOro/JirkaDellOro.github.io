@@ -15,7 +15,7 @@ html, body {
   align-content: center;
   text-align: center;
   /* background-color: white; */
-  background-color: black;
+  /* background-color: black; */
 }
 
 div {
@@ -75,14 +75,30 @@ ol {
   /* list-style: none; */
   font-weight: bold;
 }
+
 ul {
   /* list-style: none; */
   list-style: disc;
   font-weight: normal;
-  width:95%;
+  width: 95%;
 }
+
 ol>li {
   margin-top: 1em;
+}
+
+ol>table {
+  width:110%;
+  margin: 0;
+  padding: 0;
+  margin-left: -1.5em;
+  font-weight: lighter;
+  font-size: 9px;
+}
+
+td, tr {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

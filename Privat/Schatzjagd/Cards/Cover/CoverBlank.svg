@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="Cover.svg">
+   sodipodi:docname="CoverBlank.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="120.56289"
+     inkscape:cx="60.458813"
      inkscape:cy="130.972"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -85,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -93,22 +93,23 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Background"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect828"
        width="45"
        height="70"
        x="0"
        y="-2.2916666e-07"
-       ry="4.41997" />
+       ry="0" />
   </g>
   <g
      inkscape:label="Front"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-227)"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <image
        y="277.24374"
        x="0"
@@ -153,26 +154,10 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="Back">
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot872"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;"><flowRegion
-         id="flowRegion874"
-         style="font-size:16px;"><rect
-           id="rect876"
-           width="150.9673"
-           height="245.7196"
-           x="8.8388348"
-           y="10.008486"
-           style="font-size:16px;" /></flowRegion><flowPara
-         id="flowPara878"></flowPara></flowRoot>  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Outline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect852"

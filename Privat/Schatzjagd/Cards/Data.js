@@ -104,13 +104,19 @@ var SchatzjagdCards;
           <li>wenn Scherge in Burg ist,</li>\
           <li>gilt als ausgespielte Karte.</li>\
         </ul>\
-        <li>Die Stadt </li><ul>\
-          <li style="background-color:${yellow}">pro Tag → +2 Gold</li>\
-          <li style="background-color:${red}">pro Tag -3 Gold → +1 Kraft</li>\
-          <li style="background-color:${blue}">-X Gold → +X Waffen</li>\
-          <li style="background-color:${green}">-X Gold → +3×X Leben</li>\
-          <li style="background-color:${green}">-5 Gold → Entgiftung</li>\
-        </ul>\
+        <li>Die Stadt </li>
+        <table>
+        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td>
+        <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr>
+        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td>
+        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Kraft</td></tr>
+        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td>
+        <td></td><td>-X Gold</td><td>→ +X Waffen</td></tr>
+        <tr><td style="background-color:${green}; width:1em;">&nbsp;</td>
+        <td></td><td>-X Gold</td><td>→ +X•3 Leben</td></tr>
+        <tr><td style="background-color:${green}; width:1em;">&nbsp;</td>
+        <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr>
+        </table>
     </ol>\
   `
             },

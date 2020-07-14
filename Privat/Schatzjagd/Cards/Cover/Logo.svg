@@ -29,7 +29,7 @@
      inkscape:cx="-5.5685512"
      inkscape:cy="119.54519"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -92,10 +92,9 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Back"
-     style="opacity:1"
-     sodipodi:insensitive="true">
+     style="opacity:1">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect824"
        width="45"
        height="70"
