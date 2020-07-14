@@ -59,37 +59,61 @@ namespace SchatzjagdCards {
   }
 
   export let rules = {
-    Rules: {
-      count: 12,
+    RulesFront: {
+      count: 1,
+      head: "",
+      background: "Cover/Logo.svg",
+      text: {
+        content: "<ol>\
+      <li>Der Zug des Schergen</li><ul>\
+        <li>Wenn er sich bewegen soll,</li>\
+        <li>würfle und bewege ihn</li>\
+        <li>maximal die Würfelzahl</li>\
+        <li>beliebig über freie Felder</li>\
+        <li>aber nicht diagonal.</li>\
+        <li>Stopp bei Karte oder Scherge</li>\
+        <li>und außen vor Stadtmauer.</li>\
+        <li>Karte erreicht? Aufdecken!</li>\
+        </ul>\
+      <li>Karten aufdecken</li><ul>\
+        <li>Unhold greift sofort an.</li>\
+        <li>⚔, ⚕, 🗲 wirken sofort.</li>\
+        <li>⌂ kann wirken, muss nicht.</li>\
+        <li>⛤ und Lageplan aufnehmen.</li>\
+      </ul>\
+      </ol>\
+      " },
+    },
+    RulesBack: {
+      count: 1,
       head: "",
       background: "Cover/CoverBlank.svg",
       text: {
-        content: "<ol>\
-      <li>Der Zug des Ritters</li><ul>\
-        <li>Würfeln und Ritter bewegen.</li>\
-        <li>Nur über freie Felder.</li>\
-        <li>Stopp bei Karte oder Ritter.</li>\
-        <li>Karte erreicht? Aufdecken!</li>\
-        <li>Karte wirkt gegebenenfalls.</li></ul>\
-      <li>Der Zug des Fürsten</li><ul>\
-        <li>Karte aus der Hand spielen.</li>\
-        <li>In ein freies Feld einstecken</li>\
-        <li>oder zeigen (Zauber, Lageplan)</li>\
-        <li>Kartenhand < 4 ? Nachziehen!</li></ul>\
-      <li>Die Stadt </li><ul>\
-        <li>Gasthaus +2 Gold pro Zug.</li>\
-        <li>Schule -3 Gold +1 Kraft pro Zug.</li>\
-        <li>Schmied -X Gold +X Waffen.</li>\
-        <li>Heiler -X Gold  +3×X Leben. </li>\
+        content: `<ol start='3'>\
+        <li>Der Zug des Fürsten</li><ul>\
+          <li>Zwingend bei Kartenhand > 4.</li>\
+          <li>Karte ausspielen.</li>\
+          <li>Kartenhand < 4 ? Nachziehen!</li>\
+          </ul>\
+        <li>Karten ausspielen</li><ul>\
+          <li>Karten nur im eigenen Zug und</li>\
+          <li>nur eine Karte pro Zug spielen.</li>\
+          <li>In ein freies Feld einstecken,</li>\
+          <li>oder zeigen (⛤, Lageplan).</li>\
+          <li><strong>⛤ im Schergenzug spielbar</strong></li>\
+          <li>Schatz ablegen nur möglich</li>\
+          <li>wenn Scherge in Burg ist,</li>\
+          <li>gilt als ausgespielte Karte.</li>\
         </ul>\
-      <li>Merke</li><ul>\
-        <li>Karten nur im eigenen Zug und</li>\
-        <li>nur eine Karte pro Zug spielen.</li>\
-        <li>Zauber im Ritterzug spielbar.</li>\
-        <li>Vor den Stadttoren warten.</li>\
+        <li>Die Stadt </li><ul>\
+          <li style="background-color:${yellow}">pro Tag → +2 Gold</li>\
+          <li style="background-color:${red}">pro Tag -3 Gold → +1 Kraft</li>\
+          <li style="background-color:${blue}">-X Gold → +X Waffen</li>\
+          <li style="background-color:${green}">-X Gold → +3×X Leben</li>\
+          <li style="background-color:${green}">-5 Gold → Entgiftung</li>\
         </ul>\
-        </ol>\
-      " },
+    </ol>\
+  ` },
     }
   }
 

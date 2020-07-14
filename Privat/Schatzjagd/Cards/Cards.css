@@ -72,11 +72,17 @@ div.cover p {
 ol {
   padding-left: 2em;
   list-style: upper-roman;
+  /* list-style: none; */
   font-weight: bold;
 }
 ul {
-  list-style: none;
+  /* list-style: none; */
+  list-style: disc;
   font-weight: normal;
+  width:95%;
+}
+ol>li {
+  margin-top: 1em;
 }
 
 h1 {

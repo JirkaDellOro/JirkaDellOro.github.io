@@ -10,11 +10,11 @@ var SchatzjagdCards;
         // createCards(spells);
         // createCards(traps);
         // createMaps();
-        createCards(SchatzjagdCards.city);
+        // createCards(city);
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
-        // createCards(rules, "cover");
+        createCards(SchatzjagdCards.rules, "cover");
         // createCards(addition);
     }
     function createMaps() {
@@ -75,10 +75,10 @@ var SchatzjagdCards;
         return image;
     }
     function createText(_data) {
-        let span = document.createElement("p");
-        span.innerHTML = _data["content"];
+        let p = document.createElement("p");
+        p.innerHTML = _data["content"];
         console.log(_data["content"]);
-        return span;
+        return p;
     }
     function createMarker(_marker) {
         if (_marker["url"]) {

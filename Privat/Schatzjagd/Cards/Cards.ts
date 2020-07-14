@@ -10,13 +10,13 @@ namespace SchatzjagdCards {
     // createCards(spells);
     // createCards(traps);
     // createMaps();
-    createCards(city);
+    // createCards(city);
     // createCards(chests, "chest");
     
     // createSimple(12, "backchest");
     
     // createSimple(12, "cover");
-    // createCards(rules, "cover");
+    createCards(rules, "cover");
     // createCards(addition);
   }
 
@@ -91,10 +91,10 @@ namespace SchatzjagdCards {
   }
 
   function createText(_data: Object): HTMLParagraphElement {
-    let span: HTMLParagraphElement = document.createElement("p");
-    span.innerHTML = _data["content"];
+    let p: HTMLParagraphElement = document.createElement("p");
+    p.innerHTML = _data["content"];
     console.log(_data["content"]);
-    return span;
+    return p;
   }
 
   function createMarker(_marker: Object): HTMLSpanElement | HTMLImageElement {
