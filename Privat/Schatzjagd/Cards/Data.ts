@@ -66,13 +66,13 @@ namespace SchatzjagdCards {
       text: {
         content: "<ol>\
       <li>Der Zug des Schergen</li><ul>\
-        <li>Wenn er sich bewegen soll,</li>\
-        <li>würfle und bewege ihn</li>\
-        <li>maximal die Würfelzahl</li>\
-        <li>beliebig über freie Felder</li>\
-        <li>aber nicht diagonal.</li>\
-        <li>Stopp bei Karte oder Scherge</li>\
-        <li>und außen vor Stadtmauer.</li>\
+        <li>Willst Du ihn ziehen,<br/>\
+        so würfle und bewege ihn<br/>\
+        maximal die Augenzahl<br/>\
+        beliebig über freie Felder<br/>\
+        aber nicht diagonal.</li>\
+        <li>Stopp bei Karte oder Scherge<br/>\
+        und außen vor Stadtmauer.</li>\
         <li>Karte erreicht? Aufdecken!</li>\
         </ul>\
       <li>Karten aufdecken</li><ul>\
@@ -96,26 +96,26 @@ namespace SchatzjagdCards {
           <li>Kartenhand < 4 ? Nachziehen!</li>\
           </ul>\
         <li>Karten ausspielen</li><ul>\
-          <li>Karten nur im eigenen Zug und</li>\
-          <li>nur eine Karte pro Zug spielen.</li>\
-          <li>In ein freies Feld einstecken,</li>\
-          <li>oder zeigen (⛤, Lageplan).</li>\
+          <li>Karten nur im eigenen Zug und<br/>\
+          nur eine Karte pro Zug spielen.</li>\
+          <li>In ein freies Feld einstecken,<br/>\
+          oder zeigen (⛤, Lageplan).</li>\
           <li><strong>⛤ im Schergenzug spielbar</strong></li>\
-          <li>Schatz ablegen nur möglich</li>\
-          <li>wenn Scherge in Burg ist,</li>\
-          <li>gilt als ausgespielte Karte.</li>\
+          <li>Schatz ablegen nur möglich<br/>\
+          wenn Scherge in Burg ist,<br/>\
+          gilt als ausgespielte Karte.</li>\
         </ul>\
-        <li>Die Stadt </li>
+        <li>In der Stadt </li>
         <table>
         <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td>
         <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr>
         <tr><td style="background-color:${red}; width:1em;">&nbsp;</td>
         <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Kraft</td></tr>
         <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td>
-        <td></td><td>-X Gold</td><td>→ +X Waffen</td></tr>
-        <tr><td style="background-color:${green}; width:1em;">&nbsp;</td>
-        <td></td><td>-X Gold</td><td>→ +X•3 Leben</td></tr>
-        <tr><td style="background-color:${green}; width:1em;">&nbsp;</td>
+        <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr>
+        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td>
+        <td></td><td>-x Gold</td><td>→ +x•3 Leben</td></tr>
+        <tr>
         <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr>
         </table>
     </ol>\

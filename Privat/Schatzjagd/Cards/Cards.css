@@ -82,9 +82,13 @@ ul {
   font-weight: normal;
   width: 95%;
 }
-
 ol>li {
   margin-top: 1em;
+}
+ul>li {
+  line-height: 1.15em;
+  margin: 0px;
+  padding: 0px;
 }
 
 ol>table {
