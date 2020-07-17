@@ -62,64 +62,72 @@ namespace SchatzjagdCards {
     RulesFront: {
       count: 1,
       head: "",
-      background: "Cover/Logo.svg",
+      background: "Cover/CoverBlank.svg",
       text: {
-        content: "<ol>\
-      <li>Der Zug des Schergen</li><ul>\
-        <li>Willst Du ihn ziehen,<br/>\
-        so würfle und bewege ihn<br/>\
-        maximal die Augenzahl<br/>\
-        beliebig über freie Felder<br/>\
-        aber nicht diagonal.</li>\
-        <li>Stopp bei Karte oder Scherge,<br/>\
-        außer in der Stadt, dafür aber<br/>\
-        vor Stadtmauer beim Betreten.</li>\
-        <li>Karte erreicht? Aufdecken!</li>\
-        </ul>\
-      <li>Karten aufdecken</li><ul>\
-        <li>Unhold greift sofort an.</li>\
-        <li>⚔, ⚕, 🗲 wirken sofort.</li>\
-        <li>⌂ kann wirken, muss nicht.</li>\
-        <li>⛤ und Lageplan aufnehmen.</li>\
-      </ul>\
-      </ol>\
-      " },
+        content: `<ol>
+      <li style="list-style: upper-roman;">Der Zug des Schergen</li><ul> 
+        <li>Willst Du ihn ziehen,<br/> 
+        so würfle und bewege ihn<br/> 
+        maximal die Augenzahl<br/> 
+        beliebig über freie Felder<br/> 
+        aber nicht diagonal.</li> 
+        <li>Stopp bei Karte oder Scherge,<br/> 
+        außer in der Stadt, dafür aber<br/> 
+        vor Stadtmauer beim Betreten.</li> 
+        <li>Karte erreicht? Aufdecken!</li> 
+        </ul> 
+      <li style="list-style: upper-roman;">Der Zug des Fürsten</li><ul> 
+        <li>Karte ausspielen (zwingend<br/> 
+        bei mehr als 4 Handkarten)</li> 
+        <li>Nachziehen auf 4 Handkarten.</li> 
+      </ul> 
+      <li value="1">In der Stadt </li> 
+        <table> 
+        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
+        <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr> 
+        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
+        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Kraft</td></tr> 
+        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
+        <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr> 
+        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
+        <td></td><td>-x Gold</td><td>→ +x•3 Leben</td></tr> 
+        <tr> 
+        <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr> 
+        </table> 
+      </ol> 
+      ` },
     },
     RulesBack: {
       count: 1,
       head: "",
       background: "Cover/CoverBlank.svg",
       text: {
-        content: `<ol start='3'>\
-        <li>Der Zug des Fürsten</li><ul>\
-          <li>Karte ausspielen (zwingend<br/>\
-          bei mehr als 4 Handkarten)</li>\
-          <li>Nachziehen auf 4 Handkarten.</li>\
-          </ul>\
-        <li>Karten ausspielen</li><ul>\
-          <li>Karten nur im eigenen Zug und<br/>\
-          nur eine Karte pro Zug spielen.</li>\
-          <li>In ein freies Feld einstecken,<br/>\
-          oder zeigen (⛤, Lageplan).</li>\
-          <li><strong>⛤ im Schergenzug spielbar</strong></li>\
-          <li>Schatz ablegen nur möglich<br/>\
-          wenn Scherge in Burg ist,<br/>\
-          gilt als ausgespielte Karte.</li>\
-        </ul>\
-        <li>In der Stadt </li>
-        <table>
-        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td>
-        <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr>
-        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td>
-        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Kraft</td></tr>
-        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td>
-        <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr>
-        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td>
-        <td></td><td>-x Gold</td><td>→ +x•3 Leben</td></tr>
-        <tr>
-        <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr>
-        </table>
-    </ol>\
+        content: `<ol start='2'> 
+        <li>Karten ausspielen</li><ul> 
+          <li>Karten nur im eigenen Zug und<br/> 
+          nur eine Karte pro Zug spielen.</li> 
+          <li>In ein freies Feld einstecken,<br/> 
+          oder zeigen (⛤, Lageplan).</li> 
+          <li><strong>⛤ im Schergenzug spielbar</strong></li> 
+          <li>Schatz ablegen nur möglich<br/> 
+          wenn Scherge in Burg ist,<br/> 
+          gilt als ausgespielte Karte.</li> 
+        </ul> 
+        <li>Karten aufdecken</li><ul> 
+          <li>Unhold greift sofort an.</li> 
+          <li>⚔, ⚕, 🗲 wirken sofort.</li> 
+          <li>⌂ kann wirken, muss nicht.</li> 
+          <li>⛤ und Lageplan aufnehmen.</li> 
+        </ul> 
+          <li>Schlagabtausch im Kampf</li><ul>
+          <li>Härte = Kraft + Waffen + Würfel.</li>
+          <li>Getroffen wenn Härte geringer.</li>
+          <li>Schaden an Leben des<br/>
+          Getroffenen = Härtedifferenz.</li>
+          <li>Beide: Waffenpunkt abziehen.</li>
+          <li>Schlagabtausch bis Tod/Flucht.</li>
+        </ul>
+    </ol> 
   ` },
     }
   }
