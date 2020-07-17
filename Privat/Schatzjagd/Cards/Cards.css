@@ -83,7 +83,7 @@ ul {
   width: 95%;
 }
 ol>li {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 ul>li {
   line-height: 1.15em;

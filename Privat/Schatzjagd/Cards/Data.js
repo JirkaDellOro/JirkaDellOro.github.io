@@ -69,8 +69,9 @@ var SchatzjagdCards;
         maximal die Augenzahl<br/>\
         beliebig über freie Felder<br/>\
         aber nicht diagonal.</li>\
-        <li>Stopp bei Karte oder Scherge<br/>\
-        und außen vor Stadtmauer.</li>\
+        <li>Stopp bei Karte oder Scherge,<br/>\
+        außer in der Stadt, dafür aber<br/>\
+        vor Stadtmauer beim Betreten.</li>\
         <li>Karte erreicht? Aufdecken!</li>\
         </ul>\
       <li>Karten aufdecken</li><ul>\
@@ -90,9 +91,9 @@ var SchatzjagdCards;
             text: {
                 content: `<ol start='3'>\
         <li>Der Zug des Fürsten</li><ul>\
-          <li>Zwingend bei Kartenhand > 4.</li>\
-          <li>Karte ausspielen.</li>\
-          <li>Kartenhand < 4 ? Nachziehen!</li>\
+          <li>Karte ausspielen (zwingend<br/>\
+          bei mehr als 4 Handkarten)</li>\
+          <li>Nachziehen auf 4 Handkarten.</li>\
           </ul>\
         <li>Karten ausspielen</li><ul>\
           <li>Karten nur im eigenen Zug und<br/>\
