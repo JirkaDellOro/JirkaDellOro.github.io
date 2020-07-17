@@ -92,6 +92,7 @@ var SchatzjagdCards;
         <tr> 
         <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr> 
         </table> 
+        <ul><li>Kampf ist untersagt!</li></ul> 
       </ol> 
       `
             },
@@ -101,22 +102,22 @@ var SchatzjagdCards;
             head: "",
             background: "Cover/CoverBlank.svg",
             text: {
-                content: `<ol start='2'> 
+                content: `<ol start='2'>
         <li>Karten ausspielen</li><ul> 
           <li>Karten nur im eigenen Zug und<br/> 
           nur eine Karte pro Zug spielen.</li> 
           <li>In ein freies Feld einstecken,<br/> 
-          oder zeigen (⛤, Lageplan).</li> 
-          <li><strong>⛤ im Schergenzug spielbar</strong></li> 
+          oder zeigen wenn <span class="text">⛤</span> oder <span class="text">Xy</span>.</li> 
+          <li><strong><span class="text">⛤</span> im Schergenzug spielbar</strong></li> 
           <li>Schatz ablegen nur möglich<br/> 
           wenn Scherge in Burg ist,<br/> 
           gilt als ausgespielte Karte.</li> 
         </ul> 
         <li>Karten aufdecken</li><ul> 
-          <li>Unhold greift sofort an.</li> 
-          <li>⚔, ⚕, 🗲 wirken sofort.</li> 
-          <li>⌂ kann wirken, muss nicht.</li> 
-          <li>⛤ und Lageplan aufnehmen.</li> 
+          <li><span class="text" style="background-color:${red};">&nbsp;</span> greift sofort an.</li> 
+          <li><span class="text">⚔</span>, <span class="text">⚕</span>, <span class="text">🗲</span> wirken sofort.</li> 
+          <li><span class="text">⌂</span> kann wirken, muss nicht.</li> 
+          <li><span class="text">⛤</span> und <span class="text">Xy</span> aufnehmen.</li> 
         </ul> 
           <li>Schlagabtausch im Kampf</li><ul>
           <li>Härte = Kraft + Waffen + Würfel.</li>

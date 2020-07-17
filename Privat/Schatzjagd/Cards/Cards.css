@@ -53,7 +53,7 @@ div.backchest {
 
 div.cover {
   width: 45mm;
-  height: 70mm;
+  height: 75mm;
   margin: 1mm;
   background-image: url("Cover/Cover.svg");
   background-size: cover;
@@ -145,6 +145,16 @@ span {
 span.small {
   width: 4mm;
   height: 4mm;
+}
+
+span.text {
+  width: 2.5mm;
+  height: 2.5mm;
+  border: 0.2px solid black;
+  font-size: 2.5mm;
+  line-height: 2.5mm;
+  position: relative;
+  text-align: center;
 }
 
 @font-face {

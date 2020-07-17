@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="45mm"
-   height="70mm"
-   viewBox="0 0 45 70"
+   height="75mm"
+   viewBox="0 0 45 75"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="60.458813"
-     inkscape:cy="130.972"
+     inkscape:cx="0.35473607"
+     inkscape:cy="140.78929"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -85,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -93,21 +93,22 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Background"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,5)">
     <rect
-       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect828"
        width="45"
-       height="70"
+       height="75"
        x="0"
-       y="-2.2916666e-07"
+       y="-4.9999986"
        ry="0" />
   </g>
   <g
      inkscape:label="Front"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-227)"
+     transform="translate(0,-222)"
      style="display:none"
      sodipodi:insensitive="true">
     <image
@@ -119,28 +120,6 @@
        preserveAspectRatio="none"
        height="19.75625"
        width="45" />
-    <g
-       id="g828"
-       transform="translate(3.3666667e-7,-25.399998)">
-      <ellipse
-         cx="22.5"
-         cy="264.5"
-         rx="18"
-         ry="10"
-         id="path840"
-         style="fill:#e4c4a5;fill-opacity:0.67605633;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:0.9677419" />
-      <text
-         id="text860"
-         y="267.01352"
-         x="6.7468753"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
-           y="267.01352"
-           x="6.7468753"
-           id="tspan858"
-           sodipodi:role="line">Schatzjagd</tspan></text>
-    </g>
     <image
        y="245.17342"
        x="-38.652706"
@@ -154,17 +133,48 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Logo"
+     sodipodi:insensitive="true"
+     style="display:none"
+     transform="translate(0,5)">
+    <g
+       id="g828-9"
+       transform="translate(3.017938e-7,-253.9875)">
+      <ellipse
+         cx="22.5"
+         cy="264.5"
+         rx="18"
+         ry="7.7549362"
+         id="path840-3"
+         style="fill:#e4c4a5;fill-opacity:0.67605633;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:0.9677419" />
+      <text
+         id="text860-4"
+         y="267.01352"
+         x="6.7468753"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:'Kingthings Calligraphica 2';-inkscape-font-specification:'Kingthings Calligraphica 2, ';stroke-width:0.26458332"
+           y="267.01352"
+           x="6.7468753"
+           id="tspan858-1"
+           sodipodi:role="line">Schatzjagd</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Outline"
-     sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,5)"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect852"
        width="44"
-       height="69"
+       height="74"
        x="0.5"
-       y="0.49999973"
-       ry="3.3252087" />
+       y="-4.5000024"
+       ry="3.5661659" />
   </g>
 </svg>
