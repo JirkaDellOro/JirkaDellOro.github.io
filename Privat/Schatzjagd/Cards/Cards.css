@@ -72,7 +72,7 @@ div.cover p {
 ol {
   padding-left: 2em;
   /* list-style: upper-roman; */
-  list-style: "🖹 ";
+  list-style: "► ";
   font-weight: bold;
 }
 
