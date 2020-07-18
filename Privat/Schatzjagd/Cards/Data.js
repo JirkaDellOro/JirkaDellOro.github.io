@@ -10,44 +10,13 @@ var SchatzjagdCards;
     let yType = 15;
     let offset = 7;
     // let horzCenterLeft: number = 18.5;
-    let poison = "Wirst Du verletzt,<br/>bist Du vergiftet!";
-    let theft = "Fliehst Du,<br/>verlierst Du alles Gold!";
+    let poison = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
+    let theft = "Flieht dein Scherge,<br/>verliert er alles Gold!";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌
     SchatzjagdCards.addition = {
-        Horse: {
-            count: 3,
-            head: "Pferdestall",
-            image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
-            text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Ritter</br>weiter voran zu bringen" },
-            markers: [
-                { left: xMargin, top: yType, color: "white", content: "⌂" },
-                { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
-            ]
-        },
-        Shadow: {
-            count: 1,
-            head: "Meisterdieb",
-            image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-            text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
-            markers: [
-                { left: xMargin, top: yType, color: "white", content: "⌂" },
-                { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
-            ]
-        },
-        Smeltery: {
-            count: 1,
-            head: "Schmelzerei",
-            image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
-            text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
-            markers: [
-                { left: xMargin, top: yType, color: "white", content: "⌂" },
-                { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
-                { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
-            ]
-        },
         Blank: {
-            count: 3,
+            count: 16,
             head: "&nbsp;",
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "" },
@@ -84,7 +53,7 @@ var SchatzjagdCards;
         <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
         <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr> 
         <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Kraft</td></tr> 
+        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Stärke</td></tr> 
         <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
         <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr> 
         <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
@@ -120,12 +89,13 @@ var SchatzjagdCards;
           <li><span class="text">⛤</span> und <span class="text">Xy</span> aufnehmen.</li> 
         </ul> 
           <li>Schlagabtausch im Kampf</li><ul>
-          <li>Härte = Kraft + Waffen + Würfel.</li>
+          <li>Härte = Stärke+Waffen+Würfel.</li>
           <li>Getroffen wenn Härte geringer.</li>
           <li>Schaden an Leben des<br/>
           Getroffenen = Härtedifferenz.</li>
-          <li>Beide: Waffenpunkt abziehen.</li>
+          <li>Je einen Waffenpunkt abziehen.</li>
           <li>Schlagabtausch bis Tod/Flucht.</li>
+          <li>Flucht: kein Würfel zum Schutz.</li>
         </ul>
     </ol> 
   `
@@ -216,7 +186,7 @@ var SchatzjagdCards;
         count: 1,
         head: "Lageplan",
         image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
-        text: { content: "Stehst Du auf dem Feld,<br/>spiele die Karte aus<br/>um einen Schatz<br/>zu heben." },
+        text: { content: "Zeige diese Karte vor,<br/>wenn dein Scherge auf<br/>dem angegebenen Feld<br/>steht, um einen Schatz<br/>zu heben." },
         markers: [
             { left: xMargin, top: yType, color: "white", content: "" },
         ]
@@ -238,7 +208,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Vergiftet",
             image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
-            text: { content: "Jeden Tag<br/>verlierst Du<br/>Lebenskraft!" },
+            text: { content: "Jeden Tag<br/>verliert dein Scherge<br/>Lebenskraft!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "-1" },
@@ -249,7 +219,7 @@ var SchatzjagdCards;
             count: 2,
             head: "Verwechselt",
             image: { url: "Images/Switch.png", scale: 0.4, top: 18, left: 11 },
-            text: { content: "Der Mob lyncht<br/>dich... eine Weile.<br/>Du verlierst<br/>die Hälfte<br/>deiner Lebenskraft!<br/>(abrunden)" },
+            text: { content: "Der Mob lyncht<br/>deinen Schergen...<br/>eine Weile.<br/> Er verliert<br/>die Hälfte<br/>seiner Lebenskraft!<br/>(abrunden)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "÷2" },
@@ -259,17 +229,17 @@ var SchatzjagdCards;
             count: 2,
             head: "Verstolpert",
             image: { url: "Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
-            text: { content: "Die Stachelfalle<br/>kostet fünf Punkte<br/>deiner Lebenskraft!" },
+            text: { content: "Dein Scherge<br/>verliert fünf Punkte<br/>seiner Lebenskraft!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
-                { left: xMargin, top: yBase, color: green, content: "-5" },
+                { left: xMargin, top: yBase - 0 * offset, color: green, content: "-5" },
             ]
         },
         Theft: {
             count: 2,
             head: "Verschlafen",
             image: { url: "Images/Theft.png", scale: 0.4, top: 19, left: 7 },
-            text: { content: "Dir wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
+            text: { content: "Deinem Schergen<br/>wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: blue, content: "÷2" },
@@ -279,7 +249,7 @@ var SchatzjagdCards;
             count: 2,
             head: "Verschlungen",
             image: { url: "Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
-            text: { content: "Die<br/>Schlangengrube<br/>nimmt dir die<br/>Hälfte deiner Stärke!<br/>(abrunden)" },
+            text: { content: "Die Hälfte<br/>seiner Stärke<br/>verlässt deinen Schergen!<br/>(abrunden)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: red, content: "÷2" },
@@ -300,7 +270,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Erdbeben",
             image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-            text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Ritter stehen!" },
+            text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Schergen stehen!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⛤" },
             ]
@@ -309,7 +279,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Das Dritte Auge",
             image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
-            text: { content: "Zeigt dir die Karten<br/>in der allernächsten<br/>Umgebung.<br/>Es kann nicht<br/>diagonal schauen." },
+            text: { content: "Zeigt dir die Karten<br/>der Nachbarfelder<br/>deines Schergen.<br/>Es kann nicht<br/>diagonal schauen." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⛤" },
             ]
@@ -327,7 +297,7 @@ var SchatzjagdCards;
             count: 1,
             head: "Teleportation",
             image: { url: "Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
-            text: { content: "Bringt sofort einen<br/>beliebigen Ritter auf<br/>ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seiner Runde aufdecken." },
+            text: { content: "Bringt sofort<br/>einen beliebigen Schergen<br/>auf ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seinem Zug aufdecken." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⛤" },
             ]
@@ -443,7 +413,7 @@ var SchatzjagdCards;
         DragonsLair: {
             head: "Drachenhöhle",
             image: { url: "Images/DragonsLair.png", scale: 0.35, top: 15, left: 9.5 },
-            text: { content: "Gehst<br/>Du hinein,<br/>würfle dein Schicksal!" },
+            text: { content: "Schickst<br/>Du deinen<br/>Schergen hinein,<br/>würfle sein Schicksal!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { right: xMargin, top: yBase - 2 * offset, color: red, content: "+1" },
@@ -459,7 +429,8 @@ var SchatzjagdCards;
             count: 2,
             head: "Teleportal",
             image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
-            text: { content: "Schickt dich an einen<br/>beliebigen freien Ort<br/>außerhalb von Mauern<br/>im zufälligen Zielland!" },
+            // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
+            text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen freien Feld<br/>im zufälligen Zielland!" },
             markers: [
                 { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "0" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -486,9 +457,10 @@ var SchatzjagdCards;
         Dealer: {
             head: "Händler",
             image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Tauscht seine Karte<br/>gegen eine von deinen.<br/>Die erste Karte<br/>erhält er vom Stapel." },
+            text: { content: "Verkauft dir ungesehen<br/>die oberste Karte<br/>vom Nachziehstapel<br/>für 4 Goldstücke" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-4" },
             ]
         },
         Tornado: {
@@ -502,9 +474,40 @@ var SchatzjagdCards;
         Arena: {
             head: "Gladiatorenarena",
             image: { url: "Images/Arena.png", scale: 0.45, top: 15.5, left: 8 },
-            text: { content: "Forderst Du<br/>einen Ritter heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
+            text: { content: "Forderst Du<br/>einen Schergen heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
+            ]
+        },
+        Horse: {
+            count: 3,
+            head: "Pferdestall",
+            image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
+            text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Schergen</br>weiter voran zu bringen" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
+            ]
+        },
+        Shadow: {
+            count: 1,
+            head: "Meisterdieb",
+            image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
+            text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
+            ]
+        },
+        Smeltery: {
+            count: 1,
+            head: "Schmelzerei",
+            image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
+            text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
+            markers: [
+                { left: xMargin, top: yType, color: "white", content: "⌂" },
+                { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
+                { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
             ]
         },
     };

@@ -72,7 +72,8 @@ div.cover p {
 ol {
   padding-left: 2em;
   /* list-style: upper-roman; */
-  list-style: "► ";
+  /* list-style: "֍ "; */
+  list-style: "♦  ";
   font-weight: bold;
 }
 
@@ -83,7 +84,11 @@ ul {
   width: 95%;
 }
 ol>li {
-  margin-top: 0.5em;
+  font-family: "Kingthings Calligraphica 2";
+  font-size: 14px;
+  line-height: 1em;
+  margin-top: 0.2em;
+  /* margin-bottom: 0.2em; */
 }
 ul>li {
   line-height: 1.15em;

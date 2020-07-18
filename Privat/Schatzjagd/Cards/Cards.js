@@ -3,7 +3,7 @@ var SchatzjagdCards;
     // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        // createCards(enemies);
+        createCards(SchatzjagdCards.enemies);
         // createCards(places);
         // createCards(potions);
         // createCards(weapons);
@@ -14,7 +14,7 @@ var SchatzjagdCards;
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
-        createCards(SchatzjagdCards.rules, "cover");
+        // createCards(rules, "cover");
         // createCards(addition);
     }
     function createMaps() {
