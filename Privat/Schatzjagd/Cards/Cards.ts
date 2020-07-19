@@ -3,8 +3,8 @@ namespace SchatzjagdCards {
   window.addEventListener("load", hndLoad);
 
   function hndLoad(_event: Event): void {
-    createCards(enemies);
-    // createCards(places);
+    // createCards(enemies);
+    createCards(places);
     // createCards(potions);
     // createCards(weapons);
     // createCards(spells);

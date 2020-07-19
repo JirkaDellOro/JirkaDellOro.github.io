@@ -31,7 +31,7 @@ namespace SchatzjagdCards {
     RulesFront: {
       count: 1,
       head: "",
-      background: "Cover/CoverBlank.svg",
+      background: "Cover/CoverCity.svg",
       text: {
         content: `<ol>
       <li style="list-style: upper-roman;">Der Zug des Schergen</li><ul> 
@@ -70,7 +70,7 @@ namespace SchatzjagdCards {
     RulesBack: {
       count: 1,
       head: "",
-      background: "Cover/CoverBlank.svg",
+      background: "Cover/CoverSword.svg",
       text: {
         content: `<ol start='2'>
         <li>Karten ausspielen</li><ul> 
@@ -463,9 +463,9 @@ namespace SchatzjagdCards {
       ]
     },
     Dealer: {
-      head: "Händler",
+      head: "Handlespriester",
       image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-      text: { content: "Verkauft dir ungesehen<br/>die oberste Karte<br/>vom Nachziehstapel<br/>für 4 Goldstücke" },
+      text: { content: "Dein Scherge<br/>opfert 4 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-4" },

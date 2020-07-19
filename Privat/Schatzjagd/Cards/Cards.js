@@ -3,8 +3,8 @@ var SchatzjagdCards;
     // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     function hndLoad(_event) {
-        createCards(SchatzjagdCards.enemies);
-        // createCards(places);
+        // createCards(enemies);
+        createCards(SchatzjagdCards.places);
         // createCards(potions);
         // createCards(weapons);
         // createCards(spells);
