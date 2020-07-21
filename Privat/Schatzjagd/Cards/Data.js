@@ -499,17 +499,6 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
             ]
         },
-        Smeltery: {
-            count: 1,
-            head: "Schmelzerei",
-            image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
-            text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
-            markers: [
-                { left: xMargin, top: yType, color: "white", content: "⌂" },
-                { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
-                { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
-            ]
-        },
     };
     SchatzjagdCards.enemies = {
         Hun0: {
