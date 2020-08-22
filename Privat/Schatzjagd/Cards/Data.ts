@@ -10,86 +10,96 @@ namespace SchatzjagdCards {
   let offset: number = 7;
   // let horzCenterLeft: number = 18.5;
 
-  let poison: string = "Wirst Du verletzt,<br/>bist Du vergiftet!";
-  let theft: string = "Fliehst Du,<br/>verlierst Du alles Gold!";
+  let poison: string = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
+  let theft: string = "Flieht dein Scherge,<br/>verliert er alles Gold!";
   // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
   // ⛤⛧ ⚐ 🗲 ❌
 
   export let addition = {
-    Horse: {
-      count: 3,
-      head: "Pferdestall",
-      image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
-      text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Ritter</br>weiter voran zu bringen" },
-      markers: [
-        { left: xMargin, top: yType, color: "white", content: "⌂" },
-        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
-      ]
-    },
-    Shadow: {
-      count: 1,
-      head: "Meisterdieb",
-      image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-      text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
-      markers: [
-        { left: xMargin, top: yType, color: "white", content: "⌂" },
-        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
-      ]
-    },
-    Smeltery: {
-      count: 1,
-      head: "Schmelzerei",
-      image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
-      text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
-      markers: [
-        { left: xMargin, top: yType, color: "white", content: "⌂" },
-        { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
-        { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
-      ]
-    },
     Blank: {
-      count: 3,
+      count: 16,
       head: "&nbsp;",
       markers: [
         { left: xMargin, top: yType, color: "white", content: "" },
-        { left: xMargin, top: yBase - 1.0 * offset, color: "white", content: ""  },
-        { right: xMargin, top: yBase - 1.0 * offset, color: "white", content: ""  },
+        { left: xMargin, top: yBase - 1.0 * offset, color: "white", content: "" },
+        { right: xMargin, top: yBase - 1.0 * offset, color: "white", content: "" },
       ]
     },
   }
 
   export let rules = {
-    Rules: {
-      count: 12,
+    RulesFront: {
+      count: 1,
       head: "",
-      background: "Cover/CoverBlank.svg",
+      background: "Cover/CoverCity.svg",
       text: {
-        content: "<ol>\
-      <li>Der Zug des Ritters</li><ul>\
-        <li>Würfeln und Ritter bewegen.</li>\
-        <li>Nur über freie Felder.</li>\
-        <li>Stopp bei Karte oder Ritter.</li>\
-        <li>Karte erreicht? Aufdecken!</li>\
-        <li>Karte wirkt gegebenenfalls.</li></ul>\
-      <li>Der Zug des Fürsten</li><ul>\
-        <li>Karte aus der Hand spielen.</li>\
-        <li>In ein freies Feld einstecken</li>\
-        <li>oder zeigen (Zauber, Lageplan)</li>\
-        <li>Kartenhand < 4 ? Nachziehen!</li></ul>\
-      <li>Die Stadt </li><ul>\
-        <li>Gasthaus +2 Gold pro Zug.</li>\
-        <li>Schule -3 Gold +1 Kraft pro Zug.</li>\
-        <li>Schmied -X Gold +X Waffen.</li>\
-        <li>Heiler -X Gold  +3×X Leben. </li>\
-        </ul>\
-      <li>Merke</li><ul>\
-        <li>Karten nur im eigenen Zug und</li>\
-        <li>nur eine Karte pro Zug spielen.</li>\
-        <li>Zauber im Ritterzug spielbar.</li>\
-        <li>Vor den Stadttoren warten.</li>\
-        </ul>\
-        </ol>\
-      " },
+        content: `<ol>
+      <li style="list-style: upper-roman;">Der Zug des Schergen</li><ul> 
+        <li>Willst Du ihn ziehen,<br/> 
+        so würfle und bewege ihn<br/> 
+        maximal die Augenzahl<br/> 
+        beliebig über freie Felder<br/> 
+        aber nicht diagonal.</li> 
+        <li>Stopp bei Karte oder Scherge,<br/> 
+        außer in der Stadt, dafür aber<br/> 
+        vor Stadtmauer beim Betreten.</li> 
+        <li>Karte erreicht? Aufdecken!</li> 
+        </ul> 
+      <li style="list-style: upper-roman;">Der Zug des Fürsten</li><ul> 
+        <li>Karte ausspielen (zwingend<br/> 
+        bei mehr als 4 Handkarten)</li> 
+        <li>Nachziehen auf 4 Handkarten.</li> 
+      </ul> 
+      <li value="1">In der Stadt </li> 
+        <table> 
+        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
+        <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr> 
+        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
+        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Stärke</td></tr> 
+        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
+        <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr> 
+        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
+        <td></td><td>-x Gold</td><td>→ +x•3 Leben</td></tr> 
+        <tr> 
+        <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr> 
+        </table> 
+        <ul><li>Kampf ist untersagt!</li></ul> 
+      </ol> 
+      ` },
+    },
+    RulesBack: {
+      count: 1,
+      head: "",
+      background: "Cover/CoverSword.svg",
+      text: {
+        content: `<ol start='2'>
+        <li>Karten ausspielen</li><ul> 
+          <li>Karten nur im eigenen Zug und<br/> 
+          nur eine Karte pro Zug spielen.</li> 
+          <li>In ein freies Feld einstecken,<br/> 
+          oder zeigen wenn <span class="text">⛤</span> oder <span class="text">Xy</span>.</li> 
+          <li><strong><span class="text">⛤</span> im Schergenzug spielbar</strong></li> 
+          <li>Schatz ablegen nur möglich<br/> 
+          wenn Scherge in Burg ist,<br/> 
+          gilt als ausgespielte Karte.</li> 
+        </ul> 
+        <li>Karten aufdecken</li><ul> 
+          <li><span class="text" style="background-color:${red};">&nbsp;</span> greift sofort an.</li> 
+          <li><span class="text">⚔</span>, <span class="text">⚕</span>, <span class="text">🗲</span> wirken sofort.</li> 
+          <li><span class="text">⌂</span> kann wirken, muss nicht.</li> 
+          <li><span class="text">⛤</span> und <span class="text">Xy</span> aufnehmen.</li> 
+        </ul> 
+          <li>Schlagabtausch im Kampf</li><ul>
+          <li>Härte = Stärke+Waffen+Würfel.</li>
+          <li>Getroffen wenn Härte geringer.</li>
+          <li>Schaden an Leben des<br/>
+          Getroffenen = Härtedifferenz.</li>
+          <li>Je einen Waffenpunkt abziehen.</li>
+          <li>Schlagabtausch bis Tod/Flucht.</li>
+          <li>Flucht: kein Würfel zum Schutz.</li>
+        </ul>
+    </ol> 
+  ` },
     }
   }
 
@@ -119,6 +129,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Gasthaus",
       background: "City/CityBack.svg",
+      backgroundColor: yellow,
       image: { url: "Images/City_Tavern.png", scale: 0.4, top: 17, left: 7 },
       text: { content: "2 Goldstücke pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
       markers: [
@@ -126,13 +137,13 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yBase - offset, color: "white", content: "1" },
         { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
         { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-        { left: 15, top: 1, color: yellow, content: "", small: true },
       ]
     },
     Healer: {
       count: 4,
       head: "Heiler",
       background: "City/CityBack.svg",
+      backgroundColor: green,
       image: { url: "Images/City_Healer.png", scale: 0.35, top: 18, left: 7 },
       text: { content: "Heilt oder entgiftet!<br/><br/>" },
       markers: [
@@ -143,13 +154,13 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yBase - 0.5 * offset, color: yellow, content: "-5" },
         { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 1 * offset, url: "Images/Arrow.svg", scale: 1 },
         { left: xMargin + 1 + 1.5 * offset, top: yBase - 1, url: "Images/Arrow.svg", scale: 1 },
-        { left: 15, top: 1, color: green, content: "", small: true },
       ]
     },
     Gym: {
       count: 4,
       head: "Schule",
       background: "City/CityBack.svg",
+      backgroundColor: red,
       image: { url: "Images/City_Gym.png", scale: 0.35, top: 20, left: 8 },
       text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Goldstücke!<br/><br/>" },
       markers: [
@@ -157,20 +168,19 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yBase - offset, color: yellow, content: "-3" },
         { left: xMargin, top: yBase - offset, url: "Images/Turn.svg", scale: 1 },
         { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-        { left: 15, top: 1, color: red, content: "", small: true },
       ]
     },
     Forge: {
       count: 4,
       head: "Schmied",
       background: "City/CityBack.svg",
+      backgroundColor: blue,
       image: { url: "Images/City_Forge.png", scale: 0.35, top: 20, left: 8 },
       text: { content: "Fertigt feinste Waffen!<br/><br/>" },
       markers: [
         { right: xMargin, top: yBase - offset, color: blue, content: "+1" },
         { left: xMargin, top: yBase - offset, color: yellow, content: "-1" },
         { left: xMargin + 1 + 1.5 * offset, top: yBase - 1 - 0.5 * offset, url: "Images/Arrow.svg", scale: 1 },
-        { left: 15, top: 1, color: blue, content: "", small: true },
       ]
     },
   };
@@ -179,7 +189,7 @@ namespace SchatzjagdCards {
     count: 1,
     head: "Lageplan",
     image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
-    text: { content: "Stehst Du auf dem Feld,<br/>spiele die Karte aus<br/>um einen Schatz<br/>zu heben." },
+    text: { content: "Zeige diese Karte vor,<br/>wenn dein Scherge auf<br/>dem angegebenen Feld<br/>steht, um einen Schatz<br/>zu heben." },
     markers: [
       { left: xMargin, top: yType, color: "white", content: "" },
     ]
@@ -202,7 +212,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Vergiftet",
       image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
-      text: { content: "Jeden Tag<br/>verlierst Du<br/>Lebenskraft!" },
+      text: { content: "Jeden Tag<br/>verliert dein Scherge<br/>Lebenskraft!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: green, content: "-1" },
@@ -213,7 +223,7 @@ namespace SchatzjagdCards {
       count: 2,
       head: "Verwechselt",
       image: { url: "Images/Switch.png", scale: 0.4, top: 18, left: 11 },
-      text: { content: "Der Mob lyncht<br/>dich... eine Weile.<br/>Du verlierst<br/>die Hälfte<br/>deiner Lebenskraft!<br/>(abrunden)" },
+      text: { content: "Der Mob lyncht<br/>deinen Schergen...<br/>eine Weile.<br/> Er verliert<br/>die Hälfte<br/>seiner Lebenskraft!<br/>(abrunden)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: green, content: "÷2" },
@@ -223,17 +233,17 @@ namespace SchatzjagdCards {
       count: 2,
       head: "Verstolpert",
       image: { url: "Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
-      text: { content: "Die Stachelfalle<br/>kostet fünf Punkte<br/>deiner Lebenskraft!" },
+      text: { content: "Dein Scherge<br/>verliert fünf Punkte<br/>seiner Lebenskraft!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
-        { left: xMargin, top: yBase, color: green, content: "-5" },
+        { left: xMargin, top: yBase  - 0 * offset, color: green, content: "-5" },
       ]
     },
     Theft: {
       count: 2,
       head: "Verschlafen",
       image: { url: "Images/Theft.png", scale: 0.4, top: 19, left: 7 },
-      text: { content: "Dir wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
+      text: { content: "Deinem Schergen<br/>wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: blue, content: "÷2" },
@@ -243,7 +253,7 @@ namespace SchatzjagdCards {
       count: 2,
       head: "Verschlungen",
       image: { url: "Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
-      text: { content: "Die<br/>Schlangengrube<br/>nimmt dir die<br/>Hälfte deiner Stärke!<br/>(abrunden)" },
+      text: { content: "Die Hälfte<br/>seiner Stärke<br/>verlässt deinen Schergen!<br/>(abrunden)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: red, content: "÷2" },
@@ -265,7 +275,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Erdbeben",
       image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-      text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Ritter stehen!" },
+      text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Schergen stehen!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⛤" },
       ]
@@ -274,7 +284,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Das Dritte Auge",
       image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
-      text: { content: "Zeigt dir die Karten<br/>in der allernächsten<br/>Umgebung.<br/>Es kann nicht<br/>diagonal schauen." },
+      text: { content: "Zeigt dir die Karten<br/>der Nachbarfelder<br/>deines Schergen.<br/>Es kann nicht<br/>diagonal schauen." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⛤" },
       ]
@@ -292,7 +302,7 @@ namespace SchatzjagdCards {
       count: 1,
       head: "Teleportation",
       image: { url: "Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
-      text: { content: "Bringt sofort einen<br/>beliebigen Ritter auf<br/>ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seiner Runde aufdecken." },
+      text: { content: "Bringt sofort<br/>einen beliebigen Schergen<br/>auf ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seinem Zug aufdecken." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⛤" },
       ]
@@ -410,7 +420,7 @@ namespace SchatzjagdCards {
     DragonsLair: {
       head: "Drachenhöhle",
       image: { url: "Images/DragonsLair.png", scale: 0.35, top: 15, left: 9.5 },
-      text: { content: "Gehst<br/>Du hinein,<br/>würfle dein Schicksal!" },
+      text: { content: "Schickst<br/>Du deinen<br/>Schergen hinein,<br/>würfle sein Schicksal!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { right: xMargin, top: yBase - 2 * offset, color: red, content: "+1" },
@@ -427,7 +437,8 @@ namespace SchatzjagdCards {
       count: 2,
       head: "Teleportal",
       image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
-      text: { content: "Schickt dich an einen<br/>beliebigen freien Ort<br/>außerhalb von Mauern<br/>im zufälligen Zielland!" },
+      // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
+      text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen freien Feld<br/>im zufälligen Zielland!" },
       markers: [
         { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "0" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -452,11 +463,12 @@ namespace SchatzjagdCards {
       ]
     },
     Dealer: {
-      head: "Händler",
+      head: "Handlespriester",
       image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-      text: { content: "Tauscht seine Karte<br/>gegen eine von deinen.<br/>Die erste Karte<br/>erhält er vom Stapel." },
+      text: { content: "Dein Scherge<br/>opfert 4 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
+        { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-4" },
       ]
     },
     Tornado: {
@@ -470,11 +482,42 @@ namespace SchatzjagdCards {
     Arena: {
       head: "Gladiatorenarena",
       image: { url: "Images/Arena.png", scale: 0.45, top: 15.5, left: 8 },
-      text: { content: "Forderst Du<br/>einen Ritter heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
+      text: { content: "Forderst Du<br/>einen Schergen heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
       ]
     },
+    Horse: {
+      count: 3,
+      head: "Pferdestall",
+      image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
+      text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Schergen</br>weiter voran zu bringen" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⌂" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
+      ]
+    },
+    Shadow: {
+      count: 1,
+      head: "Meisterdieb",
+      image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
+      text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
+      markers: [
+        { left: xMargin, top: yType, color: "white", content: "⌂" },
+        { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
+      ]
+    },
+    // Smeltery: {
+    //   count: 1,
+    //   head: "Schmelzerei",
+    //   image: { url: "Images/Smeltery.png", scale: 0.15, top: 17, left: 9 },
+    //   text: { content: "Schmelze deine Rüstung</br>und erhalte ein Goldstück<br/>für je zwei Waffenpunkte.</br>Zehn für einen Schatz!" },
+    //   markers: [
+    //     { left: xMargin, top: yType, color: "white", content: "⌂" },
+    //     { left: xMargin, top: yBase - 1.0 * offset, color: blue, content: "-2" },
+    //     { right: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "+1" },
+    //   ]
+    // },
   };
 
   export let enemies = {
@@ -483,7 +526,7 @@ namespace SchatzjagdCards {
       head: "Hunne",
       image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -493,7 +536,7 @@ namespace SchatzjagdCards {
       image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
       markers: [
         // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -502,7 +545,7 @@ namespace SchatzjagdCards {
       head: "Hunne",
       image: { url: "Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -514,7 +557,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -526,7 +569,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -538,7 +581,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
@@ -549,7 +592,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -560,7 +603,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -571,7 +614,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -582,7 +625,7 @@ namespace SchatzjagdCards {
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
@@ -591,7 +634,7 @@ namespace SchatzjagdCards {
       head: "Germane",
       image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -603,7 +646,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -615,7 +658,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+4" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
@@ -623,7 +666,7 @@ namespace SchatzjagdCards {
       head: "Hunnenhauptmann",
       image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -634,7 +677,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -642,7 +685,7 @@ namespace SchatzjagdCards {
       head: "Germanenhauptmann",
       image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+5" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
@@ -650,7 +693,7 @@ namespace SchatzjagdCards {
       head: "Rufus der Riese",
       image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+6" },
+        { right: xMargin, top: yBase, color: yellow, content: "+8" },
         { left: xMargin, top: yType, color: red, content: "15" },
       ]
     },
@@ -661,7 +704,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+6" },
+        { right: xMargin, top: yBase, color: yellow, content: "+8" },
         { left: xMargin, top: yType, color: red, content: "15" },
       ]
     },
@@ -669,7 +712,7 @@ namespace SchatzjagdCards {
       head: "Sho-Wung",
       image: { url: "Images/ShoWung.png", scale: 0.4, top: 18.3, left: 3.7 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+8" },
+        { right: xMargin, top: yBase, color: yellow, content: "+10" },
         { left: xMargin, top: yType, color: red, content: "20" },
       ]
     },
@@ -680,7 +723,7 @@ namespace SchatzjagdCards {
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+10" },
+        { right: xMargin, top: yBase, color: yellow, content: "+15" },
         { left: xMargin, top: yType, color: red, content: "25" },
       ]
     },

@@ -15,7 +15,7 @@ var SchatzjagdCards;
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
         // createCards(rules, "cover");
-        createCards(SchatzjagdCards.addition);
+        // createCards(addition);
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
@@ -48,6 +48,8 @@ var SchatzjagdCards;
             card.className = _class;
         if (_data["background"])
             style.backgroundImage = `url("${_data["background"]}"`;
+        if (_data["backgroundColor"])
+            style.backgroundColor = `${_data["backgroundColor"]}`;
         let headline = document.createElement("h1");
         headline.innerHTML = _data["head"];
         card.appendChild(headline);
@@ -73,10 +75,10 @@ var SchatzjagdCards;
         return image;
     }
     function createText(_data) {
-        let span = document.createElement("p");
-        span.innerHTML = _data["content"];
+        let p = document.createElement("p");
+        p.innerHTML = _data["content"];
         console.log(_data["content"]);
-        return span;
+        return p;
     }
     function createMarker(_marker) {
         if (_marker["url"]) {

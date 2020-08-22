@@ -53,7 +53,7 @@ div.backchest {
 
 div.cover {
   width: 45mm;
-  height: 70mm;
+  height: 75mm;
   margin: 1mm;
   background-image: url("Cover/Cover.svg");
   background-size: cover;
@@ -71,12 +71,43 @@ div.cover p {
 
 ol {
   padding-left: 2em;
-  list-style: upper-roman;
+  /* list-style: upper-roman; */
+  /* list-style: "֍ "; */
+  list-style: "♦  ";
   font-weight: bold;
 }
+
 ul {
-  list-style: none;
+  /* list-style: none; */
+  list-style: disc;
   font-weight: normal;
+  width: 95%;
+}
+ol>li {
+  font-family: "Kingthings Calligraphica 2";
+  font-size: 14px;
+  line-height: 1em;
+  margin-top: 0.2em;
+  /* margin-bottom: 0.2em; */
+}
+ul>li {
+  line-height: 1.15em;
+  margin: 0px;
+  padding: 0px;
+}
+
+ol>table {
+  width:110%;
+  margin: 0;
+  padding: 0;
+  margin-left: -1.5em;
+  font-weight: lighter;
+  font-size: 9px;
+}
+
+td, tr {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -119,6 +150,16 @@ span {
 span.small {
   width: 4mm;
   height: 4mm;
+}
+
+span.text {
+  width: 2.5mm;
+  height: 2.5mm;
+  border: 0.2px solid black;
+  font-size: 2.5mm;
+  line-height: 2.5mm;
+  position: relative;
+  text-align: center;
 }
 
 @font-face {

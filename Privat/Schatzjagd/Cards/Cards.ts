@@ -17,7 +17,7 @@ namespace SchatzjagdCards {
     
     // createSimple(12, "cover");
     // createCards(rules, "cover");
-    createCards(addition);
+    // createCards(addition);
   }
 
   function createMaps(): void {
@@ -55,8 +55,10 @@ namespace SchatzjagdCards {
     if (_class)
       card.className = _class;
 
-    if (_data["background"])
+      if (_data["background"])
       style.backgroundImage = `url("${_data["background"]}"`;
+      if (_data["backgroundColor"])
+        style.backgroundColor = `${_data["backgroundColor"]}`;
 
     let headline: HTMLHeadElement = document.createElement("h1");
     headline.innerHTML = _data["head"];
@@ -89,10 +91,10 @@ namespace SchatzjagdCards {
   }
 
   function createText(_data: Object): HTMLParagraphElement {
-    let span: HTMLParagraphElement = document.createElement("p");
-    span.innerHTML = _data["content"];
+    let p: HTMLParagraphElement = document.createElement("p");
+    p.innerHTML = _data["content"];
     console.log(_data["content"]);
-    return span;
+    return p;
   }
 
   function createMarker(_marker: Object): HTMLSpanElement | HTMLImageElement {
