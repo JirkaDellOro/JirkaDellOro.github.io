@@ -15,7 +15,7 @@
    version="1.1"
    id="svg833"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="InBoxFoldBaseLaserBase.svg">
+   sodipodi:docname="InBoxFoldTopLaser.svg">
   <defs
      id="defs827" />
   <sodipodi:namedview
@@ -171,9 +171,9 @@
     <rect
        style="opacity:1;fill:#d20000;fill-opacity:0.31455401;stroke:none;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1670"
-       width="256"
+       width="259"
        height="591.25403"
-       x="22"
+       x="21.999998"
        y="19.999985" />
     <path
        style="opacity:1;fill:#d20000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
