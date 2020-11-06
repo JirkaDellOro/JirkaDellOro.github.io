@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.3535534"
-     inkscape:cx="598.86007"
+     inkscape:cx="118.02747"
      inkscape:cy="1431.5769"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
@@ -82,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -173,7 +173,7 @@
        id="rect1670"
        width="259"
        height="591.25403"
-       x="21.999998"
+       x="18"
        y="19.999985" />
     <path
        style="opacity:1;fill:#d20000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
