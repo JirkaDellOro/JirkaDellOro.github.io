@@ -29,7 +29,7 @@ namespace SchatzjagdCards {
 
   export let rules = {
     RulesFront: {
-      count: 1,
+      count: 12,
       head: "",
       background: "Cover/CoverCity.svg",
       text: {
@@ -68,7 +68,7 @@ namespace SchatzjagdCards {
       ` },
     },
     RulesBack: {
-      count: 1,
+      count: 12,
       head: "",
       background: "Cover/CoverSword.svg",
       text: {
@@ -463,7 +463,7 @@ namespace SchatzjagdCards {
       ]
     },
     Dealer: {
-      head: "Handlespriester",
+      head: "Handelspriester",
       image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
       text: { content: "Dein Scherge<br/>opfert 4 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
       markers: [

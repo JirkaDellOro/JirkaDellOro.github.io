@@ -11,13 +11,13 @@ namespace SchatzjagdCards {
     // createCards(traps);
     // createMaps();
     
-    // createCards(city);
+    createCards(city);
     // createCards(chests, "chest");
     
     // createSimple(12, "backchest");
     
     // createSimple(12, "cover");
-    createCards(rules, "cover");
+    // createCards(rules, "cover");
     // createCards(addition);
   }
 
