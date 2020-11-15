@@ -17,7 +17,7 @@ namespace SchatzjagdCards {
 
   export let addition = {
     Blank: {
-      count: 16,
+      count: 8,
       head: "&nbsp;",
       markers: [
         { left: xMargin, top: yType, color: "white", content: "" },
@@ -126,7 +126,7 @@ namespace SchatzjagdCards {
 
   export let city = {
     Tavern: {
-      count: 4,
+      count: 1,
       head: "Gasthaus",
       background: "City/CityBack.svg",
       backgroundColor: yellow,
@@ -140,7 +140,7 @@ namespace SchatzjagdCards {
       ]
     },
     Healer: {
-      count: 4,
+      count: 1,
       head: "Heiler",
       background: "City/CityBack.svg",
       backgroundColor: green,
@@ -157,7 +157,7 @@ namespace SchatzjagdCards {
       ]
     },
     Gym: {
-      count: 4,
+      count: 1,
       head: "Schule",
       background: "City/CityBack.svg",
       backgroundColor: red,
@@ -171,7 +171,7 @@ namespace SchatzjagdCards {
       ]
     },
     Forge: {
-      count: 4,
+      count: 1,
       head: "Schmied",
       background: "City/CityBack.svg",
       backgroundColor: blue,

@@ -16,7 +16,7 @@ var SchatzjagdCards;
     // ⛤⛧ ⚐ 🗲 ❌
     SchatzjagdCards.addition = {
         Blank: {
-            count: 16,
+            count: 8,
             head: "&nbsp;",
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "" },
@@ -124,7 +124,7 @@ var SchatzjagdCards;
     };
     SchatzjagdCards.city = {
         Tavern: {
-            count: 4,
+            count: 1,
             head: "Gasthaus",
             background: "City/CityBack.svg",
             backgroundColor: yellow,
@@ -138,7 +138,7 @@ var SchatzjagdCards;
             ]
         },
         Healer: {
-            count: 4,
+            count: 1,
             head: "Heiler",
             background: "City/CityBack.svg",
             backgroundColor: green,
@@ -155,7 +155,7 @@ var SchatzjagdCards;
             ]
         },
         Gym: {
-            count: 4,
+            count: 1,
             head: "Schule",
             background: "City/CityBack.svg",
             backgroundColor: red,
@@ -169,7 +169,7 @@ var SchatzjagdCards;
             ]
         },
         Forge: {
-            count: 4,
+            count: 1,
             head: "Schmied",
             background: "City/CityBack.svg",
             backgroundColor: blue,
