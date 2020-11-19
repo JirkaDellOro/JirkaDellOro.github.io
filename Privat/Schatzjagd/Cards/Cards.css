@@ -70,6 +70,19 @@ div.cover p {
   bottom: 3mm;
 }
 
+div.city {
+  width: 46mm;
+  height: 76mm;
+  margin: 2mm 0.4mm;
+  background-image: url("Cover/Cover.svg");
+  background-size: cover;
+}
+
+div.city h1 {
+  top: 22mm;
+  text-align: center;
+}
+
 ol {
   padding-left: 2em;
   /* list-style: upper-roman; */
