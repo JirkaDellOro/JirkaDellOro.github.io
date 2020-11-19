@@ -52,12 +52,13 @@ div.backchest {
 }
 
 div.cover {
-  width: 45mm;
-  height: 75mm;
-  margin: 1mm;
+  width: 46mm;
+  height: 76mm;
+  margin: 0.2mm;
   background-image: url("Cover/Cover.svg");
   background-size: cover;
   text-align: left;
+  padding-left: 1mm;
 }
 
 div.cover h1 {
