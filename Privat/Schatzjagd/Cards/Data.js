@@ -208,7 +208,7 @@ var SchatzjagdCards;
             count: 4,
             head: "Vergiftet",
             image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
-            text: { content: "Jeden Tag<br/>verliert dein Scherge<br/>Lebenskraft!" },
+            text: { content: "Am Ende<br/>jedes Tages<br/>verliert dein Scherge<br/>Lebenskraft!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "-1" },
