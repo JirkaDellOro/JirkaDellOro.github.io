@@ -21,10 +21,10 @@ html, body {
 div {
   display: inline-block;
   position: relative;
-  width: 46mm;
-  height: 66mm;
-  margin: 0.5mm;
-  background-image: url("Play/CardFront.svg");
+  width: 50mm;
+  height: 70mm;
+  margin: 0.0mm;
+  background-image: url("Play/BackgroundFrame.png");
   background-size: cover;
   font-size: 10px;
 }
@@ -33,7 +33,7 @@ div.back {
   width: 47mm;
   height: 67mm;
   margin: 0mm;
-  background-image: url("Play/CardBackText.svg");
+  background-image: url("Play/Background.svg");
   background-size: cover;
 }
 
@@ -127,7 +127,7 @@ td, tr {
 h1 {
   position: relative;
   font-size: 4mm;
-  top: 10.5mm;
+  top: 13mm;
   font-family: "Kingthings Calligraphica 2";
   border: var(--debug-border) dotted black;
   /* font-family: "Calligraphica"; */
@@ -144,7 +144,7 @@ p {
   display: block;
   position: absolute;
   width: 100%;
-  bottom: 4mm;
+  bottom: 6.5mm;
   border: var(--debug-border) dotted black;
   font-family: Arial;
 }

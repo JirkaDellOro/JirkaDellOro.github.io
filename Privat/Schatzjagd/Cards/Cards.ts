@@ -1,17 +1,18 @@
 namespace SchatzjagdCards {
   // let card: HTMLDivElement;
   window.addEventListener("load", hndLoad);
+  let offsetImage = { x: 2.5, y: 2.5 };
 
   function hndLoad(_event: Event): void {
-    // createCards(enemies);
+    createCards(enemies);
     // createCards(places);
     // createCards(potions);
     // createCards(weapons);
     // createCards(spells);
     // createCards(traps);
     // createMaps();
-    
-    createCards(city, "city");
+
+    // createCards(city, "city");
 
     // createCards(chests, "chest");
     // createSimple(12, "backchest");
@@ -20,7 +21,7 @@ namespace SchatzjagdCards {
     // createCards(rules, "cover");
 
     // createCards(addition);
-    
+
     // createSimple(16, "back");
   }
 
@@ -59,10 +60,10 @@ namespace SchatzjagdCards {
     if (_class)
       card.className = _class;
 
-      if (_data["background"])
+    if (_data["background"])
       style.backgroundImage = `url("${_data["background"]}"`;
-      if (_data["backgroundColor"])
-        style.backgroundColor = `${_data["backgroundColor"]}`;
+    if (_data["backgroundColor"])
+      style.backgroundColor = `${_data["backgroundColor"]}`;
 
     let headline: HTMLHeadElement = document.createElement("h1");
     headline.innerHTML = _data["head"];
@@ -87,8 +88,8 @@ namespace SchatzjagdCards {
     let image: HTMLImageElement = document.createElement("img");
     image.src = _data["url"];
     image.style.transform = `scale(${_data["scale"]})`;
-    image.style.top = _data["top"] + "mm";
-    image.style.left = _data["left"] + "mm";
+    image.style.top = _data["top"] + offsetImage.x + "mm";
+    image.style.left = _data["left"] + offsetImage.x + "mm";
     image.style.right = _data["right"] + "mm";
     image.style.bottom = _data["bottom"] + "mm";
     return image;

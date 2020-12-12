@@ -5,9 +5,9 @@ var SchatzjagdCards;
     let blue = "#04a3ff";
     let yellow = "#ffd22a";
     SchatzjagdCards.transparent = "#00000000";
-    let xMargin = 2;
-    let yBase = 48;
-    let yType = 15;
+    let xMargin = 4.5;
+    let yBase = 50;
+    let yType = 17;
     let offset = 7;
     // let horzCenterLeft: number = 18.5;
     let poison = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
@@ -536,7 +536,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
@@ -548,7 +548,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
@@ -560,7 +560,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
                 { left: xMargin, top: yType, color: red, content: "3" },
             ]
@@ -625,7 +625,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
                 { left: xMargin, top: yType, color: red, content: "9" },
             ]
@@ -637,13 +637,13 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
                 { left: xMargin, top: yType, color: red, content: "9" },
             ]
         },
         Boss0: {
-            head: "Hunnenhauptmann",
+            head: "Hunnenhäuptling",
             image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
@@ -656,13 +656,13 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: red, content: "12" },
             ]
         },
         Boss2: {
-            head: "Germanenhauptmann",
+            head: "Germanenanführer",
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
@@ -683,7 +683,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+8" },
                 { left: xMargin, top: yType, color: red, content: "15" },
             ]
@@ -702,7 +702,7 @@ var SchatzjagdCards;
             text: { content: poison },
             markers: [
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin - 0.2, top: yBase - 0.2, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+15" },
                 { left: xMargin, top: yType, color: red, content: "25" },
             ]
