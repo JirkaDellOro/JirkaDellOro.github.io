@@ -11,7 +11,9 @@ namespace SchatzjagdCards {
   // let horzCenterLeft: number = 18.5;
 
   let poison: string = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
-  let theft: string = "Flieht dein Scherge,<br/>verliert er alles Gold!";
+  let theft: string = "Flieht dein Scherge,<br/>halbiert sich sein<br/>Goldvorat! (abrunden)";
+  // let theft: string = "Flieht dein Scherge,<br/>verschwindet die Hälfte<br/>seines Goldes (abrunden)";
+  // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
   // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
   // ⛤⛧ ⚐ 🗲 ❌
 
@@ -521,37 +523,31 @@ namespace SchatzjagdCards {
   };
 
   export let enemies = {
-    Hun0: {
+    Robber01: {
       count: 2,
-      head: "Hunne",
-      image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
-      markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
-        { left: xMargin, top: yType, color: red, content: "3" },
-      ]
-    },
-    Hun1: {
-      count: 2,
-      head: "Hunne",
-      image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
-      markers: [
-        // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+3" },
-        { left: xMargin, top: yType, color: red, content: "3" },
-      ]
-    },
-    Hun2: {
-      count: 2,
-      head: "Hunne",
+      head: "Räuber",
       image: { url: "Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
+      text: { content: theft },
       markers: [
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
         { right: xMargin, top: yBase, color: yellow, content: "+3" },
-        { left: xMargin, top: yType, color: red, content: "3" },
+        { left: xMargin, top: yType, color: red, content: "2" },
       ]
     },
-    Hun3: {
+    Robber02: {
       count: 2,
-      head: "Hunne",
+      head: "Räuber",
+      image: { url: "Images/Robber0.png", scale: 0.4, top: 23, left: 9 },
+      text: { content: theft },
+      markers: [
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+3" },
+        { left: xMargin, top: yType, color: red, content: "2" },
+      ]
+    },
+    Rogue01: {
+      count: 2,
+      head: "Schurke",
       image: { url: "Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
       text: { content: poison },
       markers: [
@@ -561,9 +557,9 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
-    Hun4: {
+    Rogue02: {
       count: 2,
-      head: "Hunne",
+      head: "Schurke",
       image: { url: "Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
       text: { content: poison },
       markers: [
@@ -573,86 +569,84 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yType, color: red, content: "3" },
       ]
     },
-    Hun5: {
-      count: 2,
-      head: "Hunne",
-      image: { url: "Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
-      text: { content: poison },
+    Warrior01: {
+      count: 4,
+      head: "Krieger",
+      image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "-1" },
-        { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
+        // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
         { right: xMargin, top: yBase, color: yellow, content: "+3" },
-        { left: xMargin, top: yType, color: red, content: "3" },
+        { left: xMargin, top: yType, color: red, content: "4" },
       ]
     },
-    Robber0: {
-      count: 2,
-      head: "Räuber",
-      image: { url: "Images/Robber0.png", scale: 0.4, top: 23, left: 9 },
-      text: { content: theft },
-      markers: [
-        { left: xMargin, top: yBase, color: yellow, content: "0" },
-        { right: xMargin, top: yBase, color: yellow, content: "+4" },
-        { left: xMargin, top: yType, color: red, content: "6" },
-      ]
-    },
-    Robber1: {
-      count: 2,
+    Robber11: {
+      count: 1,
       head: "Räuber",
       image: { url: "Images/Robber1.png", scale: 0.4, top: 20, left: 2 },
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
         { right: xMargin, top: yBase, color: yellow, content: "+4" },
-        { left: xMargin, top: yType, color: red, content: "6" },
+        { left: xMargin, top: yType, color: red, content: "5" },
       ]
     },
-    Robber2: {
-      count: 2,
+    Robber12: {
+      count: 1,
       head: "Räuber",
       image: { url: "Images/Robber2.png", scale: 0.4, top: 22, left: 2 },
       text: { content: theft },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
         { right: xMargin, top: yBase, color: yellow, content: "+4" },
-        { left: xMargin, top: yType, color: red, content: "6" },
+        { left: xMargin, top: yType, color: red, content: "5" },
       ]
     },
-    Robber3: {
-      count: 2,
+    Robber13: {
+      count: 1,
       head: "Räuber",
       image: { url: "Images/Robber3.png", scale: 0.4, top: 19, left: 7 },
       text: { content: theft },
       markers: [
-        { left: xMargin, top: yBase, color: yellow, content: "0" },
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
         { right: xMargin, top: yBase, color: yellow, content: "+4" },
-        { left: xMargin, top: yType, color: red, content: "6" },
+        { left: xMargin, top: yType, color: red, content: "5" },
       ]
     },
-    German0: {
-      count: 2,
-      head: "Germane",
-      image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
-      markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+5" },
-        { left: xMargin, top: yType, color: red, content: "9" },
-      ]
-    },
-    German1: {
-      count: 2,
-      head: "Germane",
-      image: { url: "Images/German1.png", scale: 0.36, top: 16, left: 7 },
+    Rogue11: {
+      count: 3,
+      head: "Schurke",
+      image: { url: "Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
       text: { content: poison },
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
-        { right: xMargin, top: yBase, color: yellow, content: "+5" },
-        { left: xMargin, top: yType, color: red, content: "9" },
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
+        { left: xMargin, top: yType, color: red, content: "6" },
       ]
     },
-    German2: {
+    Warrior11: {
+      count: 3,
+      head: "Krieger",
+      image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
+      markers: [
+        { right: xMargin, top: yBase, color: yellow, content: "+4" },
+        { left: xMargin, top: yType, color: red, content: "7" },
+      ]
+    },
+    Robber21: {
       count: 2,
-      head: "Germane",
+      head: "Räuber",
+      image: { url: "Images/German1.png", scale: 0.36, top: 16, left: 7 },
+      text: { content: theft },
+      markers: [
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
+        { left: xMargin, top: yType, color: red, content: "8" },
+      ]
+    },
+    Rogue21: {
+      count: 2,
+      head: "Schurke",
       image: { url: "Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
       text: { content: poison },
       markers: [
@@ -662,17 +656,28 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yType, color: red, content: "9" },
       ]
     },
-    Boss0: {
-      head: "Hunnenhäuptling",
-      image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
+    Warrior21: {
+      count: 2,
+      head: "Krieger",
+      image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
       markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+6" },
-        { left: xMargin, top: yType, color: red, content: "12" },
+        { right: xMargin, top: yBase, color: yellow, content: "+5" },
+        { left: xMargin, top: yType, color: red, content: "10" },
       ]
     },
-    Boss1: {
+    Robber31: {
       head: "Räuberhauptmann",
       image: { url: "Images/Boss1.png", scale: 0.38, top: 22, left: 6 },
+      text: { content: theft },
+      markers: [
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+6" },
+        { left: xMargin, top: yType, color: red, content: "11" },
+      ]
+    },
+    Rogue31: {
+      head: "Schurkenhäuptling",
+      image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
       text: { content: poison },
       markers: [
         { left: xMargin, top: yBase, color: green, content: "-1" },
@@ -681,20 +686,12 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yType, color: red, content: "12" },
       ]
     },
-    Boss2: {
-      head: "Germanenanführer",
+    Warrior31: {
+      head: "Kriegerboss",
       image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
       markers: [
         { right: xMargin, top: yBase, color: yellow, content: "+6" },
-        { left: xMargin, top: yType, color: red, content: "12" },
-      ]
-    },
-    Giant0: {
-      head: "Rufus der Riese",
-      image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
-      markers: [
-        { right: xMargin, top: yBase, color: yellow, content: "+8" },
-        { left: xMargin, top: yType, color: red, content: "15" },
+        { left: xMargin, top: yType, color: red, content: "13" },
       ]
     },
     Giant1: {
@@ -705,26 +702,38 @@ namespace SchatzjagdCards {
         { left: xMargin, top: yBase, color: green, content: "-1" },
         { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
         { right: xMargin, top: yBase, color: yellow, content: "+8" },
+        { left: xMargin, top: yType, color: red, content: "14" },
+      ]
+    },
+    Giant2: {
+      head: "Rufus der Riese",
+      image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
+      text: { content: theft },
+      markers: [
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
+        { right: xMargin, top: yBase, color: yellow, content: "+8" },
         { left: xMargin, top: yType, color: red, content: "15" },
       ]
     },
     ShoWung: {
       head: "Sho-Wung",
-      image: { url: "Images/ShoWung.png", scale: 0.4, top: 18.3, left: 3.7 },
+      image: { url: "Images/ShoWung.png", scale: 0.4, top: 15.3, left: 3.7 },
+      text: { content: poison },
       markers: [
+        { left: xMargin, top: yBase, color: green, content: "-1" },
+        { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
         { right: xMargin, top: yBase, color: yellow, content: "+10" },
-        { left: xMargin, top: yType, color: red, content: "20" },
+        { left: xMargin, top: yType, color: red, content: "17" },
       ]
     },
     Warpig: {
       head: "Warpig",
       image: { url: "Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
-      text: { content: poison },
+      text: { content: "Flieht dein Scherge,<br/>verliert er alles Gold!" },
       markers: [
-        { left: xMargin, top: yBase, color: green, content: "-1" },
-        { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
+        { left: xMargin, top: yBase, color: yellow, content: "0" },
         { right: xMargin, top: yBase, color: yellow, content: "+15" },
-        { left: xMargin, top: yType, color: red, content: "25" },
+        { left: xMargin, top: yType, color: red, content: "20" },
       ]
     },
   };

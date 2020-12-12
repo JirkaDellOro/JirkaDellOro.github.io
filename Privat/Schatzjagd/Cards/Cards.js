@@ -4,8 +4,8 @@ var SchatzjagdCards;
     window.addEventListener("load", hndLoad);
     let offsetImage = { x: 2.5, y: 2.5 };
     function hndLoad(_event) {
-        createCards(SchatzjagdCards.enemies);
-        // createCards(places);
+        // createCards(enemies);
+        createCards(SchatzjagdCards.places);
         // createCards(potions);
         // createCards(weapons);
         // createCards(spells);
