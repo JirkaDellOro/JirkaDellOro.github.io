@@ -15,10 +15,10 @@ var SchatzjagdCards;
     // let theft: string = "Flieht dein Scherge,<br/>verschwindet die Hälfte<br/>seines Goldes (abrunden)";
     // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
-    // ⛤⛧ ⚐ 🗲 ❌
+    // ⛤⛧ ⚐ 🗲 ❌ ☠ 💀 🕱
     SchatzjagdCards.addition = {
         Blank: {
-            count: 8,
+            count: 6,
             head: "&nbsp;",
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "" },
@@ -203,7 +203,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: "grey", content: "" },
                 { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards.transparent, content: "❌" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
             ]
         },
         Poison: {
@@ -214,7 +214,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
             ]
         },
         Switch: {
@@ -369,7 +369,7 @@ var SchatzjagdCards;
             text: { content: "Achtung: Entgiftung<br/>ist keine Heilung..." },
             markers: [
                 { right: xMargin, top: yBase, color: green, content: "-0" },
-                { right: xMargin - 1, top: yBase, url: "Images/Turn.svg", scale: 1 },
+                { right: xMargin - 1, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
             ]
         },
@@ -423,7 +423,7 @@ var SchatzjagdCards;
                 { right: xMargin, top: yBase + 0 * offset, color: green, content: "+5" },
                 { left: xMargin, top: yBase - 2 * offset, color: green, content: "-5" },
                 { left: xMargin, top: yBase - 1 * offset, color: red, content: "-1" },
-                { left: xMargin, top: yBase + 0 * offset, color: green, content: "0" },
+                { left: xMargin, top: yBase + 0 * offset, color: green, content: "🕱", class: "skull" },
                 { left: 0.8, top: 34, url: "Images/DragonDice.svg" },
             ]
         },
@@ -434,7 +434,7 @@ var SchatzjagdCards;
             // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
             text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen freien Feld<br/>im zufälligen Zielland!" },
             markers: [
-                { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "0" },
+                { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "🕱", class: "skull" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: 11, top: 36, url: "Images/Teleportal.svg" },
             ]
@@ -457,12 +457,13 @@ var SchatzjagdCards;
             ]
         },
         Dealer: {
+            count: 2,
             head: "Handelspriester",
             image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Dein Scherge<br/>opfert 4 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
+            text: { content: "Dein Scherge<br/>opfert 2 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
-                { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-4" },
+                { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-2" },
             ]
         },
         Tornado: {

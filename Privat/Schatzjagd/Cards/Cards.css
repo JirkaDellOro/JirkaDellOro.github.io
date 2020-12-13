@@ -14,8 +14,8 @@ html, body {
   font-size: 0px;
   align-content: center;
   text-align: center;
-  /* background-color: white; */
-  background-color: black;
+  background-color: white;
+  /* background-color: black; */
 }
 
 div {
@@ -30,8 +30,8 @@ div {
 }
 
 div.back {
-  width: 47mm;
-  height: 67mm;
+  width: 50mm;
+  height: 70mm;
   margin: 0mm;
   background-image: url("Play/Background.svg");
   background-size: cover;
@@ -161,9 +161,8 @@ span {
   border-radius: 10mm;
 }
 
-span.small {
-  width: 4mm;
-  height: 4mm;
+span.skull {
+  line-height: 8mm;
 }
 
 span.text {

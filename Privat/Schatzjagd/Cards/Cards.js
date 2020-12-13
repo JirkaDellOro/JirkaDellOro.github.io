@@ -94,8 +94,7 @@ var SchatzjagdCards;
         span.style.top = _marker["top"] + "mm";
         span.style.right = _marker["right"] + "mm";
         span.style.left = _marker["left"] + "mm";
-        if (_marker["small"])
-            span.className = "small";
+        span.className = _marker["class"];
         return span;
     }
 })(SchatzjagdCards || (SchatzjagdCards = {}));

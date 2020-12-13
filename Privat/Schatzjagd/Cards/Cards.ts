@@ -115,8 +115,7 @@ namespace SchatzjagdCards {
     span.style.right = _marker["right"] + "mm";
     span.style.left = _marker["left"] + "mm";
 
-    if (_marker["small"])
-      span.className = "small";
+    span.className= _marker["class"];
 
     return span;
   }
