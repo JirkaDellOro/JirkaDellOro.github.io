@@ -587,7 +587,7 @@ namespace SchatzjagdCards {
       image: { url: "Images/Robber1.png", scale: 0.4, top: 20, left: 2 },
       text: { content: theft },
       markers: [
-        { left: xMargin, top: yBase, color: yellow, content: "0" },
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
         { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "5" },
       ]
@@ -598,7 +598,7 @@ namespace SchatzjagdCards {
       image: { url: "Images/Robber2.png", scale: 0.4, top: 22, left: 2 },
       text: { content: theft },
       markers: [
-        { left: xMargin, top: yBase, color: yellow, content: "0" },
+        { left: xMargin, top: yBase, color: yellow, content: "÷2" },
         { right: xMargin, top: yBase, color: yellow, content: "+4" },
         { left: xMargin, top: yType, color: red, content: "5" },
       ]
