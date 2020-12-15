@@ -34,7 +34,7 @@ var SchatzjagdCards;
             background: "Cover/CoverCity.svg",
             text: {
                 content: `<ol>
-      <li style="list-style: upper-roman;">Der Zug des Schergen</li><ul> 
+      <li style="list-style: upper-roman;">Die Reise des Schergen</li><ul> 
         <li>Willst Du ihn ziehen,<br/> 
         so würfle und bewege ihn<br/> 
         maximal die Augenzahl<br/> 
@@ -45,7 +45,7 @@ var SchatzjagdCards;
         vor Stadtmauer beim Betreten.</li> 
         <li>Karte erreicht? Aufdecken!</li> 
         </ul> 
-      <li style="list-style: upper-roman;">Der Zug des Fürsten</li><ul> 
+      <li style="list-style: upper-roman;">Der Einfluss des Fürsten</li><ul> 
         <li>Karte ausspielen (zwingend<br/> 
         bei mehr als 4 Handkarten)</li> 
         <li>Nachziehen auf 4 Handkarten.</li> 
@@ -78,8 +78,9 @@ var SchatzjagdCards;
           <li>Karten nur im eigenen Zug und<br/> 
           nur eine Karte pro Zug spielen.</li> 
           <li>In ein freies Feld einstecken,<br/> 
-          oder zeigen wenn <span class="text">⛤</span> oder <span class="text">Xy</span>.</li> 
-          <li><strong><span class="text">⛤</span> im Schergenzug spielbar</strong></li> 
+          oder zeigen wenn <span class="text" style="background-color: black; color: white;">⛤</span> 
+          oder <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
+          <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> im Schergenzug spielbar</strong></li> 
           <li>Schatz ablegen nur möglich<br/> 
           wenn Scherge in Burg ist,<br/> 
           gilt als ausgespielte Karte.</li> 
@@ -190,7 +191,7 @@ var SchatzjagdCards;
         image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
         text: { content: "Zeige diese Karte vor,<br/>wenn dein Scherge auf<br/>dem angegebenen Feld<br/>steht, um einen Schatz<br/>zu heben." },
         markers: [
-            { left: xMargin, top: yType, color: "white", content: "" },
+            { left: xMargin, top: yType, color: "black", content: "", class: "instant" },
         ]
     };
     SchatzjagdCards.traps = {
@@ -265,7 +266,7 @@ var SchatzjagdCards;
             image: { url: "Images/Stun.png", scale: 0.40, top: 16, left: 9 },
             text: { content: "Setzt den Gegner<br/>im Kampf für<br/>einen Schlagabtausch<br/>außer Gefecht!" },
             markers: [
-                { left: xMargin, top: yType, color: "white", content: "⛤" },
+                { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         Earthquake: {
@@ -274,7 +275,7 @@ var SchatzjagdCards;
             image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
             text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Schergen stehen!" },
             markers: [
-                { left: xMargin, top: yType, color: "white", content: "⛤" },
+                { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         ThirdEye: {
@@ -283,7 +284,7 @@ var SchatzjagdCards;
             image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
             text: { content: "Zeigt dir die Karten<br/>der Nachbarfelder<br/>deines Schergen.<br/>Es kann nicht<br/>diagonal schauen." },
             markers: [
-                { left: xMargin, top: yType, color: "white", content: "⛤" },
+                { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         Crystal: {
@@ -292,7 +293,7 @@ var SchatzjagdCards;
             image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
             text: { content: "Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
             markers: [
-                { left: xMargin, top: yType, color: "white", content: "⛤" },
+                { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         Teleport: {
@@ -301,7 +302,7 @@ var SchatzjagdCards;
             image: { url: "Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
             text: { content: "Bringt sofort<br/>einen beliebigen Schergen<br/>auf ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seinem Zug aufdecken." },
             markers: [
-                { left: xMargin, top: yType, color: "white", content: "⛤" },
+                { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
     };
@@ -528,7 +529,7 @@ var SchatzjagdCards;
         },
         Rogue01: {
             count: 2,
-            head: "Schurke",
+            head: "Assassine",
             image: { url: "Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
             text: { content: poison },
             markers: [
@@ -540,7 +541,7 @@ var SchatzjagdCards;
         },
         Rogue02: {
             count: 2,
-            head: "Schurke",
+            head: "Assassine",
             image: { url: "Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
             text: { content: poison },
             markers: [
@@ -552,7 +553,7 @@ var SchatzjagdCards;
         },
         Warrior01: {
             count: 4,
-            head: "Krieger",
+            head: "Freischärler",
             image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
@@ -595,7 +596,7 @@ var SchatzjagdCards;
         },
         Rogue11: {
             count: 3,
-            head: "Schurke",
+            head: "Assassine",
             image: { url: "Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
             text: { content: poison },
             markers: [
@@ -607,7 +608,7 @@ var SchatzjagdCards;
         },
         Warrior11: {
             count: 3,
-            head: "Krieger",
+            head: "Freischärler",
             image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
@@ -627,7 +628,7 @@ var SchatzjagdCards;
         },
         Rogue21: {
             count: 2,
-            head: "Schurke",
+            head: "Assassine",
             image: { url: "Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
             text: { content: poison },
             markers: [
@@ -639,7 +640,7 @@ var SchatzjagdCards;
         },
         Warrior21: {
             count: 2,
-            head: "Krieger",
+            head: "Freischärler",
             image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
@@ -657,7 +658,7 @@ var SchatzjagdCards;
             ]
         },
         Rogue31: {
-            head: "Schurkenhäuptling",
+            head: "Assassinenchef",
             image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
             text: { content: poison },
             markers: [
@@ -668,7 +669,7 @@ var SchatzjagdCards;
             ]
         },
         Warrior31: {
-            head: "Kriegerboss",
+            head: "Freischar-Oberst",
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
@@ -676,22 +677,22 @@ var SchatzjagdCards;
             ]
         },
         Giant1: {
-            head: "Igor der Riese",
-            image: { url: "Images/Giant1.png", scale: 0.38, top: 17, left: 9 },
-            text: { content: poison },
+            head: "Riesenräuber",
+            image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
+            text: { content: theft },
             markers: [
-                { left: xMargin, top: yBase, color: green, content: "-1" },
-                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
+                { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+8" },
                 { left: xMargin, top: yType, color: red, content: "14" },
             ]
         },
         Giant2: {
-            head: "Rufus der Riese",
-            image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
-            text: { content: theft },
+            head: "Assasinen-Titan",
+            image: { url: "Images/Giant1.png", scale: 0.38, top: 17, left: 9 },
+            text: { content: poison },
             markers: [
-                { left: xMargin, top: yBase, color: yellow, content: "÷2" },
+                { left: xMargin, top: yBase, color: green, content: "-1" },
+                { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+8" },
                 { left: xMargin, top: yType, color: red, content: "15" },
             ]

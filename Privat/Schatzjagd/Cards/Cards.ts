@@ -4,13 +4,13 @@ namespace SchatzjagdCards {
   let offsetImage = { x: 2.5, y: 2.5 };
 
   function hndLoad(_event: Event): void {
-    // createCards(enemies);
+    createCards(enemies);
     createCards(places);
-    // createCards(potions);
-    // createCards(weapons);
-    // createCards(spells);
-    // createCards(traps);
-    // createMaps();
+    createCards(potions);
+    createCards(weapons);
+    createCards(spells);
+    createCards(traps);
+    createMaps();
 
     // createCards(city, "city");
 
@@ -18,7 +18,7 @@ namespace SchatzjagdCards {
     // createSimple(12, "backchest");
 
     // createSimple(12, "cover");
-    // createCards(rules, "cover");
+    createCards(rules, "cover");
 
     // createCards(addition);
 
@@ -32,7 +32,6 @@ namespace SchatzjagdCards {
       let card: HTMLDivElement = createCard(map);
       document.body.appendChild(card)
     }
-
   }
 
   function createSimple(_count: number, _class: string = undefined): void {
