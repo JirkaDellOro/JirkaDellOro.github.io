@@ -16,7 +16,7 @@ var SchatzjagdCards;
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
         // createCards(rules, "cover");
-        // createCards(addition);
+        createCards(SchatzjagdCards.addition);
         // createSimple(16, "back");
     }
     function createMaps() {

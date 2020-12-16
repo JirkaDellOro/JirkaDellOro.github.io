@@ -20,7 +20,7 @@ namespace SchatzjagdCards {
     // createSimple(12, "cover");
     // createCards(rules, "cover");
 
-    // createCards(addition);
+    createCards(addition);
 
     // createSimple(16, "back");
   }
