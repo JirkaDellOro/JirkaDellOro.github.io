@@ -4,20 +4,20 @@ var SchatzjagdCards;
     window.addEventListener("load", hndLoad);
     let offsetImage = { x: 2.5, y: 2.5 };
     function hndLoad(_event) {
-        createCards(SchatzjagdCards.enemies);
-        createCards(SchatzjagdCards.places);
-        createCards(SchatzjagdCards.potions);
-        createCards(SchatzjagdCards.weapons);
-        createCards(SchatzjagdCards.spells);
-        createCards(SchatzjagdCards.traps);
-        createMaps();
+        // createCards(enemies);
+        // createCards(places);
+        // createCards(potions);
+        // createCards(weapons);
+        // createCards(spells);
+        // createCards(traps);
+        // createMaps();
         // createCards(city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
         // createCards(rules, "cover");
-        createCards(SchatzjagdCards.addition);
-        // createSimple(16, "back");
+        // createCards(addition);
+        createSimple(16, "back");
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
