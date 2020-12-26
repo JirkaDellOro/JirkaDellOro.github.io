@@ -10,14 +10,14 @@ var SchatzjagdCards;
         // createCards(weapons);
         // createCards(spells);
         // createCards(traps);
-        // createMaps();
+        createMaps();
         // createCards(city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
         // createCards(rules, "cover");
         // createCards(addition);
-        createSimple(16, "back");
+        // createSimple(16, "back");
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
