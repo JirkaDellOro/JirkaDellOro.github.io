@@ -11,7 +11,7 @@ var SchatzjagdCards;
     let offset = 7;
     // let horzCenterLeft: number = 18.5;
     let poison = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
-    let theft = "Flieht dein Scherge,<br/>halbiert sich sein<br/>Goldvorat! (abrunden)";
+    let theft = "Flieht dein Scherge,<br/>halbiert sich seine<br/>Guldenzahl! (abrunden)";
     // let theft: string = "Flieht dein Scherge,<br/>verschwindet die Hälfte<br/>seines Goldes (abrunden)";
     // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
@@ -53,15 +53,15 @@ var SchatzjagdCards;
       <li value="1">In der Stadt </li> 
         <table> 
         <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td></td><td>→ +2 Gold</td></tr> 
+        <td>pro Tag</td><td></td><td>→ +2 Gulden</td></tr> 
         <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td>-3 Gold</td><td>→ +1 Stärke</td></tr> 
+        <td>pro Tag</td><td>-3 Gulden</td><td>→ +1 Stärke</td></tr> 
         <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gold</td><td>→ +x Waffen</td></tr> 
+        <td></td><td>-x Gulden</td><td>→ +x Waffen</td></tr> 
         <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gold</td><td>→ +x•3 Leben</td></tr> 
+        <td></td><td>-x Gulden</td><td>→ +x•3 Leben</td></tr> 
         <tr> 
-        <td></td><td>-5 Gold</td><td>→ Entgiftung</td></tr> 
+        <td></td><td>-5 Gulden</td><td>→ Entgiftung</td></tr> 
         </table> 
         <ul><li>Kampf ist untersagt!</li></ul> 
       </ol> 
@@ -110,19 +110,19 @@ var SchatzjagdCards;
             count: 4,
             head: " ",
             background: "Chest/ChestFront.svg",
-            image: { url: "Images/Treasure_Crown.png", scale: 0.4, top: 23, left: 8 },
+            image: { url: "Images/Treasure_Crown.png", scale: 0.4, top: 20, left: 5 },
         },
         Orb: {
             count: 4,
             head: " ",
             background: "Chest/ChestFront.svg",
-            image: { url: "Images/Treasure_Orb.png", scale: 0.4, top: 22, left: 10 },
+            image: { url: "Images/Treasure_Orb.png", scale: 0.4, top: 19, left: 7 },
         },
         Chalice: {
             count: 4,
             head: " ",
             background: "Chest/ChestFront.svg",
-            image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 25, left: 8 },
+            image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 22, left: 5 },
         },
     };
     SchatzjagdCards.city = {
@@ -132,7 +132,7 @@ var SchatzjagdCards;
             background: "City/CityBackTall.svg",
             backgroundColor: yellow,
             image: { url: "Images/City_Tavern.png", scale: 0.4, top: 27, left: 7 },
-            text: { content: "2 Goldstücke pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
+            text: { content: "2 Gulden pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
             markers: [
                 { right: xMargin, top: yBase + 0.5 * offset, color: yellow, content: "+2" },
                 { left: xMargin, top: yBase + 0.5 * offset, color: "white", content: "1" },
@@ -163,7 +163,7 @@ var SchatzjagdCards;
             background: "City/CityBackTall.svg",
             backgroundColor: red,
             image: { url: "Images/City_Gym.png", scale: 0.35, top: 30, left: 8 },
-            text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Goldstücke!<br/><br/>" },
+            text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Gulden!<br/><br/>" },
             markers: [
                 { right: xMargin, top: yBase + 0.5 * offset, color: red, content: "+1" },
                 { left: xMargin, top: yBase + 0.5 * offset, color: yellow, content: "-3" },
@@ -433,7 +433,7 @@ var SchatzjagdCards;
             head: "Teleportal",
             image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
             // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
-            text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen freien Feld<br/>im zufälligen Zielland!" },
+            text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen Feld<br/>im zufälligen Zielland!" },
             markers: [
                 { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "🕱", class: "skull" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -443,7 +443,7 @@ var SchatzjagdCards;
         Rumpelstilz: {
             head: "Rumpelstilz",
             image: { url: "Images/Rumpelstilz.png", scale: 0.35, top: 20, left: 9.5 },
-            text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Goldstücke!" },
+            text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Gulden!" },
             markers: [
                 { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -461,7 +461,7 @@ var SchatzjagdCards;
             count: 2,
             head: "Handelspriester",
             image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Dein Scherge<br/>opfert 2 Goldstücke<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
+            text: { content: "Dein Scherge<br/>opfert 2 Gulden<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-2" },
@@ -487,7 +487,7 @@ var SchatzjagdCards;
             count: 3,
             head: "Pferdestall",
             image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
-            text: { content: "Leihe ein Pferd<br/>für ein Goldstück<br/>und würfle gleich nochmal,<br/>um deinen Schergen</br>weiter voran zu bringen" },
+            text: { content: "Leihe ein Pferd<br/>für einen Gulden<br/>und würfle gleich nochmal,<br/>um deinen Schergen</br>weiter voran zu bringen" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
@@ -497,7 +497,7 @@ var SchatzjagdCards;
             count: 1,
             head: "Meisterdieb",
             image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-            text: { content: "Zahle 5 Goldstücke</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
+            text: { content: "Zahle 5 Gulden</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
@@ -711,7 +711,7 @@ var SchatzjagdCards;
         Warpig: {
             head: "Warpig",
             image: { url: "Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
-            text: { content: "Flieht dein Scherge,<br/>verliert er alles Gold!" },
+            text: { content: "Flieht dein Scherge,<br/>verliert er alle Gulden!" },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
                 { right: xMargin, top: yBase, color: yellow, content: "+15" },
