@@ -513,7 +513,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
-                { left: xMargin, top: yType, color: red, content: "2" },
+                { left: xMargin, top: yType, color: "white", content: "2" },
             ]
         },
         Robber02: {
@@ -524,7 +524,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
-                { left: xMargin, top: yType, color: red, content: "2" },
+                { left: xMargin, top: yType, color: "white", content: "2" },
             ]
         },
         Rogue01: {
@@ -536,7 +536,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
-                { left: xMargin, top: yType, color: red, content: "3" },
+                { left: xMargin, top: yType, color: "white", content: "3" },
             ]
         },
         Rogue02: {
@@ -548,7 +548,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
-                { left: xMargin, top: yType, color: red, content: "3" },
+                { left: xMargin, top: yType, color: "white", content: "3" },
             ]
         },
         Warrior01: {
@@ -558,7 +558,7 @@ var SchatzjagdCards;
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
                 { right: xMargin, top: yBase, color: yellow, content: "+3" },
-                { left: xMargin, top: yType, color: red, content: "4" },
+                { left: xMargin, top: yType, color: "white", content: "4" },
             ]
         },
         Robber11: {
@@ -569,7 +569,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
-                { left: xMargin, top: yType, color: red, content: "5" },
+                { left: xMargin, top: yType, color: "white", content: "5" },
             ]
         },
         Robber12: {
@@ -580,7 +580,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
-                { left: xMargin, top: yType, color: red, content: "5" },
+                { left: xMargin, top: yType, color: "white", content: "5" },
             ]
         },
         Robber13: {
@@ -591,7 +591,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
-                { left: xMargin, top: yType, color: red, content: "5" },
+                { left: xMargin, top: yType, color: "white", content: "5" },
             ]
         },
         Rogue11: {
@@ -603,7 +603,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
-                { left: xMargin, top: yType, color: red, content: "6" },
+                { left: xMargin, top: yType, color: "white", content: "6" },
             ]
         },
         Warrior11: {
@@ -612,7 +612,7 @@ var SchatzjagdCards;
             image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
-                { left: xMargin, top: yType, color: red, content: "7" },
+                { left: xMargin, top: yType, color: "white", content: "7" },
             ]
         },
         Robber21: {
@@ -623,7 +623,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
-                { left: xMargin, top: yType, color: red, content: "8" },
+                { left: xMargin, top: yType, color: "white", content: "8" },
             ]
         },
         Rogue21: {
@@ -635,7 +635,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
-                { left: xMargin, top: yType, color: red, content: "9" },
+                { left: xMargin, top: yType, color: "white", content: "9" },
             ]
         },
         Warrior21: {
@@ -644,7 +644,7 @@ var SchatzjagdCards;
             image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
-                { left: xMargin, top: yType, color: red, content: "10" },
+                { left: xMargin, top: yType, color: "white", content: "10" },
             ]
         },
         Robber31: {
@@ -654,7 +654,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
-                { left: xMargin, top: yType, color: red, content: "11" },
+                { left: xMargin, top: yType, color: "white", content: "11" },
             ]
         },
         Rogue31: {
@@ -665,7 +665,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
-                { left: xMargin, top: yType, color: red, content: "12" },
+                { left: xMargin, top: yType, color: "white", content: "12" },
             ]
         },
         Warrior31: {
@@ -673,7 +673,7 @@ var SchatzjagdCards;
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
-                { left: xMargin, top: yType, color: red, content: "13" },
+                { left: xMargin, top: yType, color: "white", content: "13" },
             ]
         },
         Giant1: {
@@ -683,7 +683,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "÷2" },
                 { right: xMargin, top: yBase, color: yellow, content: "+8" },
-                { left: xMargin, top: yType, color: red, content: "14" },
+                { left: xMargin, top: yType, color: "white", content: "14" },
             ]
         },
         Giant2: {
@@ -694,7 +694,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+8" },
-                { left: xMargin, top: yType, color: red, content: "15" },
+                { left: xMargin, top: yType, color: "white", content: "15" },
             ]
         },
         ShoWung: {
@@ -705,7 +705,7 @@ var SchatzjagdCards;
                 { left: xMargin, top: yBase, color: green, content: "-1" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
                 { right: xMargin, top: yBase, color: yellow, content: "+10" },
-                { left: xMargin, top: yType, color: red, content: "17" },
+                { left: xMargin, top: yType, color: "white", content: "17" },
             ]
         },
         Warpig: {
@@ -715,7 +715,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
                 { right: xMargin, top: yBase, color: yellow, content: "+15" },
-                { left: xMargin, top: yType, color: red, content: "20" },
+                { left: xMargin, top: yType, color: "white", content: "20" },
             ]
         },
     };
