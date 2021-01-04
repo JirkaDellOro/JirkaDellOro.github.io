@@ -2,12 +2,12 @@
 
 | Start   | Name       | Vorname      | Abschluss | Titel                      | Z |
 |---------|------------|--------------|-----------|----------------------------|---|
-| **S21** | Keck       | Luis         | BSc       | ?                          |   |
+| **S21** | Keck       | Luis         | BSc       | - Thema steht noch aus     |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
-|         | Langer     | Judith       | MA        | ?                          |   |
+|         | Langer     | Judith       | MA        | - Thema steht noch aus     |   |
 |         | Stuber     | Marius       | MSc       | Cego KI                    | x |
-|         | Haller     | Jonas        | BSc       | Anfrage                    |   |
-|         | Schürmann  | Markus       | BSc       | Anfrage                    |   |
+|         | Haller     | Jonas        | BSc       | - Thema steht noch aus     |   |
+|         | Schürmann  | Markus       | BSc       | ? Anfrage                  |   |
 |         | Maurer     | Katharina    | MSc       | Serious Games (Gießen)     | x |
 | **W20** | Lotz       | Anna         | BA        | Multiplay Cross VR         |   |
 |         | Schwab     | Robin        | BSc       | Modeller für FUDGE         |   |
