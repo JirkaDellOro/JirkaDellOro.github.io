@@ -33,7 +33,7 @@
 [Zeitbasierte Medien, Mainz](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-zeitbasierte-medien/uebersicht/)  
 [Studienführer medien-studieren.net](https://www.medien-studieren.net/infos/unterschied-kommunikationsdesign-grafikdesign-mediendesign/#mediendesign)  
 
-
 ## Handlungsoptionen und Vorschläge
+[Fokus auf das Digitale](MoreOrLess)
 [Betrachtung der Vakanzen](InhalteFriessRuf.pdf)  
 [Vorschläge für die Studienordnung](MKB-SPO-Proposals.pdf)  
