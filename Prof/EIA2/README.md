@@ -25,6 +25,11 @@
 [Umsatzentwicklung der Unterhaltungsmedien](2019_game_Arbeiten_in_der_Games-Branche_Web-1_Seite7_2.pdf)  
 [Stellenangebote](Stellenangebote.pdf)
 
+## Kreativpräkariat
+[taz-Artikel 2018](https://taz.de/Kreativarbeit-im-Neoliberalismus/!5497782/)
+[Lisa Basten, 2017](https://www.spw.de/data/219_basten.pdf)
+[Alexandra Manske, 2009](https://www.wsi.de/data/wsimit_2009_06_manske.pdf)
+
 ## Alternative Studiengänge
 [Mediendesign und Digitale Gestaltung, Ravensburg](https://www.rwu.de/studieren/studiengaenge/mediendesign-digitale-gestaltung#edit-group-studieninhalte)  
 [Digital Media Design, LaJolla, Kalifornien](https://www.nu.edu/wp-content/uploads/2018/11/19-NU-1080-Bachelor-of-Arts-in-Digital-Media-Design.pdf)  
