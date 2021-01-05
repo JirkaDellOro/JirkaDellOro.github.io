@@ -23,6 +23,16 @@
 [Website der Initiative Digital Design mit Unterzeichnerliste](https://www.digital-design-manifest.de/)  
 [Website des Bitcom zu Digital Design](https://www.bitkom.org/Themen/Technologien-Software/Software/digitaldesign.html)  
 [Umsatzentwicklung der Unterhaltungsmedien](2019_game_Arbeiten_in_der_Games-Branche_Web-1_Seite7_2.pdf)  
+[Stellenangebote](Stellenangebote.pdf)
+
+## Alternative Studiengänge
+[Mediendesign und Digitale Gestaltung, Ravensburg](https://www.rwu.de/studieren/studiengaenge/mediendesign-digitale-gestaltung#edit-group-studieninhalte)  
+[Digital Media Design, LaJolla, Kalifornien](https://www.nu.edu/wp-content/uploads/2018/11/19-NU-1080-Bachelor-of-Arts-in-Digital-Media-Design.pdf)  
+[Code und Context, Köln](https://www.th-koeln.de/studium/code--context-bachelor--aktuelles_73882.php)  
+[Digital Media Design, Cambridge, Massachusetts](https://www.extension.harvard.edu/course-catalog/courses-by-degree/Digital-Media-Design)  
+[Zeitbasierte Medien, Mainz](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-zeitbasierte-medien/uebersicht/)  
+[Studienführer medien-studieren.net](https://www.medien-studieren.net/infos/unterschied-kommunikationsdesign-grafikdesign-mediendesign/#mediendesign)  
+
 
 ## Handlungsoptionen und Vorschläge
 [Betrachtung der Vakanzen](InhalteFriessRuf.pdf)  
