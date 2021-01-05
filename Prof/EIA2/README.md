@@ -34,6 +34,6 @@
 [Studienführer medien-studieren.net](https://www.medien-studieren.net/infos/unterschied-kommunikationsdesign-grafikdesign-mediendesign/#mediendesign)  
 
 ## Handlungsoptionen und Vorschläge
-[Fokus auf das Digitale](MoreOrLess)
+[Fokus auf das Digitale](MoreOrLess)  
 [Betrachtung der Vakanzen](InhalteFriessRuf.pdf)  
 [Vorschläge für die Studienordnung](MKB-SPO-Proposals.pdf)  
