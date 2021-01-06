@@ -2,7 +2,7 @@ Fokus auf Kompetenz im Bereich des Digitalen in den Medien
 an der Fakultät Digitale Medien
 
 
-|                                | mehr                                                       | weniger                                                                      |
+|                                | stark                                                       | schwach                                                                      |
 |--------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
 | Fähigkeiten der Absolventen    | neue Erlebnisse  und digitale Werkzeuge hierfür erschaffen | lediglich Inhalte austauschen und digitale Werkzeuge nutzen                  |
 | Umsetzbarkeit im Kollegium     | alle werden integriert und tragen maßgeblich bei           | ein großer Teil des Kollegiums wird ausgeschlossen                           |
