@@ -452,7 +452,7 @@ var SchatzjagdCards;
         Elf: {
             head: "Elf, der Wegweiser",
             image: { url: "Images/Elf.png", scale: 0.35, top: 20, left: 8.5 },
-            text: { content: "Würfelst Du eine<br/>5 oder eine 6,<br/>so zeigt dir der Elf<br/>eine beliebige Karte<br/>im Reich!" },
+            text: { content: "Voller Hilfsbereitschaft<br/>zeigt dir der Elf<br/>eine beliebige Karte<br/>im Reich!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
             ]
@@ -461,7 +461,7 @@ var SchatzjagdCards;
             count: 2,
             head: "Handelspriester",
             image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Dein Scherge<br/>opfert 2 Gulden<br/>und die oberste Karte<br/>des Nachziehstapels<br/>kommt auf deine Hand." },
+            text: { content: "Die obersten Karten<br/>des Nachziehstapels<br/>kommen für je 2 Gulden<br/>auf deine Hand." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-2" },

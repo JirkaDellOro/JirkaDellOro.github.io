@@ -4,8 +4,8 @@ namespace SchatzjagdCards {
   let offsetImage = { x: 2.5, y: 2.5 };
 
   function hndLoad(_event: Event): void {
-    createCards(enemies);
-    // createCards(places);
+    // createCards(enemies);
+    createCards(places);
     // createCards(potions);
     // createCards(weapons);
     // createCards(spells);

@@ -2,7 +2,7 @@ Fokus auf Kompetenz im Bereich des Digitalen in den Medien
 an der Fakultät Digitale Medien
 
 
-|                                | stark                                                       | schwach                                                                      |
+|                                | stark                                                      | schwach                                                                      |
 |--------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------|
 | Fähigkeiten der Absolventen    | neue Erlebnisse  und digitale Werkzeuge hierfür erschaffen | lediglich Inhalte austauschen und digitale Werkzeuge nutzen                  |
 | Umsetzbarkeit im Kollegium     | alle werden integriert und tragen maßgeblich bei           | ein großer Teil des Kollegiums wird ausgeschlossen                           |
@@ -12,3 +12,4 @@ an der Fakultät Digitale Medien
 | Bewerber                       | Suchen Herausforderung und gute Ausbildung                 | Bei der großen Konkurrenz durchgefallen, letzte Chance Furtwangen            |
 | Kreativität                    | Gestalter kennen ihr Material, Ideen entstehen im Umgang   | Gestalter kennen Möglichkeiten und Limitationen nicht, Ideen sind suboptimal |
 | Konzeption                     | Konzepter entwickelt Prototypen als Teil der Konzeption    | Konzepter ist schon beim Entwurf auf Hilfe durch Spezialisten angewiesen     |
+| Finanzielle Mittel             | Politik pumpt Geld um Entwicklungslandstatus zu mindern    | ?                                                                            |
