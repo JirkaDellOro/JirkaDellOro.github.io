@@ -9,8 +9,8 @@
 }
 
 html, body {
-  /* height: 1000mm; */
-  width: 480mm;
+  height: 100%;
+  width: 100%;
   font-size: 0px;
   align-content: center;
   text-align: center;
@@ -18,39 +18,35 @@ html, body {
   /* background-color: black; */
 }
 
-body {
-  background-image: url("Print/spielkarten 46x66.png");
-  background-repeat: repeat-y;
-  background-size: 480mm 330mm;
-  /* width: 480mm; */
-  /* height: 330mm; */
-  text-align: left;
-  padding-left: 15mm;
+section {
+  width: 480mm;
+  height: 300mm;
+  margin: 0mm;
+  padding: 0mm;
   padding-top: 25mm;
+  background-image: url("Print/spielkarten\ 46x66.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  background-size: 480mm 330mm;
 }
 
 div {
   display: inline-block;
   position: relative;
-  text-align: center;
   width: 50mm;
   height: 70mm;
-  margin: 0.0mm;
+  margin: 0mm;
   background-image: url("Play/BackgroundFrame.png");
   background-size: cover;
   font-size: 10px;
 }
 
 div.back {
+  width: 50mm;
+  height: 70mm;
+  margin: 0mm;
   background-image: url("Play/Background.svg");
   background-size: cover;
-  margin: 0.0mm;
-  vertical-align: top;
-}
-
-
-div:nth-child(36n+36) {
-  margin-bottom: 50mm;
 }
 
 div.chest {

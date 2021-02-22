@@ -3,9 +3,6 @@ var SchatzjagdCards;
     // let card: HTMLDivElement;
     window.addEventListener("load", hndLoad);
     let offsetImage = { x: 2.5, y: 2.5 };
-    let multiplier = 9;
-    let insertBacksAfter = 36;
-    let count = 0;
     function hndLoad(_event) {
         createCards(SchatzjagdCards.enemies);
         createCards(SchatzjagdCards.places);
@@ -21,24 +18,18 @@ var SchatzjagdCards;
         // createCards(rules, "cover");
         createCards(SchatzjagdCards.addition);
         // createSimple(16, "back");
+        convertToYodaPrint();
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
         for (let location of locations) {
-            for (let i = 0; i < multiplier; i++) {
-                SchatzjagdCards.map["markers"][0]["content"] = location;
-                let card = createCard(SchatzjagdCards.map);
-                document.body.appendChild(card);
-                count++;
-            }
-            if (count >= insertBacksAfter) {
-                createSimple(4, "back");
-                count = 0;
-            }
+            SchatzjagdCards.map["markers"][0]["content"] = location;
+            let card = createCard(SchatzjagdCards.map);
+            document.body.appendChild(card);
         }
     }
     function createSimple(_count, _class = undefined) {
-        for (let i = 0; i < _count * multiplier; i++) {
+        for (let i = 0; i < _count; i++) {
             let card = document.createElement("div");
             card.className = _class;
             document.body.appendChild(card);
@@ -48,15 +39,8 @@ var SchatzjagdCards;
         for (let key in _list) {
             let cardData = _list[key];
             for (let copy = 0; copy < (cardData["count"] || 1); copy++) {
-                for (let i = 0; i < multiplier; i++) {
-                    let card = createCard(cardData, _class);
-                    document.body.appendChild(card);
-                    count++;
-                }
-                if (count >= insertBacksAfter) {
-                    createSimple(4, "back");
-                    count = 0;
-                }
+                let card = createCard(cardData, _class);
+                document.body.appendChild(card);
             }
         }
     }
@@ -113,5 +97,28 @@ var SchatzjagdCards;
         span.style.left = _marker["left"] + "mm";
         span.className = _marker["class"];
         return span;
+    }
+    function convertToYodaPrint() {
+        let cards = document.querySelectorAll("div");
+        for (let index = 0; index < cards.length;) {
+            let section = document.createElement("section");
+            document.body.appendChild(section);
+            for (let row = 0; row < 4; row++) {
+                let card = cards[index++];
+                for (let column = 0; column < 9; column++) {
+                    section.appendChild(card);
+                    card = card.cloneNode(true);
+                }
+            }
+            section = document.createElement("section");
+            document.body.appendChild(section);
+            for (let row = 0; row < 4; row++) {
+                for (let column = 0; column < 9; column++) {
+                    let card = document.createElement("div");
+                    card.className = "back";
+                    section.appendChild(card);
+                }
+            }
+        }
     }
 })(SchatzjagdCards || (SchatzjagdCards = {}));

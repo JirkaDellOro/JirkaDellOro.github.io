@@ -2,9 +2,6 @@ namespace SchatzjagdCards {
   // let card: HTMLDivElement;
   window.addEventListener("load", hndLoad);
   let offsetImage = { x: 2.5, y: 2.5 };
-  let multiplier: number = 9;
-  let insertBacksAfter: number = 36;
-  let count: number = 0;
 
   function hndLoad(_event: Event): void {
     createCards(enemies);
@@ -26,26 +23,21 @@ namespace SchatzjagdCards {
     createCards(addition);
 
     // createSimple(16, "back");
+
+    convertToYodaPrint();
   }
 
   function createMaps(): void {
     let locations: string[] = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];
     for (let location of locations) {
-      for (let i: number = 0; i < multiplier; i++) {
-        map["markers"][0]["content"] = location;
-        let card: HTMLDivElement = createCard(map);
-        document.body.appendChild(card)
-        count++;
-      }
-      if (count >= insertBacksAfter) {
-        createSimple(4, "back");
-        count = 0;
-      }
+      map["markers"][0]["content"] = location;
+      let card: HTMLDivElement = createCard(map);
+      document.body.appendChild(card)
     }
   }
 
   function createSimple(_count: number, _class: string = undefined): void {
-    for (let i: number = 0; i < _count * multiplier; i++) {
+    for (let i: number = 0; i < _count; i++) {
       let card: HTMLDivElement = document.createElement("div");
       card.className = _class;
       document.body.appendChild(card)
@@ -56,15 +48,8 @@ namespace SchatzjagdCards {
     for (let key in _list) {
       let cardData = _list[key];
       for (let copy: number = 0; copy < (cardData["count"] || 1); copy++) {
-        for (let i: number = 0; i < multiplier; i++) {
-          let card: HTMLDivElement = createCard(cardData, _class);
-          document.body.appendChild(card)
-          count++;
-        }
-        if (count >= insertBacksAfter) {
-          createSimple(4, "back");
-          count = 0;
-        }
+        let card: HTMLDivElement = createCard(cardData, _class);
+        document.body.appendChild(card)
       }
     }
   }
@@ -134,5 +119,29 @@ namespace SchatzjagdCards {
     span.className = _marker["class"];
 
     return span;
+  }
+
+  function convertToYodaPrint(): void {
+    let cards: NodeListOf<HTMLDivElement> = document.querySelectorAll("div");
+    for (let index: number = 0; index < cards.length;) {
+      let section: HTMLElement = document.createElement("section");
+      document.body.appendChild(section);
+      for (let row: number = 0; row < 4; row++) {
+        let card: Node = cards[index++]
+        for (let column: number = 0; column < 9; column++) {
+          section.appendChild(card);
+          card = card.cloneNode(true);
+        }
+      }
+      section = document.createElement("section");
+      document.body.appendChild(section);
+      for (let row: number = 0; row < 4; row++) {
+        for (let column: number = 0; column < 9; column++) {
+          let card: HTMLDivElement = document.createElement("div");
+          card.className = "back";
+          section.appendChild(card)
+        }
+      }
+    }
   }
 }
