@@ -1,0 +1,205 @@
+:root {
+  --debug-border: 0.01px;
+  --debug-border: 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  /* height: 1000mm; */
+  width: 480mm;
+  font-size: 0px;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  /* background-color: black; */
+}
+
+body {
+  background-image: url("Print/spielkarten 46x66.png");
+  background-repeat: repeat-y;
+  background-size: 480mm 330mm;
+  /* width: 480mm; */
+  /* height: 330mm; */
+  text-align: left;
+  padding-left: 15mm;
+  padding-top: 25mm;
+}
+
+div {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 50mm;
+  height: 70mm;
+  margin: 0.0mm;
+  background-image: url("Play/BackgroundFrame.png");
+  background-size: cover;
+  font-size: 10px;
+}
+
+div.back {
+  background-image: url("Play/Background.svg");
+  background-size: cover;
+  margin: 0.0mm;
+  vertical-align: top;
+}
+
+
+div:nth-child(36n+36) {
+  margin-bottom: 50mm;
+}
+
+div.chest {
+  width: 40mm;
+  height: 70mm;
+  margin: 1mm;
+}
+
+div.backchest {
+  width: 41mm;
+  height: 71mm;
+  margin: 0.5mm;
+  background-image: url("Chest/ChestBack.svg");
+  background-size: cover;
+}
+
+div.cover {
+  width: 46mm;
+  height: 76mm;
+  margin: 0.2mm;
+  background-image: url("Cover/Cover.svg");
+  background-size: cover;
+  text-align: left;
+  padding-left: 1mm;
+}
+
+div.cover h1 {
+  top: 4mm;
+  text-align: center;
+}
+
+div.cover p {
+  bottom: 3mm;
+}
+
+div.city {
+  width: 46mm;
+  height: 76mm;
+  margin: 2mm 0.4mm;
+  background-image: url("Cover/Cover.svg");
+  background-size: cover;
+}
+
+div.city h1 {
+  top: 22mm;
+  text-align: center;
+}
+
+ol {
+  padding-left: 2em;
+  /* list-style: upper-roman; */
+  /* list-style: "֍ "; */
+  list-style: "♦  ";
+  font-weight: bold;
+}
+
+ul {
+  /* list-style: none; */
+  list-style: disc;
+  font-weight: normal;
+  width: 95%;
+}
+
+ol>li {
+  font-family: "Kingthings Calligraphica 2";
+  font-size: 14px;
+  line-height: 1em;
+  margin-top: 0.2em;
+  /* margin-bottom: 0.2em; */
+}
+
+ul>li {
+  line-height: 1.15em;
+  margin: 0px;
+  padding: 0px;
+}
+
+ol>table {
+  width: 110%;
+  margin: 0;
+  padding: 0;
+  margin-left: -1.5em;
+  font-weight: lighter;
+  font-size: 9px;
+}
+
+td, tr {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: relative;
+  font-size: 4mm;
+  top: 13mm;
+  font-family: "Kingthings Calligraphica 2";
+  border: var(--debug-border) dotted black;
+  /* font-family: "Calligraphica"; */
+}
+
+img {
+  position: absolute;
+  /* float: left; */
+  /* right: 3mm; */
+  transform-origin: left top;
+}
+
+p {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 6.5mm;
+  border: var(--debug-border) dotted black;
+  font-family: Arial;
+}
+
+span {
+  display: inline-block;
+  position: absolute;
+  width: 7.8mm;
+  height: 7.8mm;
+  font-family: "Kingthings Calligraphica 2";
+  font-size: 7mm;
+  /* font-weight: bolder; */
+  line-height: 6mm;
+  border: 1px solid black;
+  border-radius: 10mm;
+}
+
+span.skull {
+  line-height: 8mm;
+}
+
+span.instant {
+  color: white;
+  line-height: 7mm;
+}
+
+span.text {
+  width: 2.5mm;
+  height: 2.5mm;
+  border: 0.2px solid black;
+  font-size: 2.5mm;
+  line-height: 2.5mm;
+  position: relative;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Calligraphica";
+  src: url("../Font/Kingthings Calligraphica 2.ttf");
+}

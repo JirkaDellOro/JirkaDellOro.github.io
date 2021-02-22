@@ -19,7 +19,7 @@ namespace SchatzjagdCards {
 
   export let addition = {
     Blank: {
-      count: 6,
+      count: 2,
       head: "&nbsp;",
       markers: [
         { left: xMargin, top: yType, color: "white", content: "" },
