@@ -37,6 +37,14 @@ div.back {
   background-size: cover;
 }
 
+div.poisonskip {
+  width: 50mm;
+  height: 70mm;
+  margin: 0.5mm;
+  background-image: url("PoisonSkip/Card.svg");
+  background-size: cover;
+}
+
 div.chest {
   width: 40mm;
   height: 70mm;
