@@ -1,4 +1,5 @@
-Kollegium der Fakultät Digitale Medien 
+# Kollegium der Fakultät Digitale Medien  
+
 <table>
 <tr><th>Name</th><th>Berufung</th></tr>
 <tr><td>Martin Aichele </td><td> Integrierte Kommunikation </td></tr>
