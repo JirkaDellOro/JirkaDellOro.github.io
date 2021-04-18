@@ -1,8 +1,9 @@
 # Diskussionspapiere
 
 ## Allgemein
-[Strategie](Strategie.md)  
+[Strategie](Strategie)  
 [Qualifikationsziele](Qualifikationsziele.png)  
+[Kollegium](Personen)  
 
 ## Allgemein
 [Spezifische Aussagen aus der Digitalindustrie](IndustrieMeinungen.pdf)  
