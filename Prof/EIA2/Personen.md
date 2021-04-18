@@ -1,6 +1,6 @@
 Kollegium der Fakultät Digitale Medien  
 
-| Name                           | Gebiet                                                                                                                                                                                                  |
+| Name                           | Berufung                                                                                                                                                                                      |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Martin Aichele                 | Integrierte Kommunikation                                                                                                                                                                               |
 | Dr. Jürgen Anders              | Digitale Infrastrukturen im ländlichen Raum                                                                                                                                                             |
