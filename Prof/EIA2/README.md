@@ -3,7 +3,7 @@
 ## Allgemein
 [Strategie](Strategie)  
 [Qualifikationsziele](Qualifikationsziele.png)  
-[Kollegium](Personen)  
+[Kollegium](Kollegium)  
 
 ## Allgemein
 [Spezifische Aussagen aus der Digitalindustrie](IndustrieMeinungen.pdf)  
