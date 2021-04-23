@@ -4,7 +4,7 @@
 <tr><th>Name</th><th>Berufung</th></tr>
 <tr><td>Martin Aichele </td><td> Integrierte Kommunikation </td></tr>
 <tr><td>Dr. Jürgen Anders </td><td> Digitale Infrastrukturen im ländlichen Raum </td></tr>
-<tr><td>Dr. Jasmin Baumann </td><td> </td></tr>
+<tr><td>Dr. Jasmin Baumann </td><td> Marketingkonzeption </td></tr>
 <tr><td>Jirka Dell´Oro-Friedl </td><td> Anwendungskonzeption und Game Design </td></tr>
 <tr><td>Dr. Ullrich Dittler </td><td> Interaktive Medien </td></tr>
 <tr><td>Dr. Dirk Eisenbiegler </td><td> Online-Anwendungen </td></tr>
