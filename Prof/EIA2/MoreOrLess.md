@@ -3,7 +3,7 @@ an der Fakultät Digitale Medien
 
 
 |                                | stark                                                                         | schwach                                                                      |
-|--------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+|--------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------|
 | Fähigkeiten der Absolventen    | neue Erlebnisse  und digitale Werkzeuge hierfür erschaffen                    | lediglich Inhalte austauschen und digitale Werkzeuge nutzen                  |
 | Umsetzbarkeit im Kollegium     | alle werden integriert und tragen maßgeblich bei                              | ein großer Teil des Kollegiums wird ausgeschlossen                           |
 | Arbeitsmarkt                   | siehe Digital Designer und Bitkom                                             | Prekariat der Kreativindustrie                                               |
