@@ -5,6 +5,7 @@
 [Qualifikationsziele](Qualifikationsziele.png)  
 [Fokus auf das Digitale](MoreOrLess)  
 [Kollegium](Kollegium)  
+[Textvorschlag Landing Page](TextvorschlagLanding)
 
 ## Digital Design
 [Rollenideal](https://www.bitkom.org/sites/default/files/file/import/20171013-Rollenideal-Digital-Design.pdf)  
