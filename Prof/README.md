@@ -21,6 +21,7 @@ Die Entwicklung des Furtwangen University Didactic Game Editors begann 2018. Sei
 ## Fakultät Digitale Medien
 Als ich 2012 das Amt des Studiengangsleiters für Medieninformatik übernahm, habe ich mir eine kleine Mindmap gebastelt:  
 - [HFU-Orga-Mindmap](https://jirkadelloro.github.io/FreeMindViewer/?map=Organisation.mm&path=https://JirkaDellOro.github.io/Prof)  
+- [Diskussionspapiere zu MKB](MKB)
 
 ## Skripte  
 Heute habe ich eigentlich alle Unterrichtsmaterialien online, viele davon interaktiv. Hier aber noch etwas hilfreiches Schriftwerk:
