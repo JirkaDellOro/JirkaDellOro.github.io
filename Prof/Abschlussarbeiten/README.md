@@ -2,6 +2,7 @@
 
 | Start   | Name       | Vorname      | Abschluss | Titel                      | Z |
 |---------|------------|--------------|-----------|----------------------------|---|
+| **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
 |         | Haller     | Jonas        | BSc       | Smartphone Marker          |   |
