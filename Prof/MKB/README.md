@@ -2,7 +2,7 @@
 
 ## Allgemein
 [Strategie](Strategie)  
-[Qualifikationsziele](Qualifikationsziele.png)  
+[Qualifikationsziele](Qualifikationsziele.md)  
 [Fokus auf das Digitale](MoreOrLess)  
 [Kollegium](Kollegium)  
 [Textvorschlag Landing Page](TextvorschlagLanding)
