@@ -36,6 +36,7 @@
 [Schwerpunkte und Belastung](AsuwertungInvertedClassroomW19.pdf)  
 [Gemessene Bearbeitungszeiten](EIA2_Zeiten.pdf)  
 [Auswertung Evaluation S20](AuswertungEvaluationEIA2_S20.pdf)  
+[Studienarbeit](Studienarbeit_InvertedClassroom_Marchiano_Vogt.pdf)
 
 ### Handlungsoptionen und Vorschläge
 [Betrachtung der Vakanzen](InhalteFriessRuf.pdf)  
