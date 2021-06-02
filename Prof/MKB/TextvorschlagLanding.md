@@ -8,4 +8,4 @@ Hier geht es zu den [Details zum Studiengang]
 
 # Schwesterstudiengänge
 Willst Du deinen Schwerpunkt lieber auf Vertrieb und Marketing digitaler Medien legen? Dann schau' dir [OnlineMedien] an.  
-Möchtest Du erleben, wie sich die Medienprodukte in deinen Händern Formen? [Medieninformatik] könnte das Richtige für dich sein.
+Möchtest Du erleben, wie sich die Medienprodukte in deinen Händen Formen? [Medieninformatik] könnte das Richtige für dich sein.
