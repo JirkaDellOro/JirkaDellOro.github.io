@@ -5,9 +5,11 @@
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Illogical Spaces           |   |
-|         | Proß       | Manuel       | BSc       | Programmier-Lernspiel      |   |
-|         | Böttcher   | Daniel       | BSc       | Programmier-Lernspiel      |   |
-|         | Rohrberger | Lukas        | BSc       | Programmier-Lernspiel      |   |
+|         | Proß       | Manuel       | BSc       | ?                          |   |
+|         | Böttcher   | Daniel       | BSc       | ?                          |   |
+|         | Rohrberger | Lukas        | BSc       | ?                          |   |
+|         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
+|         | Roming     | Matthias     | BSc       | ?                          | X |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
 |         | Haller     | Jonas        | BSc       | Smartphone Marker          |   |
