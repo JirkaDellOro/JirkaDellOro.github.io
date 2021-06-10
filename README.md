@@ -16,6 +16,7 @@ Seit 2010 habe ich die Ehre, die Professur für "Anwendungskonzeption und Gamede
 Da ich ständig am Basteln bin und dabei auch diverse Spielereien entstehen, die nur wenig zweckgebunden sind, sammle ich derlei hier.
 - [Interaktive Weihnachtskarte (kleine TypeScript-Spielerei)](Gamedesign/LetItSnow/start.html)
 - [EpiSoma: ein erstes FUDGE-Game, GlobalGameJam 2020](https://jirkadelloro.github.io/Episoma/)
+- [UfoundLost: Alien-Flak-Combat-Game, GlobalGamJam 2021](https://jirkadelloro.github.io/UfoundLost/)
 
 # Musikalisches
 Wenn ich unterwegs bin, vermisse ich manchmal den Zugriff auf meine Liedersammlung und dergleichen. Hier kann ich nun darauf zugreifen.
