@@ -4,11 +4,12 @@
 |---------|------------|--------------|-----------|----------------------------|---|
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
-|         | Wagner     | Daniel       | BSc       | Illogical Spaces           |   |
-|         | Proß       | Manuel       | BSc       | ?                          |   |
+|         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
+|         | Proß       | Manuel       | BSc       | ? (entfällt ggf)           |   |
 |         | Böttcher   | Daniel       | BSc       | ?                          |   |
 |         | Rohrberger | Lukas        | BSc       | ?                          |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
+|         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
 |         | Roming     | Matthias     | BSc       | ?                          | X |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
