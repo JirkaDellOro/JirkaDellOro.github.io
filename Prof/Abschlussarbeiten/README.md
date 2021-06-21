@@ -7,7 +7,7 @@
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
 |         | Proß       | Manuel       | BSc       | ? (entfällt ggf)           |   |
 |         | Böttcher   | Daniel       | BSc       | ?                          |   |
-|         | Rohrberger | Lukas        | BSc       | ?                          |   |
+|         | Rohrberger | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
 |         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
 |         | Roming     | Matthias     | BSc       | ?                          | X |
