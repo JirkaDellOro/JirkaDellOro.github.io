@@ -5,7 +5,7 @@
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
-|         | Proß       | Manuel       | BSc       | ? (entfällt ggf)           |   |
+|         | Proß       | Manuel       | BSc       | Svelte                     | X |
 |         | Böttcher   | Daniel       | BSc       | ?                          |   |
 |         | Rohrberger | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
