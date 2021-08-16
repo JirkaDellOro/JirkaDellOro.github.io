@@ -22,7 +22,7 @@ namespace SchatzjagdCards {
 
     // createCards(addition);
 
-    createSimple(4, "poisonskip");
+    createSimple(16, "poisonskip");
   }
 
   function createMaps(): void {

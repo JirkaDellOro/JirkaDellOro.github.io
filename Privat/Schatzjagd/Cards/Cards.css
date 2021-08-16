@@ -38,10 +38,14 @@ div.back {
 }
 
 div.poisonskip {
-  width: 50mm;
-  height: 70mm;
+  width: 41mm;
+  height: 71mm;
   margin: 0.5mm;
   background-image: url("PoisonSkip/Card.svg");
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1mm;
+  border-radius: 3mm;
   background-size: cover;
 }
 
