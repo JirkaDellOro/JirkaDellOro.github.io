@@ -4,14 +4,14 @@ var SchatzjagdCards;
     window.addEventListener("load", hndLoad);
     let offsetImage = { x: 2.5, y: 2.5 };
     function hndLoad(_event) {
-        // createCards(enemies);
+        createCards(SchatzjagdCards.enemies);
         // createCards(places);
         // createCards(potions);
         // createCards(weapons);
         // createCards(spells);
         // createCards(traps);
         // createMaps();
-        createCards(SchatzjagdCards.city, "city");
+        // createCards(city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");

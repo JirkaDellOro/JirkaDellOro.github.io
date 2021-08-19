@@ -1,11 +1,11 @@
-// namespace SchatzjagdCards_de {
-var SchatzjagdCards;
-(function (SchatzjagdCards) {
+var SchatzjagdCards_de;
+(function (SchatzjagdCards_de) {
+    // namespace SchatzjagdCards {
     let red = "#ff0404";
     let green = "#01ff1f";
     let blue = "#04a3ff";
     let yellow = "#ffd22a";
-    SchatzjagdCards.transparent = "#00000000";
+    SchatzjagdCards_de.transparent = "#00000000";
     let xMargin = 4.5;
     let yBase = 50;
     let yType = 17;
@@ -17,7 +17,7 @@ var SchatzjagdCards;
     // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌ ☠ 💀 🕱
-    SchatzjagdCards.addition = {
+    SchatzjagdCards_de.addition = {
         Blank: {
             count: 2,
             head: "&nbsp;",
@@ -28,7 +28,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.rules = {
+    SchatzjagdCards_de.rules = {
         RulesFront: {
             count: 12,
             head: "",
@@ -106,7 +106,7 @@ var SchatzjagdCards;
             },
         }
     };
-    SchatzjagdCards.chests = {
+    SchatzjagdCards_de.chests = {
         Crown: {
             count: 4,
             head: " ",
@@ -126,14 +126,14 @@ var SchatzjagdCards;
             image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 22, left: 5 },
         },
     };
-    SchatzjagdCards.city = {
+    SchatzjagdCards_de.city = {
         Tavern: {
             count: 4,
             head: "Gasthaus",
             background: "City/CityBackTall.svg",
             backgroundColor: yellow,
             image: { url: "Images/City_Tavern.png", scale: 0.4, top: 24, left: 5 },
-            text: { content: "2 Gulden pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
+            text: { content: "2 Gulden pro Runde<br/>fürs Tellerwaschen!<br/><br/>" },
             markers: [
                 { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "+2" },
                 { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: "white", content: "1" },
@@ -186,7 +186,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.map = {
+    SchatzjagdCards_de.map = {
         count: 1,
         head: "Lageplan",
         image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
@@ -195,7 +195,7 @@ var SchatzjagdCards;
             { left: xMargin, top: yType, color: "black", content: "", class: "instant" },
         ]
     };
-    SchatzjagdCards.traps = {
+    SchatzjagdCards_de.traps = {
         Skip: {
             count: 4,
             head: "Versklavt",
@@ -204,7 +204,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: "grey", content: "" },
-                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards.transparent, content: "❌" },
+                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards_de.transparent, content: "❌" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
             ]
         },
@@ -260,7 +260,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.spells = {
+    SchatzjagdCards_de.spells = {
         Stun: {
             count: 4,
             head: "Lähmung",
@@ -292,7 +292,7 @@ var SchatzjagdCards;
             count: 1,
             head: "Kristallkugel",
             image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-            text: { content: "Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
+            text: { content: "Schaue in die Karten<br/>eines anderen Fürsten<br/>und suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
@@ -307,7 +307,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.weapons = {
+    SchatzjagdCards_de.weapons = {
         Knife: {
             count: 6,
             head: "Messer",
@@ -363,7 +363,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.potions = {
+    SchatzjagdCards_de.potions = {
         Detox: {
             count: 2,
             head: "Entgiftung",
@@ -403,7 +403,7 @@ var SchatzjagdCards;
             ]
         }
     };
-    SchatzjagdCards.places = {
+    SchatzjagdCards_de.places = {
         Casino: {
             head: "Casino",
             image: { url: "Images/Casino.png", scale: 0.35, top: 15, left: 11 },
@@ -505,7 +505,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.enemies = {
+    SchatzjagdCards_de.enemies = {
         Robber01: {
             count: 2,
             head: "Räuber",
@@ -720,4 +720,4 @@ var SchatzjagdCards;
             ]
         },
     };
-})(SchatzjagdCards || (SchatzjagdCards = {}));
+})(SchatzjagdCards_de || (SchatzjagdCards_de = {}));

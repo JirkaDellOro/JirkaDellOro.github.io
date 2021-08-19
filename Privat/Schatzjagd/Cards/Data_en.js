@@ -1,23 +1,23 @@
-var SchatzjagdCards_en;
-(function (SchatzjagdCards_en) {
-    // namespace SchatzjagdCards {
+// namespace SchatzjagdCards_en {
+var SchatzjagdCards;
+(function (SchatzjagdCards) {
     let red = "#ff0404";
     let green = "#01ff1f";
     let blue = "#04a3ff";
     let yellow = "#ffd22a";
-    SchatzjagdCards_en.transparent = "#00000000";
+    SchatzjagdCards.transparent = "#00000000";
     let xMargin = 4.5;
     let yBase = 50;
     let yType = 17;
     let offset = 7;
     // let horzCenterLeft: number = 18.5;
-    let poison = "Wird dein Scherge<br/>getroffen, ist er vergiftet!";
-    let theft = "Flieht dein Scherge,<br/>halbiert sich seine<br/>Guldenzahl! (abrunden)";
+    let poison = "One injury, and your<br/>henchman is poisened!";
+    let theft = "Flee, and you will<br/>lose half your money!<br/>(round down result)";
     // let theft: string = "Flieht dein Scherge,<br/>verschwindet die Hälfte<br/>seines Goldes (abrunden)";
     // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌ ☠ 💀 🕱
-    SchatzjagdCards_en.addition = {
+    SchatzjagdCards.addition = {
         Blank: {
             count: 2,
             head: "&nbsp;",
@@ -28,7 +28,7 @@ var SchatzjagdCards_en;
             ]
         },
     };
-    SchatzjagdCards_en.rules = {
+    SchatzjagdCards.rules = {
         RulesFront: {
             count: 12,
             head: "",
@@ -106,7 +106,7 @@ var SchatzjagdCards_en;
             },
         }
     };
-    SchatzjagdCards_en.chests = {
+    SchatzjagdCards.chests = {
         Crown: {
             count: 4,
             head: " ",
@@ -126,14 +126,14 @@ var SchatzjagdCards_en;
             image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 22, left: 5 },
         },
     };
-    SchatzjagdCards_en.city = {
+    SchatzjagdCards.city = {
         Tavern: {
             count: 4,
-            head: "Gasthaus",
+            head: "Tavern",
             background: "City/CityBackTall.svg",
             backgroundColor: yellow,
             image: { url: "Images/City_Tavern.png", scale: 0.4, top: 24, left: 5 },
-            text: { content: "2 Gulden pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
+            text: { content: "2 gulden per day<br/>for dishwashing!<br/><br/>" },
             markers: [
                 { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "+2" },
                 { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: "white", content: "1" },
@@ -143,11 +143,11 @@ var SchatzjagdCards_en;
         },
         Healer: {
             count: 4,
-            head: "Heiler",
+            head: "Healer",
             background: "City/CityBackTall.svg",
             backgroundColor: green,
             image: { url: "Images/City_Healer.png", scale: 0.35, top: 25, left: 5 },
-            text: { content: "Heilt oder entgiftet!<br/><br/>" },
+            text: { content: "Heals or detoxicates!<br/><br/>" },
             markers: [
                 { right: xMargin - 0.3 * offset, top: yBase + 0.7 * offset, color: green, content: "+3" },
                 { right: xMargin - 0.3 * offset, top: yBase - 0.5 * offset, color: green, content: "-0" },
@@ -160,11 +160,11 @@ var SchatzjagdCards_en;
         },
         Gym: {
             count: 4,
-            head: "Schule",
+            head: "Gym",
             background: "City/CityBackTall.svg",
             backgroundColor: red,
             image: { url: "Images/City_Gym.png", scale: 0.35, top: 27, left: 6 },
-            text: { content: "Täglich maximal<br/> ein Krafttraining<br/>für 3 Gulden!<br/><br/>" },
+            text: { content: "On training per day<br/>for 3 gulden!<br/><br/>" },
             markers: [
                 { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: red, content: "+1" },
                 { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "-3" },
@@ -174,11 +174,11 @@ var SchatzjagdCards_en;
         },
         Forge: {
             count: 4,
-            head: "Schmied",
+            head: "Blacksmith",
             background: "City/CityBackTall.svg",
             backgroundColor: blue,
             image: { url: "Images/City_Forge.png", scale: 0.35, top: 27, left: 6 },
-            text: { content: "Fertigt feinste Waffen!<br/><br/>" },
+            text: { content: "Makes the finest arms!<br/><br/>" },
             markers: [
                 { right: xMargin - 0.3 * offset, top: yBase + 0.0 * offset, color: blue, content: "+1" },
                 { left: xMargin - 0.3 * offset, top: yBase + 0.0 * offset, color: yellow, content: "-1" },
@@ -186,33 +186,33 @@ var SchatzjagdCards_en;
             ]
         },
     };
-    SchatzjagdCards_en.map = {
+    SchatzjagdCards.map = {
         count: 1,
-        head: "Lageplan",
+        head: "Map",
         image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
-        text: { content: "Zeige diese Karte vor,<br/>wenn dein Scherge auf<br/>dem angegebenen Feld<br/>steht, um einen Schatz<br/>zu heben." },
+        text: { content: "Present this card,<br/>when your henchman<br/>stands on the<br/>specified field,<br/>to raise a treasure." },
         markers: [
             { left: xMargin, top: yType, color: "black", content: "", class: "instant" },
         ]
     };
-    SchatzjagdCards_en.traps = {
+    SchatzjagdCards.traps = {
         Skip: {
             count: 4,
-            head: "Versklavt",
+            head: "Enslaved",
             image: { url: "Images/Skip.png", scale: 0.45, top: 20, left: 9 },
-            text: { content: "Die nächste Runde<br/>setzt Du aus!" },
+            text: { content: "Skip the next round!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: "grey", content: "" },
-                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards_en.transparent, content: "❌" },
+                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards.transparent, content: "❌" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
             ]
         },
         Poison: {
             count: 4,
-            head: "Vergiftet",
+            head: "Poisoned",
             image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
-            text: { content: "Am Ende<br/>jedes Tages<br/>verliert dein Scherge<br/>Lebenskraft!" },
+            text: { content: "At the end<br/>of each day<br/>your henchman<br/>loses health!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "-1" },
@@ -221,9 +221,9 @@ var SchatzjagdCards_en;
         },
         Switch: {
             count: 2,
-            head: "Verwechselt",
+            head: "Confused",
             image: { url: "Images/Switch.png", scale: 0.4, top: 18, left: 11 },
-            text: { content: "Der Mob lyncht<br/>deinen Schergen...<br/>eine Weile.<br/> Er verliert<br/>die Hälfte<br/>seiner Lebenskraft!<br/>(abrunden)" },
+            text: { content: "The mob lynches<br/>your henchman...<br/>a while.<br/>He loses<br/>half of his health!<br/>(round down result)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: green, content: "÷2" },
@@ -231,9 +231,9 @@ var SchatzjagdCards_en;
         },
         Pikes: {
             count: 2,
-            head: "Verstolpert",
+            head: "Tripped",
             image: { url: "Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
-            text: { content: "Dein Scherge<br/>verliert fünf Punkte<br/>seiner Lebenskraft!" },
+            text: { content: "Your henchman<br/>loses five points<br/>of his health!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase - 0 * offset, color: green, content: "-5" },
@@ -241,9 +241,9 @@ var SchatzjagdCards_en;
         },
         Theft: {
             count: 2,
-            head: "Verschlafen",
+            head: "Slumbered",
             image: { url: "Images/Theft.png", scale: 0.4, top: 19, left: 7 },
-            text: { content: "Deinem Schergen<br/>wird jede<br/>zweite Waffe<br/>gestohlen!<br/>(abrunden)" },
+            text: { content: "Every second<br/>weapon is stolen<br/>from your stooge!<br/>(round down result)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: blue, content: "÷2" },
@@ -251,48 +251,48 @@ var SchatzjagdCards_en;
         },
         Snakes: {
             count: 2,
-            head: "Verschlungen",
+            head: "Devoured",
             image: { url: "Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
-            text: { content: "Die Hälfte<br/>seiner Stärke<br/>verlässt deinen Schergen!<br/>(abrunden)" },
+            text: { content: "Your henchman<br/>loses half of<br/>his strength!<br/>(round down result)" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: red, content: "÷2" },
             ]
         },
     };
-    SchatzjagdCards_en.spells = {
+    SchatzjagdCards.spells = {
         Stun: {
             count: 4,
-            head: "Lähmung",
+            head: "Paralyze",
             image: { url: "Images/Stun.png", scale: 0.40, top: 16, left: 9 },
-            text: { content: "Setzt den Gegner<br/>im Kampf für<br/>einen Schlagabtausch<br/>außer Gefecht!" },
+            text: { content: "Stuns the opponent<br/>for one blow<br/>in combat!" },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         Earthquake: {
             count: 4,
-            head: "Erdbeben",
+            head: "Earthquake",
             image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-            text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Schergen stehen!" },
+            text: { content: "Discard a card<br/>from an arbitrary field.<br/>Fails in the city<br/>and in fields with<br/>treasures or henchmen!" },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         ThirdEye: {
             count: 4,
-            head: "Das Dritte Auge",
+            head: "The Third Eye",
             image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
-            text: { content: "Zeigt dir die Karten<br/>der Nachbarfelder<br/>deines Schergen.<br/>Es kann nicht<br/>diagonal schauen." },
+            text: { content: "Peek at the cards<br/>in the fields adjacent<br/>to your henchman.<br/>Not diagonal." },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
         Crystal: {
             count: 1,
-            head: "Kristallkugel",
+            head: "Crystal Orb",
             image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-            text: { content: "Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
+            text: { content: "Peek into the cards<br/>of another duke<br/>and take one,<br/>but not a treasure.<br/>The victim of theft<br/>takes draw a new one." },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
@@ -301,16 +301,16 @@ var SchatzjagdCards_en;
             count: 1,
             head: "Teleportation",
             image: { url: "Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
-            text: { content: "Bringt sofort<br/>einen beliebigen Schergen<br/>auf ein beliebiges Feld!<br/>Liegt dort eine Karte<br/>so muss er sie in<br/>seinem Zug aufdecken." },
+            text: { content: "Immediately moves<br/>any one henchman<br/>to any field!<br/>If a card is present,<br/>it must be uncovered in<br/>the turn of that stooge." },
             markers: [
                 { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
             ]
         },
     };
-    SchatzjagdCards_en.weapons = {
+    SchatzjagdCards.weapons = {
         Knife: {
             count: 6,
-            head: "Messer",
+            head: "Knife",
             image: { url: "Images/Knife.png", scale: 0.55, top: 27, left: 10 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+1" },
@@ -319,7 +319,7 @@ var SchatzjagdCards_en;
         },
         Dagger: {
             count: 5,
-            head: "Dolch",
+            head: "Dagger",
             image: { url: "Images/Dagger.png", scale: 0.55, top: 21, left: 10 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+2" },
@@ -328,7 +328,7 @@ var SchatzjagdCards_en;
         },
         Spear: {
             count: 4,
-            head: "Speer",
+            head: "Spear",
             image: { url: "Images/Spear.png", scale: 0.55, top: 21, left: 8 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+3" },
@@ -337,7 +337,7 @@ var SchatzjagdCards_en;
         },
         Sword: {
             count: 3,
-            head: "Schwert",
+            head: "Sword",
             image: { url: "Images/Sword.png", scale: 0.5, top: 23, left: 7 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+4" },
@@ -346,7 +346,7 @@ var SchatzjagdCards_en;
         },
         Mace: {
             count: 2,
-            head: "Morgenstern",
+            head: "Mace",
             image: { url: "Images/Mace.png", scale: 0.55, top: 19, left: 7 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+5" },
@@ -355,7 +355,7 @@ var SchatzjagdCards_en;
         },
         Axe: {
             count: 1,
-            head: "Streitaxt",
+            head: "Battleaxe",
             image: { url: "Images/Axe.png", scale: 0.55, top: 17, left: 7 },
             markers: [
                 { right: xMargin, top: yBase, color: blue, content: "+6" },
@@ -363,12 +363,12 @@ var SchatzjagdCards_en;
             ]
         },
     };
-    SchatzjagdCards_en.potions = {
+    SchatzjagdCards.potions = {
         Detox: {
             count: 2,
-            head: "Entgiftung",
+            head: "Cleansing",
             image: { url: "Images/Detox.png", scale: 0.35, top: 15, left: 11 },
-            text: { content: "Achtung: Entgiftung<br/>ist keine Heilung..." },
+            text: { content: "Stops the loss of<br/>health due to toxication.<br/>Doesn't restore health!" },
             markers: [
                 { right: xMargin, top: yBase, color: green, content: "-0" },
                 { right: xMargin - 1, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
@@ -377,7 +377,7 @@ var SchatzjagdCards_en;
         },
         Heal: {
             count: 4,
-            head: "Heilung",
+            head: "Healing",
             image: { url: "Images/Heal.png", scale: 0.45, top: 22, left: 4 },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
@@ -386,7 +386,7 @@ var SchatzjagdCards_en;
         },
         Power0: {
             count: 3,
-            head: "Stärkeelixier",
+            head: "Potion of strength",
             image: { url: "Images/Power0.png", scale: 0.4, top: 22, left: 9 },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
@@ -395,7 +395,7 @@ var SchatzjagdCards_en;
         },
         Power1: {
             count: 2,
-            head: "Superkraft",
+            head: "Superpower",
             image: { url: "Images/Power1.png", scale: 0.4, top: 22, left: 8 },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⚕" },
@@ -403,11 +403,11 @@ var SchatzjagdCards_en;
             ]
         }
     };
-    SchatzjagdCards_en.places = {
+    SchatzjagdCards.places = {
         Casino: {
             head: "Casino",
             image: { url: "Images/Casino.png", scale: 0.35, top: 15, left: 11 },
-            text: { content: "Spiele einfaches Roulette.<br/>Setze maximal<br/>3x pro Runde auf<br/>Pair oder Impair<br/>und würfle,<br/>um deinen<br/>Einsatz zu<br/>verdoppeln oder<br/>zu verlieren." },
+            text: { content: "Play a simple roulette.<br/>A maximum of<br/>three times per day<br/>bet on even or odd<br/>and roll your die,<br/>to double or lose<br/>your wager." },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+" },
                 { left: xMargin, top: yBase, color: yellow, content: "-" },
@@ -415,9 +415,9 @@ var SchatzjagdCards_en;
             ]
         },
         DragonsLair: {
-            head: "Drachenhöhle",
+            head: "Dragons Lair",
             image: { url: "Images/DragonsLair.png", scale: 0.35, top: 15, left: 9.5 },
-            text: { content: "Schickst<br/>Du deinen<br/>Schergen hinein,<br/>würfle sein Schicksal!" },
+            text: { content: "If you<br/>send your<br/>stooge in,<br/>roll your die,<br/>to determine his fate!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { right: xMargin, top: yBase - 2 * offset, color: red, content: "+1" },
@@ -431,10 +431,10 @@ var SchatzjagdCards_en;
         },
         Teleportal: {
             count: 2,
-            head: "Teleportal",
+            head: "Portal",
             image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
             // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
-            text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen Feld<br/>im zufälligen Zielland!" },
+            text: { content: "Roll a die<br/>to send your henchman<br/>to an arbitrary field<br/>in the chosen land!" },
             markers: [
                 { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "🕱", class: "skull" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -444,51 +444,51 @@ var SchatzjagdCards_en;
         Rumpelstilz: {
             head: "Rumpelstilz",
             image: { url: "Images/Rumpelstilz.png", scale: 0.35, top: 20, left: 9.5 },
-            text: { content: "Gelingt es dir,<br/>eine Zahl zu nennen<br/>und sie daraufhin<br/>zu würfeln, erhältst<br/>Du 6 Gulden!" },
+            text: { content: "If you succeed,<br/>naming a number<br/>and then rolling<br/>it with your die,<br/>you gain 6 gulden!" },
             markers: [
                 { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "+6" },
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
             ]
         },
         Elf: {
-            head: "Elf, der Wegweiser",
+            head: "Elf, the Scout",
             image: { url: "Images/Elf.png", scale: 0.35, top: 20, left: 8.5 },
-            text: { content: "Voller Hilfsbereitschaft<br/>zeigt dir der Elf<br/>eine beliebige Karte<br/>im Reich!" },
+            text: { content: "Eager to help,<br/>the Elf shows you<br/>an arbitrary card<br/>in the whole Reich!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
             ]
         },
         Dealer: {
             count: 2,
-            head: "Handelspriester",
+            head: "Priest of Trade",
             image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Die obersten Karten<br/>des Nachziehstapels<br/>kommen für je 2 Gulden<br/>auf deine Hand." },
+            text: { content: "For 2 gulden each<br/>draw cards<br/>from the drawing pile<br/>on your hand." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-2" },
             ]
         },
         Tornado: {
-            head: "Wirbelsturm",
+            head: "Tornado",
             image: { url: "Images/Tornado.png", scale: 0.4, top: 17, left: 7.5 },
-            text: { content: "Jeder Spieler zieht von<br/>seinem rechten Nachbarn<br/>gleichzeitig eine Karte,<br/>...auch Schätze!<br/>Dann legt sich der Sturm<br/>auf den Ablagestapel." },
+            text: { content: "Simultaneously<br/>each player draws a card<br/>from the hand of his<br/>neighbor on the right<br/>...treasures included!<br/>The tornado calms down<br/>to the discard pile." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
             ]
         },
         Arena: {
-            head: "Gladiatorenarena",
+            head: "Arena",
             image: { url: "Images/Arena.png", scale: 0.45, top: 15.5, left: 8 },
-            text: { content: "Forderst Du<br/>einen Schergen heraus,<br/>wird er sofort<br/>zum Zweikampf<br/>hierher teleportiert.<br/>Danach stürzt<br/>die Arena ein" },
+            text: { content: "Challenge a henchman,<br/>who is immediately<br/>teleported here for a duell.<br/>The arena then collapses<br/>to the discard pile." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
             ]
         },
         Horse: {
             count: 3,
-            head: "Pferdestall",
+            head: "Stable",
             image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
-            text: { content: "Leihe ein Pferd<br/>für einen Gulden<br/>und würfle gleich nochmal,<br/>um deinen Schergen</br>weiter voran zu bringen" },
+            text: { content: "Rent a horse<br/>for one gulden<br/>and roll your die again,<br/>to bring your henchman</br>further forward." },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
@@ -496,19 +496,19 @@ var SchatzjagdCards_en;
         },
         Shadow: {
             count: 1,
-            head: "Meisterdieb",
+            head: "Master of Thieves",
             image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-            text: { content: "Zahle 5 Gulden</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
+            text: { content: "Pay 5 gulden</br>and select a player</br>with a treasure on hand.</br>If he rolls less than 5,</br>you snatch the treasure!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
             ]
         },
     };
-    SchatzjagdCards_en.enemies = {
+    SchatzjagdCards.enemies = {
         Robber01: {
             count: 2,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/Hun2.png", scale: 0.38, top: 21.2, left: 10 },
             text: { content: theft },
             markers: [
@@ -519,7 +519,7 @@ var SchatzjagdCards_en;
         },
         Robber02: {
             count: 2,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/Robber0.png", scale: 0.4, top: 23, left: 9 },
             text: { content: theft },
             markers: [
@@ -530,7 +530,7 @@ var SchatzjagdCards_en;
         },
         Rogue01: {
             count: 2,
-            head: "Assassine",
+            head: "Assassin",
             image: { url: "Images/Hun3v.png", scale: 0.35, top: 21.2, left: 11 },
             text: { content: poison },
             markers: [
@@ -542,7 +542,7 @@ var SchatzjagdCards_en;
         },
         Rogue02: {
             count: 2,
-            head: "Assassine",
+            head: "Assassin",
             image: { url: "Images/Hun4v.png", scale: 0.36, top: 18.2, left: 2 },
             text: { content: poison },
             markers: [
@@ -554,7 +554,7 @@ var SchatzjagdCards_en;
         },
         Warrior01: {
             count: 4,
-            head: "Freischärler",
+            head: "Franctireur",
             image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
@@ -564,7 +564,7 @@ var SchatzjagdCards_en;
         },
         Robber11: {
             count: 1,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/Robber1.png", scale: 0.4, top: 20, left: 2 },
             text: { content: theft },
             markers: [
@@ -575,7 +575,7 @@ var SchatzjagdCards_en;
         },
         Robber12: {
             count: 1,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/Robber2.png", scale: 0.4, top: 22, left: 2 },
             text: { content: theft },
             markers: [
@@ -586,7 +586,7 @@ var SchatzjagdCards_en;
         },
         Robber13: {
             count: 1,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/Robber3.png", scale: 0.4, top: 19, left: 7 },
             text: { content: theft },
             markers: [
@@ -597,7 +597,7 @@ var SchatzjagdCards_en;
         },
         Rogue11: {
             count: 3,
-            head: "Assassine",
+            head: "Assassin",
             image: { url: "Images/Hun5v.png", scale: 0.38, top: 17, left: 9 },
             text: { content: poison },
             markers: [
@@ -609,7 +609,7 @@ var SchatzjagdCards_en;
         },
         Warrior11: {
             count: 3,
-            head: "Freischärler",
+            head: "Franctireur",
             image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
@@ -618,7 +618,7 @@ var SchatzjagdCards_en;
         },
         Robber21: {
             count: 2,
-            head: "Räuber",
+            head: "Bandit",
             image: { url: "Images/German1.png", scale: 0.36, top: 16, left: 7 },
             text: { content: theft },
             markers: [
@@ -629,7 +629,7 @@ var SchatzjagdCards_en;
         },
         Rogue21: {
             count: 2,
-            head: "Assassine",
+            head: "Assassin",
             image: { url: "Images/German2.png", scale: 0.4, top: 19, left: 2.5 },
             text: { content: poison },
             markers: [
@@ -641,7 +641,7 @@ var SchatzjagdCards_en;
         },
         Warrior21: {
             count: 2,
-            head: "Freischärler",
+            head: "Franctireur",
             image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
@@ -649,7 +649,7 @@ var SchatzjagdCards_en;
             ]
         },
         Robber31: {
-            head: "Räuberhauptmann",
+            head: "Bandit Boss",
             image: { url: "Images/Boss1.png", scale: 0.38, top: 22, left: 6 },
             text: { content: theft },
             markers: [
@@ -659,7 +659,7 @@ var SchatzjagdCards_en;
             ]
         },
         Rogue31: {
-            head: "Assassinenchef",
+            head: "Chief Assassin",
             image: { url: "Images/Boss0.png", scale: 0.37, top: 17, left: 6 },
             text: { content: poison },
             markers: [
@@ -670,7 +670,7 @@ var SchatzjagdCards_en;
             ]
         },
         Warrior31: {
-            head: "Freischar-Oberst",
+            head: "Franctireur-Captain",
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
@@ -678,7 +678,7 @@ var SchatzjagdCards_en;
             ]
         },
         Giant1: {
-            head: "Riesenräuber",
+            head: "Giant Bandit",
             image: { url: "Images/Giant0.png", scale: 0.37, top: 17, left: 6.4 },
             text: { content: theft },
             markers: [
@@ -688,7 +688,7 @@ var SchatzjagdCards_en;
             ]
         },
         Giant2: {
-            head: "Assasinen-Titan",
+            head: "Assasin Titan",
             image: { url: "Images/Giant1.png", scale: 0.38, top: 17, left: 9 },
             text: { content: poison },
             markers: [
@@ -712,7 +712,7 @@ var SchatzjagdCards_en;
         Warpig: {
             head: "Warpig",
             image: { url: "Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
-            text: { content: "Flieht dein Scherge,<br/>verliert er alle Gulden!" },
+            text: { content: "If your henchman flees,<br/>he loses all gulden!" },
             markers: [
                 { left: xMargin, top: yBase, color: yellow, content: "0" },
                 { right: xMargin, top: yBase, color: yellow, content: "+15" },
@@ -720,4 +720,4 @@ var SchatzjagdCards_en;
             ]
         },
     };
-})(SchatzjagdCards_en || (SchatzjagdCards_en = {}));
+})(SchatzjagdCards || (SchatzjagdCards = {}));

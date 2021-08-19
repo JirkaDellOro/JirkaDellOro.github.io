@@ -1,5 +1,5 @@
-// namespace SchatzjagdCards_de {
-namespace SchatzjagdCards {
+namespace SchatzjagdCards_de {
+// namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -135,7 +135,7 @@ namespace SchatzjagdCards {
       background: "City/CityBackTall.svg",
       backgroundColor: yellow,
       image: { url: "Images/City_Tavern.png", scale: 0.4, top: 24, left: 5 },
-      text: { content: "2 Gulden pro Runde<br/>für's Tellerwaschen!<br/><br/>" },
+      text: { content: "2 Gulden pro Runde<br/>fürs Tellerwaschen!<br/><br/>" },
       markers: [
         { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "+2" },
         { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: "white", content: "1" },
@@ -297,7 +297,7 @@ namespace SchatzjagdCards {
       count: 1,
       head: "Kristallkugel",
       image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-      text: { content: "Schaue in die Karten<br/>eines Mitspielers und<br/>suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
+      text: { content: "Schaue in die Karten<br/>eines anderen Fürsten<br/>und suche dir eine aus,<br/>aber keinen Schatz.<br/>Der Bestohlene<br/>zieht vom Stapel nach." },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
