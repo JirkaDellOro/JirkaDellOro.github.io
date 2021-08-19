@@ -12,7 +12,7 @@ namespace SchatzjagdCards {
     // createCards(traps);
     // createMaps();
 
-    // createCards(city, "city");
+    createCards(city, "city");
 
     // createCards(chests, "chest");
     // createSimple(12, "backchest");
@@ -22,7 +22,7 @@ namespace SchatzjagdCards {
 
     // createCards(addition);
 
-    createSimple(16, "poisonskip");
+    // createSimple(16, "poisonskip");
   }
 
   function createMaps(): void {

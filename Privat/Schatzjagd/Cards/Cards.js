@@ -11,13 +11,13 @@ var SchatzjagdCards;
         // createCards(spells);
         // createCards(traps);
         // createMaps();
-        // createCards(city, "city");
+        createCards(SchatzjagdCards.city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
         // createCards(rules, "cover");
         // createCards(addition);
-        createSimple(16, "poisonskip");
+        // createSimple(16, "poisonskip");
     }
     function createMaps() {
         let locations = ["A4", "F0", "E3", "J5", "E9", "C7", "F6", "D5", "C2", "H2", "H7", "G4"];

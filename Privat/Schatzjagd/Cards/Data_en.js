@@ -1,11 +1,11 @@
-// namespace SchatzjagdCards_de {
-var SchatzjagdCards;
-(function (SchatzjagdCards) {
+var SchatzjagdCards_en;
+(function (SchatzjagdCards_en) {
+    // namespace SchatzjagdCards {
     let red = "#ff0404";
     let green = "#01ff1f";
     let blue = "#04a3ff";
     let yellow = "#ffd22a";
-    SchatzjagdCards.transparent = "#00000000";
+    SchatzjagdCards_en.transparent = "#00000000";
     let xMargin = 4.5;
     let yBase = 50;
     let yType = 17;
@@ -17,7 +17,7 @@ var SchatzjagdCards;
     // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
     // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
     // ⛤⛧ ⚐ 🗲 ❌ ☠ 💀 🕱
-    SchatzjagdCards.addition = {
+    SchatzjagdCards_en.addition = {
         Blank: {
             count: 2,
             head: "&nbsp;",
@@ -28,45 +28,45 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.rules = {
+    SchatzjagdCards_en.rules = {
         RulesFront: {
             count: 12,
             head: "",
             background: "Cover/CoverCity.svg",
             text: {
                 content: `<ol>
-      <li style="list-style: upper-roman;">Die Reise des Schergen</li><ul> 
-        <li>Willst Du ihn ziehen,<br/> 
-        so würfle und bewege ihn<br/> 
-        maximal die Augenzahl<br/> 
-        beliebig über freie Felder<br/> 
-        aber nicht diagonal.</li> 
-        <li>Stopp bei Karte oder Scherge,<br/> 
-        außer in der Stadt, dafür aber<br/> 
-        vor Stadtmauer beim Betreten.</li> 
-        <li>Karte erreicht? Aufdecken!</li> 
+        <li style="list-style: upper-roman;">The Henchman's Journey</li><ul> 
+          <li>If you want him to travel,<br/> 
+          roll a die and move him<br/> 
+          that number of fields or less<br/> 
+          over adjacent empty fields,<br/> 
+          but not diagonal.</li> 
+          <li>Stop on a card or another stooge,<br/> 
+          except in the city. To enter this,<br/> 
+          stop outside the walls one night.</li> 
+          <li>Card visited? Uncover!</li> 
+          </ul> 
+        <li style="list-style: upper-roman;">The Dukes Sway</li><ul> 
+          <li>Insert or present a card,<br/>
+          mandatory, if limit of 4 exceeded.</li> 
+          <li>Draw, if less than 4 on hand.</li> 
         </ul> 
-      <li style="list-style: upper-roman;">Der Einfluss des Fürsten</li><ul> 
-        <li>Karte ausspielen (zwingend<br/> 
-        bei mehr als 4 Handkarten)</li> 
-        <li>Nachziehen auf 4 Handkarten.</li> 
-      </ul> 
-      <li value="1">In der Stadt </li> 
-        <table> 
-        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td></td><td>→ +2 Gulden</td></tr> 
-        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td>-3 Gulden</td><td>→ +1 Stärke</td></tr> 
-        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gulden</td><td>→ +x Waffen</td></tr> 
-        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gulden</td><td>→ +x•3 Leben</td></tr> 
-        <tr> 
-        <td></td><td>-5 Gulden</td><td>→ Entgiftung</td></tr> 
-        </table> 
-        <ul><li>Kampf ist untersagt!</li></ul> 
-      </ol> 
-      `
+        <li value="1">In the city</li> 
+          <table> 
+          <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
+          <td>per day</td><td></td><td>→ +2 gulden</td></tr> 
+          <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
+          <td>per day</td><td>-3 gulden</td><td>→ +1 strength</td></tr> 
+          <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
+          <td></td><td>-x gulden</td><td>→ +x arms</td></tr> 
+          <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
+          <td></td><td>-x gulden</td><td>→ +x•3 health</td></tr> 
+          <tr> 
+          <td></td><td>-5 gulden</td><td>→ detoxication</td></tr> 
+          </table> 
+          <ul><li>Combat prohibited!</li></ul> 
+        </ol> 
+        `
             },
         },
         RulesBack: {
@@ -75,38 +75,38 @@ var SchatzjagdCards;
             background: "Cover/CoverSword.svg",
             text: {
                 content: `<ol start='2'>
-        <li>Karten ausspielen</li><ul> 
-          <li>Karten nur im eigenen Zug und<br/> 
-          nur eine Karte pro Zug spielen.</li> 
-          <li>In ein freies Feld einstecken,<br/> 
-          oder zeigen wenn <span class="text" style="background-color: black; color: white;">⛤</span> 
-          oder <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
-          <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> im Schergenzug spielbar</strong></li> 
-          <li>Schatz ablegen nur möglich<br/> 
-          wenn Scherge in Burg ist,<br/> 
-          gilt als ausgespielte Karte.</li> 
-        </ul> 
-        <li>Karten aufdecken</li><ul> 
-          <li><span class="text" style="background-color:white;";">&nbsp;</span> greift sofort an.</li> 
-          <li><span class="text" style="background-color:white;">⚔</span>, <span class="text" style="background-color:white;">⚕</span>, <span class="text" style="background-color:white;">🗲</span> wirken sofort.</li> 
-          <li><span class="text" style="background-color:white;">⌂</span> kann wirken, muss nicht.</li> 
-          <li><span class="text" style="background-color:white;">⛤</span> und <span class="text" style="background-color:white;">Xy</span> aufnehmen.</li> 
-        </ul> 
-          <li>Schlagabtausch im Kampf</li><ul>
-          <li>Härte = Stärke+Waffen+Würfel.</li>
-          <li>Getroffen wenn Härte geringer.</li>
-          <li>Schaden an Leben des<br/>
-          Getroffenen = Härtedifferenz.</li>
-          <li>Je einen Waffenpunkt abziehen.</li>
-          <li>Schlagabtausch bis Tod/Flucht.</li>
-          <li>Flucht: kein Würfel zum Schutz.</li>
-        </ul>
-    </ol> 
-  `
+          <li>Play card</li><ul> 
+            <li>Only in your own turn<br/> 
+            and only one or none per turn.</li> 
+            <li>Insert card into empty field,<br/> 
+            or present if <span class="text" style="background-color: black; color: white;">⛤</span> 
+            or <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
+            <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> playable in stooges journey</strong></li> 
+            <li>Store treasure possible only<br/> 
+            while henchman is in castle,<br/> 
+            counts as played card.</li> 
+          </ul> 
+          <li>Uncover card</li><ul> 
+            <li><span class="text" style="background-color:white;">?</span> attacks immediately.</li> 
+            <li><span class="text" style="background-color:white;">⚔</span>, <span class="text" style="background-color:white;">⚕</span>, <span class="text" style="background-color:white;">🗲</span> involuntary effect.</li> 
+            <li><span class="text" style="background-color:white;">⌂</span> optional effect, stays in place.</li> 
+            <li><span class="text" style="background-color:white;">⛤</span> and <span class="text" style="background-color:white;">Xy</span> be picked up on hand.</li> 
+          </ul> 
+            <li>Exchanging blows</li><ul>
+            <li>Impact = strenght + arms + roll.</li>
+            <li>Blow with higher impact hits.</li>
+            <li>Damage to health of beaten:<br/>
+            difference of impact values.</li>
+            <li>Decrease arms by 1 point.</li>
+            <li>Flight or death ends combat.</li>
+            <li>Flight: no roll for defense.</li>
+          </ul>
+      </ol> 
+    `
             },
         }
     };
-    SchatzjagdCards.chests = {
+    SchatzjagdCards_en.chests = {
         Crown: {
             count: 4,
             head: " ",
@@ -126,7 +126,7 @@ var SchatzjagdCards;
             image: { url: "Images/Treasure_Chalice.png", scale: 0.4, top: 22, left: 5 },
         },
     };
-    SchatzjagdCards.city = {
+    SchatzjagdCards_en.city = {
         Tavern: {
             count: 4,
             head: "Gasthaus",
@@ -186,7 +186,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.map = {
+    SchatzjagdCards_en.map = {
         count: 1,
         head: "Lageplan",
         image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
@@ -195,7 +195,7 @@ var SchatzjagdCards;
             { left: xMargin, top: yType, color: "black", content: "", class: "instant" },
         ]
     };
-    SchatzjagdCards.traps = {
+    SchatzjagdCards_en.traps = {
         Skip: {
             count: 4,
             head: "Versklavt",
@@ -204,7 +204,7 @@ var SchatzjagdCards;
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "🗲" },
                 { left: xMargin, top: yBase, color: "grey", content: "" },
-                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards.transparent, content: "❌" },
+                { left: xMargin - 0.4, top: yBase + 1.5, color: SchatzjagdCards_en.transparent, content: "❌" },
                 { left: xMargin - 2.7, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
             ]
         },
@@ -260,7 +260,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.spells = {
+    SchatzjagdCards_en.spells = {
         Stun: {
             count: 4,
             head: "Lähmung",
@@ -307,7 +307,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.weapons = {
+    SchatzjagdCards_en.weapons = {
         Knife: {
             count: 6,
             head: "Messer",
@@ -363,7 +363,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.potions = {
+    SchatzjagdCards_en.potions = {
         Detox: {
             count: 2,
             head: "Entgiftung",
@@ -403,7 +403,7 @@ var SchatzjagdCards;
             ]
         }
     };
-    SchatzjagdCards.places = {
+    SchatzjagdCards_en.places = {
         Casino: {
             head: "Casino",
             image: { url: "Images/Casino.png", scale: 0.35, top: 15, left: 11 },
@@ -505,7 +505,7 @@ var SchatzjagdCards;
             ]
         },
     };
-    SchatzjagdCards.enemies = {
+    SchatzjagdCards_en.enemies = {
         Robber01: {
             count: 2,
             head: "Räuber",
@@ -720,4 +720,4 @@ var SchatzjagdCards;
             ]
         },
     };
-})(SchatzjagdCards || (SchatzjagdCards = {}));
+})(SchatzjagdCards_en || (SchatzjagdCards_en = {}));

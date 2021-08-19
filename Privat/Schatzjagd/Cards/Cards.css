@@ -67,7 +67,7 @@ div.cover {
   width: 46mm;
   height: 76mm;
   margin: 0.2mm;
-  background-image: url("Cover/Cover.svg");
+  /* background-image: url("Cover/Cover.svg"); */
   background-size: cover;
   text-align: left;
   padding-left: 1mm;
@@ -93,6 +93,10 @@ div.city {
 div.city h1 {
   top: 22mm;
   text-align: center;
+}
+
+div.city p {
+  bottom: 4.5mm;
 }
 
 ol {
