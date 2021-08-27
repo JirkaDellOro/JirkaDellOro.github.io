@@ -554,7 +554,7 @@ var SchatzjagdCards;
         },
         Warrior01: {
             count: 4,
-            head: "Franctireur",
+            head: "Legionary",
             image: { url: "Images/Hun1.png", scale: 0.35, top: 21.2, left: 13.2 },
             markers: [
                 // { left: horzMargin, top: vertBase, color: yellow, content: "0" },
@@ -609,7 +609,7 @@ var SchatzjagdCards;
         },
         Warrior11: {
             count: 3,
-            head: "Franctireur",
+            head: "Legionary",
             image: { url: "Images/Hun0.png", scale: 0.35, top: 21.2, left: 11 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+4" },
@@ -641,7 +641,7 @@ var SchatzjagdCards;
         },
         Warrior21: {
             count: 2,
-            head: "Franctireur",
+            head: "Legionary",
             image: { url: "Images/German0.png", scale: 0.34, top: 24, left: 9 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+5" },
@@ -670,7 +670,7 @@ var SchatzjagdCards;
             ]
         },
         Warrior31: {
-            head: "Franctireur-Captain",
+            head: "Legionary Major",
             image: { url: "Images/Boss2.png", scale: 0.37, top: 17.3, left: 6.4 },
             markers: [
                 { right: xMargin, top: yBase, color: yellow, content: "+6" },
