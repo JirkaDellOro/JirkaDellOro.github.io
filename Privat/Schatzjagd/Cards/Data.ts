@@ -1,5 +1,5 @@
-namespace SchatzjagdCards_de {
-// namespace SchatzjagdCards {
+// namespace SchatzjagdCards_de {
+namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -88,17 +88,17 @@ namespace SchatzjagdCards_de {
           gilt als ausgespielte Karte.</li> 
         </ul> 
         <li>Karten aufdecken</li><ul> 
-          <li><span class="text" style="background-color:white;";">&nbsp;</span> greift sofort an.</li> 
+          <li><span class="text" style="background-color:white;";">?</span> greift sofort an.</li> 
           <li><span class="text" style="background-color:white;">⚔</span>, <span class="text" style="background-color:white;">⚕</span>, <span class="text" style="background-color:white;">🗲</span> wirken sofort.</li> 
           <li><span class="text" style="background-color:white;">⌂</span> kann wirken, muss nicht.</li> 
-          <li><span class="text" style="background-color:white;">⛤</span> und <span class="text" style="background-color:white;">Xy</span> aufnehmen.</li> 
+          <li><span class="text" style="background-color:black; color: white">⛤</span> und <span class="text" style="background-color:black; color: white">Xy</span> aufnehmen.</li> 
         </ul> 
           <li>Schlagabtausch im Kampf</li><ul>
           <li>Härte = Stärke+Waffen+Würfel.</li>
           <li>Getroffen wenn Härte geringer.</li>
           <li>Schaden an Leben des<br/>
           Getroffenen = Härtedifferenz.</li>
-          <li>Je einen Waffenpunkt abziehen.</li>
+          <li><strong>Waffenpunkt abziehen!</strong></li>
           <li>Schlagabtausch bis Tod/Flucht.</li>
           <li>Flucht: kein Würfel zum Schutz.</li>
         </ul>
