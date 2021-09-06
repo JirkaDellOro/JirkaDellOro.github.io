@@ -6,11 +6,11 @@
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
 |         | Proß       | Manuel       | BSc       | Svelte                     | X |
-|         | Böttcher   | Daniel       | BSc       | ?                          |   |
-|         | Rohrberger | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
+|         | Zich       | Artur        | BSc       | Monetarisierung            |   |
+|         | Rohrberg   | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
 |         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
-|         | Roming     | Matthias     | BSc       | ?                          | X |
+|         | Roming     | Matthias     | BSc       | Skelettsystem für FUDGE    | X |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
 |         | Haller     | Jonas        | BSc       | Smartphone Marker          |   |
