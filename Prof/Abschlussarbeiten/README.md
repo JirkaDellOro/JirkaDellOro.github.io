@@ -6,7 +6,7 @@
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
 |         | Proß       | Manuel       | BSc       | Svelte                     | X |
-|         | Zich       | Artur        | BSc       | Monetarisierung            |   |
+|         | Zich       | Artur        | BSc       | Monetarisierung            | X |
 |         | Rohrberg   | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
 |         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
