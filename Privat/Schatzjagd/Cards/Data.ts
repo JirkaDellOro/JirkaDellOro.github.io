@@ -53,22 +53,17 @@ namespace SchatzjagdCards {
         bei mehr als 4 Handkarten)</li> 
         <li>Nachziehen auf 4 Handkarten.</li> 
       </ul> 
-      <li value="1">In der Stadt </li> 
-        <table> 
-        <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td></td><td>→ +2 Gulden</td></tr> 
-        <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-        <td>pro Tag</td><td>-3 Gulden</td><td>→ +1 Stärke</td></tr> 
-        <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gulden</td><td>→ +x Waffen</td></tr> 
-        <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
-        <td></td><td>-x Gulden</td><td>→ +x•3 Leben</td></tr> 
-        <tr> 
-        <td></td><td>-5 Gulden</td><td>→ Entgiftung</td></tr> 
-        </table> 
-        <ul><li>Kampf ist untersagt!</li></ul> 
-      </ol> 
-      ` },
+      <li>Schlagabtausch im Kampf</li>
+      <ul>
+        <li>Härte = Stärke+Waffen+Würfel.</li>
+        <li>Getroffen wenn Härte geringer.</li>
+        <li>Schaden an Leben des<br/>
+        Getroffenen = Härtedifferenz.</li>
+        <li><strong>Waffenpunkt abziehen!</strong></li>
+        <li>Schlagabtausch bis Tod/Flucht.</li>
+        <li>Flucht: kein Würfel zum Schutz.</li>
+      </ul>`
+      },
     },
     RulesBack: {
       count: 12,
@@ -76,34 +71,40 @@ namespace SchatzjagdCards {
       background: "Cover/CoverSword.svg",
       text: {
         content: `<ol start='2'>
-        <li>Karten ausspielen</li><ul> 
-          <li>Karten nur im eigenen Zug und<br/> 
-          nur eine Karte pro Zug spielen.</li> 
-          <li>In ein freies Feld einstecken,<br/> 
-          oder zeigen wenn <span class="text" style="background-color: black; color: white;">⛤</span> 
-          oder <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
-          <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> im Schergenzug spielbar</strong></li> 
+        <li value="1">Karten</li>
+        <table>
+        <tr><th>Symbol</th><th>Wirkung tritt nur ein,</th></tr> 
+        <tr><td><span class="text" style="background-color: white; color: white;"></span> Weiß</td><td>wenn Scherge sie findet</td></tr> 
+        <tr><td><span class="text" style="background-color: black; color: white;"></span> Schwarz</td><td>wenn Fürst sie vorzeigt</td></tr> 
+        </table>
+        <li>Karte ausspielen</li>
+        <ul> 
+          <li>Nur im eigenen Zug.</li> 
+          <li>Nur eine Karte pro Zug.</li> 
+          <li>In ein freies Feld einstecken.<br/> 
+          <li><span class="text" style="background-color: black; color: white;">⛤</span> 
+          oder <span class="text" style="background-color: black; color: white; font-size: 0.7em;">Xy</span>
+          direkt vorzeigbar.</li> 
+          <li><span class="text" style="background-color: black; color: white;">⛤</span> <strong>im Schergenzug spielbar</strong></li> 
           <li>Schatz ablegen nur möglich<br/> 
           wenn Scherge in Burg ist,<br/> 
           gilt als ausgespielte Karte.</li> 
         </ul> 
-        <li>Karten aufdecken</li><ul> 
+        <li>Karte aufdecken</li>
+        <ul> 
           <li><span class="text" style="background-color:white;";">?</span> greift sofort an.</li> 
           <li><span class="text" style="background-color:white;">⚔</span>, <span class="text" style="background-color:white;">⚕</span>, <span class="text" style="background-color:white;">🗲</span> wirken sofort.</li> 
           <li><span class="text" style="background-color:white;">⌂</span> kann wirken, muss nicht.</li> 
-          <li><span class="text" style="background-color:black; color: white">⛤</span> und <span class="text" style="background-color:black; color: white">Xy</span> aufnehmen.</li> 
+          <li><span class="text" style="background-color:black; color: white">⛤</span> und <span class="text" style="background-color:black; color: white; font-size: 0.7em;">Xy</span> aufnehmen.</li> 
         </ul> 
-          <li>Schlagabtausch im Kampf</li><ul>
-          <li>Härte = Stärke+Waffen+Würfel.</li>
-          <li>Getroffen wenn Härte geringer.</li>
-          <li>Schaden an Leben des<br/>
-          Getroffenen = Härtedifferenz.</li>
-          <li><strong>Waffenpunkt abziehen!</strong></li>
-          <li>Schlagabtausch bis Tod/Flucht.</li>
-          <li>Flucht: kein Würfel zum Schutz.</li>
-        </ul>
-    </ol> 
-  ` },
+        <li value="1">In der Stadt </li> 
+        <ul>
+          <li>Kampf ist untersagt!</li>
+          <li>Kein Stopp bei Karte/Scherge</li>
+        </ul> 
+        </ol> 
+    </ol>`
+      },
     }
   }
 
