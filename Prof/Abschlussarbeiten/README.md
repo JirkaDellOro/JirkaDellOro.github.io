@@ -2,6 +2,8 @@
 
 | Start   | Name       | Vorname      | Abschluss | Titel                      | Z |
 |---------|------------|--------------|-----------|----------------------------|---|
+| **S22** | Bodmer     | Tobias       | BSc       | Fudge Game                 |   |
+|         | Huchler    | Maurice      | BSc       | Fudge Game                 |   |
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
@@ -10,7 +12,7 @@
 |         | Rohrberg   | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
 |         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
 |         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
-|         | Roming     | Matthias     | BSc       | Skelettsystem für FUDGE    | X |
+|         | Roming     | Matthias     | BSc       | Skelettsystem für FUDGE    |   |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
 |         | König      | Marius       | BSc       | Golden Layout              |   |
 |         | Haller     | Jonas        | BSc       | Smartphone Marker          |   |
