@@ -1,5 +1,5 @@
-// namespace SchatzjagdCards_de {
-namespace SchatzjagdCards {
+namespace SchatzjagdCards_de {
+// namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -280,7 +280,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Erdbeben",
       image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-      text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>Stadt, Schätze und<br/>Felder auf denen<br/>Schergen stehen!" },
+      text: { content: "Fegt eine Karte von<br/>einem beliebigen Feld.<br/>Funktioniert nicht gegen<br/>die Stadt und Felder<br/>mit Schergen.<br/>Schätze bleiben liegen!" },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -386,6 +386,7 @@ namespace SchatzjagdCards {
       count: 4,
       head: "Heilung",
       image: { url: "Images/Heal.png", scale: 0.45, top: 22, left: 4 },
+      text: { content: "Achtung: Heilung<br/>ist keine Entgiftung..." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⚕" },
         { right: xMargin, top: yBase, color: green, content: "15" },
@@ -440,7 +441,7 @@ namespace SchatzjagdCards {
     },
     Teleportal: {
       count: 2,
-      head: "Teleportal",
+      head: "Portal",
       image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
       // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
       text: { content: "Würfle, und dein Scherge<br/>erscheint (evt.) auf einem<br/>beliebigen Feld<br/>im zufälligen Zielland!" },

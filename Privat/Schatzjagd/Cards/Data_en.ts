@@ -1,5 +1,5 @@
-namespace SchatzjagdCards_en {
-// namespace SchatzjagdCards {
+// namespace SchatzjagdCards_en {
+namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -279,7 +279,7 @@ namespace SchatzjagdCards_en {
       count: 4,
       head: "Earthquake",
       image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-      text: { content: "Discard a card<br/>from an arbitrary field.<br/>Fails in the city<br/>and in fields with<br/>treasures or henchmen!" },
+      text: { content: "Discard a card<br/>from an arbitrary field<br/>except the city and<br/>fields with henchmen.<br/>Treasures remain!" },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -297,7 +297,7 @@ namespace SchatzjagdCards_en {
       count: 1,
       head: "Crystal Orb",
       image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-      text: { content: "Peek into the cards<br/>of another duke<br/>and take one,<br/>but not a treasure.<br/>The victim of theft<br/>takes draw a new one." },
+      text: { content: "Peek into the cards<br/>of another duke<br/>and take one,<br/>but not a treasure.<br/>The victim of theft<br/>draws a new one." },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -385,6 +385,7 @@ namespace SchatzjagdCards_en {
       count: 4,
       head: "Healing",
       image: { url: "Images/Heal.png", scale: 0.45, top: 22, left: 4 },
+      text: { content: "Restores full health.<br/>Doesn't stop toxication!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⚕" },
         { right: xMargin, top: yBase, color: green, content: "15" },
