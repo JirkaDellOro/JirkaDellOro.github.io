@@ -8,14 +8,14 @@ var SchatzjagdCards;
         // createCards(places);
         // createCards(potions);
         // createCards(weapons);
-        createCards(SchatzjagdCards.spells);
+        // createCards(spells);
         // createCards(traps);
         // createMaps();
         // createCards(city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
-        // createCards(rules, "cover");
+        createCards(SchatzjagdCards.rules, "cover");
         // createCards(addition);
         // createSimple(16, "poisonskip");
     }

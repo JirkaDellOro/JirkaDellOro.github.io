@@ -8,7 +8,7 @@ namespace SchatzjagdCards {
     // createCards(places);
     // createCards(potions);
     // createCards(weapons);
-    createCards(spells);
+    // createCards(spells);
     // createCards(traps);
     // createMaps();
 
@@ -18,7 +18,7 @@ namespace SchatzjagdCards {
     // createSimple(12, "backchest");
 
     // createSimple(12, "cover");
-    // createCards(rules, "cover");
+    createCards(rules, "cover");
 
     // createCards(addition);
 

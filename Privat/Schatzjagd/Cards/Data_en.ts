@@ -1,5 +1,5 @@
-// namespace SchatzjagdCards_en {
-namespace SchatzjagdCards {
+namespace SchatzjagdCards_en {
+// namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";

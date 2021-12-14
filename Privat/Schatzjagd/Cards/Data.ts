@@ -1,5 +1,5 @@
-namespace SchatzjagdCards_de {
-// namespace SchatzjagdCards {
+// namespace SchatzjagdCards_de {
+namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -53,7 +53,7 @@ namespace SchatzjagdCards_de {
         bei mehr als 4 Handkarten)</li> 
         <li>Nachziehen auf 4 Handkarten.</li> 
       </ul> 
-      <li>Schlagabtausch im Kampf</li>
+      <li style="list-style: none; margin-left: -1em;">Kampf</li>
       <ul>
         <li>Härte = Stärke+Waffen+Würfel.</li>
         <li>Getroffen wenn Härte geringer.</li>
@@ -71,7 +71,7 @@ namespace SchatzjagdCards_de {
       background: "Cover/CoverSword.svg",
       text: {
         content: `<ol start='2'>
-        <li value="1">Karten</li>
+        <li style="list-style: none; margin-left: -1em;">Karten</li>
         <table>
         <tr><th>Symbol</th><th>Wirkung tritt nur ein,</th></tr> 
         <tr><td><span class="text" style="background-color: white; color: white;"></span> Weiß</td><td>wenn Scherge sie findet</td></tr> 
@@ -97,7 +97,7 @@ namespace SchatzjagdCards_de {
           <li><span class="text" style="background-color:white;">⌂</span> kann wirken, muss nicht.</li> 
           <li><span class="text" style="background-color:black; color: white">⛤</span> und <span class="text" style="background-color:black; color: white; font-size: 0.7em;">Xy</span> aufnehmen.</li> 
         </ul> 
-        <li value="1">In der Stadt </li> 
+        <li style="list-style: none; margin-left: -1em;">Stadt </li> 
         <ul>
           <li>Kampf ist untersagt!</li>
           <li>Kein Stopp bei Karte/Scherge</li>
