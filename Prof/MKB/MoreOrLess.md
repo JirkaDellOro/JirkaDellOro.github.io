@@ -1,8 +1,8 @@
-Fokus auf Kompetenz im Bereich des Digitalen in den Medien  
-an der Fakultät Digitale Medien
+Der Fokus auf Kompetenzen im Bereich der digitalen Technologie an der Fakultät Digitale Medien kann weiter geschwächt oder wieder verstärkt werden. Die zu erwartenden Konsequenzen sind unter anderem folgende: 
 
 
-|                                 | stark                                                                                                 | schwach                                                                      |
+
+|                                 | starker Fokus                                                                                                 | schwacher Fokus                                                                      |
 |---------------------------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | Fähigkeiten der Absolventen     | neue Erlebnisse  und digitale Werkzeuge hierfür erschaffen                                            | lediglich Inhalte austauschen und digitale Werkzeuge nutzen                  |
 | Kreativität                     | Gestalter kennen ihr Material, Ideen entstehen im Umgang                                              | Gestalter kennen Möglichkeiten und Limitationen nicht, Ideen sind suboptimal |
