@@ -4,6 +4,11 @@
 |---------|------------|--------------|-----------|----------------------------|---|
 | **S22** | Bodmer     | Tobias       | BSc       | Fudge Game                 |   |
 |         | Huchler    | Maurice      | BSc       | Fudge Game                 |   |
+|         | Vinci      | Alessio      | BSc       | VR Component Fudge         |   |
+|         | Kodalle    | Lukas        | BSc       | Fudge VR Game              |   |
+|         | Mohr       | Luna         | MA        | Meerschutz Game            |   |
+| ???     | Hawran     | Dennis       | BSc       | ?                          |   |
+|         | Damm       | Markus       | BSc       | ?                          |   |
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
