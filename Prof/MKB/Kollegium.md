@@ -22,11 +22,11 @@
 <tr><td>Dr. rer. nat. Thomas Schneider </td><td> Mathematik und Physik der Digitalen Medien </td></tr>
 <tr><td>Dr. Norbert Schnell </td><td> Musikdesign </td></tr>
 <tr><td>Dr. Christoph Zydorek </td><td> Medienwirtschaft </td></tr>
-<tr><td>W2 </td><td> Konzeption und Inszenierung digitaler Medien <ul>
+<tr><td>Regina Reusch </td><td> Konzeption und Inszenierung digitaler Medien <ul>
   <li>Erzählstrukturen und Interaktionsdramaturgie</li>
   <li>Szenographie für virtuelle Räume</li>
   <li>Medienanalyse und Rezeptionsforschung</li></ul></td></tr>
-<tr><td>W2 </td><td> Computervision <ul>
+<tr><td>Dr. Uwe Hahne</td><td> Computervision <ul>
   <li>Bildanalyse</li>
   <li>Bildverarbeitung</li>
   <li>Anwendungsentwicklung von Mixed Reality / Echtzeit-3D </li></ul></td></tr>
