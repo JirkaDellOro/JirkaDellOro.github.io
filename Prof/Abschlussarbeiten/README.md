@@ -7,8 +7,7 @@
 |         | Vinci      | Alessio      | BSc       | VR Component Fudge         |   |
 |         | Kodalle    | Lukas        | BSc       | Fudge VR Game              |   |
 |         | Mohr       | Luna         | MA        | Meerschutz Game            |   |
-|         | Hawran     | Dennis       | BSc       |                            |   |
-|         | Damm       | Markus       | BSc       | ?                          |   |
+|         | Hawran     | Dennis       | BSc       | VR-Room Game               |   |
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
