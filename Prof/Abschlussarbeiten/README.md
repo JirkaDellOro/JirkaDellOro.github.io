@@ -8,13 +8,13 @@
 |         | Kodalle    | Lukas        | BSc       | Fudge VR Game              |   |
 |         | Mohr       | Luna         | MA        | Meerschutz Game            |   |
 |         | Hawran     | Dennis       | BSc       | VR-Room Game               |   |
+|         | Plotzky    | Jonas        | MSc       | Partikelsystem fertig      |   |
 | **W21** | Micka      | Christian    | BSc       | Programmier-Lernspiel      |   |
 |         | Dieterle   | Salome       | BSc       | Rise of Ravens             |   |
 |         | Wagner     | Daniel       | BSc       | Nichteuklidische Geometrie |   |
 |         | Proß       | Manuel       | BSc       | Svelte                     | X |
 |         | Zich       | Artur        | BSc       | Monetarisierung            | X |
 |         | Rohrberg   | Lukas        | BSc       | Dynamische Gameplay Loops  |   |
-|         | Plotzky    | Jonas        | BSc       | Partikelsystem fertig      |   |
 |         | Stegk      | Lea          | MA        | KI-Generiertes Krimispiel  |   |
 |         | Roming     | Matthias     | BSc       | Skelettsystem für FUDGE    |   |
 | **S21** | Keck       | Luis         | BSc       | Shader für FUDGE           |   |
