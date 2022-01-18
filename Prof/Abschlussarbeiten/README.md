@@ -2,8 +2,8 @@
 
 | Start   | Name       | Vorname      | Abschluss | Titel                      | Z |
 |---------|------------|--------------|-----------|----------------------------|---|
-| **S22** | Bodmer     | Tobias       | BSc       | Fudge Game                 |   |
-|         | Huchler    | Maurice      | BSc       | Fudge Game                 |   |
+| **S22** | Bodmer     | Tobias       | BSc       | Coop Rogue w FUDGE         |   |
+|         | Huchler    | Maurice      | BSc       | Coop Rogue w FUDGE         |   |
 |         | Vinci      | Alessio      | BSc       | VR Component Fudge         |   |
 |         | Kodalle    | Lukas        | BSc       | Fudge VR Game              |   |
 |         | Mohr       | Luna         | MA        | Meerschutz Game            |   |
