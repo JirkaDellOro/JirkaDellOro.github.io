@@ -497,8 +497,8 @@ var SchatzjagdCards;
         Shadow: {
             count: 1,
             head: "Meisterdieb",
-            image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-            text: { content: "Zahle 5 Gulden</br>und wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz!" },
+            image: { url: "Images/Thief.png", scale: 0.18, top: 18, left: 10 },
+            text: { content: "Zahle 5 Gulden und</br>wähle einen Spieler</br>mit Schatz auf der Hand.</br>Würfelt er weniger als fünf,</br>erhältst Du den Schatz und</br>der Dieb verschwindet!" },
             markers: [
                 { left: xMargin, top: yType, color: "white", content: "⌂" },
                 { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },

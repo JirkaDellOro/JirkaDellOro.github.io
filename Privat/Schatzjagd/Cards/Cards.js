@@ -5,7 +5,7 @@ var SchatzjagdCards;
     let offsetImage = { x: 2.5, y: 2.5 };
     function hndLoad(_event) {
         // createCards(enemies);
-        // createCards(places);
+        createCards(SchatzjagdCards.places);
         // createCards(potions);
         // createCards(weapons);
         // createCards(spells);
@@ -15,7 +15,7 @@ var SchatzjagdCards;
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
-        createCards(SchatzjagdCards.rules, "cover");
+        // createCards(rules, "cover");
         // createCards(addition);
         // createSimple(16, "poisonskip");
     }
