@@ -3,6 +3,7 @@
 | Start   | Name       | Vorname      | Abschluss | Titel                         | Z |
 |---------|------------|--------------|-----------|-------------------------------|---|
 | **W22** | Yasin      | Riem         | MA        | ?                             |   |
+|         | Häcker     | Nick         | BSc       | Fraction of Time              |   |
 | **S22** | Bodmer     | Tobias       | BSc       | Coop Rogue w FUDGE            |   |
 |         | Huchler    | Maurice      | BSc       | Coop Rogue w FUDGE            |   |
 |         | Brausch    | Lukas        | BSc       | FUDGE-Assetlibrary            |   |
