@@ -144,11 +144,11 @@
 <node CREATED="1368311460139" ID="ID_423695509" MODIFIED="1368311469995" TEXT="werden &#xfc;ber Ergebnis unterrichtet"/>
 </node>
 </node>
-<node CREATED="1404552257681" FOLDED="true" HGAP="45" ID="ID_550826224" MODIFIED="1575242061644" POSITION="left" TEXT="Gesetze/Ordnungen/Satzungen" VSHIFT="47">
+<node CREATED="1404552257681" FOLDED="true" HGAP="45" ID="ID_550826224" MODIFIED="1652269332176" POSITION="left" TEXT="Gesetze/Ordnungen/Satzungen" VSHIFT="47">
 <node CREATED="1368306405988" ID="ID_1852734063" LINK="http://www.landesrecht-bw.de/jportal/portal/t/3q7b/page/bsbawueprod.psml?pid=Dokumentanzeige&amp;showdoccase=1&amp;js_peid=Trefferliste&amp;documentnumber=4&amp;numberofresults=110&amp;fromdoctodoc=yes&amp;doc.id=jlr-HSchulGBWV19P1&amp;doc.part=X&amp;doc.price=0.0&amp;doc.hl=1#focuspoint" MODIFIED="1465142379675" TEXT="Landeshochschulgesetz"/>
 <node CREATED="1392763603432" ID="ID_641800314" LINK="http://www.hs-furtwangen.de/fileadmin/user_upload/Marketing_PR/Dokumente/Webredaktion/Grundordnung_HFU_2013.pdf" MODIFIED="1404552292332" TEXT="Grundordnung der HFU"/>
-<node CREATED="1404552450192" ID="ID_1576291014" LINK="https://www.dm.hs-furtwangen.de/dm.php?handler=files&amp;action=download&amp;fileid=6355" MODIFIED="1473065019267" TEXT="Gesch&#xe4;ftsordnung Fakult&#xe4;tsrat"/>
-<node CREATED="1330078940424" FOLDED="true" ID="ID_1912142221" MODIFIED="1575242059783" TEXT="Studien/Pr&#xfc;fungsordnung">
+<node CREATED="1404552450192" ID="ID_1576291014" LINK="https://docplayer.org/137867433-Grundordnung-der-hochschule-furtwangen-informatik-technik-wirtschaft-medien-gesundheit.html" MODIFIED="1652269263834" TEXT="Gesch&#xe4;ftsordnung Fakult&#xe4;tsrat"/>
+<node CREATED="1330078940424" FOLDED="true" ID="ID_1912142221" MODIFIED="1652269331312" TEXT="Studien/Pr&#xfc;fungsordnung">
 <node CREATED="1330078950489" ID="ID_63567501" LINK="https://www.hs-furtwangen.de/fileadmin/Redaktion/Share/SPOs/AllgemeinerTeilBachelor_aktuell.pdf" MODIFIED="1529565740733" TEXT="Allgemein Bachelor 27.1.2016"/>
 <node CREATED="1330079110554" ID="ID_1978259440" LINK="https://www.dm.hs-furtwangen.de/dm.php?handler=files&amp;action=download&amp;fileid=38507" MODIFIED="1473065954898" TEXT="SPO MIB V13"/>
 </node>
