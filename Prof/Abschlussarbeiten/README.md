@@ -4,7 +4,7 @@
 |---------|------------|--------------|-----------|-------------------------------|---|
 | **W22** | Yasin      | Riem         | MA        | ?                             |   |
 |         | Häcker     | Nick         | BSc       | Fraction of Time              |   |
-|         | Nauber     | Meike        | BSc       | ? Hardware/Biometrik in FUDGE |   |
+|         | Nauber     | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
 |         | Leisinger  | Oliver       | BSc       | Pathfinding                   |   |
 | **S22** | Bodmer     | Tobias       | BSc       | Coop Rogue w FUDGE            |   |
 |         | Huchler    | Maurice      | BSc       | Coop Rogue w FUDGE            |   |
