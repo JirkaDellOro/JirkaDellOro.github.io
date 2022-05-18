@@ -6,6 +6,7 @@
 |         | Häcker     | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber     | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
 |         | Leisinger  | Oliver       | BSc       | Pathfinding                   |   |
+|         | Keck       | Luis         | MSc       | Piraten/Pfahlbauten           |   |
 | **S22** | Bodmer     | Tobias       | BSc       | Coop Rogue w FUDGE            |   |
 |         | Huchler    | Maurice      | BSc       | Coop Rogue w FUDGE            |   |
 |         | Brausch    | Lukas        | BSc       | FUDGE-Assetlibrary            |   |
