@@ -1,0 +1,120 @@
+Name des neuen Studiengangs
+
+Abschlussbezeichnung
+
+Vorgesehene Zulassungszahl (pro Jahr)
+
+Zulassung
+
+Anbietende Fakultät
+Digitale Medien
+
+<https://www.bmvi.de/SharedDocs/DE/Artikel/DG/games-strategie.html>
+
+
+
+Kurzbeschreibung des Studiengangs
+Welches sind zentrale Inhalte und Ziele des Studiengangs (SG)? Welches Berufsbild besteht für Absolventen?
+
+Konzeption, Gestaltung, Entwicklung und Sozio-Ökonomie immersiver Medien und Computergames. 
+Wir decken damit typische Berufsbilder innerhalb der Gamesbranche ab wie Gamedesign, Technical Art, Gameprogramming, Producing, Sound Design etc. weitere Berufsbilder und Details sie Gamecampus <https://www.gamecampus.de/arbeiten/berufsbilder>
+    
+Computergames prägen seit 50 Jahren unsere Gesellschaft und damit die Erwartungshaltungen der Menschen in Alltag und Beruf. In Computergames kumulieren alle Formen digitaler Medien auf gestalterischer sowie auf technischer Ebene. Je nach Vertiefungsrichtung decken unsere Absolventen außerhalb der Gamesbranche Themen ab wie:
+Simulation und Virtualisierung, Immersive Kommunikation, Social Media, Digital Design, Mediendesign, Medieninformatik, künstliche Intelligenz in den Medien und auch Medienkunst. Aus der Games-Strategie der Bundesregierung: "Wir sehen Games als eine künstlerische Ausdrucksform an, mit der Kreative ästhetische Innovationen erproben, transdisziplinäre Brücken schlagen und gesellschaftliche Diskurse begleiten."
+
+
+
+
+
+
+Attraktivität/Marktpotenzial des Studiengangs
+Erwartete Nachfrage von Studieninteressierten und Potenzial für Studienanfängerplätze. Werden neue Potenziale von Studieninteressierten erschlossen? Wird der Frauenanteil erhöht? Ist der SG auch für internationale Bewerber attraktiv (internationale Wettbewerbsfähigkeit)
+
+Computergames sind heute Leitmedium, eSport-Events sind Publikumsmagneten und füllen Stadien, die Zielgruppe ist aufgewachsen mit digitalen Medien und Games. Der Umsatz der Computerspielbranche liegt seit Langem deutlich über dem der Musik- und Filmbranche in Kombination. Frauen und Männer spielen gleichermaßen, oft unterschiedliche Titel und Genres. Die Branche sehr divers, international, Frauen sind zu etwa einem Drittel vertreten. Aus der Games-Strategie der Bundesregierung: "Games unterstützen Vielfalt. Durch Computerspiele treffen Menschen mit unterschiedlichen Hintergründen aufeinander, um gemeinsam zu spielen, unabhängig von Geschlecht und geschlechtlicher Identität, Nationalität, ethnischer oder sozialer Herkunft, Bildungsstand, Religion, Behinderung, Alter, Sprache und sexueller Orientierung. Computerspiele sind ein Medium, welches wie wenige andere für Diversität steht, Teilhabe ermöglicht und Inklusion bewirkt."
+
+Immersive Medien bieten völlig neue Formen der Interaktion und Partizipation (bsp. Metaverse) in Unterhaltung, Industrie und Gesellschaft. Unsere Zielgruppe ist in diesem Bereich kurze Innovationszyklen gewohnt und hat ein großes Interesse, sie mitzugestalten.
+
+Der Studiengang soll vollständig in Englischer und wahlweise Deutscher Sprache angeboten werden.
+
+
+
+
+Nachfrage nach Absolventen/-innen
+Welche Beschäftigungschancen bestehen für Absolventen? Wie ist der Bedarf an Absolventen des SG einzuschätzen (Industriemeinung)? Wie ist der Bedarf an Inhalten einzuschätzen (Wissensbasierte Dienstleistungen)? Welche Trends / welchen Qualifizierungsbedarf berücksichtigt der SG?
+Aus der Games-Strategie der Bundesregierung: "8,5 Mrd. Euro Umsatz im Jahr 2020 zeigen: Computerspiele sind längst ein wichtiger Wirtschaftsfaktor. Etwa 590 Unternehmen entwickeln in Deutschland Computerspiele. Sie schaffen und sichern Arbeitsplätze, bilden aus und tragen zur Wertschöpfung bei. Durch die Bildung regionaler Cluster leisten sie einen wichtigen Beitrag zur lokalen Standortförderung."
+
+Deutschland ist der fünftgrößte Gamesmarkt der Welt. Aber bisher werden nur 5% der hier konsumierten Güter in diesem Bereich auch hier hergestellt. Daher fördert die Politik massiv die Gamesbranche. Dadurch entstehen nicht nur viele Arbeitsplätze in bestehenden Firmen, Innovationspotential soll insbesondere auch durch Neugründungen ausgeschöpft werden. Sogenannte Indi-Studios, kleine Firmen versatiler Entrepreneurs werden besonders gefördert, daher zielt der Studiengang auf eine thematisch fokussierte aber bezüglich der Kompetenzen breite Ausbildung ab.
+
+Aus der Games-Strategie der Bundesregierung: "Neben dem Transfer von Technologien ist auch der Transfer von Arbeitskräften bedeutsam, und dies nicht nur innerhalb des Digitalsektors. Die Games-Branche verfügt über Mitarbeitende mit einer stark ausgeprägten Digitalkompetenz, die es gewohnt sind, mit großer Kreativität neue Wege zu beschreiten und unkonventionelle Lösungen zu entwickeln. Die Games-Branche ist somit ein Pool für hochqualifiziertes Personal mit 'digital skills', die auch für den Standort Deutschland und die internationale Wettbewerbsfähigkeit immer wichtiger werden."
+
+So ergeben sich für Absolventen vielfältige Tätigkeitsfelder über die Gamesbranche hinaus. Zuvorderst soll hier Digital Design genannt sein. 2018 veröffentlichte der Bitkom, der Branchenverband der deutschen Informations- und Telekommunikationsbranche mit mehr als 2000 Mitgliedsunternehmen, die zusammen etwa 190 Milliarden Euro Umsatz im Jahr erwirtschaften und in Deutschland mehr als 2 Millionen Beschäftigte haben, dieses moderne Berufsbild. <https://www.digital-design-manifest.de/>
+
+Weiterhin kommen heute Game-Engines in Unterhaltung und Industrie zum Einsatz, die nicht dem Spiel zugeordnet werden. Games sind Simulationen virtueller Welten, der Schritt zu kostensparenden und innovationsfördernden Simulationen realer Prozesse und Phänomene ist nicht weit. Virtualisierte Kommunikation und virtualisiertes Design revolutionieren Innovationsprozesse der Industrie. In der Filmbranche wird die "engine driven production pipeline" mit prozeduraler Generierung ganzer Szenen, Machinima und virtual Sets zum Standard.
+
+
+
+
+    
+
+Abschätzung der erforderlichen Ressourcen (Personal, Finanzen, Räume)
+Wie aufwändig ist die Realisierung des SG? Welche vorhandenen Ressourcen (Stellen, Mittel, Räume) können genutzt werden? Welche zusätzlichen Ressourcen werden benötigt?
+
+An der Fakultät Digitale Medien ist Vieles durch bestehende Infrastrukturen bereits abbildbar. Wir verfügen über Media Synthesis Lab, Spiellabor, Smartspace-Lab und Computerpools, angeschlossen sind der Makerspace und der Gameshub als externe Einrichtungen. Es werden vor allem für KI und Rendering zusätzliche Cloud-Computing-Lösungen erforderlich, dazu natürlich Personal auf Mitarbeiterebene für die Betreuung der Infrastrukturen und einige fachbezogene Professuren, die unser aktuelles Team ergänzen.
+
+
+
+
+Passung zum Profil der HFU
+Erhöht der neue SG die Attraktivität der Fakultät/der HFU? Ist der SG innovativ bzw. stellt er ein Alleinstellungsmerkmal dar? Passt der SG in das Portfolio der HFU? Ist der SG profilgebend für die HFU? Passt das Konzept in die Strategie der HFU
+
+Aus Games-Strategie der Bundesregierung: "Die Computerspielebranche steht wie kaum ein anderer Wirtschaftsbereich für innovative Lösungen. Die GamesBranche ist „digitaler Frontrunner“. Technologien wie Simulation, dreidimensionale Darstellung, Virtuelle Realität und Augmented Reality wurden von der Games-Branche so weiterentwickelt, dass sie für neue Bereiche nutzbar wurden. Als Zukunftstechnologien finden sie Eingang in andere Branchen, wodurch Computerspiele sich als Innovator für den Technologietransfer etabliert haben."
+
+Zur Beantwortung der Frage werden die sieben Komponenten des Leitbildes der HFU beleuchtet:
+Hohe Qualität und Innovation - dafür steht bereits das obige Zitat. Eine hohe Qualität ergibt sich nicht nur aus der Erfahrung der Lehrenden der Fakultät, sondern auch aus der erwartbar hohen Nachfrage, der geringen Konkurrenz und aus der daraus resultierenden Möglichkeit, die besten Bewerber auswählen zu können.
+
+Zusammenarbeit und Motivation - allein das Thema steht wohl wie kein anderes für diese Komponente. Games überwinden Grenzen, siehe obiges Zitat zu Vielfalt.
+
+Lebenslanges Lernen - Games sind immer Lernanwendungen, auch wenn dies nicht immer so wahrgenommen werden muss. Intrinsisch motiviert erlernen Nutzer die Beherrschung des Spiels. Spielen und Lernen sind zwei Seiten der gleichen Medaille. Daher drängen sich sogenannte Serious Games nicht nur als Produkt für Konsumentenmarkt oder die Industrie auf, sondern auch als Lehrmittel an Schulen und Universitäten. Durch die Fokussierung kann der Studiengang besser mit anderen Einrichtungen der HFU auf dieser Ebene kooperieren und ebenso zu deren Erfolg beitragen.
+
+Internationalität - Nicht nur in Deutschland, allerorten ist die Gameswirtschaft im Aufwind. Insbesondere durch das bilinguale Angebot dürfen wir daher mit Bewerbern aus dem Ausland rechnen.
+
+
+
+
+
+
+Bestehende Ressourcen föderieren.
+Bilingual passt in die Strategie
+Breite Kompetenzentwicklung innerhalb der Themen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Konkurrenzsituation extern (Grobanalyse)
+Gibt es ähnliche/benachbarte SG an anderen Hochschulen? Sind Formen der Zusammenarbeit möglich?
+
+
+
+Laut studycheck gibt es in Deutschland aber nur 9 explizite Games-Angebote im Bachelorbereich an staatlichen Hochschulen, 12 an privaten Hochschulen dagegen sind entsprechend teuer. Die Branche ist sehr divers, international und ein Drittel der Beschäftigten in Deutschland ist weiblich. Der Studiengang soll vollständig in Englischer und wahlweise Deutscher Sprache angeboten werden.
+
+
+Konkurrenzsituation (HFU-intern)
+Gibt es ähnliche/benachbarte SG an der HFU? Ergibt sich eine Konkurrenzsituation zu Lasten eines anderen HFU-Studiengangs? Welche Synergien sind denkbar? Welche Spezialisierungen, Abgrenzungen, Vertiefungen sind möglich?
+
+
+
+Autor(en)
+Datum
