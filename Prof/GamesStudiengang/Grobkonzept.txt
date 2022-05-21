@@ -59,7 +59,7 @@ Weiterhin kommen heute Game-Engines in Unterhaltung und Industrie zum Einsatz, d
 Abschätzung der erforderlichen Ressourcen (Personal, Finanzen, Räume)
 Wie aufwändig ist die Realisierung des SG? Welche vorhandenen Ressourcen (Stellen, Mittel, Räume) können genutzt werden? Welche zusätzlichen Ressourcen werden benötigt?
 
-An der Fakultät Digitale Medien ist Vieles durch bestehende Infrastrukturen bereits abbildbar. Wir verfügen über Media Synthesis Lab, Spiellabor, Smartspace-Lab und Computerpools, angeschlossen sind der Makerspace und der Gameshub als externe Einrichtungen. Es werden vor allem für KI und Rendering zusätzliche Cloud-Computing-Lösungen erforderlich, dazu natürlich Personal auf Mitarbeiterebene für die Betreuung der Infrastrukturen und einige fachbezogene Professuren, die unser aktuelles Team ergänzen.
+An der Fakultät Digitale Medien ist Vieles durch bestehende Infrastrukturen bereits abbildbar und es existieren bereits einige Wahlpflichtangebote zu den Themen. Wir verfügen über Media Synthesis Lab, Spiellabor, Smartspace-Lab und Computerpools, angeschlossen sind der Makerspace und der Gameshub als externe Einrichtungen. Es werden vor allem für KI und Rendering zusätzliche Cloud-Computing-Lösungen erforderlich, dazu natürlich Personal auf Mitarbeiterebene für die Betreuung der Infrastrukturen und einige fachbezogene Professuren, die unser aktuelles Team ergänzen. Wir erwarten, dass bestehende Ressourcen föderiert werden können.
 
 
 
@@ -78,41 +78,30 @@ Lebenslanges Lernen - Games sind immer Lernanwendungen, auch wenn dies nicht imm
 
 Internationalität - Nicht nur in Deutschland, allerorten ist die Gameswirtschaft im Aufwind. Insbesondere durch das bilinguale Angebot dürfen wir daher mit Bewerbern aus dem Ausland rechnen.
 
+Soziale Verantwortung - Games als Leitmedium spielen mittlerweile in unserer Gesellschaft eine tragende Rolle. Es ist wichtig, die Spielemacher von morgen auf diese Verantwortung aufmerksam zu machen und dementsprechend auch auf der sozial-ethischen Ebene zu sensibilisieren. Dieser Verantwortung stellen wir uns.
 
+Angewandte Forschung - Game Studies ist ein junges Wissenschaftsfeld in dem viel Raum zur Forschung existiert. Die Fakultät Digitale Medien ist durch das breite Themenfeld und ausreichende Kompetenz auf technischer Ebene hervorragend aufgestellt, um in diesem Bereich nicht nur theoretische Beiträge zu liefern, sondern auch mit neuen Konzepten zu experimentieren, diese zu realisieren und daran Untersuchungen anzustellen. Auch kristallisiert sich das Potential immersiver Medien außerhalb des Gamesbereichs immer stärker heraus. Die bereits bestehenden Forschungs- und Entwicklungsaktivitäten in diesen Bereichen werden durch den neuen Studiengang weiter vorangetrieben.
 
-
-
-
-Bestehende Ressourcen föderieren.
-Bilingual passt in die Strategie
-Breite Kompetenzentwicklung innerhalb der Themen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Praxisbezug durch Kooperation mit der Wirtschaft - Die Fakultät Digitale Medien ist bereits Mitglied im game e.V., dem Verband der deutschen Games-Branche. Es bestehen darüber hinaus enge Kontakte zu diversen Partnern, welche Games-Technologien einsetzen oder in der Branche tätig sind. Dazu nehmen wir teil an einer Arbeitsgemeinschaft des Verbandes, die Leitlinien für die Hochschulelehre entwickelt. 
 
 
 
 Konkurrenzsituation extern (Grobanalyse)
 Gibt es ähnliche/benachbarte SG an anderen Hochschulen? Sind Formen der Zusammenarbeit möglich?
+Zur Zeit gibt es laut Studycheck und Gamecampus in Deutschland lediglich 9 explizite Games-Angebote staatlicher Hochschulen im Bachelorbereich. Dagegen aber 12 an privaten Hochschulen, die entsprechend teuer sind. Daraus ergibt sich, dass es äußerst wenig Konkurrenz gibt und es lukrativ ist, in dem Bereich zu investieren.
+Aus Games-Strategie der Bundesregierung: "Hochschulen und Forschungseinrichtungen gilt es, mit der Games-Branche geeignet zu verknüpfen. Sie dienen als Generatoren für hochqualifiziertes Personal und können bei Forschung und Entwicklung wichtige Beiträge leisten. Eine gezielte finanzielle Forschungsförderung und die Bildung von thematischen Clustern sind mögliche Wege zur Stärkung von Innovation."
 
-
-
-Laut studycheck gibt es in Deutschland aber nur 9 explizite Games-Angebote im Bachelorbereich an staatlichen Hochschulen, 12 an privaten Hochschulen dagegen sind entsprechend teuer. Die Branche ist sehr divers, international und ein Drittel der Beschäftigten in Deutschland ist weiblich. Der Studiengang soll vollständig in Englischer und wahlweise Deutscher Sprache angeboten werden.
+Wir erwarten in diesem Zusammenhang auch Auslandspartnerschaften und eine neue Achse der Zusammenarbeit konkret zu den Themen Musikdesign und KI mit der Hochschule Trossingen.
 
 
 Konkurrenzsituation (HFU-intern)
 Gibt es ähnliche/benachbarte SG an der HFU? Ergibt sich eine Konkurrenzsituation zu Lasten eines anderen HFU-Studiengangs? Welche Synergien sind denkbar? Welche Spezialisierungen, Abgrenzungen, Vertiefungen sind möglich?
+
+Es gibt bereits einige Wahlpflichtangebote zu den Themen Games und immersive Medien an der Fakultät Digitale Medien. Diese werden überarbeitet und für den neuen Studiengang voraussichtlich in den Pflichtbereich überführt. Es ist aber prinzipiell möglich, dass sie weiter für die anderen Studiengänge als Wahlpflichtangebote zur Verfügung stehen, sofern die Qualifikationen passen. 
+Die größten Ähnlichkeiten ergäben sich voraussichtlich zum Studiengang Medieninformatik der Fakultät, sofern dort der entsprechende Schwerpunkt im aktuellen Wahlpflichtbereich gewählt wird.
+
+Auch der Studiengang "Immersive Medien und Games" führt konsekutiv zu den Masterangeboten Medieninformatik und Design interaktiver Medien der Fakultät. Aufgrund der großen Vielfalt der Einsatzmöglichkeiten von Games und immmersiven Medien bieten sich viele Spezialisierungsmöglichkeiten in Zusammenarbeit mit anderen Fakultäten und Studiengängen an. Schon heute sind immersive Medien im Medizinbereich wichtig, ebenso in den Bereichen Sicherheit und Gesundheit. Dazu kommen neue Hardwareentwicklungen zu Sensoren, Aktoren und Controllern, welche die Bereich Maschinenbau und Elektrotechnik tangieren können. Und wie oben bereits erwähnt, können alle Fakultäten von neue Medienformen in der Lehre profitieren.
+
 
 
 
