@@ -17,9 +17,15 @@ Kurzbeschreibung des Studiengangs
 Welches sind zentrale Inhalte und Ziele des Studiengangs (SG)? Welches Berufsbild besteht für Absolventen?
 
 Konzeption, Gestaltung, Entwicklung und Sozio-Ökonomie immersiver Medien und Computergames. 
+
+Immersive Medien (immergere: eintauchen, versenken) ermöglichen es Nutzern, sich völlig in eine virtuelle Welt hineinzubegeben und gefühlt die reale Welt zu verlassen. Die Projektionsrichtung ist umgekehrt, nicht das Medium wirkt auf den Nutzer, sondern der Nutzer im Medium. Computergames sind die Pioniere dieser Mediengattung und zeichnen sich dadurch aus, dass Nutzer sie in der Regel zur reinen Unterhaltung nutzen. Es ist anzunehmen, dass sie im Fokus unserer Zielgruppe stehen. Immersive Medien im allgemeinen, ob spielerisch oder nicht, kommen heute aber in ganz unterschiedlichen Bereichen der Gesellschaft und des Berufslebens zum Einsatz.
+
+
+
 Wir decken damit typische Berufsbilder innerhalb der Gamesbranche ab wie Gamedesign, Technical Art, Gameprogramming, Producing, Sound Design etc. weitere Berufsbilder und Details sie Gamecampus <https://www.gamecampus.de/arbeiten/berufsbilder>
     
 Computergames prägen seit 50 Jahren unsere Gesellschaft und damit die Erwartungshaltungen der Menschen in Alltag und Beruf. In Computergames kumulieren alle Formen digitaler Medien auf gestalterischer sowie auf technischer Ebene. Je nach Vertiefungsrichtung decken unsere Absolventen außerhalb der Gamesbranche Themen ab wie:
+
 Simulation und Virtualisierung, Immersive Kommunikation, Social Media, Digital Design, Mediendesign, Medieninformatik, künstliche Intelligenz in den Medien und auch Medienkunst. Aus der Games-Strategie der Bundesregierung: "Wir sehen Games als eine künstlerische Ausdrucksform an, mit der Kreative ästhetische Innovationen erproben, transdisziplinäre Brücken schlagen und gesellschaftliche Diskurse begleiten."
 
 
@@ -30,7 +36,9 @@ Simulation und Virtualisierung, Immersive Kommunikation, Social Media, Digital D
 Attraktivität/Marktpotenzial des Studiengangs
 Erwartete Nachfrage von Studieninteressierten und Potenzial für Studienanfängerplätze. Werden neue Potenziale von Studieninteressierten erschlossen? Wird der Frauenanteil erhöht? Ist der SG auch für internationale Bewerber attraktiv (internationale Wettbewerbsfähigkeit)
 
-Computergames sind heute Leitmedium, eSport-Events sind Publikumsmagneten und füllen Stadien, die Zielgruppe ist aufgewachsen mit digitalen Medien und Games. Der Umsatz der Computerspielbranche liegt seit Langem deutlich über dem der Musik- und Filmbranche in Kombination. Frauen und Männer spielen gleichermaßen, oft unterschiedliche Titel und Genres. Die Branche sehr divers, international, Frauen sind zu etwa einem Drittel vertreten. Aus der Games-Strategie der Bundesregierung: "Games unterstützen Vielfalt. Durch Computerspiele treffen Menschen mit unterschiedlichen Hintergründen aufeinander, um gemeinsam zu spielen, unabhängig von Geschlecht und geschlechtlicher Identität, Nationalität, ethnischer oder sozialer Herkunft, Bildungsstand, Religion, Behinderung, Alter, Sprache und sexueller Orientierung. Computerspiele sind ein Medium, welches wie wenige andere für Diversität steht, Teilhabe ermöglicht und Inklusion bewirkt."
+Computergames sind heute Leitmedium, eSport-Events sind Publikumsmagneten und füllen Stadien, die Zielgruppe ist aufgewachsen mit digitalen Medien und Games. Der Umsatz der Computerspielbranche liegt seit Langem deutlich über dem der Musik- und Filmbranche in Kombination. Frauen und Männer spielen gleichermaßen, oft unterschiedliche Titel und Genres. Die Branche sehr divers, international, Frauen sind zu etwa einem Drittel vertreten. 
+
+Aus der Games-Strategie der Bundesregierung: "Games unterstützen Vielfalt. Durch Computerspiele treffen Menschen mit unterschiedlichen Hintergründen aufeinander, um gemeinsam zu spielen, unabhängig von Geschlecht und geschlechtlicher Identität, Nationalität, ethnischer oder sozialer Herkunft, Bildungsstand, Religion, Behinderung, Alter, Sprache und sexueller Orientierung. Computerspiele sind ein Medium, welches wie wenige andere für Diversität steht, Teilhabe ermöglicht und Inklusion bewirkt."
 
 Immersive Medien bieten völlig neue Formen der Interaktion und Partizipation (bsp. Metaverse) in Unterhaltung, Industrie und Gesellschaft. Unsere Zielgruppe ist in diesem Bereich kurze Innovationszyklen gewohnt und hat ein großes Interesse, sie mitzugestalten.
 
