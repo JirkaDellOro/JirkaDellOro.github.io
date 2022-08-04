@@ -1,5 +1,5 @@
-namespace SchatzjagdCards_en {
-// namespace SchatzjagdCards {
+// namespace SchatzjagdCards_en {
+namespace SchatzjagdCards {
   let red: string = "#ff0404";
   let green: string = "#01ff1f";
   let blue: string = "#04a3ff";
@@ -11,8 +11,8 @@ namespace SchatzjagdCards_en {
   let offset: number = 7;
   // let horzCenterLeft: number = 18.5;
 
-  let poison: string = "One injury, and your<br/>henchman is poisened!";
-  let theft: string = "Flee, and you will<br/>lose half your money!<br/>(round down result)";
+  let poison: string = "One injury, and your<br/>Henchman is poisened!";
+  let theft: string = "Flee, and you will<br/>lose half your Gold!<br/>(round down result)";
   // let theft: string = "Flieht dein Scherge,<br/>verschwindet die Hälfte<br/>seines Goldes (abrunden)";
   // let theft: string = "Stiehlt die Hälfte<br/>des Goldes (abrunden),<br>deines Schergen bei Flucht";
   // ÷ ½ × ˗ ˖ ₊ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ↻ ⟳ ⌂ ⚕ ⚗️ ⚔️ 🏚️ 🧪 🏠 📍 🚩 📌 🚩 📜 🕮 🖹
@@ -40,15 +40,16 @@ namespace SchatzjagdCards_en {
         <li style="list-style: upper-roman;">The Henchman's Journey</li><ul> 
           <li>If you want him to travel,<br/> 
           roll a die and move him<br/> 
-          that number of fields or less<br/> 
-          over adjacent empty fields,<br/> 
+          that number of squares or less<br/> 
+          over adjacent empty squares,<br/> 
           but not diagonal.</li> 
-          <li>Stop on a card or another stooge,<br/> 
-          except in the city. To enter this,<br/> 
-          stop outside the walls one night.</li> 
+          <li>Stop at a card or other<br/>
+          Henchmen, except in the city<br/> 
+          To enter the city,<br/> 
+          camp outside the walls one night.</li> 
           <li>Card visited? Uncover!</li> 
           </ul> 
-        <li style="list-style: upper-roman;">The Dukes Sway</li><ul> 
+        <li style="list-style: upper-roman;">The Rulers Sway</li><ul> 
           <li>Insert or present a card,<br/>
           mandatory, if limit of 4 exceeded.</li> 
           <li>Draw, if less than 4 on hand.</li> 
@@ -56,15 +57,15 @@ namespace SchatzjagdCards_en {
         <li value="1">In the city</li> 
           <table> 
           <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
-          <td>per day</td><td></td><td>→ +2 gulden</td></tr> 
+          <td>per day</td><td></td><td>→ +2 Gold</td></tr> 
           <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-          <td>per day</td><td>-3 gulden</td><td>→ +1 strength</td></tr> 
+          <td>per day</td><td>-3 Gold</td><td>→ +1 strength</td></tr> 
           <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
-          <td></td><td>-x gulden</td><td>→ +x arms</td></tr> 
+          <td></td><td>-x Gold</td><td>→ +x arms</td></tr> 
           <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
-          <td></td><td>-x gulden</td><td>→ +x•3 health</td></tr> 
+          <td></td><td>-x Gold</td><td>→ +x•3 Health</td></tr> 
           <tr> 
-          <td></td><td>-5 gulden</td><td>→ detoxication</td></tr> 
+          <td></td><td>-5 Gold</td><td>→ detoxication</td></tr> 
           </table> 
           <ul><li>Combat prohibited!</li></ul> 
         </ol> 
@@ -79,12 +80,12 @@ namespace SchatzjagdCards_en {
           <li>Play card</li><ul> 
             <li>Only in your own turn<br/> 
             and only one or none per turn.</li> 
-            <li>Insert card into empty field,<br/> 
+            <li>Insert card into empty square,<br/> 
             or present if <span class="text" style="background-color: black; color: white;">⛤</span> 
             or <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
-            <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> playable in stooges journey</strong></li> 
+            <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> playable in Henchman's journey</strong></li> 
             <li>Store treasure possible only<br/> 
-            while henchman is in castle,<br/> 
+            while Henchman is in castle,<br/> 
             counts as played card.</li> 
           </ul> 
           <li>Uncover card</li><ul> 
@@ -96,7 +97,7 @@ namespace SchatzjagdCards_en {
             <li>Exchanging blows</li><ul>
             <li>Impact = strenght + arms + roll.</li>
             <li>Blow with higher impact hits.</li>
-            <li>Damage to health of beaten:<br/>
+            <li>Damage to Health of beaten:<br/>
             difference of impact values.</li>
             <li>Decrease arms by 1 point.</li>
             <li>Flight or death ends combat.</li>
@@ -135,7 +136,7 @@ namespace SchatzjagdCards_en {
       background: "City/CityBackTall.svg",
       backgroundColor: yellow,
       image: { url: "Images/City_Tavern.png", scale: 0.4, top: 24, left: 5 },
-      text: { content: "2 gulden per day<br/>for dishwashing!<br/><br/>" },
+      text: { content: "2 Gold per day<br/>for dishwashing!<br/><br/>" },
       markers: [
         { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "+2" },
         { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: "white", content: "1" },
@@ -166,7 +167,7 @@ namespace SchatzjagdCards_en {
       background: "City/CityBackTall.svg",
       backgroundColor: red,
       image: { url: "Images/City_Gym.png", scale: 0.35, top: 27, left: 6 },
-      text: { content: "On training per day<br/>for 3 gulden!<br/><br/>" },
+      text: { content: "On training per day<br/>for 3 Gold!<br/><br/>" },
       markers: [
         { right: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: red, content: "+1" },
         { left: xMargin - 0.3 * offset, top: yBase + 0 * offset, color: yellow, content: "-3" },
@@ -193,7 +194,7 @@ namespace SchatzjagdCards_en {
     count: 1,
     head: "Map",
     image: { url: "Images/Map.png", scale: 0.45, top: 23, left: 7 },
-    text: { content: "Present this card,<br/>when your henchman<br/>stands on the<br/>specified field,<br/>to raise a treasure." },
+    text: { content: "Present this card,<br/>when your Henchman<br/>stands on the<br/>specified square,<br/>to unlock a treasure." },
     markers: [
       { left: xMargin, top: yType, color: "black", content: "", class: "instant" },
     ]
@@ -216,7 +217,7 @@ namespace SchatzjagdCards_en {
       count: 4,
       head: "Poisoned",
       image: { url: "Images/Poison.png", scale: 0.4, top: 18, left: 11 },
-      text: { content: "At the end<br/>of each day<br/>your henchman<br/>loses health!" },
+      text: { content: "At the end<br/>of each day<br/>your Henchman<br/>loses 1 Health!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: green, content: "-1" },
@@ -227,7 +228,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Confused",
       image: { url: "Images/Switch.png", scale: 0.4, top: 18, left: 11 },
-      text: { content: "The mob lynches<br/>your henchman...<br/>a while.<br/>He loses<br/>half of his health!<br/>(round down result)" },
+      text: { content: "The mob lynches<br/>your Henchman...<br/>a while.<br/>He loses<br/>half of his Health!<br/>(round down result)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: green, content: "÷2" },
@@ -237,7 +238,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Tripped",
       image: { url: "Images/Pikes.png", scale: 0.51, top: 21, left: 5.9 },
-      text: { content: "Your henchman<br/>loses five points<br/>of his health!" },
+      text: { content: "Your Henchman<br/>loses five points<br/>of his Health!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase - 0 * offset, color: green, content: "-5" },
@@ -247,7 +248,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Slumbered",
       image: { url: "Images/Theft.png", scale: 0.4, top: 19, left: 7 },
-      text: { content: "Every second<br/>weapon is stolen<br/>from your stooge!<br/>(round down result)" },
+      text: { content: "Every second<br/>weapon is stolen<br/>from your Henchman!<br/>(round down result)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: blue, content: "÷2" },
@@ -257,7 +258,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Devoured",
       image: { url: "Images/Snakes.png", scale: 0.45, top: 18, left: 7 },
-      text: { content: "Your henchman<br/>loses half of<br/>his strength!<br/>(round down result)" },
+      text: { content: "Your Henchman<br/>loses half of<br/>his Strength!<br/>(round down result)" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "🗲" },
         { left: xMargin, top: yBase, color: red, content: "÷2" },
@@ -279,7 +280,7 @@ namespace SchatzjagdCards_en {
       count: 4,
       head: "Earthquake",
       image: { url: "Images/Earthquake.png", scale: 0.38, top: 17.7, left: 7.4 },
-      text: { content: "Discard a card<br/>from an arbitrary field<br/>except the city and<br/>fields with henchmen.<br/>Treasures remain!" },
+      text: { content: "Discard a card<br/>from an arbitrary square<br/>except the city and<br/>squares with Henchmen.<br/>Treasures remain!" },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -288,7 +289,7 @@ namespace SchatzjagdCards_en {
       count: 4,
       head: "The Third Eye",
       image: { url: "Images/ThirdEye.png", scale: 0.45, top: 17.7, left: 6.8 },
-      text: { content: "Peek at the cards<br/>in the fields adjacent<br/>to your henchman.<br/>Not diagonal." },
+      text: { content: "Peek at the cards<br/>in the squares adjacent<br/>to your Henchman.<br/>Not diagonal." },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -297,7 +298,7 @@ namespace SchatzjagdCards_en {
       count: 1,
       head: "Crystal Orb",
       image: { url: "Images/Crystal.png", scale: 0.45, top: 16.7, left: 11.8 },
-      text: { content: "Peek into the cards<br/>of another duke<br/>and take one,<br/>but not a treasure.<br/>The victim of theft<br/>draws a new one." },
+      text: { content: "Peek into the cards<br/>of another Ruler<br/>and take one,<br/>but not a treasure.<br/>The victim of theft<br/>draws a new one." },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -306,7 +307,7 @@ namespace SchatzjagdCards_en {
       count: 1,
       head: "Teleportation",
       image: { url: "Images/Teleport.png", scale: 0.35, top: 16, left: 9.7 },
-      text: { content: "Immediately moves<br/>any one henchman<br/>to any field!<br/>If a card is present,<br/>it must be uncovered in<br/>the turn of that stooge." },
+      text: { content: "Immediately moves<br/>any one Henchman<br/>to any square!<br/>If a card is present,<br/>it must be uncovered<br/>in his turn." },
       markers: [
         { left: xMargin, top: yType, color: "black", content: "⛤", class: "instant" },
       ]
@@ -361,7 +362,7 @@ namespace SchatzjagdCards_en {
     },
     Axe: {
       count: 1,
-      head: "Battleaxe",
+      head: "Battle-Axe",
       image: { url: "Images/Axe.png", scale: 0.55, top: 17, left: 7 },
       markers: [
         { right: xMargin, top: yBase, color: blue, content: "+6" },
@@ -374,7 +375,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Cleansing",
       image: { url: "Images/Detox.png", scale: 0.35, top: 15, left: 11 },
-      text: { content: "Stops the loss of<br/>health due to toxication.<br/>Doesn't restore health!" },
+      text: { content: "Stops the loss of<br/>Health due to toxication.<br/>Doesn't restore Health!" },
       markers: [
         { right: xMargin, top: yBase, color: green, content: "-0" },
         { right: xMargin - 1, top: yBase - 2.7, url: "Images/Turn.svg", scale: 1 },
@@ -384,8 +385,8 @@ namespace SchatzjagdCards_en {
     Heal: {
       count: 4,
       head: "Healing",
-      image: { url: "Images/Heal.png", scale: 0.45, top: 22, left: 4 },
-      text: { content: "Restores full health.<br/>Doesn't stop toxication!" },
+      image: { url: "Images/Heal.png", scale: 0.45, top: 19, left: 5 },
+      text: { content: "Restores full Health.<br/>Doesn't stop toxication!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⚕" },
         { right: xMargin, top: yBase, color: green, content: "15" },
@@ -425,7 +426,7 @@ namespace SchatzjagdCards_en {
     DragonsLair: {
       head: "Dragons Lair",
       image: { url: "Images/DragonsLair.png", scale: 0.35, top: 15, left: 9.5 },
-      text: { content: "If you<br/>send your<br/>stooge in,<br/>roll your die,<br/>to determine his fate!" },
+      text: { content: "If you<br/>send your<br/>Henchman<br/>in, roll your die,<br/>to determine his fate!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { right: xMargin, top: yBase - 2 * offset, color: red, content: "+1" },
@@ -443,7 +444,7 @@ namespace SchatzjagdCards_en {
       head: "Portal",
       image: { url: "Images/Teleportal.png", scale: 0.35, top: 15, left: 9.5 },
       // text: { content: "Schickt deinen Schergen<br/>auf ein beliebiges<br/>freies Feld<br/>im zufälligen Zielland!" },
-      text: { content: "Roll a die<br/>to send your henchman<br/>to an arbitrary field<br/>in the chosen land!" },
+      text: { content: "Roll a die<br/>to send your Henchman<br/>to an arbitrary square<br/>in the chosen land!" },
       markers: [
         { left: xMargin, top: yBase - 1.5 * offset, color: green, content: "🕱", class: "skull" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -453,7 +454,7 @@ namespace SchatzjagdCards_en {
     Rumpelstilz: {
       head: "Rumpelstilz",
       image: { url: "Images/Rumpelstilz.png", scale: 0.35, top: 20, left: 9.5 },
-      text: { content: "If you succeed,<br/>naming a number<br/>and then rolling<br/>it with your die,<br/>you gain 6 gulden!" },
+      text: { content: "If you succeed,<br/>naming a number<br/>and then rolling<br/>it with your die,<br/>you gain 6 Gold!" },
       markers: [
         { right: xMargin, top: yBase - 0 * offset, color: yellow, content: "+6" },
         { left: xMargin, top: yType, color: "white", content: "⌂" },
@@ -462,7 +463,7 @@ namespace SchatzjagdCards_en {
     Elf: {
       head: "Elf, the Scout",
       image: { url: "Images/Elf.png", scale: 0.35, top: 20, left: 8.5 },
-      text: { content: "Eager to help,<br/>the Elf shows you<br/>an arbitrary card<br/>in the whole Reich!" },
+      text: { content: "Eager to help,<br/>the Elf shows you<br/>an arbitrary card<br/>in the whole Empire!" },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
       ]
@@ -471,7 +472,7 @@ namespace SchatzjagdCards_en {
       count: 2,
       head: "Priest of Trade",
       image: { url: "Images/Dealer.png", scale: 0.4, top: 17, left: 7.5 },
-      text: { content: "For 2 gulden each<br/>draw cards<br/>from the drawing pile<br/>on your hand." },
+      text: { content: "For 2 Gold each,<br/>draw cards<br/>from the drawing pile<br/>on your hand." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { left: xMargin, top: yBase - 1 * offset, color: yellow, content: "-2" },
@@ -488,7 +489,7 @@ namespace SchatzjagdCards_en {
     Arena: {
       head: "Arena",
       image: { url: "Images/Arena.png", scale: 0.45, top: 15.5, left: 8 },
-      text: { content: "Challenge a henchman,<br/>who is immediately<br/>teleported here for a duell.<br/>The arena then collapses<br/>to the discard pile." },
+      text: { content: "Challenge a Henchman,<br/>who is immediately<br/>teleported here for a duell.<br/>The arena then collapses<br/>to the discard pile." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
       ]
@@ -497,7 +498,7 @@ namespace SchatzjagdCards_en {
       count: 3,
       head: "Stable",
       image: { url: "Images/Stable.png", scale: 0.12, top: 22, left: 7 },
-      text: { content: "Rent a horse<br/>for one gulden<br/>and roll your die again,<br/>to bring your henchman</br>further forward." },
+      text: { content: "Rent a horse<br/>for one Gold<br/>and roll your die again,<br/>to bring your Henchman</br>further forward." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-1" },
@@ -506,8 +507,8 @@ namespace SchatzjagdCards_en {
     Shadow: {
       count: 1,
       head: "Master of Thieves",
-      image: { url: "Images/Thief.png", scale: 0.18, top: 20, left: 10 },
-      text: { content: "Pay 5 gulden</br>and select a player</br>with a treasure on hand.</br>If he rolls less than 5,</br>you snatch the treasure!" },
+      image: { url: "Images/Thief.png", scale: 0.18, top: 18, left: 10 },
+      text: { content: "Pay 5 Gold</br>and select a player</br>with a treasure on hand.</br>If he rolls less than 5,</br>you snatch the treasure</br>and discard this card." },
       markers: [
         { left: xMargin, top: yType, color: "white", content: "⌂" },
         { left: xMargin, top: yBase - 1.0 * offset, color: yellow, content: "-5" },
@@ -733,7 +734,7 @@ namespace SchatzjagdCards_en {
     Warpig: {
       head: "Warpig",
       image: { url: "Images/Warpig.png", scale: 0.42, top: 19, left: 6.1 },
-      text: { content: "If your henchman flees,<br/>he loses all gulden!" },
+      text: { content: "If your Henchman flees,<br/>he loses all Gold!" },
       markers: [
         { left: xMargin, top: yBase, color: yellow, content: "0" },
         { right: xMargin, top: yBase, color: yellow, content: "+15" },
