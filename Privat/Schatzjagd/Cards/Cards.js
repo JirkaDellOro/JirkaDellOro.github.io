@@ -15,7 +15,7 @@ var SchatzjagdCards;
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(12, "cover");
-        createCards(SchatzjagdCards.rules, "cover");
+        // createCards(rules, "cover");
         // createCards(addition);
         // createSimple(16, "poisonskip");
     }

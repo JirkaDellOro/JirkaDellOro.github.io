@@ -37,7 +37,8 @@ namespace SchatzjagdCards {
       background: "Cover/CoverCity.svg",
       text: {
         content: `<ol>
-        <li style="list-style: upper-roman;">The Henchman's Journey</li><ul> 
+        <li style="list-style: upper-roman;">The Henchman's Journey</li>
+        <ul> 
           <li>If you want him to travel,<br/> 
           roll a die and move him<br/> 
           that number of squares or less<br/> 
@@ -45,30 +46,24 @@ namespace SchatzjagdCards {
           but not diagonal.</li> 
           <li>Stop at a card or other<br/>
           Henchmen, except in the city<br/> 
-          To enter the city,<br/> 
-          camp outside the walls one night.</li> 
           <li>Card visited? Uncover!</li> 
-          </ul> 
-        <li style="list-style: upper-roman;">The Rulers Sway</li><ul> 
+        </ul> 
+        <li style="list-style: upper-roman;">The Rulers Sway</li>
+        <ul> 
           <li>Insert or present a card,<br/>
           mandatory, if limit of 4 exceeded.</li> 
           <li>Draw, if less than 4 on hand.</li> 
-        </ul> 
-        <li value="1">In the city</li> 
-          <table> 
-          <tr><td style="background-color:${yellow}; width:1em;">&nbsp;</td> 
-          <td>per day</td><td></td><td>→ +2 Gold</td></tr> 
-          <tr><td style="background-color:${red}; width:1em;">&nbsp;</td> 
-          <td>per day</td><td>-3 Gold</td><td>→ +1 strength</td></tr> 
-          <tr><td style="background-color:${blue}; width:1em;">&nbsp;</td> 
-          <td></td><td>-x Gold</td><td>→ +x arms</td></tr> 
-          <tr><td rowspan="2" style="background-color:${green}; width:1em;">&nbsp;</td> 
-          <td></td><td>-x Gold</td><td>→ +x•3 Health</td></tr> 
-          <tr> 
-          <td></td><td>-5 Gold</td><td>→ detoxication</td></tr> 
-          </table> 
-          <ul><li>Combat prohibited!</li></ul> 
-        </ol> 
+        </ul>    
+        <li style="list-style: none; margin-left: -1em;">Fight</li>
+        <ul>
+        <li>Impact = Strength+Arming+Roll</li>
+        <li>Blow with higher impact hits.</li>
+        <li>Damage to Health of beaten:<br/>
+        difference of impact values.</li>
+        <li><strong>Decrease Arming by 1 point!</strong></li>
+        <li>Flight or death ends combat.</li>
+        <li>Flight: no roll for defense.</li>
+      </ul>
         ` },
     },
     RulesBack: {
@@ -77,32 +72,36 @@ namespace SchatzjagdCards {
       background: "Cover/CoverSword.svg",
       text: {
         content: `<ol start='2'>
+        <li style="list-style: none; margin-left: -1em;">Cards</li>
+        <table>
+        <tr><th>Symbol</th><th>Takes effect only</th></tr> 
+        <tr><td><span class="text" style="background-color: white; color: white;"></span> White</td><td>if Henchman uncovers it.</td></tr> 
+        <tr><td><span class="text" style="background-color: black; color: white;"></span> Black</td><td>if Ruler shows it from hand.</td></tr> 
+        </table>
           <li>Play card</li><ul> 
-            <li>Only in your own turn<br/> 
-            and only one or none per turn.</li> 
-            <li>Insert card into empty square,<br/> 
-            or present if <span class="text" style="background-color: black; color: white;">⛤</span> 
-            or <span class="text" style="background-color: black; color: white;">Xy</span>.</li> 
-            <li><strong><span class="text" style="background-color: black; color: white;">⛤</span> playable in Henchman's journey</strong></li> 
-            <li>Store treasure possible only<br/> 
+          <li>In your own turn only</li> 
+          <li>Insert card into empty square,<br/> 
+          <li><span class="text" style="background-color: black; color: white;"><strong>⛤</strong></span> 
+          or <span class="text" style="background-color: black; color: white; font-size: 0.7em;"><strong>Xy</strong></span>
+          must be played directly.</li> 
+          <li><span class="text" style="background-color: black; color: white;"><strong>⛤</span> playable in 1st part of turn.</strong></li> 
+          <li>Store treasure possible only<br/> 
             while Henchman is in castle,<br/> 
             counts as played card.</li> 
           </ul> 
-          <li>Uncover card</li><ul> 
+          <li>Uncover card</li>
+          <ul> 
             <li><span class="text" style="background-color:white;">?</span> attacks immediately.</li> 
             <li><span class="text" style="background-color:white;">⚔</span>, <span class="text" style="background-color:white;">⚕</span>, <span class="text" style="background-color:white;">🗲</span> involuntary effect.</li> 
             <li><span class="text" style="background-color:white;">⌂</span> optional effect, stays in place.</li> 
-            <li><span class="text" style="background-color:white;">⛤</span> and <span class="text" style="background-color:white;">Xy</span> be picked up on hand.</li> 
+            <li><span class="text" style="background-color:black; color: white;">⛤</span> and <span class="text" style="background-color:black; color: white;">Xy</span> be picked up on hand.</li> 
+           </ul>
+          <li style="list-style: none; margin-left: -1em;">City </li> 
+          <ul>
+            <li>Fights are prohibited!</li>
+            <li>No stop on cards or Henchmen.</li>
+            <li>To enter, camp outside one night.</li>
           </ul> 
-            <li>Exchanging blows</li><ul>
-            <li>Impact = strenght + arms + roll.</li>
-            <li>Blow with higher impact hits.</li>
-            <li>Damage to Health of beaten:<br/>
-            difference of impact values.</li>
-            <li>Decrease arms by 1 point.</li>
-            <li>Flight or death ends combat.</li>
-            <li>Flight: no roll for defense.</li>
-          </ul>
       </ol> 
     ` },
     }
