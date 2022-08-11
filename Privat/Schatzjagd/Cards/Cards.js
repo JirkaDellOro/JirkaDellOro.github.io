@@ -11,11 +11,11 @@ var SchatzjagdCards;
         // createCards(spells);
         // createCards(traps);
         // createMaps();
-        createCards(SchatzjagdCards.city, "city");
+        // createCards(city, "city");
         // createCards(chests, "chest");
         // createSimple(12, "backchest");
         // createSimple(16, "back");
-        // createCards(rules, "cover");
+        createCards(SchatzjagdCards.rules, "cover");
         // createCards(addition);
         // createSimple(16, "poisonskip");
     }
