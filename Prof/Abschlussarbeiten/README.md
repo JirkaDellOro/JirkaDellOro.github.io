@@ -5,6 +5,7 @@
 | **S23** | Kohler       | Alida        | BA        | Sprachlernspiel               |   |
 |         | Niemann      | David        | BSc       | ?                             |   |
 |         | Meisler      | Daniel       | BSc       | ?                             |   |
+|         | Reiprich     | Alexander    | BSc       | ?                             |   |
 | **W22** | Yasin        | Riem         | MA        | ?                             |   |
 |         | Häcker       | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber       | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
