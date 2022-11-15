@@ -3,9 +3,11 @@
 | Start   | Name         | Vorname      | Abschluss | Titel                         | Z |
 |---------|--------------|--------------|-----------|-------------------------------|---|
 | **S23** | Kohler       | Alida        | BA        | Sprachlernspiel               |   |
-|         | Niemann      | David        | BSc       | ?                             |   |
-|         | Meisler      | Daniel       | BSc       | ?                             |   |
-|         | Reiprich     | Alexander    | BSc       | ?                             |   |
+|         | Niemann      | David        | BSc       | Amazon                        |   |
+|         | Meisler      | Daniel       | BSc       | Dice Cup                      |   |
+|         | Reiprich     | Alexander    | BSc       | ???                           |   |
+|         | Malitschenko | Florian      | BSc       | ?                             |   |
+|         | Gurev        | Vasilii      | BSc       | ?                             |   |
 | **W22** | Yasin        | Riem         | MA        | ?                             |   |
 |         | Häcker       | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber       | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
