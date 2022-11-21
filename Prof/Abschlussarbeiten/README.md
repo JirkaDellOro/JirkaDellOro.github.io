@@ -6,8 +6,9 @@
 |         | Niemann      | David        | BSc       | Amazon                        |   |
 |         | Meisler      | Daniel       | BSc       | Dice Cup                      |   |
 |         | Reiprich     | Alexander    | BSc       | ???                           |   |
-|         | Malitschenko | Florian      | BSc       | ?                             |   |
+|         | Malitschenko | Florian      | BSc       | Synchronopse                  |   |
 |         | Gurev        | Vasilii      | BSc       | ?                             |   |
+|         | Heer         | Roland       | BSc       | Licht und Schatten            |   |
 | **W22** | Yasin        | Riem         | MA        | ?                             |   |
 |         | Häcker       | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber       | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
