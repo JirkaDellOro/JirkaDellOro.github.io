@@ -5,12 +5,10 @@
 | **S23** | Kohler       | Alida        | BA        | Sprachlernspiel               |   |
 |         | Niemann      | David        | BSc       | Amazon                        |   |
 |         | Meisler      | Daniel       | BSc       | Dice Cup                      |   |
-|         | Reiprich     | Alexander    | BSc       | ???                           |   |
 |         | Malitschenko | Florian      | BSc       | Synchronopse                  |   |
-|         | Gurev        | Vasilii      | BSc       | ?                             |   |
+|         | Gurev        | Vasilii      | BSc       | Backrooms                     |   |
 |         | Heer         | Roland       | BSc       | Licht und Schatten            |   |
-| **W22** | Yasin        | Riem         | MA        | ?                             |   |
-|         | Häcker       | Nick         | BSc       | Fraction of Time              |   |
+| **W22** | Häcker       | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber       | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
 |         | Leisinger    | Oliver       | BSc       | Pathfinding                   |   |
 |         | Keck         | Luis         | MSc       | Piraten/Pfahlbauten           |   |
