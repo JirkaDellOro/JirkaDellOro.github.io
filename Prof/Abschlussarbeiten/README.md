@@ -8,6 +8,8 @@
 |         | Malitschenko | Florian      | BSc       | Synchronopse                  |   |
 |         | Gurev        | Vasilii      | BSc       | Backrooms                     |   |
 |         | Heer         | Roland       | BSc       | Licht und Schatten            |   |
+|         | Damm         | Markus       | BA        | Endless VR                    |   |
+|         | Hezel        | Tamara       | BSc       | Umweltspiel für Kinder        |   |
 | **W22** | Häcker       | Nick         | BSc       | Fraction of Time              |   |
 |         | Nauber       | Meike        | BSc       | Hardware/Biometrik in FUDGE   |   |
 |         | Leisinger    | Oliver       | BSc       | Pathfinding                   |   |
