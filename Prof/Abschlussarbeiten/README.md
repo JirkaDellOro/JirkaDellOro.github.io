@@ -2,11 +2,10 @@
 
 | Start   | Name         | Vorname      | Abschluss | Titel                         | Z |
 |---------|--------------|--------------|-----------|-------------------------------|---|
+| **W23** | Gurev        | Vasilii      | BSc       | Backrooms                     |   |
 | **S23** | Kohler       | Alida        | BA        | Sprachlernspiel               |   |
 |         | Niemann      | David        | BSc       | Amazon                        |   |
 |         | Meisler      | Daniel       | BSc       | Dice Cup                      |   |
-|         | Malitschenko | Florian      | BSc       | Synchronopse                  |   |
-|         | Gurev        | Vasilii      | BSc       | Backrooms                     |   |
 |         | Heer         | Roland       | BSc       | Licht und Schatten            |   |
 |         | Damm         | Markus       | BA        | Endless VR                    |   |
 |         | Hezel        | Tamara       | BSc       | Umweltspiel für Kinder        |   |
