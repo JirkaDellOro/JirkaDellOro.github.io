@@ -9,6 +9,7 @@
 | Bad Salzuflen        | 53-18 008L | 0 k€     |
 | VR-Raum (DM-Leitung) | 71-12 020  |          |
 | game                 | 72-12 040  |          |
+| Gestaltung           | 71-202303  | 0.8 k€   |
 
 
 Fördergesellschaft der HFU
