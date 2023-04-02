@@ -1,0 +1,25 @@
+Code2
+
+# Content
+Software Design
+Object Orientation
+3D-Scenegraph
+Game Patterns & Techniques
+Component Entities
+
+
+Learning Outcomes
+After successful participation in the module the students ...
+Knowledge
+- know basics of a graphic design language (UML) 
+Comprehension
+- understand common patterns and techniques for realtime applications in three dimensions
+Application
+- can create experimental prototypes of games and interactive applications using a game engine and its integrated editor
+Analysis
+- can analyse simple problems in interactive threedimensional environments 
+Synthesis
+- are able to create object- and component oriented designs for interactive applications
+Evaluation
+- can evaluate and improve their coded creations
+

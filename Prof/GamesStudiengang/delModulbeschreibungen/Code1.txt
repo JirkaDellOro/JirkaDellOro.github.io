@@ -1,0 +1,24 @@
+Code1
+
+# Content
+Creative Coding
+Web Fundamentals
+2D-Scenegraph
+Procedural Code
+Coding Audiovisuals
+Computational Thinking
+
+Learning Outcomes
+After successful participation in the module the students ...
+Knowledge
+- know the basic concepts of interactive audiovisual applications
+Comprehension
+- understand basic information structures for interactive 2D-graphics and audio as implemented by web-technologies
+Application
+- can work with a programming language and use software development and source control environments
+Analysis
+- can analyse simple human-computer-interactions and use computational thinking formulate algorithms for their realization
+Synthesis
+- are able to be creative and experiment with procedural coding, web- and other technologies
+Evaluation
+- can evaluate and improve their coded creations
