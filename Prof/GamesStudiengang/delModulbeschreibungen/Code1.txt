@@ -22,3 +22,10 @@ Synthesis
 - are able to be creative and experiment with procedural coding, web- and other technologies
 Evaluation
 - can evaluate and improve their coded creations
+
+
+
+Literature
+- Robbins, Jennifer: HTML5 pocket reference, Sebastopol, CA: O'Reilly, 2013
+- Meyer, Eric A.: CSS pocket reference, Sebastopol, CA: O'Reilly Media, 2018
+- Vanderkam, Dan: Effective TypeScript. Sebastopol, CA: O'Reilly Media, 2019

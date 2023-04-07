@@ -23,3 +23,9 @@ Synthesis
 Evaluation
 - can evaluate and improve their coded creations
 
+
+
+
+Literatur
+Kecher, Hoffmann-Elbern, Will: UML 2.5, Rheinwerk Computing (2021)
+Nystrom, Game Programming Patterns (2014) - online at https://gameprogrammingpatterns.com/contents.html
