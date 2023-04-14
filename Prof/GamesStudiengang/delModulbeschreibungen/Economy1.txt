@@ -1,0 +1,25 @@
+Economy1
+
+· Producing
+· Quality Management
+· User Research
+· Community Management
+· Financial calculation
+
+
+Learning Outcomes
+After successful participation in the module the students ...
+Knowledge
+- know the fundamentals of business economy and community management
+Comprehension
+- understand the dependencies between the various parts of a project and the implications
+Application
+- can act as a teamleader to produce interactive and immersive applications
+Analysis
+- can analyse an immersive application at different stages of development and assess quality
+Synthesis
+-  can estimate and calculate the costs of development of immersive applications
+Evaluation
+- can evaluate the results of user researches and their implications
+
+

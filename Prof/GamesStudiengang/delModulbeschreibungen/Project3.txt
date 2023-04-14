@@ -1,0 +1,21 @@
+Project3: Physical Game
+· Design and creation of a simple interactive application
+· Practical application of various skills acquired in previous modules
+· Implemention of graphics, sound, behaviour, animation, text
+· Team- and projectmanagement
+· Practice visualization, documentation, communication, presentation
+· Work with digital material to create prototypes
+
+After successful participation in the module the students ...
+Knowledge
+- gain experience working on a project in a team
+Comprehension
+- understand agile project management
+Application
+- can apply the skills and knowledge acquired in the other modules so far
+Analysis
+- can analyse and detect interesting opportunities for human-computer-interaction within given constraints
+Synthesis
+-  can design, create and present a simple digital prototype of an interactive, immersive application or game
+Evaluation
+- can evaluate their prototype e.g. by conducting user tests and recommend improvements

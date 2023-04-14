@@ -1,0 +1,21 @@
+Project2: Physical Game
+
+· Design and creation of a physical game, optionally with digital augmentation
+· Practical application of various skills acquired in previous modules
+· Team- and projectmanagement
+· Practice visualization, documentation, communication, presentation
+· Work with physical material to create prototypes
+
+After successful participation in the module the students ...
+Knowledge
+- gain experience working on a project in a team
+Comprehension
+- understand agile project management
+Application
+- can apply the skills and knowledge acquired in the other modules so far
+Analysis
+- can analyse a theme for a game, do research and detect opportunities to deduct rules to play from it
+Synthesis
+-  can design, create and present a physical game prototype
+Evaluation
+- can evaluate their prototype e.g. by conducting user tests and recommend improvements

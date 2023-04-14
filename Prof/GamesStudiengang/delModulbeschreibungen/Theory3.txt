@@ -1,0 +1,28 @@
+Theory3
+
+· Level Design
+· Mission Design
+· Narrative Design
+· Storytelling
+· Environmental
+· UX-Design
+
+
+Learning Outcomes
+After successful participation in the module the students ...
+Knowledge
+- know the fundamentals of user experience design
+Comprehension
+- understand the fundamental theories and best practices of narrative-, level- and mission-design
+Application
+- can apply their knowledge and comprehension to design experiences within a predesigned framework 
+Analysis
+-
+Synthesis
+- are able to create innovative ways of narrative- and mission design
+Evaluation
+- can evaluate their designs with e.g. user tests
+
+
+- Schell, Jesse: The Art of Game Design. A book of Lenses, 2008
+- Juul, Jesper: Half-real: video games between real rules and fictional worlds, 2011

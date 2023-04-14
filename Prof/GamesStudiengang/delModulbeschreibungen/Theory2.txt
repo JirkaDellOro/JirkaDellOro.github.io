@@ -1,0 +1,35 @@
+Theory2
+
+Content
+Game Studies
+Design Graphs
+Design Methodologies
+Psychology of play
+History
+Taxonomies
+Documentation (GDD)
+Design methods and graphs
+
+
+Learning Outcomes
+After successful participation in the module the students ...
+Knowledge
+- know the history and taxonomies of digital games 
+Comprehension
+- understand the fundamental theories of games and play
+Application
+- can apply their knowledge and comprehension to create a credible game design
+Analysis
+- can analyse game ideas and deduct patterns and rules usable for game design 
+Synthesis
+- are able to create a game design document it using a variety of techniques
+Evaluation
+- can evaluate games and interactive applications with scientific methods
+
+
+
+- Schell, Jesse: The Art of Game Design. A book of Lenses, 2008
+- Fritz, Jürgen: Das Spiel verstehen
+- Huizinga, Johan: Homo Ludens
+- Caillois, Roger: Man, play, and games : Translated from the french by Meyer Barash, repr., 2001
+- Juul, Jesper: Half-real: video games between real rules and fictional worlds, 2011
