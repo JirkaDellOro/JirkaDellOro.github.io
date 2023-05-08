@@ -3,6 +3,10 @@
 | Start   | Name         | Vorname      | Abschluss | Titel                         | Z |
 |---------|--------------|--------------|-----------|-------------------------------|---|
 | **W23** | Gurev        | Vasilii      | BSc       | Backrooms                     |   |
+|         |              | Henry        | BSc       | FUDGE Undo                    |   |
+|         | Daiber       | Simon        | BA        | Serious Game / High-Low-Poly  |   |
+|         | Rothweiler   | Lucia        | BA        | -- fragt anderweitig          |   |
+|         | Flack        | Maximilian   | BSc       |                               |   |
 | **S23** | Kohler       | Alida        | BA        | Sprachlernspiel               |   |
 |         | Niemann      | David        | BSc       | Amazon                        |   |
 |         | Meisler      | Daniel       | BSc       | Dice Cup                      |   |
