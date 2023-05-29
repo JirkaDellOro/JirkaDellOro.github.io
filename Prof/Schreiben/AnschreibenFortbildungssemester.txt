@@ -1,0 +1,19 @@
+Dear ....
+
+I'm a professor for Gamedesign at the Hochschule Furtwangen, high up in the Black Forest in Germany. Our faculty of digital media is a pioneer in academic education, its newest and bilingual program "Games & Immersive Media" will start in the summer of 2024. As the creator of the concept and the prospective dean, I have been granted a research sabbatical term in the winter before, to visit some of our partner universities operating in the same field. I'd love to learn from your experience and to contribute my own to your teaching. At home, I teach fundamentals of game programming, game design, prototyping and game studies on a bachelor and master level. Most of all, I work with my students on a multitude of related projects, some of which gained quite some public attention.
+
+I'm particularly interested in visiting De Montfort University because of "Education 2030". Coincidently, "Games & Immersive Media" is designed for a block structure, with 3-week-blocks for special subject modules and 6-week-blocks for projects. The team of teachers prepares to use eduScrum as the prominent method for this, we have received training by the founder Willy Wijnands. It would be absolutely wonderful for me to help making "Education 2030" a great experience for your students and gain some more experience with it myself, not to mention the contribution to foster the partnership of our universities.
+
+A bit more information on my background: I started developing games and interactive media more than 40 years ago and founded the company EnterTrain Software GmbH in 1997, which has won several awards, including twice the German Computer Game Award. My teaching career started in 1999 as a visiting lecturer, before I became a professor in 2010. Three years later, I founded the faculty's game lab and in 2019 a games hub, a coworking space for game studios. So far, four startups emerged from these activities. Feel free to visit my profile at https://www.hs-furtwangen.de/personen/profil/432-jirkadelloro-friedl/ (in German)
+
+Also in 2019, I started to create FUDGE, the Furtwangen University Didactic Game Engine/Editor, which is particularly engineered for the use in an academic environment. FUDGE allows to quickly access the students projects and to support their learning efforts, since it's extremely compact and based solely on web technologies. The results run directly from their repositories in the browser, making it possible for me to debug and give advice after simply clicking on a link. Find the github-repository here: https://github.com/JirkaDellOro/FUDGE
+
+I hope my offer to visit you for a couple of weeks, or preferably months, somewhere in the time from September 2023 to February 2024 is of interest for you and I'd be happy to read your answer.
+
+
+
+faculty cem 
+0044 116 207 8499
+advicecenter
+cemadvicecenter@dmu.ac.uk
+
