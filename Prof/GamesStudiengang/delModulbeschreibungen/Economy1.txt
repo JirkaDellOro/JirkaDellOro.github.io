@@ -3,8 +3,9 @@ Economy1
 · Producing
 · Quality Management
 · User Research
-· Community Management
 · Financial calculation
+· Law
+
 
 
 Learning Outcomes
@@ -23,3 +24,5 @@ Evaluation
 - can evaluate the results of user researches and their implications
 
 
+Interne Strukturierung
+Leadership

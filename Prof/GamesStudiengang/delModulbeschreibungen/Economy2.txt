@@ -5,6 +5,7 @@ Economy2
 · Monetization
 · Marketing
 · Lifecycle Management
+· Community Management
 
 
 Learning Outcomes
@@ -23,3 +24,4 @@ Evaluation
 - 
 
 
+Externe Strukturierung
