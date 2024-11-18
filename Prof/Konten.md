@@ -11,6 +11,8 @@
 | game                 | 72-12 040  |          |
 | Gestaltung           | 71-202303  | 0.8 k€   |
 | Motivationline           | 73-18010  |    |
+|GMB |  71-114101 | |
+
 
 Fördergesellschaft der HFU
 IBAN: DE52 6649 2700 0120 2640 10
