@@ -1,14 +1,20 @@
 # Abschlussarbeiten
 
-| Start   | Name         | Vorname      | Abschluss | Titel                             | Z   |
+| Start   | Name         | Vorname      | Abschluss | Titel                             | 2   |
 | ------- | ------------ | ------------ | --------- | --------------------------------- | --- |
-| **W24** | Stich        | Anni         | BA        | Gamifizierte Website              |     |
+| **S25** | Sliwinski    | Simon        | BSc       | Shared Screen Game                |     |
+|         | Pfrengle     | Nicolai      | BA        | ?                                 |     |
+|         | Petroll      | Mattis       | BSc       | Ki-Game                           |     |
+|         | Roth         | Mirjam       | MA        | ?                                 |     |
+|         | Marx         | Alina        | BA        | VR...                             |     |
+| **W24** | Stich        | Anni         | BA        | Gamifizierte Website              | X   |
 |         | Kohler       | Alida        | MA        | Hexen Game                        |     |
 |         | Iwertkowski  | Simon        | MA        | Serious Game für Profanwärter     |     |
-|         | Häcker       | Nick         | MSc       | Kooperatives VR-Game              |     |
+|         | Häcker       | Nick         | MSc       | Kooperatives VR-Game              | X   |
 |         | Woschny      | Silvan       | BSc       | Tactical Table Wars               |     |
-|         | Böhme        | Nico         | BSc       | Godot Game                        |     |
+|         | Berndt       | Nico         | BSc       | Godot Game                        |     |
 | **S24** | Hubert       | Manuel       | BA        | Tower of Damnation                |     |
+|         | Ruoss        | Ruben        | BSc       | Game Netzwerkarchitektur          | X   |
 |         | Winterhalder | Sören        | BSc       | Prozedurale Map-Generierung       |     |
 |         | Rothweiler   | Lucia        | BA        | Material für eduScrum Game Design |     |
 | **W23** | Gurev        | Vasilii      | BSc       | Backrooms                         |     |
