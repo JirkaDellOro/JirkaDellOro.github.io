@@ -13,13 +13,13 @@ Donaueschingen im Dezember 2024
 Es gibt heute einen ganzen Strauß von Möglichkeiten, unsere deutsche Sprache geschlechtergerecht zu gestalten. Die Gesellschaft für deutsche Sprache (GfdS) führt mittlerweile über 20 Varianten und Untervarianten auf (GfdS, 2020). Derzeit existiert allerdings noch keine allgemein akzeptierte Form. Das Feld ist offen für neue, bessere Vorschläge. Es existiert auch kein Gremium, welches eine Form für den Gebrauch als verbindlich festlegt. 
 Wohl aber haben verschiedene Gremien einen Großteil der bekannten Möglichkeiten bereits als nicht empfehlenswert beurteilt. Von der GfdS selbst werden nur folgende drei Varianten empfohlen:  
 
-die Doppelnennung, die Schrägstrichlösung und Ersatzformen.  
+- die Doppelnennung, die Schrägstrichlösung und Ersatzformen.  
 
 Binnenmajuskel, Gendersternchen, Doppelpunkt usw. werden alle gänzlich zurückgewiesen. Aber auch die Empfehlung ist explizit nur dann gegeben, wenn von einer zweigeschlechtlichen (binären) Gesellschaft ausgegangen wird. Mit dem Beschluss des Deutschen Bundesverfassungsgerichts vom 10.10.2017 (BverfG, 2017) ist aber die Sichtweise, es gebe nur zwei Geschlechter, obsolet geworden.  
 
 So scheitern also auch die Empfehlungen der GfdS. Zwar wird bei Ersatzformen nicht versucht, alle Geschlechter explizit zu inkludieren, sondern unter Vermeidung des Bezugs auf Geschlechter darzustellen, dass das Geschlecht irrelevant ist (Bsp.: Studierende). Aber nicht nur, dass manche Ersatzformen nicht sinnvoll gebildet werden können (Bsp.: Autor), weshalb es dann erforderlich wird, auf sogenannte Fluchtwörter (Bsp.: Schriftstellende) auszuweichen, im Singular werden dann trotzdem wieder nur zwei Geschlechter sichtbar:  
 
-der oder die Studierende  
+- der oder die Studierende  
 
 Für die Beurteilung der Varianten zieht die GfdS die Kriterien des Rates für deutsche Rechtschreibung (RfdR) heran, anhand derer die Eignung einer geschlechtergerechten Sprache gemessen werden kann. Demnach sollte sie  
 - sachlich korrekt sein,
@@ -42,11 +42,7 @@ Es darf nicht vergessen werden, dass es noch weitere benachteiligte Gruppen in u
 Vor diesem Hintergrund erhalten die Forderungen des RfdR nach Verständlichkeit, Lesbarkeit, Vorlesbarkeit, Lernbarkeit und Konzentration auf Kerninformationen besonderes Gewicht.  
 
 Der Deutsche Blinden- und Sehbehindertenverband e.V (DBSV) beispielsweise schreibt dazu: „Gendern durch Sonderzeichen und Typografie, Beispiele:  
-Mitarbeiter_innen  
-Mitarbeiter/-innen  
-MitarbeiterInnen  
-Mitarbeiter*innen  
-Mitarbeiter:innen  
+- Mitarbeiter_innen, Mitarbeiter/-innen, MitarbeiterInnen, Mitarbeiter*innen, Mitarbeiter:innen    
 ist nicht zu empfehlen. [sic]“ (DBSV, 3/2021)  
 
 In Frankreich ist seit 2017 in den Ministerien und seit Mai 2021 auch in Schulen und Bildungseinrichtungen die Nutzung der gendergerechten Schriftsprache untersagt. Analog zum Genderstern in Deutschen kommen dabei Punkte im Wortinneren zum Einsatz. Das Lesen sowie das Erlernen der französischen Sprache werden dadurch behindert, insbesondere Menschen mit einer Lese-Rechtschreib-Schwäche tun sich damit schwer, so die Begründung. (FAZ, 2021)  
@@ -60,29 +56,29 @@ Im Kern geht es bei der geschlechtergerechten Sprache um das generische Maskulin
 
 Statt „der“ oder „die“ ist beim geschlechtergerechten Neutrum also der Artikel „das“ zu verwenden, sowie die entsprechenden neutralen Pronomen. In der deutschen Sprache sind nun aber nicht nur Artikel und Pronomen mit Geschlechtern versehen, sondern auch Bezeichnungen werden dem Geschlecht entsprechend variiert. Die dabei entstehenden Formen schließen einander und auch alle anderen Geschlechter aus:  
 
-der Student, die Studentin  
+- der Student, die Studentin  
 
 Das geschlechtergerechte Neutrum kann in den meisten Fällen einfach gebildet werden, indem von der Wortendung „in“,  welche maskuline Nomen in die feminine Form moviert, nur das „i“ verwendet wird, und dadurch eine zur Hälfte movierte Zwischenform entsteht:  
 
-**das Studenti**
+- **das Studenti**
 
 Der Plural wird, wie im Deutschen für Wörter üblich, die auf a, i, o oder u enden, durch Anfügen eines „s“ gebildet.  
 
-**die Studentis**  
+- **die Studentis**  
 
 Der Artikel „die“ für den Plural wird in der Regel nicht mit dem weiblichen Artikel verwechselt, weshalb kein Bedarf zu bestehend scheint, hier ein neues Konstrukt zu entwerfen.  
 
 In manchen Fällen unterscheiden sich die maskuline und die feminine Form durch zusätzliche Umlaute:  
 
-der Arzt, die Ärztin
+- der Arzt, die Ärztin
 
 Hier kann sowohl aus der maskulinen Form Arzt abgeleitet, oder aus der weiblichen Form auf das geschlechtergerechte Neutrum zurückgeführt werden:  
 
-**das Arzti, das Ärzti** 
+- **das Arzti, das Ärzti** 
 
 sind gleichbedeutend und können wahlfrei verwendet werden, ebenso wie die Pluralformen  
 
-**die Arztis, die Ärztis | die Baueris, die Bäueris.**
+- **die Arztis, die Ärztis | die Baueris, die Bäueris.**
 
 
 ### Besondere Fälle
@@ -90,19 +86,19 @@ Die oben angeführten Kernregeln decken schon den größten Teil des üblichen S
 
 - Bezeichnungen, bei denen das biologische Geschlecht nur aus dem Genus erkennbar ist, könnten unverändert bleiben, da sie auch mit dem neutralen Artikel nicht verändert werden (Bsp: der/die/das Vorsitzende). Da die Deklination neutraler Artikel aber im Genitiv und im Dativ der Deklination des Maskulinum entspricht, herrscht dann in bestimmten Fällen Verwechslungsgefahr. Um zudem die Existenz von Geschlechtern nicht zu verschleiern und gleichzeitig alle einzubeziehen, ist auch hier konsistent das „i“ einzusetzen.  
   
-der Vorsitzende, die Vorsitzende →  **das Vorsitzendi**  
+  - der Vorsitzende, die Vorsitzende →  **das Vorsitzendi**  
 
 - Für Personenbezeichnungen mit der Endung „ling“ gibt es keine weibliche Form (mehr), hier versagen die derzeit verwendeten Formen geschlechtergerechter Schreibung. Bei konsistenter Endung „i“ des Neutrums drängt sich mit dem „i“ in „ling“ durch Verzicht auf „ng“ auch hierfür eine Lösung auf:  
   
-Liebling, Prüfling, Häftling → **Liebli, Prüfli, Häftli**
+  - Liebling, Prüfling, Häftling → **Liebli, Prüfli, Häftli**
 
 - Ist die weibliche Personenbezeichnung die Basis und die männliche wird abgeleitet, versagen die eingangs genannten Formen inklusive des Gendersterns gänzlich. Das geschlechtergerechte Neutrum ergibt sich dagegen sehr einfach aus der weiblichen Form durch Ersetzen des letzten Vokals mit dem bzw. dem Anhängen des „i“.  
   
-Hexe, Witwe, Braut → **Hexi,  Witwi, Brauti**
+  - Hexe, Witwe, Braut → **Hexi,  Witwi, Brauti**
 
 - Bei maskulinen Personenbezeichnungen auf -erer wird die weibliche Form ohne das abschließende „n“ verwendet.  
   
-Wanderer, Eroberer, Zauberer → **Wanderi, Eroberi, Zauberi**
+  - Wanderer, Eroberer, Zauberer → **Wanderi, Eroberi, Zauberi**
 
 - Geschlechtsneutrale Personenbezeichnungen wie der Mensch, die Person, das Individuum bleiben selbstverständlich unverändert.  
   
@@ -117,7 +113,8 @@ Zum Gendersternchen hat Luise Pusch übrigens folgende Meinung: „Und das ist e
 
 ### Thomas Kronschläger
 Der Germanist und Literaturdidaktiker an der Technischen Universität Braunschweig treibt einen dem geschlechtergerechten Neutrum ähnlichen Ansatz voran: das „Entgendern nach Phettberg“ (Kronschläger, 2020). Dabei wird ebenso konsequent der neutrale Artikel verwendet, bei den Substantiven wird jedoch einfach nach dem Wortstamm ein „y“ angehängt und im Plural ein weiteres „s“:  
-das Study, die Studys  
+- das Study, die Studys  
+
 Dieser Ansatz hat trotz der vordergründigen Ähnlichkeit gegenüber dem geschlechtergerechten Neutrum Schwächen. Bezeichnungen, bei denen das biologische Geschlecht nur aus dem Genus erkennbar ist (bsp: Vorsitzende) bleiben unverändert, wodurch die bereits dargestellte Verwechslungsgefahr besteht. Beim Entgendern nach Phettberg soll hier ein „n.“ in Klammern aushelfen: „dem(n.) Vorsitzenden Bescheid geben“. Das widerspricht den Forderungen des Rates für deutsche Rechtschreibung nach Lesbarkeit und Vorlesbarkeit.  
 Vom Journalistinnenbund kommt aber weitere Kritik, wie die Sprecherin des Projektes „Genderleicht“, Christine Olderdissen, betont: „Die Entgendermethode nach Phettberg lässt keine Person mehr erkennen“. Durch die Reduktion auf den Wortstamm verschwindet das Geschlecht gänzlich, alle Geschlechter werden exkludiert. Das ist gerecht, geht aber „am Ziel vorbei“ (Schwarzer, 2021).  
 Erscheint der Unterschied zum geschlechtergerechten Neutrum vielleicht klein, so wird doch deutlich, dass Letzteres genau das Gewünschte erreicht: alle Geschlechter werden explizit inkludiert.  
