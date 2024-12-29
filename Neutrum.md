@@ -87,7 +87,7 @@ Hier kann sowohl aus der maskulinen Form Arzt abgeleitet, oder aus der weibliche
 
 sind gleichbedeutend und können wahlfrei verwendet werden, ebenso wie die Pluralformen  
 
-- **die Arztis, die Ärztis** / **die Baueris, die Bäueris**.
+- **die Arztis, die Ärztis** \| **die Baueris, die Bäueris**.
 
 
 ## Besondere Fälle
