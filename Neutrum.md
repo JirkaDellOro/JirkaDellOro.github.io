@@ -6,15 +6,16 @@ Das so entwickelte geschlechtergerechte Neutrum besticht durch Einfachheit, Kons
 
 Zum Artikel im PDF-Format: [Neutrum.pdf](Neutrum.pdf)
 
-Donaueschingen im Dezember 2024
-<!-- 
+Donaueschingen im Dezember 2024  
+
 # Inhaltsverzeichnis
 [Ausgangslage](#ausgangslage)  
-[Hinführung und Kernregeln](#hinführung-und-kernregeln)  
-[Vorangegangene Arbeiten und Analogien](#vorangegangene-arbeiten-und-analogien)  
+[Regeln](#hinführung-und-kernregeln)  
+[Vorangegangene Arbeiten](#vorangegangene-arbeiten)  
 [Prüfung](#prüfung)  
 [Fazit](#fazit)  
-[Quellen](#quellen)   -->
+[Quellen](#quellen)  
+
 
 # Ausgangslage
 Es gibt heute einen ganzen Strauß von Möglichkeiten, unsere deutsche Sprache geschlechtergerecht zu gestalten. Die Gesellschaft für deutsche Sprache (GfdS) führt mittlerweile über 20 Varianten und Untervarianten auf (GfdS, 2020). Derzeit existiert allerdings noch keine allgemein akzeptierte Form. Das Feld ist offen für neue, bessere Vorschläge. Es existiert auch kein Gremium, welches eine Form für den Gebrauch als verbindlich festlegt. 
@@ -109,7 +110,7 @@ Die oben angeführten Kernregeln decken schon den größten Teil des üblichen S
 
 - Geschlechtsneutrale Personenbezeichnungen wie der Mensch, die Person, das Individuum bleiben selbstverständlich unverändert.  
   
-# Vorangegangene Arbeiten und Analogien
+# Vorangegangene Arbeiten
 ## Luise Pusch
 Die Begründerin der feministischen Linguistik, Luise Pusch, entwickelte bereits 1980 einen Vorschlag, der dem geschlechtergerechten Neutrum schon nahe kommt, nämlich die femininen Wortendungen abzuschaffen und das Neutrum zu nutzen.  
 
