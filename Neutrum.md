@@ -86,7 +86,7 @@ Hier kann sowohl aus der maskulinen Form Arzt abgeleitet, oder aus der weibliche
 
 sind gleichbedeutend und können wahlfrei verwendet werden, ebenso wie die Pluralformen  
 
-- **die Arztis, die Ärztis | die Baueris, die Bäueris.**
+- **die Arztis, die Ärztis** | **die Baueris, die Bäueris**.
 
 
 ## Besondere Fälle
@@ -175,7 +175,7 @@ Sofern Hochschulen sich aber dafür entscheiden, eine geschlechtergerechte Schre
 # Quellen
 AA (Auswärtiges Amt), German as a foreign language, 2020, https://www.auswaertiges-amt.de/en/newsroom/news/german-as-a-foriegn-language/2347090, Zugriff 13.5.2021  
 
-BMBF (Bundesministerium für Bildung und Forschung), Mein Schlüssel zur Welt - Zahlen und Fakten, 2019, https://www.xn--mein-schlssel-zur-welt-0lc.de/de/zahlen-und-fakten-1719.html, Zugriff 13.5.2021  
+BMBF (Bundesministerium für Bildung und Forschung), Mein Schlüssel zur Welt - Zahlen und Fakten, 2019, https://www.xn--mein-schlssel-zur-welt-0lc.de/de/helfen/zahlen-und-fakten/zahlen-und-fakten_node.html, Zugriff 13.5.2021  
 
 BverfG (Bundesverfassungsgericht), Beschluss des Ersten Senats vom 10. Oktober 2017, 2017, https://www.bundesverfassungsgericht.de/SharedDocs/Downloads/DE/2017/10/rs20171010_1bvr201916.pdf?__blob=publicationFile&v=2, Zugriff 12.5.2021
 
