@@ -6,7 +6,7 @@ Das so entwickelte geschlechtergerechte Neutrum besticht durch Einfachheit, Kons
 
 Zum Artikel im PDF-Format: [Neutrum.pdf](Neutrum.pdf)
 
-Donaueschingen im Mai 2024
+Donaueschingen im Dezember 2024
 
 
 ## Ausgangslage
@@ -96,7 +96,7 @@ der Vorsitzende, die Vorsitzende →  **das Vorsitzendi**
   
 Liebling, Prüfling, Häftling → **Liebli, Prüfli, Häftli**
 
-- Ist die weibliche Personenbezeichnung ist die Basis und die männliche wird abgeleitet, versagen die eingangs genannten Formen inklusive des Gendersterns gänzlich.Das geschlechtergerechte Neutrum ergibt sich dagegen sehr einfach aus der weiblichen Form durch Ersetzen des letzten Vokals mit dem bzw. dem Anhängen des „i“.  
+- Ist die weibliche Personenbezeichnung die Basis und die männliche wird abgeleitet, versagen die eingangs genannten Formen inklusive des Gendersterns gänzlich. Das geschlechtergerechte Neutrum ergibt sich dagegen sehr einfach aus der weiblichen Form durch Ersetzen des letzten Vokals mit dem bzw. dem Anhängen des „i“.  
   
 Hexe, Witwe, Braut → **Hexi,  Witwi, Brauti**
 
