@@ -132,19 +132,24 @@ Der Verleger schlägt auf seiner Website (Winter, 2024) das sogenannte „Generi
 Das geschlechtergerechte Neutrum soll in diesem Abschnitt gegen Beispiele aus der Literatur geprüft werden, die sich mit den Möglichkeiten und Problemen der geschlechtergerechten Sprache beschäftigen.
 1. Mehrfachnennung (Kubelik, 2016, 5:48)  
 §22 des österreichischen Bundespersonalvertretungsgesetzes: „Die Sitzungen des Dienststellenausschusses sind von der Vorsitzenden oder vom Vorsitzenden und im Falle ihrer oder seiner Verhinderung von ihrem Stellvertreter oder ihrer Stellvertreterin oder seinem Stellvertreter oder seiner Stellvertreterin einzuberufen und vorzubereiten.“  
-→ **„Die Sitzungen des Dienststellenausschusses sind vom Vorsitzendi und im Falle seiner Verhinderung von seinem Stellvertreteri einzuberufen und vorzubereiten.“**
+→ **„Die Sitzungen des Dienststellenausschusses sind vom Vorsitzendi und im Falle seiner Verhinderung von seinem Stellvertreteri einzuberufen und vorzubereiten.“**  
+
 1. Schrägstrichlösung (Kubelik 2016, 10:24)  
 Aus einem Deutschbuch für die Unterstufe in Österreich: „Eine/r ist Zuhörer/in, der/die andere ist Vorleser/in, eine/r liest den Abschnitt vor, der/die Zuhörer/in fasst das Gehörte zusammen.“  
 →  **„Eines ist Zuhöreri, das andere ist Vorleseri, eines liest den Abschnitt vor, das Zuhöreri fasst das Gehörte zusammen.“**  
+
 1. Ersatzform Substantivierte Partizipien (GfdS, 2020)  
 Anders als bei Student (Studierender), lassen sich oft keine Ersatzformen bilden, z.B. für Schüler, Kollege, Autor etc.  
 →  **Schüleri, Kollegi, Autori**  
+
 1. Ersatzform Substantivierte Partizipien (Kubelik, 2015, S.96)  
 Ersatzformen geben nicht eine Gruppenzughörigkeit, sondern die aktuelle Tätigkeit wieder, Arbeitende sind nicht unbedingt Arbeiter oder Arbeiterinnen.   
 →  **Arbeiteris bleiben als Berufsgruppe bestehen und Arbeitendis kann bei Bedarf davon unabhängig als substantiviertes Partizip verwendet werden.**  
+
 1. „Leiten Sie meine Beschwerde sofort an den Koch weiter!“ (Beispiel des Autors), wobei der Koch unbekannten Geschlechts ist, funktioniert weder mit Genderstern noch mit substantivierten Partizip, weil der deklinierte Artikel wieder geschlechtsspezifisch ist, wodurch zwangsläufig zusätzlich die Doppelnennung erforderlich wird: „... an den oder die Köch\*in ...“ bzw. „... an den oder die Kochende ...“. Damit sind dann Kochis, die sich nicht einem der beiden Geschlechter zuordnen, explizit ausgenommen. Um zu inkludieren, kann das Gendersternchen deshalb auch zwischen die Artikel geschrieben werden: „... an den\*die Köch\*in ...“. In den Sprechpausen zwischen „den“ und „die“ und zwischen „Köch“ und „in“ werden damit explizit diverse Geschlechter adressiert. Will das Gasti seiner Forderung durch Intonation aber Nachdruck verleihen, wird man es ihm nachsehen müssen, dass es auf den Genderstern verzichtet. Möglich ist natürlich auch das Ausweichen auf ein sogenanntes Fluchtwort: „... an die Küche ...“, wodurch die Beschwerde dort aber dann vielleicht das Spüleri erreicht.  
 Einfach, lesbar, den Redefluss und die Intention erhaltend, besser so:  
 → **„Leiten Sie meine Beschwerde sofort an das Kochi weiter“**  
+
 1. Beim oben bereits ausgeführten Beispiel (Pusch, 1987) ist bekannt, dass Barbara, das Professori und das Architekti weiblich sind, es können also weiter die femininen Formen eingesetzt werden, sofern das biologische Geschlecht nicht verschleiert werden muss. Das Gutachteri und das Dozenti sind aber noch unbekannt und sollen daher das geschlechtergerechte Neutrum erhalten. Der Abschnitt liest sich dann völlig natürlich so:  
 → **„Barbara ist eine gute Studentin; ihre Professorin ist sehr zufrieden mit ihr. Früher war sie übrigens Sekretärin bei einer Architektin. Im Moment suchen wir noch ein zweites Gutachteri für ihre Dissertation, am besten ein Dozenti, das etwas von Hydrogeologie versteht.“**  
 
