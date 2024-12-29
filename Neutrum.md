@@ -8,6 +8,13 @@ Zum Artikel im PDF-Format: [Neutrum.pdf](Neutrum.pdf)
 
 Donaueschingen im Dezember 2024
 
+## Inhaltsverzeichnis
+[Ausgangslage](#ausgangslage)  
+[Hinführung und Kernregeln](#hinführung-und-kernregeln)  
+[Vorangegangene Arbeiten und Analogien](#vorangegangene-arbeiten-und-analogien)  
+[Prüfung](#prüfung)  
+[Fazit](#fazit)  
+[Quellen](#quellen)  
 
 ## Ausgangslage
 Es gibt heute einen ganzen Strauß von Möglichkeiten, unsere deutsche Sprache geschlechtergerecht zu gestalten. Die Gesellschaft für deutsche Sprache (GfdS) führt mittlerweile über 20 Varianten und Untervarianten auf (GfdS, 2020). Derzeit existiert allerdings noch keine allgemein akzeptierte Form. Das Feld ist offen für neue, bessere Vorschläge. Es existiert auch kein Gremium, welches eine Form für den Gebrauch als verbindlich festlegt. 
