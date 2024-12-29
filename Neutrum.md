@@ -95,15 +95,19 @@ Die oben angeführten Kernregeln decken schon den größten Teil des üblichen S
 
 - Bezeichnungen, bei denen das biologische Geschlecht nur aus dem Genus erkennbar ist, könnten unverändert bleiben, da sie auch mit dem neutralen Artikel nicht verändert werden (Bsp: der/die/das Vorsitzende). Da die Deklination neutraler Artikel aber im Genitiv und im Dativ der Deklination des Maskulinum entspricht, herrscht dann in bestimmten Fällen Verwechslungsgefahr. Um zudem die Existenz von Geschlechtern nicht zu verschleiern und gleichzeitig alle einzubeziehen, ist auch hier konsistent das „i“ einzusetzen.    
   - der Vorsitzende, die Vorsitzende →  **das Vorsitzendi**  
+  
 
 - Für Personenbezeichnungen mit der Endung „ling“ gibt es keine weibliche Form (mehr), hier versagen die derzeit verwendeten Formen geschlechtergerechter Schreibung. Bei konsistenter Endung „i“ des Neutrums drängt sich mit dem „i“ in „ling“ durch Verzicht auf „ng“ auch hierfür eine Lösung auf:    
   - Liebling, Prüfling, Häftling → **Liebli, Prüfli, Häftli**  
 
+
 - Ist die weibliche Personenbezeichnung die Basis und die männliche wird abgeleitet, versagen die eingangs genannten Formen inklusive des Gendersterns gänzlich. Das geschlechtergerechte Neutrum ergibt sich dagegen sehr einfach aus der weiblichen Form durch Ersetzen des letzten Vokals mit dem bzw. dem Anhängen des „i“.    
   - Hexe, Witwe, Braut → **Hexi,  Witwi, Brauti**
 
+
 - Bei maskulinen Personenbezeichnungen auf -erer wird die weibliche Form ohne das abschließende „n“ verwendet.    
   - Wanderer, Eroberer, Zauberer → **Wanderi, Eroberi, Zauberi**
+
 
 - Geschlechtsneutrale Personenbezeichnungen wie der Mensch, die Person, das Individuum bleiben selbstverständlich unverändert.  
   
