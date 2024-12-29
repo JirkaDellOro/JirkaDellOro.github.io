@@ -10,7 +10,7 @@ Donaueschingen im Dezember 2024
 
 # Inhaltsverzeichnis
 [Ausgangslage](#ausgangslage)  
-[Regeln](#hinführung-und-kernregeln)  
+[Regeln](#regeln)  
 [Vorangegangene Arbeiten](#vorangegangene-arbeiten)  
 [Prüfung](#prüfung)  
 [Fazit](#fazit)  
@@ -50,8 +50,9 @@ Es darf nicht vergessen werden, dass es noch weitere benachteiligte Gruppen in u
 Vor diesem Hintergrund erhalten die Forderungen des RfdR nach Verständlichkeit, Lesbarkeit, Vorlesbarkeit, Lernbarkeit und Konzentration auf Kerninformationen besonderes Gewicht.  
 
 Der Deutsche Blinden- und Sehbehindertenverband e.V (DBSV) beispielsweise schreibt dazu: „Gendern durch Sonderzeichen und Typografie, Beispiele:  
-- Mitarbeiter_innen, Mitarbeiter/-innen, MitarbeiterInnen, Mitarbeiter*innen, Mitarbeiter:innen    
-ist nicht zu empfehlen. [sic]“ (DBSV, 3/2021)  
+- Mitarbeiter_innen, Mitarbeiter/-innen, MitarbeiterInnen, Mitarbeiter*innen, Mitarbeiter:innen   
+  
+ist nicht zu empfehlen.“ (DBSV, 3/2021)  
 
 In Frankreich ist seit 2017 in den Ministerien und seit Mai 2021 auch in Schulen und Bildungseinrichtungen die Nutzung der gendergerechten Schriftsprache untersagt. Analog zum Genderstern in Deutschen kommen dabei Punkte im Wortinneren zum Einsatz. Das Lesen sowie das Erlernen der französischen Sprache werden dadurch behindert, insbesondere Menschen mit einer Lese-Rechtschreib-Schwäche tun sich damit schwer, so die Begründung. (FAZ, 2021)  
 
@@ -59,7 +60,7 @@ Die Sinnhaftigkeit einer Veränderungen des Sprachgebrauchs zur Unterstützung d
 
 In der Folge wird gezeigt, wie eine simple und logische Vorgehensweise zu einem tragfähigen Ansatz bei minimalen Änderungen führt.  
 
-# Hinführung und Kernregeln
+# Regeln
 Im Kern geht es bei der geschlechtergerechten Sprache um das generische Maskulinum, mit dem bislang sämtliche Geschlechter erfasst werden, was aber auch mit dem männlichen Geschlecht assoziiert wird (Wikipedia, 2021). Es wird Ersatz gesucht. Wenn in der Wahrnehmung das Maskulinum alle Geschlechter außer dem männlichen, das Femininum alle außer dem weiblichen ausschließt, bleibt aber im Deutschen eine weitere Option, die gleichberechtigt verankert ist und natürlich verwendet wird: das Neutrum. Das Argument, dass es nicht für Menschen gebraucht werden sollte, lässt sich sehr schnell mit dem Verweis auf das im Sprachgebrauch übliche Individuum, das menschliche Wesen, das Kind und das Mitglied zerschlagen. Diese Begriffe sind geschlechtsneutral und für jeden Menschen angebracht, ohne irgendein Geschlecht in der Wahrnehmung auszuschließen oder abzuwerten.  
 
 Statt „der“ oder „die“ ist beim geschlechtergerechten Neutrum also der Artikel „das“ zu verwenden, sowie die entsprechenden neutralen Pronomen. In der deutschen Sprache sind nun aber nicht nur Artikel und Pronomen mit Geschlechtern versehen, sondern auch Bezeichnungen werden dem Geschlecht entsprechend variiert. Die dabei entstehenden Formen schließen einander und auch alle anderen Geschlechter aus:  
