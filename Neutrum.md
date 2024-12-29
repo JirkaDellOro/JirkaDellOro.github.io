@@ -1,4 +1,4 @@
-# Das geschlechtergerechte Neutrum
+### Das geschlechtergerechte Neutrum
 Derzeit sind über zwanzig Möglichkeiten und Varianten der geschlechtergerechten Gestaltung deutscher Sprache in Gebrauch. Alle diese Formen werden letztlich allerdings abgelehnt, entweder von der Gesellschaft für deutsche Sprache, dem deutschen Rechtschreibrat oder von Verbänden der vielen Millionen in Bezug auf Sprache benachteiligter Menschen wie Seh- oder Hörgeschädigte und Menschen mit Leseschwäche. Zudem bringen viele Formen eine binäre Geschlechtervorstellung zum Ausdruck, die mit dem Beschluss des Deutschen Bundesverfassungsgerichts 2017 obsolet wurde.
 
 In diesem Artikel wird die Problematik eingehender behandelt und durch Quellen belegt, auf Basis der identifizierten Erfordernisse eine Alternative für die geschlechtergerechte bzw. geschlechtsneutrale Gestaltung deutscher Sprache logisch hergeleitet, mit ähnlichen Ansätzen verglichen und schließlich gegen andere Varianten geprüft.
@@ -8,7 +8,7 @@ Zum Artikel im PDF-Format: [Neutrum.pdf](Neutrum.pdf)
 
 Donaueschingen im Dezember 2024
 
-## Inhaltsverzeichnis
+# Inhaltsverzeichnis
 [Ausgangslage](#ausgangslage)  
 [Hinführung und Kernregeln](#hinführung-und-kernregeln)  
 [Vorangegangene Arbeiten und Analogien](#vorangegangene-arbeiten-und-analogien)  
@@ -16,7 +16,7 @@ Donaueschingen im Dezember 2024
 [Fazit](#fazit)  
 [Quellen](#quellen)  
 
-## Ausgangslage
+# Ausgangslage
 Es gibt heute einen ganzen Strauß von Möglichkeiten, unsere deutsche Sprache geschlechtergerecht zu gestalten. Die Gesellschaft für deutsche Sprache (GfdS) führt mittlerweile über 20 Varianten und Untervarianten auf (GfdS, 2020). Derzeit existiert allerdings noch keine allgemein akzeptierte Form. Das Feld ist offen für neue, bessere Vorschläge. Es existiert auch kein Gremium, welches eine Form für den Gebrauch als verbindlich festlegt. 
 Wohl aber haben verschiedene Gremien einen Großteil der bekannten Möglichkeiten bereits als nicht empfehlenswert beurteilt. Von der GfdS selbst werden nur folgende drei Varianten empfohlen:  
 
@@ -58,7 +58,7 @@ Die Sinnhaftigkeit einer Veränderungen des Sprachgebrauchs zur Unterstützung d
 
 In der Folge wird gezeigt, wie eine simple und logische Vorgehensweise zu einem tragfähigen Ansatz bei minimalen Änderungen führt.  
 
-## Hinführung und Kernregeln
+# Hinführung und Kernregeln
 Im Kern geht es bei der geschlechtergerechten Sprache um das generische Maskulinum, mit dem bislang sämtliche Geschlechter erfasst werden, was aber auch mit dem männlichen Geschlecht assoziiert wird (Wikipedia, 2021). Es wird Ersatz gesucht. Wenn in der Wahrnehmung das Maskulinum alle Geschlechter außer dem männlichen, das Femininum alle außer dem weiblichen ausschließt, bleibt aber im Deutschen eine weitere Option, die gleichberechtigt verankert ist und natürlich verwendet wird: das Neutrum. Das Argument, dass es nicht für Menschen gebraucht werden sollte, lässt sich sehr schnell mit dem Verweis auf das im Sprachgebrauch übliche Individuum, das menschliche Wesen, das Kind und das Mitglied zerschlagen. Diese Begriffe sind geschlechtsneutral und für jeden Menschen angebracht, ohne irgendein Geschlecht in der Wahrnehmung auszuschließen oder abzuwerten.  
 
 Statt „der“ oder „die“ ist beim geschlechtergerechten Neutrum also der Artikel „das“ zu verwenden, sowie die entsprechenden neutralen Pronomen. In der deutschen Sprache sind nun aber nicht nur Artikel und Pronomen mit Geschlechtern versehen, sondern auch Bezeichnungen werden dem Geschlecht entsprechend variiert. Die dabei entstehenden Formen schließen einander und auch alle anderen Geschlechter aus:  
@@ -88,7 +88,7 @@ sind gleichbedeutend und können wahlfrei verwendet werden, ebenso wie die Plura
 - **die Arztis, die Ärztis | die Baueris, die Bäueris.**
 
 
-### Besondere Fälle
+## Besondere Fälle
 Die oben angeführten Kernregeln decken schon den größten Teil des üblichen Sprachgebrauchs ab. Es gibt aber noch einige besondere Fälle, welche die Eingangs genannten Formen geschlechtergerechter Schreibung oft gänzlich unbrauchbar machen. Auch sie finden bei Verwendung des geschlechtergerechten Neutrums auf sehr einfache Weise Berücksichtigung.  
 
 - Bezeichnungen, bei denen das biologische Geschlecht nur aus dem Genus erkennbar ist, könnten unverändert bleiben, da sie auch mit dem neutralen Artikel nicht verändert werden (Bsp: der/die/das Vorsitzende). Da die Deklination neutraler Artikel aber im Genitiv und im Dativ der Deklination des Maskulinum entspricht, herrscht dann in bestimmten Fällen Verwechslungsgefahr. Um zudem die Existenz von Geschlechtern nicht zu verschleiern und gleichzeitig alle einzubeziehen, ist auch hier konsistent das „i“ einzusetzen.  
@@ -109,8 +109,8 @@ Die oben angeführten Kernregeln decken schon den größten Teil des üblichen S
 
 - Geschlechtsneutrale Personenbezeichnungen wie der Mensch, die Person, das Individuum bleiben selbstverständlich unverändert.  
   
-## Vorangegangene Arbeiten und Analogien
-### Luise Pusch
+# Vorangegangene Arbeiten und Analogien
+## Luise Pusch
 Die Begründerin der feministischen Linguistik, Luise Pusch, entwickelte bereits 1980 einen Vorschlag, der dem geschlechtergerechten Neutrum schon nahe kommt, nämlich die femininen Wortendungen abzuschaffen und das Neutrum zu nutzen.  
 
 „Barbara ist eine gute Student; ihre Professor ist sehr zufrieden mit ihr. Früher war sie übrigens Sekretär bei einer Architekt. Im Moment suchen wir noch ein zweites Gutachter für ihre Dissertation, am besten ein Dozent, das was [sic] von Hydrogeologie versteht.“ (Pusch, 1987, S.7).  
@@ -118,7 +118,7 @@ Die Begründerin der feministischen Linguistik, Luise Pusch, entwickelte bereits
 Luise Pusch schlug dann aber einen anderen Weg ein. In ihrem Artikel „Totale Feminisierung“ schlug sie vor, nur noch das Femininum für weibliche und auch männliche Bezeichnungen zu verwenden. Dies als vorübergehende Maximalforderung, damit sich die Gesellschaft später auf einen Kompromiss einigt. Sie schrieb: „Der Einwand, das Femininum könnte 'zu schade' sein, um damit Männer zu bezeichnen, ist ernstzunehmen“ (Pusch, 1987, S.9).  
 Zum Gendersternchen hat Luise Pusch übrigens folgende Meinung: „Und das ist ein Fehler: Männer bekommen damit den Wortstamm und die Frauen wieder bloß die blöde Endung –innen.“ (Olderdissen, 2020)  
 
-### Thomas Kronschläger
+## Thomas Kronschläger
 Der Germanist und Literaturdidaktiker an der Technischen Universität Braunschweig treibt einen dem geschlechtergerechten Neutrum ähnlichen Ansatz voran: das „Entgendern nach Phettberg“ (Kronschläger, 2020). Dabei wird ebenso konsequent der neutrale Artikel verwendet, bei den Substantiven wird jedoch einfach nach dem Wortstamm ein „y“ angehängt und im Plural ein weiteres „s“:  
 - das Study, die Studys  
 
@@ -127,10 +127,10 @@ Vom Journalistinnenbund kommt aber weitere Kritik, wie die Sprecherin des Projek
 Erscheint der Unterschied zum geschlechtergerechten Neutrum vielleicht klein, so wird doch deutlich, dass Letzteres genau das Gewünschte erreicht: alle Geschlechter werden explizit inkludiert.  
 Zudem ist das geschlechtergerechte Neutrum leichter gleichberechtigt aus der männlichen oder weiblichen Form im üblichen Sprachfluss abzuleiten und hat zu beiden die gleiche Distanz. Es muss nicht erst der Wortstamm ermittelt werden, was teilweise schwierig und fehlerträchtig ist.  
 
-### Gernot Winter
+## Gernot Winter
 Der Verleger schlägt auf seiner Website (Winter, 2024) das sogenannte „Generische Neutrum“ vor. Die Kernregel besagt, auf die weibliche Movierung ganz zu verzichten und lediglich konsequent den Artikel „das“ zu verwenden. Da die Deklination neutraler Artikel aber im Genitiv und im Dativ der Deklination des Maskulinum entspricht, ist dieses „generische Neutrum“ über weite Strecken nicht vom tradierten Sprachgebrauch zu unterscheiden. Das stellt zwar einen noch geringeren Eingriff in die Sprache dar als das geschlechtergerechte Neutrum, macht aber damit Frauen und nicht binäre Personen weiterhin nicht sichtbar.  
 
-## Prüfung
+# Prüfung
 Das geschlechtergerechte Neutrum soll in diesem Abschnitt gegen Beispiele aus der Literatur geprüft werden, die sich mit den Möglichkeiten und Problemen der geschlechtergerechten Sprache beschäftigen.
 1. Mehrfachnennung (Kubelik, 2016, 5:48)  
 §22 des österreichischen Bundespersonalvertretungsgesetzes: „Die Sitzungen des Dienststellenausschusses sind von der Vorsitzenden oder vom Vorsitzenden und im Falle ihrer oder seiner Verhinderung von ihrem Stellvertreter oder ihrer Stellvertreterin oder seinem Stellvertreter oder seiner Stellvertreterin einzuberufen und vorzubereiten.“  
@@ -160,7 +160,7 @@ Zur weiteren Prüfung folgen Beispiele, die das geneigte Leseri bitte selbst nac
 1.  „Frauen sind die besseren Autofahrer“ (Kubelik, 2015, S.105)  
 → **„Frauen sind die besseren Autofahreris“**  
 
-## Fazit
+# Fazit
 Das geschlechtergerechte Neutrum beseitigt elegant alle Probleme, die anderen Ansätzen innewohnen. Die Formulierungen werden nicht aufgebläht, sondern werden teilweise gar kürzer, es sind alle Geschlechter angesprochen, nicht nur zwei oder gar keines, es entfallen irritierende Zeichen, es lässt sich leicht und völlig gewöhnlich sprechen und es entstehen keine Missverständnisse oder inkorrekten Formulierungen. Hinzu kommt, dass der Sprachklang des Deutschen, häufig als sehr hart und humorlos wahrgenommen, aufgelockert und leichter wird. Es kommt ein Schweizer oder gar südländischer Einschlag dazu, der sympathisch wirkt.  
 
 Ebenso wird von Gender-Gegneris gerne ins Feld geführt, dass die Sprache durch das Gendern verarmt, weil Autoris Formulierungen ganz aus dem Sprachgebrauch streichen, um Angriffspunkte zu vermeiden. Das geschlechtergerechte Neutrum lässt alle Formulierungen weiter zu. Ist es, was sicher eine Ausnahme sein wird, doch einmal erforderlich, gezielt den Fokus nur auf das männliche oder das weibliche biologische Geschlecht zu legen, stehen die entsprechenden Formen weiterhin zur Verfügung. Das geschlechtergerechte Neutrum bereichert und präzisiert also unsere Sprache auf sehr einfache Weise.  
@@ -171,7 +171,7 @@ Auch die Kritik, durch das „Gendern“ wird ständig auf biologische Geschlech
 
 Sofern Hochschulen sich aber dafür entscheiden, eine geschlechtergerechte Schreibweise fördern zu wollen, sollte das geschlechtergerechte Neutrum zur Anwendung kommen. Wie auch bezüglich wissenschaftlicher Theorien, muss sich in einem akademischen Umfeld die einfachste Vorgehensweise durchsetzen, sofern mehrere gleichwertig erscheinende konkurrieren. Das geschlechtergerechte Neutrum ist äußerst simpel und stellt nur einen minimalinvasiven Eingriff in die Sprache dar. Folglich ist das geschlechtergerechte Neutrum für den Einsatz an Bildungseinrichtungen dringend zu empfehlen, um von dort seinen Weg in die allgemeine deutsche Sprachkultur zu finden.  
 
-## Quellen
+# Quellen
 AA (Auswärtiges Amt), German as a foreign language, 2020, https://www.auswaertiges-amt.de/en/newsroom/news/german-as-a-foriegn-language/2347090, Zugriff 13.5.2021  
 
 BMBF (Bundesministerium für Bildung und Forschung), Mein Schlüssel zur Welt - Zahlen und Fakten, 2019, https://www.xn--mein-schlssel-zur-welt-0lc.de/de/zahlen-und-fakten-1719.html, Zugriff 13.5.2021  
