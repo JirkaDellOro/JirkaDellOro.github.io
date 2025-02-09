@@ -3,10 +3,9 @@
 | Start   | Name         | Vorname      | Abschluss | Titel                             | 2   |
 | ------- | ------------ | ------------ | --------- | --------------------------------- | --- |
 | **S25** | Sliwinski    | Simon        | BSc       | Shared Screen Game                |     |
-|         | Pfrengle     | Nicolai      | BA        | ?                                 |     |
+|         | Pfrengle     | Nicolai      | BA        | Aquarell Game                     |     |
 |         | Petroll      | Mattis       | BSc       | Ki-Game                           |     |
-|         | Roth         | Mirjam       | MA        | ?                                 |     |
-|         | Marx         | Alina        | BA        | VR...                             |     |
+|         | Roth         | Mirjam       | MA        | Traumdeutung Serious Game         |     |
 | **W24** | Stich        | Anni         | BA        | Gamifizierte Website              | X   |
 |         | Kohler       | Alida        | MA        | Hexen Game                        |     |
 |         | Iwertkowski  | Simon        | MA        | Serious Game für Profanwärter     |     |
