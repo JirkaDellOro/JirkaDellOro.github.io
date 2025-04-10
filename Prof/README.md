@@ -36,3 +36,4 @@ Vorschlag zur Einführung von Kompetenzfeldern an der Fakultät. Seit 2018 werde
 
 ## Verschiedenes
 - [Scratchpad](Prof/Jirkas_draw.io_UML-Scratchpad.xml) für Diagrammarbeiten mit draw.io
+- [Theater](https://jirkadelloro.github.io/Prof/1,%202,%203/EinsZweiDrei.pdf)
