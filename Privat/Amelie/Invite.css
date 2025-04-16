@@ -41,6 +41,9 @@ a {
 .space {
   height: 80vh;
 }
+.spacesmall {
+  height: 40vh;
+}
 
 .top {
   position: absolute;
