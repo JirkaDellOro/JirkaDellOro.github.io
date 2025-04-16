@@ -33,6 +33,10 @@ section {
   color: white;
 }
 
+a {
+  color:red;
+}
+
 .space {
   height: 80vh;
 }
