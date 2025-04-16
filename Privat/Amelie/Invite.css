@@ -1,0 +1,36 @@
+img {
+  position: absolute;
+  width: 20%;
+  /* height: 100%; */
+}
+
+/* section {
+  position: relative;
+}
+
+section img {
+	position: absolute;
+} */
+
+.top {
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: alternate;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	45% {
+		opacity: 0;
+	}
+	55% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
