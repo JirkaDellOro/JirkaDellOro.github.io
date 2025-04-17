@@ -25,7 +25,8 @@ section {
   top: 0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+  font-size: x-large;
+  font-weight: 900;
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -34,6 +35,8 @@ section {
 }
 
 h1,h2  {
+  font-size: 2em;
+  font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
 
