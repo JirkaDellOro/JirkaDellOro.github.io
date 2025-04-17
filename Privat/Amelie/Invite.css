@@ -24,13 +24,17 @@ section {
   position: absolute;
   top: 0px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-text-stroke: 1px black;
   color: white;
+}
+
+h1,h2  {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a {
