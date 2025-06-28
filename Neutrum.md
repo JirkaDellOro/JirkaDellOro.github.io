@@ -4,12 +4,14 @@ Derzeit sind über zwanzig Möglichkeiten und Varianten der geschlechtergerechte
 In diesem Artikel wird die Problematik eingehender behandelt und durch Quellen belegt, auf Basis der identifizierten Erfordernisse eine Alternative für die geschlechtergerechte bzw. geschlechtsneutrale Gestaltung deutscher Sprache logisch hergeleitet, mit ähnlichen Ansätzen verglichen und schließlich gegen andere Varianten geprüft.
 Das so entwickelte inklusive Neutrum besticht durch Einfachheit, Konsistenz und minimalen Eingriff in den üblichen Sprachgebrauch. In der weiteren Diskussion um das Thema "Gendern" ist es zu berücksichtigen.
 
-Jirka R. Dell'Oro-Friedl
-Prof. Dipl.-Ing., 5. Dan
-Donaueschingen im Juni 2025  
+Jirka R. Dell'Oro-Friedl  
+Prof. Dipl.-Ing., 5. Dan  
+Donaueschingen im Juni 2025    
 
-Zum aktuellen Artikel im PDF-Format: [Neutrum1224.pdf](Neutrum1224.pdf)  
-Ältere Versionen: [Mai 2021 - Neutrum0521.pdf](Neutrum0521.pdf)
+Zum aktuellen Artikel im PDF-Format: [Neutrum0625.pdf](Neutrum0625.pdf)  
+Ältere Versionen:  
+[Dezember 2024 - Neutrum1224.pdf](Neutrum1224.pdf)  
+[Mai 2021 - Neutrum0521.pdf](Neutrum0521.pdf)  
 
 # Inhaltsverzeichnis
 [Ausgangslage](#ausgangslage)  
