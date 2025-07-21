@@ -51,7 +51,8 @@ Es darf nicht vergessen werden, dass es noch weitere benachteiligte Gruppen in u
 - Menschen mit einer Beeinträchtigung des Hörsinns. 19 % der deutschen Bevölkerung über 14 Jahre sind hörbeeinträchtigt ([DSB, 2021](#dsb-2021))
 - Menschen mit einer Beeinträchtigung des Hörverständnisses. Etwa 2-3% aller Kinder zeigen Probleme mit der zentral-auditiven Verarbeitung auf, die Interpretation des Gehörten ist erschwert ([DBL, 2020](#dbl-2020))
 - Menschen mit Schwierigkeiten bezüglich des Leseverständnisses. 6,2 Millionen Menschen oder 12,1 Prozent der erwerbsfähigen Bevölkerung können in Deutschland nicht oder nur unzureichend lesen und schreiben. Bei weiteren 10,6 Millionen Menschen oder 20,5 Prozent der Erwachsenen tritt fehlerhaftes Schreiben selbst bei gebräuchlichen Wörtern auf. ([BMBF, 2019](#bmbf-2019))
-- Menschen, die Deutsch als Fremdsprache erst erlernen. Derzeit sind dies weltweit mehr als 15,4 Millionen ([AA, 2020](#aa-2020))  
+- Menschen, die Deutsch als Fremdsprache erst erlernen. Derzeit sind dies weltweit mehr als 15,4 Millionen ([AA, 2020](#aa-2020))
+  
 Vor diesem Hintergrund erhalten die Forderungen des RfdR nach Verständlichkeit, Lesbarkeit, Vorlesbarkeit, Lernbarkeit und Konzentration auf Kerninformationen besonderes Gewicht.  
 
 Der Deutsche Blinden- und Sehbehindertenverband e.V (DBSV) beispielsweise schreibt dazu: „Gendern durch Sonderzeichen und Typografie, Beispiele:  
