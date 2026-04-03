@@ -9,7 +9,7 @@ under the supervision of Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
 1.  **Language**: The thesis may be written in German or English. If it is written in German, then either:  
     1.  gender-sensitive language in the form of the [inklusive Neutrum](https://jirkadelloro.github.io/Neutrum) should be used, or  
     1.  a gender note should be placed at the beginning stating that all genders are meant, even if only the generic masculine form is used throughout the thesis.  
-
+  
 1.  **Formulation**: In principle, strict attention must be paid to good phrasing and correct spelling; errors will negatively affect the evaluation of the thesis. If AI tools were used for support, this must be explicitly stated.  
 
 1.  **AI**: In general, all uses of AI tools must be documented, and the prompts used must be fully listed in the appendix, with references to the corresponding sections in the thesis text.  
@@ -18,13 +18,13 @@ under the supervision of Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
     1.  Study project P = 8–10, T = 16–20  
     2.  Bachelor thesis P = 25–30, T = 45–55  
     3.  Master thesis P = 50–60, T = 70–90  
-
+  
 1.  **Visualizations**: The development of meaningful graphics is a commendable skill, provided they present facts better than or at least as effectively as text within the same space. Good visual representations and diagrams have a positive effect.  
 
 1.  **Format**: The thesis must be submitted both digitally in Portable Document Format (PDF) and as a printed, bound copy. For printing:  
     1.  double-sided  
     2.  font Arial Narrow, size 11 pt  
-
+  
 1.  **Data Storage**: If a practical digital work has been created, it must be stored on an SD or MicroSD card and attached within the printed thesis.  
 
 1.  **Physical Works**: If physical works have been created, they remain in the university’s game lab. The written thesis must explain how they are put into operation; any required digital data must be available on the data storage medium.  
