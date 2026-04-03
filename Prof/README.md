@@ -1,6 +1,7 @@
 
 # Professorales
 - [Richtlinie für schriftliche Arbeiten](RichtlinieAbschlussarbeit.md)
+- [Guideline for Written Thesis](GuidelineThesis.md)
 
 ## Vorträge  
 Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind einige Präsentationen dazu
