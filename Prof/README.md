@@ -1,5 +1,7 @@
 
 # Professorales
+- [Richtlinie für schriftliche Arbeiten](RichtlinieAbschlussarbeit.html)
+
 ## Vorträge  
 Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind einige Präsentationen dazu
 - [Sound of Magic, Learntec](Vorträge/SoundOfMagic/VortragLearntec.pdf)
