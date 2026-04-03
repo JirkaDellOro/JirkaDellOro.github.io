@@ -1,6 +1,7 @@
-# Richtlinien für die Erstellung einer schriftlichen Arbeit
+# Richtlinie für schriftliche Arbeiten
 in der Betreuung von Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl  
 3.4.2026  
+
 1.  **Aufbau**: Der Arbeit muss zunächst der Stand der Wissenschaft und Kunst auf dem bearbeiteten Gebiet zu entnehmen sein. Weiterhin muss der eigene Beitrag zur Weiterentwicklung dieses Standes dargestellt werden. Schließlich soll dieser Beitrag durch Evalution, Zielgruppentests, Veröffentlichung und Diskussion belegt werden.  
 
 1.  **Zugang**: Der Arbeit soll zu entnehmen sein, welche Kenntnisse erforderlich sind, um den Ausführungen folgen zu können. Diese sind im Vorfeld mit dem Betreuer zu vereinbaren.  
