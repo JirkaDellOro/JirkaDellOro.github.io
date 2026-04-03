@@ -1,6 +1,6 @@
 
 # Professorales
-- [Richtlinie für schriftliche Arbeiten](RichtlinieAbschlussarbeit.html)
+- [Richtlinie für schriftliche Arbeiten](RichtlinieAbschlussarbeit.md)
 
 ## Vorträge  
 Hin und wieder habe ich die Gelegenheit einen Vortrag zu halten, hier sind einige Präsentationen dazu
