@@ -19,12 +19,14 @@ under the supervision of Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
     2.  Bachelor thesis P = 25–30, T = 45–55  
     3.  Master thesis P = 50–60, T = 70–90  
   
-1.  **Visualizations**: The development of meaningful graphics is a commendable skill, provided they present facts better than or at least as effectively as text within the same space. Good visual representations and diagrams have a positive effect.  
+  
+1.  **Visualizations**: The development of meaningful graphics is a commendable skill, especially if they present facts better than or at least as effectively as text within the same space. Good visual representations and diagrams have a positive effect.  
 
 1.  **Format**: The thesis must be submitted both digitally in Portable Document Format (PDF) and as a printed, bound copy. For printing:  
     1.  double-sided  
     2.  font Arial Narrow, size 11 pt  
   
+    
 1.  **Data Storage**: If a practical digital work has been created, it must be stored on an SD or MicroSD card and attached within the printed thesis.  
 
 1.  **Physical Works**: If physical works have been created, they remain in the university’s game lab. The written thesis must explain how they are put into operation; any required digital data must be available on the data storage medium.  
