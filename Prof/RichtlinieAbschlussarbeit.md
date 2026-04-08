@@ -18,8 +18,8 @@ in der Betreuung von Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
     1.  Studienarbeit P = 8 - 10 T = 16 - 20  
     2.  Abschlussarbeit Bachelor P = 25 - 30 T = 45 - 55  
     3.  Abschlussarbeit Master P = 50 - 60 T = 70 – 90  
-    
-  
+<br/>
+<br/>
 1.  **Darstellungen**: die Entwicklung aussagekräftiger Grafiken ist eine lobenswerte Kunst, insbesondere wenn sie gegenüber Text Sachverhalte besser oder gleichwertig auf gleichem Raum darstellen. Gute bildliche Darstellungen und Diagramme wirken sich positiv aus.  
 
 1.  **Format**: die Arbeit ist sowohl in digitaler Form im Portable Document Format (PDF) als auch gedruckt auf Papier und gebunden abzugeben. Für den Druck gilt:    
