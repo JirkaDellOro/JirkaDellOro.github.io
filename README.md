@@ -3,6 +3,9 @@
 
 <a href="JirkaSmall.jpg" target="_blank"><img src="JirkaSmall.jpg" width="100" style="float:left; display=inline; margin-right: 5px"/></a> Ich ziehe meine virtuelle Existenz mehr und mehr in die Github-Cloud um, und versuche nun, hier auch eine persönliche Homepage zu pflegen. Da Pflege zu meinen Schwächen gehört, kann der Inhalt, obwohl beim Schreiben gerade noch ganz frisch, beim Lesen schon recht alt sein...
 
+# Das inklusive Neutrum
+- [...ist hier zu finden](Neutrum.md)
+
 # Professorales
 Seit 2010 habe ich die Ehre, die Professur für "Anwendungskonzeption und Gamedesign" an der renommierten Hochschule Furtwangen im Schwarzwald bekleiden zu dürfen. Auf der folgenden Unterseite sammle ich etwas Material, das dort gut aufgehoben ist und der Öffentlichkeit zugänglich gemacht werden darf.
 - [Vorträge, Skripte, Infos](Prof)  
