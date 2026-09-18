@@ -7,7 +7,7 @@ in der Betreuung von Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
 1.  **Zugang**: Der Arbeit soll zu entnehmen sein, welche Kenntnisse erforderlich sind, um den Ausführungen folgen zu können. Diese sind im Vorfeld mit dem Betreuer zu vereinbaren.  
 
 1.  **Sprache**: Die Arbeit kann in Deutsch oder Englisch verfasst werden. Wird sie in Deutsch verfasst, so soll entweder.  
-    1.  geschlechtersensible Sprache in Form des [inklusiven Neutrums](https://jirkadelloro.github.io/Neutrum) genutzt werden.  
+    1.  geschlechtersensible Sprache in Form des [inklusiven Neutrums](https://das-inklusive-neutrum.de) genutzt werden.  
     1.  ein Gender-Hinweis an den Anfang gestellt werden, aus dem hervorgeht, dass alle Geschlechter gemeint sind, auch wenn in der Hausarbeit ausschließlich das generische Maskulinum verwendet wird.  
 <br/>
 1.  **Formulierung**: Prinzipiell ist stringent auf gute Formulierung und Rechtschreibung zu achten, Fehler wirken sich negativ auf die Bewertung der Arbeit aus. Wurde zur Unterstützung KI-Werkzeug genutzt, ist dies explizit anzugeben.  

@@ -7,7 +7,7 @@ under the supervision of Prof. Dipl.-Ing. Jirka Dell'Oro-Friedl
 1.  **Prerequisites**: The thesis must make clear which prior knowledge is required in order to follow the explanations. These must be agreed upon in advance with the supervisor.
 
 1.  **Language**: The thesis may be written in German or English. If it is written in German, then either:  
-    1.  gender-sensitive language in the form of the [inklusive Neutrum](https://jirkadelloro.github.io/Neutrum) should be used, or  
+    1.  gender-sensitive language in the form of the [inklusive Neutrum](https://das-inklusive-neutrum.de) should be used, or  
     1.  a gender note should be placed at the beginning stating that all genders are meant, even if only the generic masculine form is used throughout the thesis.  
 <br/>
 1.  **Formulation**: In principle, strict attention must be paid to good phrasing and correct spelling; errors will negatively affect the evaluation of the thesis. If AI tools were used for support, this must be explicitly stated.  
